@@ -1,8 +1,9 @@
-import type { NewsType } from "$lib/types";
+import type { ArticleType } from "$lib/types";
 
 export async function load({fetch}) {
-    const response = await fetch('api/news')
-    // console.log(response)
-    const newsList: NewsType[] = await response.json();
-    return {newsList}
+    const response = await fetch('api/articles')
+    const articles: ArticleType[] = await response.json();
+
+    
+    return {articles}
 }

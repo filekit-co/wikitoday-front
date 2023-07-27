@@ -1,16 +1,17 @@
 <script lang="ts">
-  import type { NewsType } from "$lib/types";
+  import { formatDate } from "$lib/utils.js";
 
   export let data;
 </script>
 
 <section>
   <ul class="grid gap-8">
-    {#each data.newsList as news}
+    {#each data.articles as article}
       <li>
-        <a href={news.slug}>{news.title}</a>
-        <p>{news.date}</p>
-        <p>{news.description}</p>
+        <a href={article.slug}>{article.title}</a>
+        <p>{formatDate(article.date)}</p>
+        <p>{article.description}</p>
+        {@html article.html}
       </li>
     {/each}
   </ul>

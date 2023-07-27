@@ -1,14 +1,13 @@
 import {error} from '@sveltejs/kit'
+import { globalArticles } from '$lib/data.js'
 
-export async function load({ params }) {
+export async function load({params}) {
 	try {
-		const news = await import(`../../lib/data/${params.slug}.md`)
-
-		return {
-			content: news.default,
-			meta: news.metadata
-		}
-	} catch (e) {
-		throw error(404, `Could not find ${params.slug}`)
+		globalArticles.subscribe(value => {
+			console.log(value)
+		})
+	}
+	catch(err) {
+		throw error(404, `${params.slug} 파일을 찾을 수 없습니다.`)
 	}
 }
