@@ -1,6 +1,5 @@
 import { basename } from "path";
 import { json } from "@sveltejs/kit";
-import { globalArticles } from "$lib/data";
 
 export type Post = {
 	slug: string;
@@ -11,12 +10,13 @@ export type Post = {
 	updatedOn: string;
   };
 
-const modules = import.meta.globEager("$lib/data/*.md");
+const modules = import.meta.glob("$lib/data/*.md", {eager: true});
 
 const posts: Post[] = Object.entries(modules).map(([filepath, module]) => {
   const slug = basename(filepath).replace('.md', '');
   const { metadata } = module;
   const { html } = module.default.render();
+
   return {
     slug,
     html,
@@ -27,6 +27,5 @@ const posts: Post[] = Object.entries(modules).map(([filepath, module]) => {
 
 export async function GET() {
   const articles = await json(posts);
-  globalArticles.set(articles);
   return articles
 }

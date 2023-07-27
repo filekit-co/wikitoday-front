@@ -9,4 +9,5 @@ export interface ArticleType {
     author: string,
     language: string,
     html: HTMLAllCollection;
+    image: string;
 }
