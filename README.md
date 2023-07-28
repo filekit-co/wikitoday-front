@@ -31,4 +31,18 @@
 
 ```
 :lang/news/:category/:article
+
+1. 서버에서 데이터를 받는다.
+
+ex.
+data / news10 / ko / news10.ko.md
+              / en / news.10.en.md
+              / tu / news.10.tu.md
+
+2. 페이지 처음 시작할 때 client lang 얻고, 모든 해당 언어와 일치하는 기사 파일들 읽어서 메인 페이지에 보여준다.
+
+// 변해야 되는 값들
+// const modules = import.meta.glob(`$lib/data/*/${lang}/*.${lang}.md`, {eager: true})
+// lib / data / 모든 폴더 / ${lang} / ${lang}.md 인 모든 파일
+
 ```
