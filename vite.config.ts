@@ -9,6 +9,7 @@ export default defineConfig({
 			'@src': path.resolve('/src'),
 			'@atoms': path.resolve('src/atoms'),
 			'@molecules': path.resolve('src/molecules'),
+			'@components': path.resolve('src/components'),
 			'@organisms': path.resolve('src/organisms'),
 			'@pages': path.resolve('src/pages'),
 			'@templates': path.resolve('src/templates'),

@@ -28,3 +28,7 @@
     |- package.json                 // 프로젝트 정보와 의존성 관리
     |- ...
 ```
+
+```
+:lang/news/:category/:article
+```

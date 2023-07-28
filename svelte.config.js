@@ -23,6 +23,7 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			'@src': path.resolve('/src'),
+			'@components': path.resolve('src/components'),
 			'@atoms': path.resolve('src/atoms'),
 			'@molecules': path.resolve('src/molecules'),
 			'@organisms': path.resolve('src/organisms'),

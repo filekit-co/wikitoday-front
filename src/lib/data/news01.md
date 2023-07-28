@@ -1,5 +1,5 @@
 ---
-title: Test NEWS 1
+title: Test NEWS 01
 description: 로봇 기술의 혁신으로 미래가 변경되다
 category: Technology
 date: "2023-01-16"
