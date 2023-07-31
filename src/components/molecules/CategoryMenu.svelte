@@ -19,13 +19,13 @@
 <div class="flex">
   <input
     type="checkbox"
-    id="drawer-toggle"
+    id="drawer-category-toggle"
     class="relative sr-only peer"
     bind:checked={isCategoryDrawerOpen}
   />
 
   <label
-    for="drawer-toggle"
+    for="drawer-category-toggle"
     class="absolute top-3 left-0 inline-block p-4 transition-all duration-500 rounded-lg peer-checked:left-64"
   >
     <HamburgerButton />

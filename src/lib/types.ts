@@ -16,7 +16,7 @@ export interface ArticleType {
   slug: string;
   title: string;
   description: string;
-  category: CategoryType[];
+  category: CategoryType;
   date: string;
   author: string;
   language: string;
@@ -73,4 +73,16 @@ export const CategoryPages = [
     key: 'Opinion/Editorial',
     value: 'Opinion/Editorial',
   },
+  {
+    key: 'All',
+    value: ''
+  }
 ];
+
+export const LanguagePages = [
+  {key: 'English', value: 'en'},
+  {key: 'Korean', value: 'ko'},
+  {key: 'Spanish', value: 'es'},
+  {key: 'Russian', value: 'ru'},
+  {key: 'Turkish', value: 'tu'}
+]

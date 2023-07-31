@@ -1,6 +1,7 @@
 <script lang="ts">
-  import LanguageButton from "@components/atoms/LanguageButton.svelte";
   import { language } from "$lib/datas";
+  import LanguageButton from "@components/atoms/LanguageButton.svelte";
+  import { LanguagePages } from "$lib/types";
 
   // 드로어 열림 여부를 상태로 관리합니다.
   let isLangDrawerOpen = false;
@@ -10,29 +11,24 @@
     isLangDrawerOpen = false;
   }
 
-  function toggleLangDrawer() {
-    isLangDrawerOpen = !isLangDrawerOpen;
-  }
-
-  function selectCategory(lang: string) {
+  function selectLanguage(lang: string) {
     $language = lang;
-    isLangDrawerOpen = false; // Close the drawer after selecting a language
   }
 </script>
 
 <div class="flex">
   <input
     type="checkbox"
-    id="drawer-toggle"
+    id="drawer-lang-toggle"
     class="relative sr-only peer"
     bind:checked={isLangDrawerOpen}
   />
 
   <label
-    for="drawer-toggle"
+    for="drawer-lang-toggle"
     class="absolute top-3 right-0 inline-block p-4 transition-all duration-500 rounded-lg peer-checked:right-64"
   >
-    <LanguageButton on:click={toggleLangDrawer} />
+    <LanguageButton />
   </label>
 
   <div
@@ -46,8 +42,14 @@
     </button>
     <div class="px-6 py-4 flex-col">
       <h2 class="text-4xl font-bold mb-4">Language</h2>
-      <button on:click={() => selectCategory("English")}>English</button>
-      <!-- Add more language buttons here as needed -->
+      {#each LanguagePages as language}
+        <button
+          class="block my-6 font-semibold font-3xl"
+          on:click={() => selectLanguage(language.value)}
+        >
+          {language.key}
+        </button>
+      {/each}
     </div>
   </div>
 </div>

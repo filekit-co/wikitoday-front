@@ -3,34 +3,30 @@
   import { formatDate } from "$lib/utils.js";
   export let data;
   import { category } from "$lib/datas";
+  import type { ArticleType } from "$lib/types";
 
-  interface ArticleType {
-    author: string;
-    category: string;
-    date: string;
-    description: string;
-    html: string;
-    image: string;
-    language: string;
-    slug: string;
-    title: string;
-  }
+  // 초기 필터링은 여기서 처리합니다.
+  let filteredArticles = data.articles;
 
   $: if ($category !== "") {
-    data.articles = data.articles.filter(
+    filteredArticles = data.articles.filter(
       (article) => article.category === $category
     );
-    $category = "";
+  }
+
+  $: if ($category === "") {
+    filteredArticles = data.articles;
   }
 
   function handleClick(article: ArticleType) {
-    // console.log(article);
     const lang = article.language;
     const category = article.category;
-    // console.log(article);
-    const articleTitle = article.slug.slice(0, article.slug.lastIndexOf("."));
+    const fileName = article.slug;
 
-    goto(`/${lang}/news/${category}/${articleTitle}`);
+    //console.log("article is:", fileName);
+    // console.log(`/${lang}/news/${category}/${fileName}/${lang}`);
+
+    goto(`/news/${category}/${fileName}/${lang}`);
   }
 </script>
 
@@ -38,7 +34,7 @@
   <section class="sm:pt-4 md:pt-7 justify-center items-center">
     <div class="w-full px-6">
       <ul class="grid gap-8 justify-center">
-        {#each data.articles as article}
+        {#each filteredArticles as article}
           <li class="bg-white p-4 shadow-md rounded-lg max-w-3xl">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <div
@@ -47,7 +43,6 @@
             >
               <article class="flex-grow">
                 <h2 class="text-3xl font-bold mb-2">
-                  <!-- <a href={article.slug}>{article.title}</a> -->
                   {article.title}
                 </h2>
                 <p class="text-gray-500 text-sm mb-2">

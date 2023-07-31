@@ -1,5 +1,6 @@
 import { basename } from "path";
 import { json } from "@sveltejs/kit";
+import { language } from "$lib/datas";
 
 export type Post = {
 	slug: string;
@@ -19,11 +20,14 @@ export type Post = {
 // lib / data / 모든 폴더 / ${lang} / ${lang}.md 인 모든 파일
 // const modules = import.meta.glob(`$lib/data/*/en/*.en.md`, {eager: true})
 
-// category 별로 모아보기
-const modules = import.meta.glob("$lib/data/*.md", {eager: true})
+const modules = import.meta.glob(`$lib/data/*/ko.md`, {eager: true})
 
 const posts: Post[] = Object.entries(modules).map(([filepath, module]) => {
-  const slug = basename(filepath).replace('.md', '');
+  const parts = filepath.split('/')
+  const slug = parts[parts.length - 2]
+
+  // console.log('기사 제목:', slug)
+
   const { metadata } = module;
   const { html } = module.default.render();
 

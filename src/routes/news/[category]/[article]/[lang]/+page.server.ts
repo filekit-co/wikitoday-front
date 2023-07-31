@@ -6,21 +6,15 @@ import {error} from '@sveltejs/kit'
 
 export async function load({params}) {
 	try {
-        const lang = params.lang;
-		// en
-        const fileName = params.article;
-		// console.log(fileName)\
-		// ex: 파일 이름 == news10
+		const articleTitle = params.article;
+		const lang = params.lang;
 
-        const module = await import(`../../../../../lib/data/${fileName}/${lang}/${fileName}.${lang}.md`)
-		// lib / data / news10 / en / news10.en.md
-		
-		const slug = params.lang;
+		const module = await import(`../../../../../lib/data/${articleTitle}/${lang}.md`);
+
 		const { metadata } = module;
 		const { html } = module.default.render();
 
 		const article = {
-			slug,
 			html,
 			...metadata,
 		}
