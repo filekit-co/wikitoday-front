@@ -2,6 +2,7 @@
   import { goto } from "$app/navigation";
   import { formatDate } from "$lib/utils.js";
   export let data;
+  import { category } from "$lib/datas";
 
   interface ArticleType {
     author: string;
@@ -13,6 +14,13 @@
     language: string;
     slug: string;
     title: string;
+  }
+
+  $: if ($category !== "") {
+    data.articles = data.articles.filter(
+      (article) => article.category === $category
+    );
+    $category = "";
   }
 
   function handleClick(article: ArticleType) {
