@@ -1,4 +1,5 @@
 import {error} from '@sveltejs/kit'
+import type { UpdateHeaderProps } from '$lib/types';
 
 // 마크다운 파일에서 모든 컨텐츠 가져오기
 // frontmatter, html
@@ -14,8 +15,14 @@ export async function load({params}) {
 		const { metadata } = module;
 		const { html } = module.default.render();
 
+		const headerProps: UpdateHeaderProps = {
+			title: `${metadata.title}`,
+			description: `${metadata.description}`
+		}
+
 		const article = {
 			html,
+			headerProps,
 			...metadata,
 		}
 

@@ -1,6 +1,10 @@
 <script lang="ts">
+  import Header from "@components/organisms/Header.svelte";
+
   export let data;
 </script>
+
+<Header />
 
 <div class="prose">
   {@html data.html}
