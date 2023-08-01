@@ -1,19 +1,21 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
   import { formatDate } from "$lib/utils.js";
-  export let data;
   import { category } from "$lib/datas";
   import type { ArticleType } from "$lib/types";
+  export let data;
 
   // 초기 필터링은 여기서 처리합니다.
   let filteredArticles = data.articles;
 
+  // 특정 카테고리 선택 했을 시
   $: if ($category !== "") {
     filteredArticles = data.articles.filter(
       (article) => article.category === $category
     );
   }
 
+  // all category 선택했을 시
   $: if ($category === "") {
     filteredArticles = data.articles;
   }
