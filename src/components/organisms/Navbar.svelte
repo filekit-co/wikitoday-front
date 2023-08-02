@@ -3,7 +3,7 @@
   import LanguageMenu from "@components/molecules/LanguageMenu.svelte";
 </script>
 
-<div class=" bg-gray-100">
+<div>
   <header class=" px-4 relative">
     <section class="sm:px-3 md:px-4 flex justify-evenly py-6">
       <CategoryMenu />
@@ -18,4 +18,5 @@
       <LanguageMenu />
     </section>
   </header>
+  <hr class="h-px mb-4 bg-gray-200 border-0 dark:bg-gray-700" />
 </div>
