@@ -1,12 +1,12 @@
 <script lang="ts">
-  import CategoryMenu from "@components/molecules/CategoryMenu.svelte";
+  import CategoryDrawer from "@components/molecules/CategoryDrawer.svelte";
   import LanguageMenu from "@components/molecules/LanguageMenu.svelte";
 </script>
 
 <div>
   <header class=" px-4 relative">
     <section class="sm:px-3 md:px-4 flex justify-evenly py-6">
-      <CategoryMenu />
+      <CategoryDrawer />
 
       <a
         href="/"

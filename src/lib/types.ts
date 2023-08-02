@@ -98,3 +98,8 @@ export const LanguagePages = [
   {key: 'Russian', value: 'ru'},
   {key: 'Turkish', value: 'tu'}
 ]
+
+export interface ImageType {
+  title: string;
+  src: string;
+}
