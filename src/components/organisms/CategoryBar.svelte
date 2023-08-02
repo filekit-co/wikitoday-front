@@ -2,7 +2,7 @@
   import { CategoryPages } from "$lib/types";
 </script>
 
-<div class=" box-border">
+<div class=" box-border font-serif">
   <div class="flex justify-evenly items-center">
     {#each CategoryPages as category}
       <button>

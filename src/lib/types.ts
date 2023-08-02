@@ -102,4 +102,5 @@ export const LanguagePages = [
 export interface ImageType {
   title: string;
   src: string;
+  description?: string;
 }

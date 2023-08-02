@@ -3,14 +3,24 @@
   import type { ArticleType } from "$lib/types";
   import { formatDate } from "$lib/utils.js";
 
-  export let data;
+  interface DataType {
+    articles: {
+      title: string;
+      category: string;
+      description: string;
+      date: string;
+      image: string;
+    }[];
+  }
+
+  export let data: DataType;
 
   function handleClick(article: ArticleType) {
     const lang = article.language;
     const category = article.category;
     const fileName = article.slug;
 
-    //console.log("article is:", fileName);
+    // console.log("article is:", fileName);
     // console.log(`/${lang}/news/${category}/${fileName}/${lang}`);
 
     goto(`/news/${category}/${fileName}/${lang}`);

@@ -1,10 +1,12 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
-  import { formatDate } from "$lib/utils.js";
   import { category } from "$lib/datas";
   import type { ArticleType } from "$lib/types";
   import Articles from "@components/molecules/Articles.svelte";
   import Opinions from "@components/molecules/Opinions.svelte";
+  import ArticleTable from "@components/molecules/ArticleTable.svelte";
+  import TrendNews from "@components/molecules/TrendNews.svelte";
+
   export let data;
 
   // 초기 필터링은 여기서 처리합니다.
@@ -38,4 +40,12 @@
   <Articles {data} />
   <Opinions {data} />
 </div>
+
+<hr class="h-1 my-6 bg-blck border-0 dark:bg-black" />
+
+<div class="flex">
+  <ArticleTable {data} />
+  <TrendNews {data} />
+</div>
+
 <hr class="h-1 my-6 bg-blck border-0 dark:bg-black" />

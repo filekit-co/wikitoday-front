@@ -7,7 +7,7 @@
   let images: ImageType[] = [];
 
   onMount(() => {
-    images = data.articles.slice(0, 3).map((article) => ({
+    images = data.articles.map((article) => ({
       src: article.image,
       title: article.title,
     }));
@@ -21,26 +21,28 @@
   <Carosel {images} />
 
   <!-- Small opinion articles -->
-  {#each data.articles as article}
-    <!-- {#if article.category === "Opinion/Editorial"} -->
-    <div class="flex py-4 border-t-2">
-      <span class="text-lg font-normal">{article.title}</span>
-      <div class="flex-grow flex justify-end">
-        <img
-          class="small-image"
-          src={article.image}
-          alt={`${article.description}`}
-        />
+  <div class=" h-full">
+    {#each images as { src, title }}
+      <div class="flex my-4 items-center">
+        <div class="flex-grow">
+          <h2 class="text-xl font-medium mb-4 mr-4">{title}</h2>
+        </div>
+
+        <div class="w-20 h-20 flex-shrink-0 flex justify-end">
+          <!-- Set fixed image dimensions and right alignment -->
+          <img
+            class="small-image w-full h-full object-cover"
+            {src}
+            alt={title}
+          />
+        </div>
       </div>
-    </div>
-    <!-- {/if} -->
-  {/each}
+    {/each}
+  </div>
 </div>
 
 <style>
   .small-image {
-    width: 50px;
-    height: 50px;
     border-radius: 50%;
   }
 </style>
