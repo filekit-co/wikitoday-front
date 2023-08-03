@@ -3,7 +3,7 @@ title: 柳箫然重返投手丘，最终不敌巴尔的摩金莺队
 description: 多伦多蓝鸟队的投手柳贤振一年多来首次先发，但未能阻止美联领先的球队获胜。
 category: Sports
 keywords: 류현진2
-date: 2023-08-02
+date: "2023-08-02"
 author: wikitoday.io
 language: ZH
 ---
