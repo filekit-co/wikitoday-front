@@ -3,7 +3,7 @@ title: Ryu's Return to the Mound Ends in a Loss Against the Baltimore Orioles
 description: Toronto Blue Jays' pitcher, Hyun-jin Ryu, made his first start in over a year but couldn't prevent the AL's leading team from winning.
 category: Sports
 keywords: 류현진
-date: 2023-08-02
+date: "2023-08-02"
 author: wikitoday.io
 language: EN-US
 ---
