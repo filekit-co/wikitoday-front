@@ -20,7 +20,7 @@ export type Post = {
 // lib / data / 모든 폴더 / ${lang} / ${lang}.md 인 모든 파일
 // const modules = import.meta.glob(`$lib/data/*/en/*.en.md`, {eager: true})
 
-const modules = import.meta.glob(`$lib/data/*/ko.md`, {eager: true})
+const modules = import.meta.glob(`$lib/data/*/*/KO.md`, {eager: true})
 
 const posts: Post[] = Object.entries(modules).map(([filepath, module]) => {
   const parts = filepath.split('/')

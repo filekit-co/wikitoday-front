@@ -4,7 +4,7 @@ description: 인간과 로봇의 협업과 윤리
 category: Technology
 date: "2023-06-24"
 author: Rose
-language: ko
+language: KO
 ---
 
 # 인간과 로봇의 협업과 윤리

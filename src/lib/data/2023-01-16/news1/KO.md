@@ -4,7 +4,7 @@ description: 로봇 기술의 혁신으로 미래가 변경되다
 category: Technology
 date: "2023-01-16"
 author: kim
-language: ko
+language: KO
 ---
 
 # 로봇 기술의 혁신으로 미래가 변경되다

@@ -4,7 +4,7 @@ description: 자율 주행의 미래
 category: Opinion/Editorial
 date: "2023-07-16"
 author: Christine
-language: ko
+language: KO
 ---
 
 # 자율 주행의 미래

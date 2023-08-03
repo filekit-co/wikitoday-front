@@ -16,6 +16,7 @@
   export let data: DataType;
 
   function handleClick(article: ArticleType) {
+    const date = article.date;
     const lang = article.language;
     const category = article.category;
     const fileName = article.slug;
@@ -23,7 +24,8 @@
     // console.log("article is:", fileName);
     // console.log(`/${lang}/news/${category}/${fileName}/${lang}`);
 
-    goto(`/news/${category}/${fileName}/${lang}`);
+    // goto(`/${date}/news/${category}/${fileName}/${lang}`);
+    goto(`/news/${category}/${fileName}/${date}/${lang}`);
   }
 </script>
 
@@ -42,7 +44,7 @@
             </h1>
 
             <article class="flex">
-              <div class="w-1/2">
+              <div class="w-1/2 mr-4">
                 <p class="text-gray-500 text-sm mb-3">
                   {article.category}
                 </p>

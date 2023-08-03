@@ -1,5 +1,7 @@
 import {error} from '@sveltejs/kit'
 import type { UpdateHeaderProps } from '$lib/types';
+import fs from 'fs/promises';
+import path from 'path'
 
 // 마크다운 파일에서 모든 컨텐츠 가져오기
 // frontmatter, html
@@ -7,10 +9,12 @@ import type { UpdateHeaderProps } from '$lib/types';
 
 export async function load({params}) {
 	try {
+		const date = params.date;
 		const articleTitle = params.article;
 		const lang = params.lang;
 
-		const module = await import(`../../../../../lib/data/${articleTitle}/${lang}.md`);
+		const module = await import(`../../../../../../lib/data/${date}/${articleTitle}/${lang}.md`);
+
 
 		const { metadata } = module;
 		const { html } = module.default.render();

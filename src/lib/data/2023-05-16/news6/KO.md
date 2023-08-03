@@ -4,7 +4,7 @@ description: 미래의 에너지 전환과 지속 가능성
 category: Science
 date: "2023-05-16"
 author: Rachel
-language: ko
+language: KO
 ---
 
 # 미래의 에너지 전환과 지속 가능성

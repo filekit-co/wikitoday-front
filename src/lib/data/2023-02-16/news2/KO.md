@@ -4,7 +4,7 @@ description: 과학의 발전과 우주 탐사
 category: Technology
 date: "2023-02-16"
 author: Park
-language: ko
+language: KO
 ---
 
 # 과학의 발전과 우주 탐사

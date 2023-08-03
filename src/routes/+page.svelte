@@ -1,51 +1,25 @@
 <script lang="ts">
-  import { goto } from "$app/navigation";
-  import { category } from "$lib/datas";
-  import type { ArticleType } from "$lib/types";
-  import Articles from "@components/molecules/Articles.svelte";
+  import MainArticles from "@components/molecules/MainArticles.svelte";
   import Opinions from "@components/molecules/Opinions.svelte";
-  import ArticleTable from "@components/molecules/ArticleTable.svelte";
+  import BreakingNews from "@components/molecules/BreakingNews.svelte";
   import TrendNews from "@components/molecules/TrendNews.svelte";
+  import CardArticles from "@components/molecules/CardArticles.svelte";
 
   export let data;
-
-  // 초기 필터링은 여기서 처리합니다.
-  let filteredArticles = data.articles;
-
-  // 특정 카테고리 선택 했을 시
-  $: if ($category !== "") {
-    filteredArticles = data.articles.filter(
-      (article) => article.category === $category
-    );
-  }
-
-  // all category 선택했을 시
-  $: if ($category === "") {
-    filteredArticles = data.articles;
-  }
-
-  function handleClick(article: ArticleType) {
-    const lang = article.language;
-    const category = article.category;
-    const fileName = article.slug;
-
-    //console.log("article is:", fileName);
-    // console.log(`/${lang}/news/${category}/${fileName}/${lang}`);
-
-    goto(`/news/${category}/${fileName}/${lang}`);
-  }
 </script>
 
 <div class="flex">
-  <Articles {data} />
+  <MainArticles {data} />
   <Opinions {data} />
 </div>
 
 <hr class="h-1 my-6 bg-blck border-0 dark:bg-black" />
 
 <div class="flex">
-  <ArticleTable {data} />
+  <BreakingNews {data} />
   <TrendNews {data} />
 </div>
 
 <hr class="h-1 my-6 bg-blck border-0 dark:bg-black" />
+
+<CardArticles {data} />

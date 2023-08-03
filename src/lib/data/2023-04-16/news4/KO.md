@@ -4,7 +4,7 @@ description: 미래의 교통과 이동수단
 category: Sports
 date: "2023-04-16"
 author: William
-language: ko
+language: KO
 ---
 
 # 미래의 교통과 이동수단

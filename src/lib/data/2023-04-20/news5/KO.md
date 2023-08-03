@@ -4,7 +4,7 @@ description: 사회 다양성과 포용
 category: Lifestyle
 date: "2023-04-20"
 author: David
-language: ko
+language: KO
 ---
 
 # 사회 다양성과 포용

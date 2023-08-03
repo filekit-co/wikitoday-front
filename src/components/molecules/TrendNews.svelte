@@ -28,11 +28,10 @@
   <h2 class="text-2xl font-semibold">Trend NEWS</h2>
   <div class="grid grid-rows-5 h-full">
     {#each items as { src, title, description }, index}
-      <div class="flex my-4 items-center">
+      <div class="flex items-center border-b-2 border-b-gray-200">
         <span class="text-6xl font-bold mr-4">{index + 1}</span>
         <div class="flex-grow">
           <h2 class="text-xl font-medium mb-4">{title}</h2>
-          <span class="text-lg font-normal">{description}</span>
         </div>
 
         <div class="w-28 h-28 flex-shrink-0 flex justify-end">

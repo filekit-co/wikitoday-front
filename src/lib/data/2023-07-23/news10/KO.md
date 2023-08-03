@@ -4,7 +4,7 @@ description: 여행 산업의 새로운 트렌드
 category: Entertainment
 date: "2023-07-23"
 author: Elizabeth
-language: ko
+language: KO
 ---
 
 # Summary

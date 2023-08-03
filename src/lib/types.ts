@@ -85,18 +85,14 @@ export const CategoryPages = [
     key: 'Opinion/Editorial',
     value: 'Opinion/Editorial',
   },
-  {
-    key: 'All',
-    value: ''
-  }
 ];
 
 export const LanguagePages = [
-  {key: 'English', value: 'en'},
-  {key: 'Korean', value: 'ko'},
-  {key: 'Spanish', value: 'es'},
-  {key: 'Russian', value: 'ru'},
-  {key: 'Turkish', value: 'tu'}
+  {key: 'English', value: 'EN-US'},
+  {key: 'Korean', value: 'KO'},
+  {key: 'Spanish', value: 'ES'},
+  {key: 'Russian', value: 'RU'},
+  {key: 'Turkish', value: 'TU'}
 ]
 
 export interface ImageType {

@@ -4,7 +4,7 @@ description: 예술과 문화의 현대적 변화
 category: Entertainment
 date: "2023-06-16"
 author: Amy
-language: ko
+language: KO
 ---
 
 # 예술과 문화의 현대적 변화
