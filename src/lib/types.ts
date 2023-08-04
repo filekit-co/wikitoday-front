@@ -24,6 +24,16 @@ export type CategoryType =
   | 'Lifestyle'
   | 'Opinion/Editorial';
 
+export interface DataType {
+  articles: {
+    title: string;
+    category: string;
+    description: string;
+    date: string;
+    image: string;
+  }[];
+}
+
 export interface ArticleType {
   slug: string;
   title: string;

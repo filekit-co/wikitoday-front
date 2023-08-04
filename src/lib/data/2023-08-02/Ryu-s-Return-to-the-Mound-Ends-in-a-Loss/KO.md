@@ -3,7 +3,7 @@ title: 류현진의 마운드 복귀, 볼티모어 오리올스전 패배로 끝
 description: 토론토 블루제이스의 류현진 투수가 1년여 만에 선발 등판했지만, AL 선두 팀의 승리를 막지는 못했습니다.
 category: Sports
 keywords: 류현진2
-date: 2023-08-02
+date: "2023-08-02"
 author: wikitoday.io
 language: KO
 ---
@@ -20,7 +20,6 @@ language: KO
 토론토 블루제이스의 류현진 투수가 1년여 만에 선발 등판했지만, AL 선두 팀의 승리를 막지는 못했습니다.
 
 ## QnA
-
 
 <details>
     <summary><b>0. 류현진 선수의 복귀전에서 상대 투수는 누구였나요?</b></summary>
@@ -46,7 +45,6 @@ language: KO
     <summary><b>4. 류 선수의 향후 활약에 대한 전망은 어떻게 되나요?</b></summary>
     패배에도 불구하고 팬들과 전문가들은 류제국의 향후 활약에 대해 낙관적인 전망을 내놓고 있습니다.
 </details>
-
 
 ## 류현진의 마운드 복귀, 볼티모어 오리올스전 패배로 끝나다
 

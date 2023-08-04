@@ -8,7 +8,7 @@
   }
 </script>
 
-<div class=" box-border font-serif">
+<div class=" box-border">
   <div class="flex justify-evenly items-center">
     {#each CategoryPages as { key, value }}
       <button on:click={() => handleClick(value)}>

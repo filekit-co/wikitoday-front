@@ -9,7 +9,7 @@
   export let duration = 4000;
 
   setInterval(() => {
-    current = (current + 1) % 3;
+    current = (current + 1) % images.length;
     currentImage = images[current];
   }, duration);
 </script>

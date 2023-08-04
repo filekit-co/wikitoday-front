@@ -1,6 +1,4 @@
-import { basename } from "path";
 import { json } from "@sveltejs/kit";
-import { language } from "$lib/datas";
 
 export type Post = {
 	slug: string;
@@ -41,5 +39,6 @@ const posts: Post[] = Object.entries(modules).map(([filepath, module]) => {
 
 export async function GET() {
   const articles = await json(posts);
+
   return articles
 }

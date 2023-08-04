@@ -6,7 +6,7 @@
   const rightArticle = data.articles[2];
 </script>
 
-<div class="bg-gray-200 mb-6 font-serif shadow-md">
+<div class="bg-gray-200 mb-6 shadow-md">
   <div class="flex py-4 px-4">
     <div class="w-1/2 image-container mr-8">
       <img

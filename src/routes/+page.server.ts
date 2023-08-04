@@ -11,6 +11,9 @@ export async function load({fetch}) {
     });
 
     // console.log(articles)
+
+    // 최신 기사를 우선적으로 보여주기 위해 sort
+    articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     
     return {articles}
 }

@@ -1,71 +1,75 @@
 <script lang="ts">
+  import TrendNews from "@components/molecules/TrendNews.svelte";
   import Header from "@components/organisms/Header.svelte";
-
   export let data;
+
+  const { article } = data;
 </script>
 
 <Header />
 
-<div class="prose">
-  {@html data.html}
+<div class="flex">
+  <div class="w-3/4 pr-4 border-r-2 border-r-black container">
+    {@html article.html}
+  </div>
+
+  <TrendNews {data} />
 </div>
 
 <!-- @html stylying guide -->
 <!-- https://joyofcode.xyz/global-styles-in-sveltekit -->
+
 <style>
-  .prose {
-    margin: 35px 40px;
-    padding: 20px 35px;
-    justify-content: center;
-    font-family: "Georgia", serif;
-  }
-  :global(.prose h1) {
-    font-size: 38px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 30px;
-  }
-  :global(.prose ul) {
-    font-size: 25px;
-    font-weight: 600px;
-    margin-bottom: 20px;
-    padding-bottom: 30px;
-  }
-  :global(.prose h2) {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-    padding-bottom: 30px;
-  }
-  :global(.prose h3) {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 30px;
-  }
-  :global(.prose details) {
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 10px;
-    text-decoration: underline;
-    padding-bottom: 30px;
+  .container {
+    font-family: "Noto Serif KR", serif;
+    font-family: "Playfair Display", serif;
   }
 
-  :global(.prose em) {
+  :global(.container h1) {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+
+  :global(.container h2) {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  :global(.container details) {
     font-size: 20px;
+    margin-bottom: 20px;
   }
-  :global(.prose p) {
+
+  :global(.container details summary) {
+    margin-bottom: 20px;
+  }
+
+  :global(.container details summary b) {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  :global(.container h4) {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 16px 0;
+    color: #d8d8d8;
+  }
+
+  :global(.container p) {
     font-size: 18px;
-    padding-bottom: 10px;
-    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 1.4;
   }
-  :global(.prose p img) {
-    height: 600px;
-    width: 600px;
-    object-fit: cover;
-    padding-top: 20px;
-    text-align: center;
-    justify-content: center;
+
+  :global(.container p em) {
+    font-size: 18px;
+    font-weight: 500;
+    color: #d8d8d8;
   }
 </style>

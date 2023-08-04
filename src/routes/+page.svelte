@@ -23,3 +23,5 @@
 <hr class="h-1 my-6 bg-blck border-0 dark:bg-black" />
 
 <CardArticles {data} />
+
+<hr class="h-1 my-6 bg-blck border-0 dark:bg-black" />

@@ -1,42 +1,19 @@
 <script lang="ts">
-  import { goto } from "$app/navigation";
-  import type { ArticleType } from "$lib/types";
   import { formatDate } from "$lib/utils.js";
-
-  interface DataType {
-    articles: {
-      title: string;
-      category: string;
-      description: string;
-      date: string;
-      image: string;
-    }[];
-  }
+  import { handleClick } from "$lib/utils";
+  import type { DataType } from "$lib/types";
 
   export let data: DataType;
-
-  function handleClick(article: ArticleType) {
-    const date = article.date;
-    const lang = article.language;
-    const category = article.category;
-    const fileName = article.slug;
-
-    // console.log("article is:", fileName);
-    // console.log(`/${lang}/news/${category}/${fileName}/${lang}`);
-
-    // goto(`/${date}/news/${category}/${fileName}/${lang}`);
-    goto(`/news/${category}/${fileName}/${date}/${lang}`);
-  }
 </script>
 
-<div class="w-3/4 font-serif">
+<div class="w-3/4">
   <section class="w-full items-center pr-4 border-r-2 border-r-black">
     <ul class="justify-center">
-      {#each data.articles as article}
+      {#each data.articles.slice(0, 4) as article}
         <li class="mb-8 bg-white">
           <!-- svelte-ignore a11y-click-events-have-key-events -->
           <div
-            class="col-auto items-center"
+            class="col-auto items-center cursor-pointer"
             on:click={() => handleClick(article)}
           >
             <h1 class="text-4xl font-bold mb-6">
@@ -45,13 +22,13 @@
 
             <article class="flex">
               <div class="w-1/2 mr-4">
-                <p class="text-gray-500 text-sm mb-3">
+                <p class="text-gray-300 text-lg mb-3">
                   {article.category}
                 </p>
                 <span class="text-black text-2xl font-bold"
                   >{article.description}</span
                 >
-                <p class="text-gray-500 text-sm mt-3">
+                <p class="text-gray-200 text-base mt-3">
                   {formatDate(article.date)}
                 </p>
               </div>

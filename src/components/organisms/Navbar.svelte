@@ -10,7 +10,7 @@
 
       <a
         href="/"
-        class="font-serif sm:text-4xl sm:font-bold md:text-5xl md:font-extrabold"
+        class="sm:text-4xl sm:font-bold md:text-5xl md:font-extrabold"
       >
         Wikitoday
       </a>
