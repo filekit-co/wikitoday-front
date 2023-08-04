@@ -25,7 +25,6 @@ export async function load({fetch, params}) {
 
 		const module = await import(`../../../../../../lib/data/${date}/${articleTitle}/${lang}.md`);
 
-
 		const { metadata } = module;
 		const { html } = module.default.render();
 
@@ -34,13 +33,13 @@ export async function load({fetch, params}) {
 			description: `${metadata.description}`
 		}
 
+		console.log(html)
+		
 		const article = {
 			html,
 			headerProps,
 			...metadata,
 		}
-
-		// console.log(article.html)
 
 		return {
 			articles, 

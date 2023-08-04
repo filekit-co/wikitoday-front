@@ -5,7 +5,7 @@
   import CategoryBar from "@components/organisms/CategoryBar.svelte";
 </script>
 
-<div class="px-48 font">
+<div class="sm:px-2 md:px-4 lg:px-48 font">
   <Header />
   <Navbar />
   <CategoryBar />

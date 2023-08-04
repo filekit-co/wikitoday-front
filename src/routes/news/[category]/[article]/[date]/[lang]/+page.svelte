@@ -42,6 +42,7 @@
   :global(.container details) {
     font-size: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
   }
 
   :global(.container details summary) {

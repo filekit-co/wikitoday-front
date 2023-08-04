@@ -6,6 +6,7 @@ import { mdsvex } from 'mdsvex'
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md', '.svx'],
+	layout: {},
 }
 
 /** @type {import('@sveltejs/kit').Config} */
