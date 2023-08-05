@@ -1,13 +1,13 @@
 <script lagn="ts">
-  import SubPageMainArticle from "@components/molecules/SubPageMainArticle.svelte";
+  import CategoryArticlePage from "@components/pages/CategoryArticlePage.svelte";
   import MainArticles from "@components/molecules/MainArticles.svelte";
   import TrendNews from "@components/molecules/TrendNews.svelte";
   export let data;
 </script>
 
-<SubPageMainArticle {data} />
+<CategoryArticlePage {data} />
 
-<div class="flex">
+<div class="lg:flex">
   <MainArticles {data} />
   <TrendNews {data} />
 </div>

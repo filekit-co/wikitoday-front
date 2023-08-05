@@ -33,7 +33,7 @@ export async function load({fetch, params}) {
 			description: `${metadata.description}`
 		}
 
-		console.log(html)
+		// console.log(html)
 		
 		const article = {
 			html,
