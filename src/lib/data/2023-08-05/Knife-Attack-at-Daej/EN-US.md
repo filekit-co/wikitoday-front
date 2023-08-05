@@ -1,6 +1,6 @@
 ---
 title: 'Knife Attack at Daejeon High School: Suspect Arrested'
-description: 'A man in his 20s brandished a knife at a teacher in his 40s at a high school in Daejeon. The suspect was caught within two hours, and police investigations revealed intriguing details about the suspect's past.'
+description: 'A man in his 20s brandished a knife at a teacher in his 40s at a high school in Daejeon. The suspect was caught within two hours, and police investigations revealed intriguing details about the suspect''s past.'
 category: 'Crime'
 keywords: '대전 칼부림,대전 고등학교 칼부림,대전,대전 대덕구 칼부림'
 date: '2023-08-05'

@@ -1,6 +1,6 @@
 ---
 title: 'Governor Kim Kwan-young Highlights Positive Aspects of World Scout Jamboree'
-description: 'North Jeolla Province Governor Kim Kwan-young has expressed optimism about the ongoing World Scout Jamboree, emphasizing the enjoyable experiences of participants. Despite concerns over the recent fever outbreak and extreme weather conditions, Governor Kim remains committed to ensuring the event's success.'
+description: 'North Jeolla Province Governor Kim Kwan-young has expressed optimism about the ongoing World Scout Jamboree, emphasizing the enjoyable experiences of participants. Despite concerns over the recent fever outbreak and extreme weather conditions, Governor Kim remains committed to ensuring the event''s success.'
 category: 'Politics'
 keywords: '김관영'
 date: '2023-08-05'

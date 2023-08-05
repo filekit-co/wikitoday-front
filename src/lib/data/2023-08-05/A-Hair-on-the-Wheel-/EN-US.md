@@ -1,6 +1,6 @@
 ---
-title: ''A Hair on the Wheel' - Rolls-Royce Accident at Apgujeong Station'
-description: 'A Rolls-Royce SUV worth 600 million won crashed into a sidewalk near Apgujeong Station in Seoul, severely injuring a woman in her 20s. The incident was covered by the YouTube channel 'Caracula Detective Agency' which released photos of the scene and the driver involved. The victim suffered a broken leg in the accident.'
+title: '''A Hair on the Wheel'' - Rolls-Royce Accident at Apgujeong Station'
+description: 'A Rolls-Royce SUV worth 600 million won crashed into a sidewalk near Apgujeong Station in Seoul, severely injuring a woman in her 20s. The incident was covered by the YouTube channel ''Caracula Detective Agency'' which released photos of the scene and the driver involved. The victim suffered a broken leg in the accident.'
 category: 'Accidents'
 keywords: '롤스로이스 사고'
 date: '2023-08-05'

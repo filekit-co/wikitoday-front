@@ -1,6 +1,6 @@
 ---
-title: ''Police Station and Bureau of Investigation Next to Fire Station' Returns for Season 2'
-description: 'SBS's 'The Police Station Next to the Fire Station and Guk Gua Soo' will premiere on April 4 at 10 p.m. as a follow-up to 'Demon'.'
+title: '''Police Station and Bureau of Investigation Next to Fire Station'' Returns for Season 2'
+description: 'SBS''s ''The Police Station Next to the Fire Station and Guk Gua Soo'' will premiere on April 4 at 10 p.m. as a follow-up to ''Demon''.'
 category: 'Entertainment'
 keywords: '소방서 옆 경찰서 그리고 국과수'
 date: '2023-08-05'

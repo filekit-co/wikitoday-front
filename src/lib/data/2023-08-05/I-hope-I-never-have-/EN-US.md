@@ -1,6 +1,6 @@
 ---
-title: ''I hope I never have to use it'...self-defense firearms in spate of violent crimes'
-description: 'Delays and out-of-stock notices amid surge in sales 'I must protect my body' anxiety spreads'
+title: '''I hope I never have to use it''...self-defense firearms in spate of violent crimes'
+description: 'Delays and out-of-stock notices amid surge in sales ''I must protect my body'' anxiety spreads'
 category: 'Technology'
 keywords: '호신용품'
 date: '2023-08-05'

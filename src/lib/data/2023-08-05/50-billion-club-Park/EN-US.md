@@ -1,5 +1,5 @@
 ---
-title: ''50 billion club' Park Young-soo arrested...What's the difference from when he was dismissed a month ago?'
+title: '''50 billion club' Park Young-soo arrested...What's the difference from when he was dismissed a month ago?'
 description: 'The arrest warrant for former special prosecutor Park Young-soo, which the court dismissed once, was issued on March 3. Park was lobbied by a private businessman in Daejeon-dong...'
 category: 'Politics'
 keywords: '박영수 구속'

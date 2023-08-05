@@ -1,6 +1,6 @@
 ---
-title: 'Hanmyeong Butcher Shop and Gastron Support Production of SBS Drama 'Police Station and Gukgwasoo Next to Fire Station''
-description: 'Hanmyeong Butcher Shop and Gastron are both supporting the production of SBS's new Friday drama 'Police Station and Gukgwasoo Next to Fire Station'. The drama tells the story of a fire department, a police department, and a gukgwasoo working together to solve unprecedented cases.'
+title: 'Hanmyeong Butcher Shop and Gastron Support Production of SBS Drama ''Police Station and Gukgwasoo Next to Fire Station'''
+description: 'Hanmyeong Butcher Shop and Gastron are both supporting the production of SBS''s new Friday drama ''Police Station and Gukgwasoo Next to Fire Station''. The drama tells the story of a fire department, a police department, and a gukgwasoo working together to solve unprecedented cases.'
 category: 'Entertainment'
 keywords: '소방서 옆 경찰서'
 date: '2023-08-05'
