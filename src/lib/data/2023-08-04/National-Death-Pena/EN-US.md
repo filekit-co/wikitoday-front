@@ -1,6 +1,6 @@
 ---
-title: ''National Death Penalty Vote' Im Ji-yeon's Transformation and Debut Film Controversy'
-description: 'The transformation of actress Im Ji-yeon in the upcoming drama 'National Death Penalty Vote' has caught the attention of viewers. Meanwhile, Im Ji-yeon recently opened up about her concerns regarding her debut film and her mother's reaction to her unconventional exposure.'
+title: '''National Death Penalty Vote'' Im Ji-yeon''s Transformation and Debut Film Controversy'
+description: 'The transformation of actress Im Ji-yeon in the upcoming drama ''National Death Penalty Vote'' has caught the attention of viewers. Meanwhile, Im Ji-yeon recently opened up about her concerns regarding her debut film and her mother''s reaction to her unconventional exposure.'
 category: 'Entertainment'
 keywords: '임지연'
 date: '2023-08-04'
@@ -23,30 +23,30 @@ language: 'EN-US'
 The transformation of actress Im Ji-yeon in the upcoming drama 'National Death Penalty Vote' has caught the attention of viewers. Meanwhile, Im Ji-yeon recently opened up about her concerns regarding her debut film and her mother's reaction to her unconventional exposure.
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. What is Im Ji-yeon's upcoming drama?</b></summary>
         Im Ji-yeon's upcoming drama is called 'National Death Penalty Vote'.
     </details>
     
-    <details>
+<details>
         <summary><b>1. Who is the writer and director of 'National Death Penalty Vote'?</b></summary>
         'National Death Penalty Vote' is written by Cho Yoon-young and directed by Park Shin-woo.
     </details>
     
-    <details>
+<details>
         <summary><b>2. What concerns did Im Ji-yeon have about her debut film?</b></summary>
         Im Ji-yeon was concerned about her mother's reaction to her unconventional exposure in her debut film, 'Human Addiction'.
     </details>
     
-    <details>
+<details>
         <summary><b>3. How did Im Ji-yeon's mother react to her debut film?</b></summary>
         Im Ji-yeon's mother attended the premiere of her debut film and complimented her on her performance.
     </details>
     
-    <details>
+<details>
         <summary><b>4. What challenges did Im Ji-yeon face as a young actress?</b></summary>
         Im Ji-yeon faced difficulties and controversy regarding her acting skills at a young age.
     </details>

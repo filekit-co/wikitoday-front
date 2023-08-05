@@ -1,6 +1,6 @@
 ---
-title: 'Ryu's Comeback Start Falls Short Against AL's Winningest Team'
-description: 'Despite a 146-mph fastball, Hyun-jin Ryu couldn't stop the Baltimore Orioles'
+title: 'Ryu''s Comeback Start Falls Short Against AL''s Winningest Team'
+description: 'Despite a 146-mph fastball, Hyun-jin Ryu couldn''t stop the Baltimore Orioles'
 category: 'Sports'
 keywords: '류현진'
 date: '2023-08-04'
@@ -23,35 +23,35 @@ language: 'EN-US'
 Despite a 146-mph fastball, Hyun-jin Ryu couldn't stop the Baltimore Orioles
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. How long was Ryu out before his comeback start?</b></summary>
         Ryu had been out for 426 days before his comeback start.
     </details>
     
-    <details>
+<details>
         <summary><b>1. How many runs did the Orioles score against Ryu?</b></summary>
         The Orioles scored four runs against Ryu in the game.
     </details>
     
-    <details>
+<details>
         <summary><b>2. What was Ryu's fastball velocity in the game?</b></summary>
         Ryu's fastball reached a top velocity of 146 mph.
     </details>
     
-    <details>
+<details>
         <summary><b>3. Did Ryu perform well in his comeback start?</b></summary>
         Despite a shaky start, Ryu showed signs of his potential and settled down as the game progressed.
     </details>
     
-    <details>
+<details>
         <summary><b>4. Who did Ryu face in his comeback start?</b></summary>
         Ryu faced the Baltimore Orioles, the winningest team in the American League, in his comeback start.
     </details>
     
-    <details>
+<details>
         <summary><b>5. What is the next start for Ryu?</b></summary>
         Ryu's next start is scheduled for August 8 against the Cleveland Cavaliers.
     </details>

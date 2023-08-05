@@ -23,30 +23,30 @@ language: 'KO'
 콜린 벨 감독이 이끄는 대한민국 여자 축구 대표팀이 2023 FIFA 여자월드컵 조별리그 H조 최종전에서 세계랭킹 2위 독일과 1-1 무승부를 거뒀습니다.
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. 대한민국과 독일의 경기 최종 스코어는 어떻게 되나요?</b></summary>
         경기는 1-1 무승부로 끝났습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>1. 한국의 첫 골은 누가 넣었나요?</b></summary>
         조소현이 한국의 선제골을 넣었습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>2. 독일은 누가 동점을 기록했나요?</b></summary>
         독일의 주장 겸 골키퍼 알렉산드라 포프가 독일의 동점골을 터뜨렸습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>3. 이번 경기가 한국에게 중요한 이유는 무엇인가요?</b></summary>
         조별리그에서 승점 확보를 노렸던 한국은 귀중한 승점을 따내며 대회를 마무리했습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>4. FIFA 랭킹에서 한국의 순위는 어떻게 되나요?</b></summary>
         한국은 FIFA 랭킹 17위를 기록했습니다.
     </details>

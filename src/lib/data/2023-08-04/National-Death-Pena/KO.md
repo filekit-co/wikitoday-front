@@ -19,6 +19,7 @@ language: "KO"
 
 개봉을 앞둔 드라마 ''국민사형수''에서 배우 임지연의 변신이 시청자들의 눈길을 사로잡고 있다. 한편, 임지연은 최근 데뷔작에 대한 고민과 파격적인 노출에 대한 어머니의 반응에 대해 털어놨다.
 
+<<<<<<< HEAD:src/lib/data/2023-08-04/-National-Death-Pena/KO.md
     ## QnA
 
 
@@ -43,6 +44,33 @@ language: "KO"
     </details>
 
     <details>
+=======
+
+## QnA
+
+    
+<details>
+        <summary><b>0. 임지연의 차기작 드라마는 무엇인가요?</b></summary>
+        임지연이 출연 예정인 드라마는 ''국민 사형제 투표''입니다.
+    </details>
+    
+<details>
+        <summary><b>1. ''국민 사형제 찬반 투표''의 작가와 감독은 누구인가요?</b></summary>
+        ''국민 사형제 투표''는 조윤영 각본, 박신우 감독의 작품입니다.
+    </details>
+    
+<details>
+        <summary><b>2. 임지연은 데뷔작을 준비하며 어떤 고민을 했나요?</b></summary>
+        임지연은 데뷔작 "인간중독"에서 파격적인 노출에 대한 어머니의 반응이 걱정이었다고 합니다.
+    </details>
+    
+<details>
+        <summary><b>3. 임지연의 데뷔작에 대한 어머니의 반응은 어땠나요?</b></summary>
+        임지연의 데뷔작 시사회에 임지연의 어머니가 참석해 연기에 대한 칭찬을 아끼지 않았습니다.
+    </details>
+    
+<details>
+>>>>>>> 42229d3af59f53f29ed596ccda38a9fe38b1c9b3:src/lib/data/2023-08-04/National-Death-Pena/KO.md
         <summary><b>4. 임지연은 신인 배우로서 어떤 어려움을 겪었나요?</b></summary>
         임지연은 어린 나이에 연기력에 대한 어려움과 논란에 직면했습니다.
     </details>

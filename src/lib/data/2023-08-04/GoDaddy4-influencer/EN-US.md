@@ -1,6 +1,6 @@
 ---
-title: ''GoDaddy4' influencer's ex-husband 'Assaulted his full-term wife? I got beaten up''
-description: 'Ryu Hye-lin 'Ex-husband, habitual drunkenness, assault, and verbal abuse'...'Give child support to yourself' Ex-husband A 'No evidence that I didn't hit him', 'I deposit child support every month, pay everything I owe''
+title: '''GoDaddy4'' influencer''s ex-husband ''Assaulted his full-term wife? I got beaten up'''
+description: 'Ryu Hye-lin ''Ex-husband, habitual drunkenness, assault, and verbal abuse''...''Give child support to yourself'' Ex-husband A ''No evidence that I didn''t hit him'', ''I deposit child support every month, pay everything I owe'''
 category: 'Entertainment'
 keywords: '고딩엄빠 인플루언서'
 date: '2023-08-04'
@@ -23,20 +23,20 @@ language: 'EN-US'
 Ryu Hye-lin 'Ex-husband, habitual drunkenness, assault, and verbal abuse'...'Give child support to yourself' Ex-husband A 'No evidence that I didn't hit him', 'I deposit child support every month, pay everything I owe'
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. What is the controversy surrounding Ryu Hye-lin and her ex-husband?</b></summary>
         The controversy revolves around accusations of assault, habitual drunkenness, and verbal abuse made by Ryu Hye-lin against her ex-husband, who is a popular influencer. Her ex-husband denies these allegations.
     </details>
     
-    <details>
+<details>
         <summary><b>1. What did Ryu Hye-lin reveal on 'Going Dad 4'?</b></summary>
         On the show, Ryu Hye-lin shared details of the alleged abuse she experienced during her marriage and explained the reasons for their divorce. She also discussed the challenges of being a young mother.
     </details>
     
-    <details>
+<details>
         <summary><b>2. How did her ex-husband respond to the allegations?</b></summary>
         Her ex-husband countered the claims, saying that he was also a victim of physical violence and that the broadcast misrepresented the facts. He maintains that he has paid child support regularly.
     </details>

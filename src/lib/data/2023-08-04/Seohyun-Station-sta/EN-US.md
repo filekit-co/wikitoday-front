@@ -1,6 +1,6 @@
 ---
-title: ''Seohyun Station stabbing' video spreads, citizens traumatized 'red light''
-description: 'On the afternoon of the 3rd, a 'don't ask, don't tell' stabbing incident occurred at a large shopping mall near Seohyeon Station in Bundang, Seongnam-si, Gyeonggi-do.'
+title: '''Seohyun Station stabbing'' video spreads, citizens traumatized ''red light'''
+description: 'On the afternoon of the 3rd, a ''don''t ask, don''t tell'' stabbing incident occurred at a large shopping mall near Seohyeon Station in Bundang, Seongnam-si, Gyeonggi-do.'
 category: 'Crime'
 keywords: '서현역 칼부림,서현역,칼부림,칼부림 예고,분당 칼부림,오리역,서현역 흉기난동,살인예고,오리역 칼부림,분당,성남 칼부림,묻지마 칼부림,분당 서현역,서현역 흉기,잠실역 살인 예고,흉기난동,분당 서현역 칼부림,ak플라자,서현역칼부림,오리역 살인예고'
 date: '2023-08-04'
@@ -23,30 +23,30 @@ language: 'EN-US'
 On the afternoon of the 3rd, a 'don't ask, don't tell' stabbing incident occurred at a large shopping mall near Seohyeon Station in Bundang, Seongnam-si, Gyeonggi-do.
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. Where did the stabbing incident occur?</b></summary>
         The stabbing incident occurred at a large shopping mall near Seohyeon Station in Bundang, Seongnam-si, Gyeonggi-do.
     </details>
     
-    <details>
+<details>
         <summary><b>1. What did a video of the Seohyeon Station weapon rampage show?</b></summary>
         The video showed the suspect walking around with a knife at the crime scene.
     </details>
     
-    <details>
+<details>
         <summary><b>2. How are citizens reacting to the videos of the stabbing incidents?</b></summary>
         Citizens have been complaining about the inconvenience of being forced to watch the videos, and some have been traumatized by the brutal footage.
     </details>
     
-    <details>
+<details>
         <summary><b>3. What are the concerns regarding photos and videos of the stabbing incidents?</b></summary>
         There are no guidelines for photos and videos, and short-form videos auto-play even if users don't choose to watch them, causing distress and trauma.
     </details>
     
-    <details>
+<details>
         <summary><b>4. What are the possible impacts of repeatedly viewing the footage of the stabbing incidents?</b></summary>
         Repeatedly viewing the footage can lead to symptoms such as anxiety and insomnia, with a greater negative impact on younger individuals, particularly teenagers.
     </details>

@@ -1,6 +1,6 @@
 ---
-title: 'Southeast Asia's View on US-China Relations and the Importance of Trilateral Cooperation'
-description: 'The US-China relationship has been a topic of concern in Southeast Asia, with many seeing the US as provocative and demonizing China. Southeast Asian countries emphasize the importance of maintaining a neutral stance and benefiting from both superpowers. Trilateral cooperation between the US, South Korea, and Japan is also seen as crucial in dealing with China's growing aggression.'
+title: 'Southeast Asia''s View on US-China Relations and the Importance of Trilateral Cooperation'
+description: 'The US-China relationship has been a topic of concern in Southeast Asia, with many seeing the US as provocative and demonizing China. Southeast Asian countries emphasize the importance of maintaining a neutral stance and benefiting from both superpowers. Trilateral cooperation between the US, South Korea, and Japan is also seen as crucial in dealing with China''s growing aggression.'
 category: 'Politics'
 keywords: '중국'
 date: '2023-08-04'
@@ -23,30 +23,30 @@ language: 'EN-US'
 The US-China relationship has been a topic of concern in Southeast Asia, with many seeing the US as provocative and demonizing China. Southeast Asian countries emphasize the importance of maintaining a neutral stance and benefiting from both superpowers. Trilateral cooperation between the US, South Korea, and Japan is also seen as crucial in dealing with China's growing aggression.
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. How does Southeast Asia view the US-China relationship?</b></summary>
         Many countries in Southeast Asia view the US as provocative and believe the trend is towards demonizing China. They emphasize neutrality and aim to benefit from both superpowers.
     </details>
     
-    <details>
+<details>
         <summary><b>1. What do Southeast Asian countries think of the US policy of containment and pressure against China?</b></summary>
         Southeast Asian countries, especially ASEAN members, do not believe that the US policy of containment and pressure is effective. They see it as reflecting a new Cold War and are not swayed by such efforts.
     </details>
     
-    <details>
+<details>
         <summary><b>2. What is the importance of Southeast Asia according to the Asia Society report?</b></summary>
         The Asia Society report highlights the importance of Southeast Asia, which is often undervalued in US interests and public rivalries. It recommends policy changes and calls for a response to China's growing influence in the region.
     </details>
     
-    <details>
+<details>
         <summary><b>3. Why does Southeast Asia not adopt the US-proposed 'free and open' Indo-Pacific strategy?</b></summary>
         Southeast Asia sees the US-proposed strategy as a way to force the region into a geopolitical framework. They believe it does not align with their interests and goals.
     </details>
     
-    <details>
+<details>
         <summary><b>4. What is the significance of trilateral cooperation between the US, South Korea, and Japan?</b></summary>
         Trilateral cooperation between the US, South Korea, and Japan is seen as critical in dealing with China's increasing aggression. It aims to ensure freedom of trade and navigation, counter China's Belt and Road strategy, and uphold peace and prosperity in the Indo-Pacific.
     </details>

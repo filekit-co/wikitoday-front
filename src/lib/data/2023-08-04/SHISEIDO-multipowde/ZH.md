@@ -23,30 +23,30 @@ language: 'ZH'
 日本资生堂宣布于 10 月 1 日推出以 SHISEIDO 品牌日本风景色彩为特色的多效粉末 Ordinary Prism Illuminator Pico。
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. 什么是 Ordinary Prism Illuminator Pico？</b></summary>
         Ordinary Prism Illuminator Pico 是一款多用途粉饼，通过色彩表现 SHISEIDO 品牌下的日本风景。
     </details>
     
-    <details>
+<details>
         <summary><b>1. Ordinary Prism Illuminator Pico 是什么时候推出的？</b></summary>
         Ordinary Prism Illuminator Pico 于 10 月 1 日推出。
     </details>
     
-    <details>
+<details>
         <summary><b>2. Ordinary Prism Illuminator Pico 有多少种颜色？</b></summary>
         Ordinary Prism Illuminator Pico 有 10 种颜色，包括粉色、橙色和绿色。
     </details>
     
-    <details>
+<details>
         <summary><b>3. 现有 Ordinary Prism 照明器的质地如何？</b></summary>
         现有的 Ordinary Prism Illuminator 具有珠光和光泽质感。
     </details>
     
-    <details>
+<details>
         <summary><b>4. Ordinary Prism Illuminator Pico 有哪些特点？</b></summary>
         Ordinary Prism Illuminator Pico 能紧贴肌肤和眼周，打造露珠般的光彩。它还含有光彩护理粉末和精炼摩洛哥坚果油，可保持肌肤光滑滋润。
     </details>

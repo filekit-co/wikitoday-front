@@ -23,30 +23,30 @@ language: 'ZH'
 由于准备不足，在韩国新万金举行的 ''2023 年世界野营大会 ''正面临重大挑战。目前已有 1000 多人患病，活动因安全措施不足而受到批评。内政和安全部部长李相珉（Lee Sang-min）对灾难性的局面负有责任。了解更多有关露营大会面临的困难和参与者提出的问题。
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. 2023 年世界大露营活动面临哪些问题？</b></summary>
         由于准备工作不充分，该活动面临着生病人数多、安全措施不足、营地条件差等问题。
     </details>
     
-    <details>
+<details>
         <summary><b>1. 谁要对露营地的情况负责？</b></summary>
         内政和安全部长 Lee Sang-min 因活动缺乏安全措施和准备工作而被问责。
     </details>
     
-    <details>
+<details>
         <summary><b>2. 青少年大会参与者面临哪些挑战？</b></summary>
         参加者面临的挑战包括营地缺乏树荫、排水不畅、医疗用品短缺、淋浴设施不足、厕所不卫生以及物品价格过高。
     </details>
     
-    <details>
+<details>
         <summary><b>3. 国际社会如何应对 Jamboree 危机？</b></summary>
         英国《卫报》报道了与热浪有关的问题，欧洲国家也向韩国政府表达了关切。参赛者及其家人也在社交媒体上表达了不满。
     </details>
     
-    <details>
+<details>
         <summary><b>4. 采取了哪些措施来解决 Jamboree 上的问题？</b></summary>
         韩国保健福祉部长官赵奎雄访问了仁波切医院，检查医疗响应情况。韩德洙总理已下令部署军事人员，以提供额外支持和采取安全措施。
     </details>

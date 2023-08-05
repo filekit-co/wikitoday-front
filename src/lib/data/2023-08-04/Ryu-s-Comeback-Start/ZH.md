@@ -23,35 +23,35 @@ language: 'ZH'
 尽管柳贤振投出了 146 英里/小时的快速球，但仍无法阻挡巴尔的摩金莺队的进攻
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. 柳忠秧在复出前休战了多久？</b></summary>
         柳忠秧在复出之前已经休战了 426 天。
     </details>
     
-    <details>
+<details>
         <summary><b>1. 金莺队对柳选手的得分是多少？</b></summary>
         金莺队在本场比赛中对柳箫然打出了四次安打。
     </details>
     
-    <details>
+<details>
         <summary><b>2. 隆在比赛中的快速球速是多少？</b></summary>
         柳的快速球最高速度达到 146 英里/小时。
     </details>
     
-    <details>
+<details>
         <summary><b>3. 柳忠秧在复出首发中表现出色吗？</b></summary>
         尽管开局不稳，但柳箫然展现出了他的潜力，并随着比赛的进行逐渐稳定下来。
     </details>
     
-    <details>
+<details>
         <summary><b>4. 柳忠秧在复出首发中面对的是谁？</b></summary>
         柳箫然在他的复出先发中面对的是美国联盟胜率最高的球队巴尔的摩金莺队。
     </details>
     
-    <details>
+<details>
         <summary><b>5. 柳忠秧的下一个首发是什么？</b></summary>
         柳忠秧的下一次先发定于 8 月 8 日对阵克利夫兰骑士队。
     </details>

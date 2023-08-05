@@ -1,6 +1,6 @@
 ---
-title: 'South Korea Holds Germany to a 1-1 Draw in Women's World Cup Group H'
-description: 'The South Korea women's national soccer team, led by head coach Colleen Bell, played to a 1-1 draw against world No. 2 Germany in their final match of Group H at the FIFA Women's World Cup 2023.'
+title: 'South Korea Holds Germany to a 1-1 Draw in Women''s World Cup Group H'
+description: 'The South Korea women''s national soccer team, led by head coach Colleen Bell, played to a 1-1 draw against world No. 2 Germany in their final match of Group H at the FIFA Women''s World Cup 2023.'
 category: 'Sports'
 keywords: '월드컵,여자월드컵,축구,여자 월드컵,한국 독일'
 date: '2023-08-04'
@@ -23,30 +23,30 @@ language: 'EN-US'
 The South Korea women's national soccer team, led by head coach Colleen Bell, played to a 1-1 draw against world No. 2 Germany in their final match of Group H at the FIFA Women's World Cup 2023.
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. What was the final score of the match between South Korea and Germany?</b></summary>
         The match ended in a 1-1 draw.
     </details>
     
-    <details>
+<details>
         <summary><b>1. Who scored the opening goal for South Korea?</b></summary>
         Cho So-hyun scored the opening goal for South Korea.
     </details>
     
-    <details>
+<details>
         <summary><b>2. Who equalized for Germany?</b></summary>
         Germany's captain and goalkeeper Alexandra Pope equalized for Germany.
     </details>
     
-    <details>
+<details>
         <summary><b>3. Why was this match important for South Korea?</b></summary>
         South Korea was looking to secure a point in the group stage, and they finished the tournament with a valuable point.
     </details>
     
-    <details>
+<details>
         <summary><b>4. What was South Korea's ranking in the FIFA rankings?</b></summary>
         South Korea was ranked 17th in the FIFA rankings.
     </details>

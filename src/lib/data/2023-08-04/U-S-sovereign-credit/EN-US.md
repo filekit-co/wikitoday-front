@@ -1,6 +1,6 @@
 ---
 title: 'U.S. sovereign credit rating downgraded for first time in 12 years...Asian stocks slammed'
-description: 'The US sovereign credit rating has been downgraded. It's been 12 years since 2011, and the world's financial markets are nervous. As Korea cannot be safe if there is a turbulence in the U.S. financial market, the changes in the financial market caused by the U.S. sovereign credit rating downgrade will be closely watched.'
+description: 'The US sovereign credit rating has been downgraded. It''s been 12 years since 2011, and the world''s financial markets are nervous. As Korea cannot be safe if there is a turbulence in the U.S. financial market, the changes in the financial market caused by the U.S. sovereign credit rating downgrade will be closely watched.'
 category: 'Business/Economy'
 keywords: '미국 신용등급 강등'
 date: '2023-08-04'
@@ -23,25 +23,25 @@ language: 'EN-US'
 The US sovereign credit rating has been downgraded. It's been 12 years since 2011, and the world's financial markets are nervous. As Korea cannot be safe if there is a turbulence in the U.S. financial market, the changes in the financial market caused by the U.S. sovereign credit rating downgrade will be closely watched.
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. What is the impact of Fitch's downgrade of the U.S. sovereign credit rating?</b></summary>
         Fitch's downgrade reflects the expected fiscal deterioration in the United States over the next three years, as well as a growing sovereign debt burden and deteriorating governance. It is the first time in 12 years since 2011 that the three major international credit rating agencies have downgraded the U.S. sovereign credit rating.
     </details>
     
-    <details>
+<details>
         <summary><b>1. Will the U.S. sovereign credit rating downgrade have a similar impact to the 2011 downgrade?</b></summary>
         There is a strong case to be made that the impact of Fitch's downgrade of the U.S. will be limited, given the proximity of the 2011 default to the federal debt limit, the proximity of the 2008 global financial crisis, and the fact that Fitch had already warned of a downgrade in May when it placed the U.S. sovereign rating outlook on 'negative watch.' Additionally, the U.S. economy is currently on a soft landing.
     </details>
     
-    <details>
+<details>
         <summary><b>2. How did the market react to the U.S. sovereign credit rating downgrade?</b></summary>
         The market reaction to the downgrade was relatively subdued. Futures for the S&P 500 and Nasdaq Composite were down less than 0.5%, while the yield on the 10-year U.S. Treasury note slightly decreased. However, Asian stocks and currencies were hit hard, as investors pulled out of risky Asian markets due to a growing preference for safe assets.
     </details>
     
-    <details>
+<details>
         <summary><b>3. What is the main focus in the aftermath of the U.S. sovereign credit rating downgrade?</b></summary>
         The main focus is on the exchange rate, as the stronger dollar is making a comeback after a recent lull. A stronger dollar can help export domestic inflation abroad, and greater demand for U.S. Treasuries will lead to lower Treasury yields, reducing the government's interest burden.
     </details>

@@ -23,30 +23,30 @@ language: 'ZH'
 3 日下午，京畿道城南市盆唐锡玄站附近的大型购物中心发生了一起 ''不问不说 ''的刺伤事件。
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. 刺伤事件发生在哪里？</b></summary>
         刺伤事件发生在京畿道城南市盆唐锡玄站附近的一个大型购物中心。
     </details>
     
-    <details>
+<details>
         <summary><b>1. 西贤站武器暴行的视频显示了什么？</b></summary>
         视频显示，犯罪嫌疑人在犯罪现场拿着一把刀四处走动。
     </details>
     
-    <details>
+<details>
         <summary><b>2. 市民对刺伤事件的视频有何反应？</b></summary>
         公民们一直在抱怨被迫观看视频带来的不便，有些人还因这些残忍的镜头而受到创伤。
     </details>
     
-    <details>
+<details>
         <summary><b>3. 对刺伤事件的照片和视频有什么担忧？</b></summary>
         照片和视频没有指导原则，即使用户不选择观看，短视频也会自动播放，这给用户造成了困扰和创伤。
     </details>
     
-    <details>
+<details>
         <summary><b>4. 反复观看刺伤事件的录像可能会产生什么影响？</b></summary>
         反复观看录像会导致焦虑和失眠等症状，对年轻人尤其是青少年的负面影响更大。
     </details>

@@ -1,6 +1,6 @@
 ---
 title: 'Max Boltman bids farewell to Liverpool after 13 years'
-description: 'Max Boltman, a former youth player at Liverpool, has written a heartfelt farewell message to the club's fans. Boltman joined Liverpool as a seven-year-old and progressed through the ranks, impressing in the U-18 Premier League before making his senior debut. Despite his dreams of playing in the English Premier League for Liverpool, Boltman ultimately moved on to Oxford United. He expressed his excitement about joining Oxford and vowed to help the club achieve promotion.'
+description: 'Max Boltman, a former youth player at Liverpool, has written a heartfelt farewell message to the club''s fans. Boltman joined Liverpool as a seven-year-old and progressed through the ranks, impressing in the U-18 Premier League before making his senior debut. Despite his dreams of playing in the English Premier League for Liverpool, Boltman ultimately moved on to Oxford United. He expressed his excitement about joining Oxford and vowed to help the club achieve promotion.'
 category: 'Sports'
 keywords: '리버풀'
 date: '2023-08-04'
@@ -23,30 +23,30 @@ language: 'EN-US'
 Max Boltman, a former youth player at Liverpool, has written a heartfelt farewell message to the club's fans. Boltman joined Liverpool as a seven-year-old and progressed through the ranks, impressing in the U-18 Premier League before making his senior debut. Despite his dreams of playing in the English Premier League for Liverpool, Boltman ultimately moved on to Oxford United. He expressed his excitement about joining Oxford and vowed to help the club achieve promotion.
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. How long was Max Boltman at Liverpool?</b></summary>
         Max Boltman spent 13 years at Liverpool.
     </details>
     
-    <details>
+<details>
         <summary><b>1. What was Boltman's performance like in the U-18 Premier League?</b></summary>
         In the 2020-21 season, Boltman impressed in the U-18 Premier League, scoring 10 goals and providing six assists in 23 games.
     </details>
     
-    <details>
+<details>
         <summary><b>2. Did Max Boltman make his English Premier League debut for Liverpool?</b></summary>
         No, Max Boltman did not make his English Premier League debut for Liverpool.
     </details>
     
-    <details>
+<details>
         <summary><b>3. Where did Max Boltman move to after leaving Liverpool?</b></summary>
         After leaving Liverpool, Max Boltman joined Oxford United.
     </details>
     
-    <details>
+<details>
         <summary><b>4. What did Max Boltman say about joining Oxford United?</b></summary>
         Max Boltman expressed his excitement about joining Oxford United, praising the club's talented squad and great manager. He also stated that he believes joining Oxford is a step forward and not a step backward.
     </details>
