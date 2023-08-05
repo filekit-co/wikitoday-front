@@ -15,7 +15,7 @@
 </script>
 
 <div class="relative mb-72 lg:mb-96">
-  {#each images as { title, src }, index}
+  {#each images as { title, src, keywords }, index}
     <div
       class="duration-700 ease-in-out transition-all absolute inset-0 transform translate-x-0 {current ===
       index
@@ -28,7 +28,7 @@
         <div class="flex-grow">
           {#if current === index}
             <p class="text-xl font-semibold">
-              {title}
+              {keywords}
             </p>
           {/if}
         </div>

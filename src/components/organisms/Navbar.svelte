@@ -4,8 +4,8 @@
 </script>
 
 <div>
-  <header class=" px-4 relative">
-    <section class="sm:px-3 md:px-4 flex justify-evenly py-6">
+  <header class="relative">
+    <section class="flex justify-evenly py-6">
       <CategoryDrawer />
 
       <a href="/" class="text-4xl sm:font-bold md:text-5xl md:font-extrabold">

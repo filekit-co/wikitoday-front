@@ -20,9 +20,9 @@
           />
         </div>
         <h2 class="text-sm md:text-lg mb-4 title">{article.title}</h2>
-        <span class="text-xs md:text-base description"
+        <!-- <span class="text-xs md:text-base description"
           >{article.description}</span
-        >
+        > -->
       </div>
     {/each}
   </div>
@@ -31,9 +31,6 @@
 <style>
   @media (max-width: 640px) {
     .title {
-      font-size: 16px;
-    }
-    .description {
       font-size: 12px;
     }
   }

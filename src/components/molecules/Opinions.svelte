@@ -11,6 +11,7 @@
     images = data.articles.map((article) => ({
       src: article.image,
       title: article.title,
+      keywords: article.keywords,
     }));
   });
 </script>
@@ -23,7 +24,8 @@
 
   <!-- Small opinion articles -->
   <div class=" mt-12 h-full">
-    {#each data.articles.slice(0, 11) as article}
+    <hr class="h-px bg-gray-500 border-1" />
+    {#each data.articles as article}
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div
         on:click={() => handleClick(article)}
@@ -46,6 +48,7 @@
           />
         </div>
       </div>
+      <hr class="h-px bg-gray-500 border-1" />
     {/each}
   </div>
 </div>
@@ -53,7 +56,7 @@
 <style>
   @media (max-width: 640px) {
     .font {
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 600;
     }
     .image {

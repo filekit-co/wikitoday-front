@@ -31,6 +31,7 @@ export interface DataType {
     description: string;
     date: string;
     image: string;
+    keywords: string;
   }[];
 }
 
@@ -44,6 +45,7 @@ export interface ArticleType {
   language: string;
   html: HTMLAllCollection;
   image: string;
+  keywords: string;
 }
 
 export const CategoryPages = [
@@ -109,4 +111,5 @@ export interface ImageType {
   title: string;
   src: string;
   description?: string;
+  keywords?: string;
 }

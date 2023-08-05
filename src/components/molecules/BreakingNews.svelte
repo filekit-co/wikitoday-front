@@ -15,15 +15,15 @@
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div
         on:click={() => handleClick(article)}
-        class="flex border-b-2 border-x-2 border-gray-200 px-4 py-4 cursor-pointer items-center"
+        class="lg:flex border-b-2 border-x-2 border-gray-200 px-4 py-4 cursor-pointer items-center"
       >
-        <div class="w-1/2 col-auto">
-          <h2 class="sm:text-sm md:text-xl font-bold mb-4 pr-2 title">
+        <div class="lg:w-1/2 lg:col-auto">
+          <h2 class="sm:text-sm lg:text-xl font-bold mb-4 pr-2 title">
             {article.title}
           </h2>
         </div>
 
-        <div class="w-1/2 pl-2">
+        <div class="lg:w-1/2 lg:pl-2">
           <div class="flex-grow flex justify-end">
             <img
               class="image rounded-tl-lg rounded-br-lg"
@@ -40,12 +40,20 @@
 <style>
   @media (max-width: 640px) {
     .title {
-      font-size: 16px;
+      font-size: 14px;
+    }
+    .image {
+      width: 200px;
+      height: 100px;
+      object-fit: cover;
     }
   }
-  .image {
-    width: 200px;
-    height: 100px;
-    object-fit: cover;
+
+  @media (max-width: 768px) {
+    .image {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+    }
   }
 </style>
