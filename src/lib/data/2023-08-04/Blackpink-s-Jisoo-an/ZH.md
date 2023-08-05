@@ -23,7 +23,7 @@ language: 'ZH'
 众所周知，K-pop 行业的压力非常大，要求苛刻的歌迷和经纪公司试图监控歌手生活的方方面面，因此 BLACKPINK 承认恋情一事震动了 K-pop 界。
 
 
-    ## QnA
+## QnA
 
     
 <details>

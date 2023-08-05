@@ -23,7 +23,7 @@ language: 'EN-US'
 The transformation of actress Im Ji-yeon in the upcoming drama 'National Death Penalty Vote' has caught the attention of viewers. Meanwhile, Im Ji-yeon recently opened up about her concerns regarding her debut film and her mother's reaction to her unconventional exposure.
 
 
-    ## QnA
+## QnA
 
     
 <details>

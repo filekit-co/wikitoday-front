@@ -23,7 +23,7 @@ language: 'EN-US'
 Kim Min-jae has made a strong start at Bayern Munich, contributing to their 4-3 victory over Liverpool in a preseason friendly. The South Korean center-back showcased his attacking prowess with an assist and displayed solid defensive skills. Kim's performance has garnered praise from both his manager, Thomas Tuchel, and Liverpool manager Jurgen Klopp.
 
 
-    ## QnA
+## QnA
 
     
 <details>

@@ -23,7 +23,7 @@ language: 'EN-US'
 The US sovereign credit rating has been downgraded. It's been 12 years since 2011, and the world's financial markets are nervous. As Korea cannot be safe if there is a turbulence in the U.S. financial market, the changes in the financial market caused by the U.S. sovereign credit rating downgrade will be closely watched.
 
 
-    ## QnA
+## QnA
 
     
 <details>

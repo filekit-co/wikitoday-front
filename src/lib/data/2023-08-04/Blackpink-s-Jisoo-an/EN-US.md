@@ -23,7 +23,7 @@ language: 'EN-US'
 The K-pop industry is known to be very pressurized, with demanding fans and management companies trying to monitor every aspect of a singer's life, so BLACKPINK's admission of a relationship has shaken up the K-pop world.
 
 
-    ## QnA
+## QnA
 
     
 <details>

@@ -23,7 +23,7 @@ language: 'EN-US'
 Despite a 146-mph fastball, Hyun-jin Ryu couldn't stop the Baltimore Orioles
 
 
-    ## QnA
+## QnA
 
     
 <details>

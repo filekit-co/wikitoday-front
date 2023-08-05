@@ -23,7 +23,7 @@ language: 'EN-US'
 Ryu Hye-lin 'Ex-husband, habitual drunkenness, assault, and verbal abuse'...'Give child support to yourself' Ex-husband A 'No evidence that I didn't hit him', 'I deposit child support every month, pay everything I owe'
 
 
-    ## QnA
+## QnA
 
     
 <details>

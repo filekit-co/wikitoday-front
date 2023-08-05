@@ -23,7 +23,7 @@ language: 'EN-US'
 In a preseason friendly match, Paris Saint-Germain (PSG) emerged victorious with a 3-0 win against Jeonbuk Hyundai. Neymar's outstanding performance, which included multiple goals and assists, caught the attention of fans and angered the Japanese team. Despite attempts by PSG to loan Neymar to Barcelona, the offer was rejected by Xavi.
 
 
-    ## QnA
+## QnA
 
     
 <details>

@@ -23,7 +23,7 @@ language: 'ZH'
 日本资生堂宣布于 10 月 1 日推出以 SHISEIDO 品牌日本风景色彩为特色的多效粉末 Ordinary Prism Illuminator Pico。
 
 
-    ## QnA
+## QnA
 
     
 <details>
