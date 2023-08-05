@@ -5,7 +5,7 @@
   import CategoryBar from "@components/organisms/CategoryBar.svelte";
 </script>
 
-<div class="sm:px-2 md:px-4 lg:px-48 font">
+<div class="sm:px-4 md:px-4 lg:px-24 xl:px-48 font container">
   <Header />
   <Navbar />
   <CategoryBar />
@@ -13,6 +13,12 @@
 </div>
 
 <style>
+  @media (max-width: 640px) {
+    .container {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
   .font {
     font-family: "Noto Serif KR", serif;
     font-family: "Playfair Display", serif;

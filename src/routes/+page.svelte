@@ -8,14 +8,14 @@
   export let data;
 </script>
 
-<div class="flex">
+<div class="lg:flex">
   <MainArticles {data} />
   <Opinions {data} />
 </div>
 
 <hr class="h-1 my-6 bg-blck border-0 dark:bg-black" />
 
-<div class="flex">
+<div class="lg:flex">
   <BreakingNews {data} />
   <TrendNews {data} />
 </div>
