@@ -6,37 +6,40 @@
   export let data: DataType;
 </script>
 
-<div class="w-3/4">
-  <section class="w-full items-center pr-4 border-r-2 border-r-black">
+<div class="lg:w-3/4">
+  <section class="w-full items-center lg:pr-4 lg:border-r-2 lg:border-r-black">
     <ul class="justify-center">
-      {#each data.articles.slice(0, 4) as article}
+      {#each data.articles as article}
         <li class="mb-8 bg-white">
           <!-- svelte-ignore a11y-click-events-have-key-events -->
           <div
             class="col-auto items-center cursor-pointer"
             on:click={() => handleClick(article)}
           >
-            <h1 class="text-4xl font-bold mb-6">
+            <h1
+              class="sm:text-base md:text-3xl xl:text-4xl font-bold mb-6 title"
+            >
               {article.title}
             </h1>
 
             <article class="flex">
               <div class="w-1/2 mr-4">
-                <p class="text-gray-300 text-lg mb-3">
+                <p class="text-gray-300 sm:text-sm md:text-lg mb-3 font">
                   {article.category}
                 </p>
-                <span class="text-black text-2xl font-bold"
+                <span
+                  class="text-black md:text-lg xl:text-2xl font-bold description"
                   >{article.description}</span
                 >
-                <p class="text-gray-200 text-base mt-3">
+                <p class="text-gray-200 sm:text-xs md:text-base mt-3 font">
                   {formatDate(article.date)}
                 </p>
               </div>
 
-              <div class="w-1/2">
-                <div class="flex-grow flex justify-end">
+              <div class="w-1/2 py-4">
+                <div class="image flex-grow flex justify-end">
                   <img
-                    class="image"
+                    class="w-full h-full"
                     src={article.image}
                     alt={`${article.description}`}
                   />
@@ -52,9 +55,48 @@
 </div>
 
 <style>
-  .image {
-    width: 600px;
-    height: 300px;
-    object-fit: cover;
+  @media (max-width: 500px) {
+    .title {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .description {
+      font-size: 12px;
+    }
+    .font {
+      font-size: 10px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .image {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .image {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
   }
 </style>

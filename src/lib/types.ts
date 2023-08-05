@@ -52,11 +52,11 @@ export const CategoryPages = [
     value: 'Politics',
   },
   {
-    key: 'World/International',
+    key: 'World',
     value: 'World/International',
   },
   {
-    key: 'Business/Economy',
+    key: 'Economy',
     value: 'Business/Economy',
   },
   {
@@ -80,7 +80,7 @@ export const CategoryPages = [
     value: 'Sports',
   },
   {
-    key: 'Environment/Nature',
+    key: 'Nature',
     value: 'Environment/Nature',
   },
   {
@@ -92,7 +92,7 @@ export const CategoryPages = [
     value: 'Lifestyle',
   },
   {
-    key: 'Opinion/Editorial',
+    key: 'Opinion',
     value: 'Opinion/Editorial',
   },
 ];

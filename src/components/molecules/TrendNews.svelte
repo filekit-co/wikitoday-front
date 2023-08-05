@@ -5,21 +5,23 @@
   export let data: DataType;
 </script>
 
-<div class="w-1/4 pl-4">
+<div class="lg:w-1/4 lg:pl-4 md:mt-12">
   <h2 class="text-3xl font-semibold">Trend NEWS</h2>
   <div class="grid grid-rows-5 h-full py-8">
     {#each data.articles.slice(0, 5) as article, index}
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div
         on:click={() => handleClick(article)}
-        class="flex items-center border-b-2 border-b-gray-200 cursor-pointer"
+        class="flex lg:flex-col lg:py-12 items-center border-b-2 border-b-gray-200 cursor-pointer"
       >
-        <span class="text-6xl font-bold mr-4">{index + 1}</span>
-        <div class="flex-grow">
-          <h2 class="text-xl font-medium mb-4">{article.title}</h2>
+        <span class="lg:hidden text-6xl lg:text-4xl font-bold mr-4"
+          >{index + 1}</span
+        >
+        <div class="flex-grow lg:flex-grow-0 lg:mb-8">
+          <span class="text-xl font-medium">{article.title}</span>
         </div>
 
-        <div class="w-28 h-28 flex-shrink-0 flex justify-end">
+        <div class=" w-24 h-24 lg:w-48 lg:h-60 flex-shrink-0 flex justify-end">
           <!-- Set fixed image dimensions and right alignment -->
           <img
             class="w-full h-full object-cover"
