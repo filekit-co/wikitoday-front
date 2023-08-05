@@ -9,11 +9,11 @@
 <Header />
 
 <div class="flex">
-  <div class="w-3/4 pr-4 border-r-2 border-r-black container">
+  <div class="container">
     {@html article.html}
   </div>
 
-  <TrendNews {data} />
+  <!-- <TrendNews {data} /> -->
 </div>
 
 <!-- @html stylying guide -->
