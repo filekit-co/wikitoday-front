@@ -1,8 +1,8 @@
 ---
-title: 'Neymar's Impressive Performance and PSG's Victory in Preseason Friendly Against Jeonbuk Hyundai'
-description: 'In a preseason friendly match, Paris Saint-Germain (PSG) emerged victorious with a 3-0 win against Jeonbuk Hyundai. Neymar's outstanding performance, which included multiple goals and assists, caught the attention of fans and angered the Japanese team. Despite attempts by PSG to loan Neymar to Barcelona, the offer was rejected by Xavi.'
+title: 'Neymar''s Impressive Performance and PSG''s Victory in Preseason Friendly Against Jeonbuk Hyundai'
+description: 'In a preseason friendly match, Paris Saint-Germain (PSG) emerged victorious with a 3-0 win against Jeonbuk Hyundai. Neymar''s outstanding performance, which included multiple goals and assists, caught the attention of fans and angered the Japanese team. Despite attempts by PSG to loan Neymar to Barcelona, the offer was rejected by Xavi.'
 category: 'Sports'
-keywords: 'PSG,전북 psg,파리생제르망 전북현대'
+keywords: 'PSG, 전북 psg, 파리생제르망 전북현대'
 date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'EN-US'
@@ -26,27 +26,27 @@ In a preseason friendly match, Paris Saint-Germain (PSG) emerged victorious with
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. Who won the preseason friendly match between PSG and Jeonbuk Hyundai?</b></summary>
         PSG emerged victorious with a 3-0 win against Jeonbuk Hyundai.
     </details>
     
-    <details>
+<details>
         <summary><b>1. What did Neymar's performance in the match include?</b></summary>
         Neymar scored multiple goals and provided crucial assists.
     </details>
     
-    <details>
+<details>
         <summary><b>2. How did the Japanese team react to Neymar's performance?</b></summary>
         The Japanese team expressed their frustration and accused PSG-Neymar of ignoring their country during the match.
     </details>
     
-    <details>
+<details>
         <summary><b>3. Was PSG successful in loaning Neymar to Barcelona?</b></summary>
         No, PSG's attempt to loan Neymar to Barcelona was rejected by Xavi, the Barcelona coach.
     </details>
     
-    <details>
+<details>
         <summary><b>4. What does Neymar's future with PSG look like?</b></summary>
         Neymar's future with PSG remains uncertain, with ongoing speculation about a potential transfer.
     </details>

@@ -26,27 +26,27 @@ language: 'ZH'
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. BLACKPINK 的约会对象是谁？</b></summary>
         BLACKPINK 的主唱 Jisoo 正在与因出演《梨泰院教室》和《Yumi''s Cell》而出名的演员安宝贤约会。
     </details>
     
-    <details>
+<details>
         <summary><b>1. Jisoo 和安宝贤是什么时候开始约会的？</b></summary>
         Jisoo 和安宝贤于 3 月 3 日开始约会。
     </details>
     
-    <details>
+<details>
         <summary><b>2. 为什么 BLACKPINK 承认恋情意义重大？</b></summary>
         众所周知，K-pop 行业对偶像施加压力，要求他们保持私生活隐私。Jisoo 这次公开承认恋情是不寻常的，标志着业界对偶像恋情态度的转变。
     </details>
     
-    <details>
+<details>
         <summary><b>3. 粉丝们对这一消息有何反应？</b></summary>
         粉丝们对这一消息普遍反应积极，对 Jisoo 和安宝贤表示支持和祝贺。
     </details>
     
-    <details>
+<details>
         <summary><b>4. 其他 K-pop 偶像艺人是否公开承认过自己的恋情？</b></summary>
         虽然近年来有一些其他流行 K-pop 团体的成员公开承认了恋情，但 K-pop 明星讨论自己私生活的情况仍然很少见。
     </details>

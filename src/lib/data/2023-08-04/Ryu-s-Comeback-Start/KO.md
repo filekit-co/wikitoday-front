@@ -26,32 +26,32 @@ language: 'KO'
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. 류가 복귀를 시작하기 전까지 얼마나 오래 자리를 비웠나요?</b></summary>
         류현진은 복귀전까지 426일 동안 공백기를 가졌습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>1. 오리올스는 류현진을 상대로 얼마나 많은 득점을 올렸나요?</b></summary>
         오리올스는 이 경기에서 류현진을 상대로 4득점을 올렸습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>2. 이날 경기에서 류현진의 직구 속도는 어느 정도였나요?</b></summary>
         류현진의 직구는 최고 시속 146마일에 달했습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>3. 류제국은 복귀전에서 좋은 활약을 펼쳤나요?</b></summary>
         불안한 출발을 보였지만 류제국은 경기가 진행될수록 잠재력을 발휘하며 안정감을 찾았습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>4. 류제국은 복귀전에서 누구와 맞붙었나요?</b></summary>
         류현진은 복귀전에서 아메리칸리그 최다 우승 팀인 볼티모어 오리올스와 맞붙었습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>5. 류의 다음 시작은 무엇인가요?</b></summary>
         류현진의 다음 선발 등판은 8월 8일 클리블랜드 캐벌리어스전으로 예정되어 있습니다.
     </details>

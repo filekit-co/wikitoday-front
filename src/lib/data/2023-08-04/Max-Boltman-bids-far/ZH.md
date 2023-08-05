@@ -26,27 +26,27 @@ language: 'ZH'
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. 马克斯-博特曼在利物浦工作了多久？</b></summary>
         马克斯-博特曼在利物浦工作了 13 年。
     </details>
     
-    <details>
+<details>
         <summary><b>1. 博特曼在 U-18 超级联赛中的表现如何？</b></summary>
         2020-21 赛季，博特曼在 U-18 超级联赛中表现出色，在 23 场比赛中打进 10 球并送出 6 次助攻。
     </details>
     
-    <details>
+<details>
         <summary><b>2. 马克斯-博特曼是否代表利物浦完成了英格兰足球超级联赛首秀？</b></summary>
         不，马克斯-博特曼并没有代表利物浦完成他在英格兰足球超级联赛的首秀。
     </details>
     
-    <details>
+<details>
         <summary><b>3. 离开利物浦后，马克斯-博特曼去了哪里？</b></summary>
         离开利物浦后，马克斯-博特曼加盟了牛津联队。
     </details>
     
-    <details>
+<details>
         <summary><b>4. 关于加盟牛津联队，马克斯-博特曼是怎么说的？</b></summary>
         马克斯-博特曼对加盟牛津联队表示非常兴奋，他称赞了俱乐部才华横溢的阵容和出色的主教练。他还表示，他相信加盟牛津是一种进步，而不是退步。
     </details>

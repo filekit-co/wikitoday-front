@@ -26,27 +26,27 @@ language: 'KO'
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. 바이에른 뮌헨과 리버풀의 프리시즌 친선경기에서 김민재의 활약은 어땠나요?</b></summary>
         김민재는 세르주 그나브리의 골을 어시스트하며 바이에른 뮌헨이 역전승을 거두는 데 일조했습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>1. 김민재는 리버풀과의 경기에서 수비적으로 어떤 활약을 펼쳤나요?</b></summary>
         김민재는 태클 1개, 클리어링 1개를 기록했고 공중볼 경합에서 2개를 따내며 수비력을 뽐냈습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>2. 소파스코어에 따르면 김민재의 경기 평점은 어느 정도였나요?</b></summary>
         김민재는 소파스코어에서 7.4점을 받아 바이에른 뮌헨 선수 중 두 번째로 높은 평점을 받았습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>3. 토마스 투헬은 김민재의 연기에 대해 뭐라고 말했나요?</b></summary>
         토마스 투헬 감독은 김민재의 활약과 팀의 센터백 깊이에 대해 만족감을 드러냈습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>4. 위르겐 클롭 감독은 김민재를 어떻게 칭찬했을까요?</b></summary>
         위르겐 클롭 감독은 김민재의 패스를 날카롭고 멈출 수 없는 패스라고 표현했습니다.
     </details>

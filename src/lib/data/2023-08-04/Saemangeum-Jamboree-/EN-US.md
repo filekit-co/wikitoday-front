@@ -1,6 +1,6 @@
 ---
 title: 'Saemangeum Jamboree Faces Serious Issues Due to Lack of Preparation'
-description: 'The 'World Jamboree 2023' event in Saemangeum, South Korea is facing significant challenges due to a lack of preparation. More than 1,000 people have already fallen ill, and the event has been criticized for inadequate safety measures. Minister of the Interior and Safety Lee Sang-min is being held accountable for the disastrous situation. Find out more about the difficulties faced by the Jamboree and the concerns raised by participants.'
+description: 'The ''World Jamboree 2023'' event in Saemangeum, South Korea is facing significant challenges due to a lack of preparation. More than 1,000 people have already fallen ill, and the event has been criticized for inadequate safety measures. Minister of the Interior and Safety Lee Sang-min is being held accountable for the disastrous situation. Find out more about the difficulties faced by the Jamboree and the concerns raised by participants.'
 category: 'World/International'
 keywords: '잼버리,잼버리 대회,새만금,새만금 잼버리,잼버리 여가부'
 date: '2023-08-04'
@@ -23,33 +23,33 @@ language: 'EN-US'
 The 'World Jamboree 2023' event in Saemangeum, South Korea is facing significant challenges due to a lack of preparation. More than 1,000 people have already fallen ill, and the event has been criticized for inadequate safety measures. Minister of the Interior and Safety Lee Sang-min is being held accountable for the disastrous situation. Find out more about the difficulties faced by the Jamboree and the concerns raised by participants.
 
 
-    ## QnA
+## QnA
 
     
-    <details>
+<details>
         <summary><b>0. What problems is the World Jamboree 2023 event facing?</b></summary>
         The event is facing a lack of preparation, leading to issues such as a high number of people falling ill, inadequate safety measures, and poor conditions at the campsite.
     </details>
     
-    <details>
+<details>
         <summary><b>1. Who is being held accountable for the situation at the Jamboree?</b></summary>
         Minister of the Interior and Safety Lee Sang-min is being held accountable for the lack of safety measures and preparation at the event.
     </details>
     
-    <details>
+<details>
         <summary><b>2. What are some of the challenges faced by the Jamboree participants?</b></summary>
         Participants have faced challenges such as a lack of shade at the campsite, poor drainage, shortage of medical supplies, insufficient shower facilities, unhygienic toilets, and overpriced items.
     </details>
     
-    <details>
-        <summary><b>3. How has the international community responded to the Jamboree crisis?</b></summary>
-        The UK's Guardian reported on the heatwave-related issues, and European countries have expressed their concerns to the South Korean government. Participants and their families have also expressed their dissatisfaction on social media.
-    </details>
+<details>
+    <summary><b>3. How has the international community responded to the Jamboree crisis?</b></summary>
+    The UK's Guardian reported on the heatwave-related issues, and European countries have expressed their concerns to the South Korean government. Participants and their families have also expressed their dissatisfaction on social media.
+</details>
     
-    <details>
-        <summary><b>4. What measures have been taken to address the issues at the Jamboree?</b></summary>
-        Minister of Health and Welfare Cho Kyu-hong visited the Jamboree Hospital to review the medical response. Prime Minister Han Deok-soo has ordered the deployment of military personnel for additional support and safety measures.
-    </details>
+<details>
+    <summary><b>4. What measures have been taken to address the issues at the Jamboree?</b></summary>
+    Minister of Health and Welfare Cho Kyu-hong visited the Jamboree Hospital to review the medical response. Prime Minister Han Deok-soo has ordered the deployment of military personnel for additional support and safety measures.
+</details>
     
 
 

@@ -26,17 +26,17 @@ Ryu Hye-lin ''前夫，习惯性酗酒、殴打和辱骂''...... ''把孩子的�
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. 围绕 Ryu Hye-lin 和她前夫的争议是什么？</b></summary>
         争议的焦点是 Ryu Hye-lin 对其前夫的指控，她的前夫是一位很有影响力的人物，被指控殴打、习惯性酗酒和辱骂。她的前夫否认了这些指控。
     </details>
     
-    <details>
+<details>
         <summary><b>1. 柳惠麟在《加油！爸爸 4》中透露了什么？</b></summary>
         在节目中，Ryu Hye-lin 分享了她在婚姻中遭受虐待的细节，并解释了他们离婚的原因。她还谈到了作为年轻母亲所面临的挑战。
     </details>
     
-    <details>
+<details>
         <summary><b>2. 她的前夫是如何回应这些指控的？</b></summary>
         她的前夫反驳说，他也是身体暴力的受害者，广播歪曲了事实。他坚称自己定期支付子女抚养费。
     </details>

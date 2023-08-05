@@ -26,27 +26,27 @@ language: 'ZH'
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. 林智妍即将播出的电视剧是什么？</b></summary>
         林智妍即将播出的电视剧名为《国家死刑投票》。
     </details>
     
-    <details>
+<details>
         <summary><b>1. 全国死刑投票》的编剧和导演是谁？</b></summary>
         全国死刑投票》由 Cho Yunon-young 编剧，Park Shin-woo 导演。
     </details>
     
-    <details>
+<details>
         <summary><b>2. 林智妍对自己的处女作有哪些担忧？</b></summary>
         林智妍很担心她的母亲对她在处女作《人类上瘾》中的非传统暴露的反应。
     </details>
     
-    <details>
+<details>
         <summary><b>3. 林智妍的母亲对她的处女作有何反应？</b></summary>
         林智妍的母亲出席了她首部电影的首映式，并称赞了她的表演。
     </details>
     
-    <details>
+<details>
         <summary><b>4. 作为一名年轻演员，林智妍面临过哪些挑战？</b></summary>
         林智妍在年轻时就面临着演技方面的困难和争议。
     </details>

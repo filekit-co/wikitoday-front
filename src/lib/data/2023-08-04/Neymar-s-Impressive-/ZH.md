@@ -26,27 +26,27 @@ language: 'ZH'
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. PSG 和全北现代之间的季前友谊赛谁赢了？</b></summary>
         PSG 以 3-0 的比分战胜全北现代。
     </details>
     
-    <details>
+<details>
         <summary><b>1. 内马尔在比赛中的表现包括哪些方面？</b></summary>
         内马尔打入多个进球并送出关键助攻。
     </details>
     
-    <details>
+<details>
         <summary><b>2. 日本队对内马尔的表现有何反应？</b></summary>
         日本队表达了他们的不满，并指责 PSG-内马尔在比赛中无视他们的国家。
     </details>
     
-    <details>
+<details>
         <summary><b>3. PSG 将内马尔租借给巴塞罗那是否成功？</b></summary>
         不，PSG 将内马尔租借给巴塞罗那的尝试遭到了巴塞罗那主教练哈维的拒绝。
     </details>
     
-    <details>
+<details>
         <summary><b>4. 内马尔在 PSG 的未来如何？</b></summary>
         内马尔在 PSG 的未来仍不明朗，有关其潜在转会的猜测不断。
     </details>

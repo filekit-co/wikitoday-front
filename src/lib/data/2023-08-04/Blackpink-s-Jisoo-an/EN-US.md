@@ -1,6 +1,6 @@
 ---
-title: 'Blackpink's Jisoo and Ahn Bo Hyun Confirm Relationship: Impact on the K-pop Industry'
-description: 'The K-pop industry is known to be very pressurized, with demanding fans and management companies trying to monitor every aspect of a singer's life, so BLACKPINK's admission of a relationship has shaken up the K-pop world.'
+title: 'Blackpink''s Jisoo and Ahn Bo Hyun Confirm Relationship: Impact on the K-pop Industry'
+description: 'The K-pop industry is known to be very pressurized, with demanding fans and management companies trying to monitor every aspect of a singer''s life, so BLACKPINK''s admission of a relationship has shaken up the K-pop world.'
 category: 'Entertainment'
 keywords: '안보현,지수 안보현,안보현 지수'
 date: '2023-08-04'
@@ -26,27 +26,27 @@ The K-pop industry is known to be very pressurized, with demanding fans and mana
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. Who is dating in BLACKPINK?</b></summary>
         Jisoo, the lead vocalist of BLACKPINK, is dating Ahn Bo Hyun, an actor known for his roles in 'Itaewon Class' and 'Yumi's Cell.'
     </details>
     
-    <details>
+<details>
         <summary><b>1. When did Jisoo and Ahn Bo Hyun start dating?</b></summary>
         Jisoo and Ahn Bo Hyun started dating on March 3.
     </details>
     
-    <details>
+<details>
         <summary><b>2. Why is BLACKPINK's admission of a relationship significant?</b></summary>
         The K-pop industry is known for pressuring its idols to keep their personal lives private. This public acknowledgment of a relationship by Jisoo is unusual and marks a change in the industry's approach to idol relationships.
     </details>
     
-    <details>
+<details>
         <summary><b>3. How have fans reacted to the news?</b></summary>
         Fans have generally reacted positively to the news, showing support and congratulations to Jisoo and Ahn Bo Hyun.
     </details>
     
-    <details>
+<details>
         <summary><b>4. Have other K-pop idols openly acknowledged their relationships?</b></summary>
         While some members of other popular K-pop groups have publicly acknowledged relationships in recent years, it is still rare for K-pop stars to discuss their personal lives.
     </details>

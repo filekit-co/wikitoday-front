@@ -1,6 +1,6 @@
 ---
 title: 'Kim Min-jae joins Bayern Munich and impresses in preseason friendly'
-description: 'Kim Min-jae has made a strong start at Bayern Munich, contributing to their 4-3 victory over Liverpool in a preseason friendly. The South Korean center-back showcased his attacking prowess with an assist and displayed solid defensive skills. Kim's performance has garnered praise from both his manager, Thomas Tuchel, and Liverpool manager Jurgen Klopp.'
+description: 'Kim Min-jae has made a strong start at Bayern Munich, contributing to their 4-3 victory over Liverpool in a preseason friendly. The South Korean center-back showcased his attacking prowess with an assist and displayed solid defensive skills. Kim''s performance has garnered praise from both his manager, Thomas Tuchel, and Liverpool manager Jurgen Klopp.'
 category: 'Sports'
 keywords: '김민재'
 date: '2023-08-04'
@@ -26,27 +26,27 @@ Kim Min-jae has made a strong start at Bayern Munich, contributing to their 4-3 
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. What was Kim Min-jae's contribution in Bayern Munich's preseason friendly against Liverpool?</b></summary>
         Kim Min-jae provided an assist for Serge Gnabry's goal, helping Bayern Munich come from behind to win the game.
     </details>
     
-    <details>
+<details>
         <summary><b>1. How did Kim Min-jae perform defensively in the game against Liverpool?</b></summary>
         Kim Min-jae made one tackle, one clearance, and won two aerial battles, showcasing his defensive skills.
     </details>
     
-    <details>
+<details>
         <summary><b>2. What was Kim Min-jae's rating in the game according to Sofascore?</b></summary>
         Kim Min-jae received a rating of 7.4 from Sofascore, the second-highest among Bayern Munich players.
     </details>
     
-    <details>
+<details>
         <summary><b>3. What did Thomas Tuchel say about Kim Min-jae's performance?</b></summary>
         Thomas Tuchel expressed his satisfaction with Kim Min-jae's performance and the team's center-back depth.
     </details>
     
-    <details>
+<details>
         <summary><b>4. How did Jurgen Klopp praise Kim Min-jae?</b></summary>
         Jurgen Klopp described Kim Min-jae's passes as sharp and unstoppable.
     </details>

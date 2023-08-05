@@ -26,27 +26,27 @@ language: 'ZH'
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. 在拜仁慕尼黑对阵利物浦的季前友谊赛中，金敏在做出了怎样的贡献？</b></summary>
         金敏在助攻格纳布里（Serge Gnabry）进球，帮助拜仁慕尼黑在落后的情况下赢得比赛。
     </details>
     
-    <details>
+<details>
         <summary><b>1. 在对阵利物浦的比赛中，金敏在的防守表现如何？</b></summary>
         Kim Min-jae 一次擒抱，一次解围，赢得了两次空中对抗，展示了他的防守技巧。
     </details>
     
-    <details>
+<details>
         <summary><b>2. 根据 Sofascore 的数据，Kim Min-jae 在比赛中的评分是多少？</b></summary>
         金敏在获得了 Sofascore 7.4 分的高分，在拜仁慕尼黑球员中排名第二。
     </details>
     
-    <details>
+<details>
         <summary><b>3. 托马斯-图赫尔如何评价金敏在的表现？</b></summary>
         托马斯-图赫尔对金敏在的表现和球队的中后卫深度表示满意。
     </details>
     
-    <details>
+<details>
         <summary><b>4. 克洛普是如何称赞金敏在的？</b></summary>
         克洛普（Jurgen Klopp）形容金敏在的传球非常犀利，势不可挡。
     </details>

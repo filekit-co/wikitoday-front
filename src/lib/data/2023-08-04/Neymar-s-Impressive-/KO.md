@@ -26,27 +26,27 @@ language: 'KO'
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. PSG와 전북 현대의 프리시즌 친선 경기는 누가 이겼나요?</b></summary>
         PSG가 전북 현대를 상대로 3-0 승리를 거두며 승승장구했습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>1. 경기 중 네이마르의 활약은 어땠나요?</b></summary>
         네이마르는 여러 골을 넣었고 결정적인 어시스트를 제공했습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>2. 네이마르의 활약에 일본 대표팀은 어떤 반응을 보였나요?</b></summary>
         일본 대표팀은 경기 도중 PSG-네이마르가 자국을 무시했다고 비난하며 불만을 표출했습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>3. PSG는 네이마르를 바르셀로나로 임대하는 데 성공했나요?</b></summary>
         아니요, PSG의 네이마르 임대 시도는 바르셀로나의 감독인 사비에 의해 거부되었습니다.
     </details>
     
-    <details>
+<details>
         <summary><b>4. 네이마르의 PSG에서의 미래는 어떤 모습일까요?</b></summary>
         네이마르의 PSG에서의 미래는 여전히 불확실하며, 이적 가능성에 대한 추측이 계속되고 있습니다.
     </details>

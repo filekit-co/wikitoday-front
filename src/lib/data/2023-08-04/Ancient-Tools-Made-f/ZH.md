@@ -23,33 +23,33 @@ language: 'ZH'
 甚至在铁器时代之前，人们就可以用从陨石中获取的铁制造工具。科学家们正在研究由地外材料制成的古代工具。
 
 
-    ## QnA
+## QnA
 
     
-    <details>
-        <summary><b>0. 铁箭头从何而来？</b></summary>
-        这枚铁箭头是在莫里根（Mörigen）发掘出来的，莫里根是青铜时代晚期的一个湖边定居点，那里的人们非常活跃。
-    </details>
-    
-    <details>
-        <summary><b>1. 箭头的成分是什么？</b></summary>
-        箭头的镍含量为 8.3%，是陨石的两倍，铝-26 浓度较低，天竺葵含量较高。
-    </details>
-    
-    <details>
-        <summary><b>2. 有多少陨石文物是由陨石制成的？</b></summary>
-        据伯尔尼历史博物馆称，世界上仅有 55 件考古文物是由陨石制成的。
-    </details>
-    
-    <details>
-        <summary><b>3. 据说箭头是用哪种陨石制成的？</b></summary>
-        箭头据信是由 IAB 型陨石制成的，这种陨石由金属组成。
-    </details>
-    
-    <details>
-        <summary><b>4. 箭头的材料从何而来？</b></summary>
-        论文作者称，箭镞的材料来自 Kaaliyarv 陨石，该陨石于公元前 1500 年左右在爱沙尼亚萨雷马岛上形成了一个巨大的陨石坑。
-    </details>
+<details>
+    <summary><b>0. 铁箭头从何而来？</b></summary>
+    这枚铁箭头是在莫里根（Mörigen）发掘出来的，莫里根是青铜时代晚期的一个湖边定居点，那里的人们非常活跃。
+</details>
+
+<details>
+    <summary><b>1. 箭头的成分是什么？</b></summary>
+    箭头的镍含量为 8.3%，是陨石的两倍，铝-26 浓度较低，天竺葵含量较高。
+</details>
+
+<details>
+    <summary><b>2. 有多少陨石文物是由陨石制成的？</b></summary>
+    据伯尔尼历史博物馆称，世界上仅有 55 件考古文物是由陨石制成的。
+</details>
+
+<details>
+    <summary><b>3. 据说箭头是用哪种陨石制成的？</b></summary>
+    箭头据信是由 IAB 型陨石制成的，这种陨石由金属组成。
+</details>
+
+<details>
+    <summary><b>4. 箭头的材料从何而来？</b></summary>
+    论文作者称，箭镞的材料来自 Kaaliyarv 陨石，该陨石于公元前 1500 年左右在爱沙尼亚萨雷马岛上形成了一个巨大的陨石坑。
+</details>
     
 
 

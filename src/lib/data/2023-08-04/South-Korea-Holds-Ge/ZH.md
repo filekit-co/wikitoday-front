@@ -26,27 +26,27 @@ language: 'ZH'
     ## QnA
 
     
-    <details>
+<details>
         <summary><b>0. 韩国队和德国队比赛的最终比分是多少？</b></summary>
         比赛最终以 1-1 平局结束。
     </details>
     
-    <details>
+<details>
         <summary><b>1. 谁为韩国队首开纪录？</b></summary>
         赵昭贤为韩国队首开纪录。
     </details>
     
-    <details>
+<details>
         <summary><b>2. 谁为德国队扳平了比分？</b></summary>
         德国队队长兼门将亚历山德拉-波普为德国队扳平比分。
     </details>
     
-    <details>
+<details>
         <summary><b>3. 为什么这场比赛对韩国很重要？</b></summary>
         韩国队希望在小组赛中拿到一分，他们以宝贵的一分结束了比赛。
     </details>
     
-    <details>
+<details>
         <summary><b>4. 韩国在国际足联的排名是多少？</b></summary>
         韩国队在国际足联排名中名列第 17 位。
     </details>
