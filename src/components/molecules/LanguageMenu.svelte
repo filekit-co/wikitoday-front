@@ -2,7 +2,7 @@
   import LanguageButton from "@components/atoms/LanguageButton.svelte";
   import { LanguagePages } from "$lib/types";
   import { goto } from "$app/navigation";
-  import { language } from "$lib/datas";
+  import { language, category } from "$lib/datas";
 
   // 드로어 열림 여부를 상태로 관리합니다.
   let isLangDrawerOpen = false;
@@ -12,9 +12,25 @@
     isLangDrawerOpen = false;
   }
 
-  $: $language;
+  async function selectLanguage(lang: string) {
+    // console.log(window.location.href);
+    const currentPath = window.location.pathname;
+    $language = lang;
+    language.set(lang);
 
-  function selectLanguage(lang: string) {}
+    if (currentPath.length === 1) {
+      await goto(`/${lang}`);
+      window.location.reload();
+    } else {
+      const newPath = currentPath.replace(/\/[^/]+/, `/${lang}`);
+      await goto(`${newPath}`);
+      window.location.reload();
+    }
+
+    // console.log("바꿀 언어", lang);
+    // console.log("기존언어", $language);
+    // console.log($category);
+  }
 </script>
 
 <div class="flex">

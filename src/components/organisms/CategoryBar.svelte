@@ -1,10 +1,12 @@
 <script lang="ts">
   import { CategoryPages } from "$lib/types";
+  import { language, category } from "$lib/datas";
   import { goto } from "$app/navigation";
 
   function handleClick(category: string) {
     // console.log(category);
-    goto(`/lang/news/${category}`);
+    // console.log($language);
+    goto(`/${$language}/news/${category}`);
   }
 </script>
 

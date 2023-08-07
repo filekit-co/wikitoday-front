@@ -1,6 +1,6 @@
 <script lang="ts">
   import HamburgerButton from "@components/atoms/HamburgerButton.svelte";
-  import { category } from "$lib/datas";
+  import { category, language } from "$lib/datas";
   import { CategoryPages } from "$lib/types";
   import { goto } from "$app/navigation";
 
@@ -13,7 +13,10 @@
   }
 
   function handleClick(category: string) {
-    goto(`/lang/news/${category}`);
+    // console.log(category);
+    // console.log($language);
+    $category = category;
+    goto(`/${$language}/news/${category}`);
   }
 </script>
 
