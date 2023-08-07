@@ -1,5 +1,6 @@
 import { goto } from "$app/navigation";
 import type { ArticleType } from "./types";
+import {PUBLIC_BASE_URL} from '$env/static/public';
 
 type DateStyle = Intl.DateTimeFormatOptions['dateStyle']
 
@@ -31,3 +32,5 @@ export function handleClick(article: ArticleType) {
     // goto(`/${date}/news/${category}/${fileName}/${lang}`);
     goto(`/news/${category}/${fileName}/${date}/${lang}`);
 }
+
+export const canonicalUrl = (pathname: string) => pathname ? `${PUBLIC_BASE_URL}${pathname}`: `${PUBLIC_BASE_URL}`;

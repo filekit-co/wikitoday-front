@@ -6,19 +6,8 @@ import type { ArticleType, UpdateHeaderProps } from '$lib/types';
 // frontmatter, html
 // https://github.com/pngwn/MDsveX/issues/294
 
-export async function load({fetch, params}) {
+export async function load({params}) {
 	try {
-		const response = await fetch('/api/articles');
-		const articles: ArticleType[] = await response.json();
-		const imgRegex = /<img\s+[^>]*src="([^"]+)"[^>]*>/;
-
-		articles.forEach((article) => {
-			const match = (article.html as unknown as string).match(imgRegex);
-			article.image = match ? match[1] : '';
-		})
-
-		articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-
 		const date = params.date;
 		const articleTitle = params.article;
 		const lang = params.lang;
@@ -30,17 +19,20 @@ export async function load({fetch, params}) {
 
 		const headerProps: UpdateHeaderProps = {
 			title: `${metadata.title}`,
-			description: `${metadata.description}`
+			description: `${metadata.description}`,
+			image: `${metadata.thumbnail}`,
+			keywords: `${metadata.keywords}`,
+			date: date,
+			language: `${metadata.language}`,
 		}
 
 		const article = {
 			html,
-			headerProps,
 			...metadata,
 		}
 
 		return {
-			articles, 
+			headerProps,
 			article,
 		}
 	}

@@ -1,18 +1,20 @@
 <script lang="ts">
   import { page } from "$app/stores";
   import type { HeaderProps, UpdateHeaderProps } from "$lib/types";
+  import { canonicalUrl } from "$lib/utils";
+  import wikitoday from "$lib/assets/wikitoday.png";
 
   const defaultHeaderProps: HeaderProps = {
-    title: "Wikitoday - Real-Time Popular Articles Based on Google Trends",
+    title: "wikitoday - Get Trending News & Wiki Articles Worldwide",
     author: "wikitoday.io",
     keywords:
-      "Google Trends, real-time popular articles, https://wikitoday.io. k-pop, economy, and entertainment.",
-    url: "https://wikitoday.io",
-    image: "",
+      "trending, today, news, articles, wiki, google trends, world, economy, entertainment",
+    url: canonicalUrl($page.url?.pathname ?? ""),
+    image: wikitoday,
     description:
-      "Discover the latest trending articles in real-time, powered by Google Trends, on https://wikitoday.io. Explore a variety of topics, including k-pop, economy, entertainment, and more.",
-    siteName:
-      "Wikitoday - Best news website provides real time, hot topic articles based on Google Trends",
+      "Explore trending topics in news, economy, entertainment with wikitoday.",
+    siteName: "wikitoday - Global Trends, News, Economy, Entertainment",
+    date: "2023-08-07",
   };
 
   const pageHeaderProps: UpdateHeaderProps = $page.data?.headerProps || {};
@@ -20,6 +22,7 @@
   const p = { ...defaultHeaderProps, ...pageHeaderProps };
 </script>
 
+<!-- TODO: ld+json -->
 <svelte:head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -67,7 +70,7 @@
   <meta property="og:url" content="https://wikitoday.io" />
   <meta property="og:image" content="" />
   <meta property="og:description" content={p.description} />
-  <meta property="og:site_name" content="https://wikitoday.io" />
+  <meta property="og:site_name" content={p.siteName} />
 
   <!-- Twitter Card Meta Tags (optional) -->
   <meta name="twitter:card" content="summary_large_image" />
