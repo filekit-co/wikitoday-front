@@ -15,6 +15,7 @@
       "Explore trending topics in news, economy, entertainment with wikitoday.",
     siteName: "wikitoday - Global Trends, News, Economy, Entertainment",
     date: "2023-08-07",
+    language: "EN-US",
   };
 
   const pageHeaderProps: UpdateHeaderProps = $page.data?.headerProps || {};
@@ -47,7 +48,7 @@
 
   <meta name="language" content="English" />
   <meta name="revisit-after" content="7 days" />
-  <meta name="image" content="" />
+  <meta name="image" content={p.image} />
 
   <!-- json+oembeded -->
   <!-- sveltekit관련 링크: https://sveltekit-embed.vercel.app/ -->
@@ -68,7 +69,7 @@
   <meta property="og:title" content={p.title} />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://wikitoday.io" />
-  <meta property="og:image" content="" />
+  <meta property="og:image" content={p.image} />
   <meta property="og:description" content={p.description} />
   <meta property="og:site_name" content={p.siteName} />
 
@@ -78,7 +79,7 @@
   <meta name="twitter:creator" content={p.author} />
   <meta name="twitter:title" content={p.title} />
   <meta name="twitter:description" content={p.description} />
-  <meta name="twitter:image" content="" />
+  <meta name="twitter:image" content={p.image} />
   <meta name="twitter:url" content="https://wikitoday.io" />
 
   <meta name="apple-mobile-web-app-title" content="wikitoday.io" />
