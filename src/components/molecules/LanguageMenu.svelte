@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { language } from "$lib/datas";
   import LanguageButton from "@components/atoms/LanguageButton.svelte";
   import { LanguagePages } from "$lib/types";
+  import { goto } from "$app/navigation";
 
   // 드로어 열림 여부를 상태로 관리합니다.
   let isLangDrawerOpen = false;
@@ -12,7 +12,9 @@
   }
 
   function selectLanguage(lang: string) {
-    $language = lang;
+    // lang 매개변수를 쿼리 문자열로 추가
+    // fetch(`/api/articles?lang=${lang}`);
+    goto(`/news/universal/${lang}`);
   }
 </script>
 
@@ -32,7 +34,7 @@
   </label>
 
   <div
-    class="fixed top-0 right-0 z-20 w-64 h-full transition-all duration-500 transform translate-x-full bg-white shadow-lg peer-checked:translate-x-0"
+    class="fixed z-10 top-0 right-0 w-64 h-full transition-all duration-500 transform translate-x-full bg-white shadow-lg peer-checked:translate-x-0"
   >
     <button
       class="absolute top-3 right-3 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"

@@ -19,7 +19,7 @@
     <div
       class="duration-700 ease-in-out transition-all absolute inset-0 transform translate-x-0 {current ===
       index
-        ? 'z-20'
+        ? 'z-1'
         : ''}"
       data-value={index}
     >
@@ -27,8 +27,8 @@
         <img class="w-full h-40 object-cover mb-4" {src} alt={title} />
         <div class="flex-grow">
           {#if current === index}
-            <p class="text-xl font-semibold">
-              {keywords}
+            <p class="text sm:text-xs md:text-base font-semibold">
+              {title}
             </p>
           {/if}
         </div>
@@ -39,6 +39,10 @@
 
 <style>
   @media (max-width: 640px) {
+    .text {
+      font-size: 12px /* 14px */;
+      line-height: 1.25rem /* 20px */;
+    }
     .image-container {
       width: 100%;
       height: 250px;

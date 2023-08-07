@@ -18,26 +18,50 @@ export type Post = {
 // lib / data / 모든 폴더 / ${lang} / ${lang}.md 인 모든 파일
 // const modules = import.meta.glob(`$lib/data/*/en/*.en.md`, {eager: true})
 
-const modules = import.meta.glob(`$lib/data/*/*/EN-US.md`, {eager: true})
 
-const posts: Post[] = Object.entries(modules).map(([filepath, module]) => {
-  const parts = filepath.split('/')
-  const slug = parts[parts.length - 2]
+export async function GET(req) {
+  // console.log(lang);
+  // console.log(lang.url.searchParams.get('lang'));
 
-  // console.log('기사 제목:', slug)
+  // const language = lang.url.searchParams.get('lang');
 
-  const { metadata } = module;
-  const { html } = module.default.render();
+  //console.log(language)
 
-  return {
-    slug,
-    html,
-    ...metadata,
-  };
-});
+  const lang = req.url.searchParams.get('lang');
 
+  let modules;
+  if (lang === null || lang === 'EN-US') {
+    modules = import.meta.glob("$lib/data/*/*/EN-US.md", {eager: true});
+  }
 
-export async function GET() {
+  else {
+    switch(lang) {
+      case 'KO':
+        modules = import.meta.glob(`$lib/data/*/*/KO.md`, {eager: true});
+        break;
+
+      case 'ZH':
+        modules = import.meta.glob(`$lib/data/*/*/ZH.md`, {eager: true});
+        break;
+    }
+  }
+
+  const posts: Post[] = Object.entries(modules).map(([filepath, module]) => {
+    const parts = filepath.split('/')
+    const slug = parts[parts.length - 1]
+  
+    // console.log('기사 제목:', slug)
+  
+    const { metadata } = module;
+    const { html } = module.default.render();
+
+    return {
+      slug,
+      html,
+      ...metadata,
+    };
+  });
+
   const articles = await json(posts);
 
   return articles

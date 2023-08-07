@@ -14,6 +14,7 @@ export default defineConfig({
 			'@pages': path.resolve('src/pages'),
 			'@templates': path.resolve('src/templates'),
 			'@store': path.resolve('src/lib/store'),
+			'@lib': path.resolve('src/lib'),
 		}
 	}	
 });
