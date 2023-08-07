@@ -32,11 +32,28 @@
   <meta name="robots" content="index, follow" />
   <meta name="author" content="https://wikitoday.io" />
 
+  <!-- hreflang -->
+  <link
+    rel="alternate"
+    hreflang="en"
+    href="http://wikitoday.io/news/universal/EN-US"
+  />
+  <link
+    rel="alternate"
+    hreflang="ko"
+    href="http://wikitoday.io/news/universal/KO"
+  />
+  <link
+    rel="alternate"
+    hreflang="zh"
+    href="http://wikitoday.io/news/universal/ZH"
+  />
+
   <!-- 데스크탑 페이지 -->
   <link
     rel="alternate"
     href="https://wikitoday.io"
-    media="only screen and (max-width: 640px"
+    media="only screen and (max-width: 640px)"
   />
 
   <!-- 모바일 페이지 -->

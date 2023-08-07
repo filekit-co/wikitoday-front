@@ -11,7 +11,7 @@
 >
   <div class="md:w-full lg:w-1/2 h-72 lg:mr-8">
     <img
-      class="w-full h-full object-cover rounded-tl-2xl rounded-br-2xl"
+      class="w-full h-full rounded-tl-2xl rounded-br-2xl"
       src={mainArticle.image}
       alt={mainArticle.title}
     />

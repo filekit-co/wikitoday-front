@@ -6,7 +6,7 @@
 </script>
 
 <div
-  class="sm:px-4 md:px-4 lg:px-4 xl:px-0 font container items-center justify-center mx-auto"
+  class="px-4 sm:px-6 md:px-8 font container items-center justify-center mx-auto"
 >
   <Header />
   <Navbar />
@@ -15,12 +15,6 @@
 </div>
 
 <style>
-  /* @media (max-width: 640px) {
-    .container {
-      padding-left: 16px;
-      padding-right: 16px;
-    }
-  } */
   .font {
     font-family: "Noto Sans", sans-serif;
   }

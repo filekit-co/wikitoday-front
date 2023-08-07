@@ -2,6 +2,7 @@
   import LanguageButton from "@components/atoms/LanguageButton.svelte";
   import { LanguagePages } from "$lib/types";
   import { goto } from "$app/navigation";
+  import { language } from "$lib/datas";
 
   // 드로어 열림 여부를 상태로 관리합니다.
   let isLangDrawerOpen = false;
@@ -11,11 +12,9 @@
     isLangDrawerOpen = false;
   }
 
-  function selectLanguage(lang: string) {
-    // lang 매개변수를 쿼리 문자열로 추가
-    // fetch(`/api/articles?lang=${lang}`);
-    goto(`/news/universal/${lang}`);
-  }
+  $: $language;
+
+  function selectLanguage(lang: string) {}
 </script>
 
 <div class="flex">
@@ -28,7 +27,7 @@
 
   <label
     for="drawer-lang-toggle"
-    class="absolute top-3 right-0 inline-block p-4 transition-all duration-500 rounded-lg peer-checked:right-64"
+    class="absolute top-3 right-0 inline-block p-4 transition-all duration-500 rounded-lg peer-checked:right-64 cursor-pointer"
   >
     <LanguageButton />
   </label>

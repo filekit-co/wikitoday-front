@@ -13,7 +13,7 @@
   }
 
   function handleClick(category: string) {
-    goto(`/news/${category}`);
+    goto(`/lang/news/${category}`);
   }
 </script>
 
@@ -27,7 +27,7 @@
 
   <label
     for="drawer-category-toggle"
-    class="absolute top-3 left-0 inline-block p-4 transition-all duration-500 rounded-lg peer-checked:left-64"
+    class="absolute top-3 left-0 inline-block p-4 transition-all duration-500 rounded-lg peer-checked:left-64 cursor-pointer"
   >
     <HamburgerButton />
   </label>

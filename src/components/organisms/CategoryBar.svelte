@@ -4,7 +4,7 @@
 
   function handleClick(category: string) {
     // console.log(category);
-    goto(`/news/${category}`);
+    goto(`/lang/news/${category}`);
   }
 </script>
 

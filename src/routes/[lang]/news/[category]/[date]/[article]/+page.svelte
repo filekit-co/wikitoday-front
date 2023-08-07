@@ -8,12 +8,10 @@
 
 <Header />
 
-<div class="px-4 sm:px-6 md:px-8">
-  <div class="max-w-3xl mx-auto">
-    <article class="container relative pt-10">
-      {@html article.html}
-    </article>
-  </div>
+<div class="max-w-3xl mx-auto">
+  <article class="container relative pt-10">
+    {@html article.html}
+  </article>
 </div>
 
 <!-- @html stylying guide -->

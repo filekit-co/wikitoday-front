@@ -23,27 +23,30 @@
             </h1>
 
             <article class="flex">
-              <div class="w-1/2 mr-4">
-                <p class="text-gray-300 sm:text-sm md:text-lg mb-3 font">
+              <div class="w-1/2 mr-4 h-[300px] flex flex-col justify-evenly">
+                <p
+                  class="text-gray-300 sm:text-sm md:text-lg font text-ellipsis overflow-hidde"
+                >
                   {article.category}
                 </p>
                 <span
-                  class="text-black md:text-lg xl:text-2xl font-bold description"
-                  >{article.description}</span
+                  class="text-black md:text-lg xl:text-2xl font-bold description text-ellipsis overflow-hidden"
                 >
-                <p class="text-gray-200 sm:text-xs md:text-base mt-3 font">
+                  {article.description}
+                </span>
+                <p
+                  class="text-gray-200 sm:text-xs md:text-base font text-ellipsis overflow-hidden"
+                >
                   {formatDate(article.date)}
                 </p>
               </div>
 
-              <div class="w-1/2 py-4">
-                <div class="image flex-grow flex justify-end">
-                  <img
-                    class="w-full h-full"
-                    src={article.image}
-                    alt={`${article.description}`}
-                  />
-                </div>
+              <div class="w-1/2 py-4 h-[300px]">
+                <img
+                  class="w-full h-full"
+                  src={article.image}
+                  alt={`${article.description}`}
+                />
               </div>
             </article>
           </div>
@@ -72,7 +75,6 @@
     .image {
       width: 100%;
       height: 300px;
-      object-fit: cover;
     }
   }
 
@@ -80,7 +82,6 @@
     .image {
       width: 100%;
       height: 300px;
-      object-fit: cover;
     }
   }
 
@@ -88,7 +89,6 @@
     .image {
       width: 100%;
       height: 200px;
-      object-fit: cover;
     }
   }
 
@@ -96,7 +96,6 @@
     .image {
       width: 100%;
       height: 180px;
-      object-fit: cover;
     }
   }
 </style>

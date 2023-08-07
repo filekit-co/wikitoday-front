@@ -135,12 +135,12 @@ export const CategoryPages = [
 
 export const LanguagePages = [
   {key: 'English', value: 'EN-US'},
-  {key: 'Bulgarian', value: 'BG'},
-  {key: 'Czech', value: 'CS'},
-  {key: 'Danish', value: 'DA'},
-  {key: 'German', value: 'DE'},
-  {key: 'Greek', value: 'EL'},
-  {key: 'Spanich', value: 'ES'},
+  // {key: 'Bulgarian', value: 'BG'},
+  // {key: 'Czech', value: 'CS'},
+  // {key: 'Danish', value: 'DA'},
+  // {key: 'German', value: 'DE'},
+  // {key: 'Greek', value: 'EL'},
+  // {key: 'Spanich', value: 'ES'},
   {key: "Chinese", value: 'ZH'},
   {key: 'Korean', value: 'KO'},
   

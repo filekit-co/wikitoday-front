@@ -14,7 +14,7 @@
   }, duration);
 </script>
 
-<div class="relative mb-72 lg:mb-96">
+<div class="relative py-36 mb-6">
   {#each images as { title, src, keywords }, index}
     <div
       class="duration-700 ease-in-out transition-all absolute inset-0 transform translate-x-0 {current ===
@@ -23,12 +23,18 @@
         : ''}"
       data-value={index}
     >
-      <div class="flex flex-col w-full sm:h-64 md:h-64 lg:h-80 image-container">
-        <img class="w-full h-40 object-cover mb-4" {src} alt={title} />
+      <div class="flex flex-col">
         <div class="flex-grow">
           {#if current === index}
+            <div class="w-full h-64 md:h-80">
+              <img class="w-full h-full mb-4" {src} alt={title} />
+            </div>
             <p class="text sm:text-xs md:text-base font-semibold">
-              {title}
+              {#if title.length > 100}
+                {title.slice(0, 100) + "..."}
+              {:else}
+                {title}
+              {/if}
             </p>
           {/if}
         </div>

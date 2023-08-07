@@ -29,5 +29,6 @@ export function handleClick(article: ArticleType) {
     // console.log(`/${lang}/news/${category}/${fileName}/${lang}`);
 
     // goto(`/${date}/news/${category}/${fileName}/${lang}`);
-    goto(`/news/${category}/${fileName}/${date}/${lang}`);
+    //goto(`/news/${category}/${fileName}/${date}/${lang}`);
+    goto(`/${lang}/news/${category}/${date}/${fileName}`);
 }

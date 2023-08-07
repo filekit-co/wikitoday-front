@@ -9,5 +9,5 @@
 
 <div class="lg:flex">
   <MainArticles {data} />
-  <!-- <TrendNews {data} /> -->
+  <TrendNews {data} />
 </div>

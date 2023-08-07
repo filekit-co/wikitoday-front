@@ -23,7 +23,7 @@
   <Carosel {images} />
 
   <!-- Small opinion articles -->
-  <div class=" mt-12 h-full">
+  <div class="h-full mt-48">
     <hr class="h-px bg-gray-500 border-1" />
     {#each data.articles as article}
       <!-- svelte-ignore a11y-click-events-have-key-events -->

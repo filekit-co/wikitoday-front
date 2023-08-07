@@ -24,9 +24,11 @@
         </div>
 
         <div class="lg:w-1/2 lg:pl-2">
-          <div class="flex-grow flex justify-end">
+          <div
+            class="w-full h-[100px] lg:h-[150px] xl:h-[200px] flex-grow flex justify-end"
+          >
             <img
-              class="image rounded-tl-lg rounded-br-lg"
+              class="w-full h-full rounded-tl-lg rounded-br-lg"
               src={article.image}
               alt={`${article.description}`}
             />
