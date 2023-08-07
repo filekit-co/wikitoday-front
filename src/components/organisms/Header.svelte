@@ -54,6 +54,7 @@
   />
 
   <!-- 데스크탑 페이지 -->
+  <link rel="canonical" href={p.url} />
   <link
     rel="alternate"
     href="https://wikitoday.io"
@@ -61,7 +62,6 @@
   />
 
   <!-- 모바일 페이지 -->
-  <link rel="canonical" href="https://wikitoday.io" />
 
   <meta name="language" content="English" />
   <meta name="revisit-after" content="7 days" />

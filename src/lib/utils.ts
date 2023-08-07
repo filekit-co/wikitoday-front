@@ -25,18 +25,8 @@ export function handleClick(article: ArticleType) {
     const lang = article.language;
     const category = article.category;
     const fileName = article.slug;
-
-    // console.log("article is:", fileName);
-    // console.log(`/${lang}/news/${category}/${fileName}/${lang}`);
-
-    // goto(`/${date}/news/${category}/${fileName}/${lang}`);
-<<<<<<< HEAD
-    //goto(`/news/${category}/${fileName}/${date}/${lang}`);
     goto(`/${lang}/news/${category}/${date}/${fileName}`);
-}
-=======
-    goto(`/news/${category}/${fileName}/${date}/${lang}`);
 }
 
 export const canonicalUrl = (pathname: string) => pathname ? `${PUBLIC_BASE_URL}${pathname}`: `${PUBLIC_BASE_URL}`;
->>>>>>> 036a3a1d3a115b114fd8a4582bafa2ab7c5a465e
+
