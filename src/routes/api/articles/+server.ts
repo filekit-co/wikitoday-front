@@ -48,7 +48,7 @@ export async function GET(req) {
 
   const posts: Post[] = Object.entries(modules).map(([filepath, module]) => {
     const parts = filepath.split('/')
-    const slug = parts[parts.length - 1]
+    const slug = parts[parts.length - 2]
   
     // console.log('기사 제목:', slug)
   
