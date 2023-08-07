@@ -6,6 +6,7 @@ keywords: '서현역 칼부림,서현역,칼부림,칼부림 예고,분당 칼�
 date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'ZH'
+thumbnail: 'http://www.kukinews.com/data/kuk/image/2023/08/04/kuk202308040284.jpg'
 ---
 
 ## Summary

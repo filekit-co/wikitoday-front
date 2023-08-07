@@ -6,6 +6,8 @@ export interface HeaderProps {
   url: string;
   image: string;
   description: string;
+  date: string;
+  language: string;
 }
 
 export type UpdateHeaderProps = Partial<HeaderProps>

@@ -6,6 +6,7 @@ keywords: '잼버리,잼버리 대회,새만금,새만금 잼버리,잼버리 �
 date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'EN-US'
+thumbnail: 'https://cdn.mindlenews.com/news/thumbnail/202308/4464_11351_1846_v150.jpg'
 ---
 
 ## Summary

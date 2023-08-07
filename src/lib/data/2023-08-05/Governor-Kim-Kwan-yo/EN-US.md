@@ -6,6 +6,7 @@ keywords: '김관영'
 date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'EN-US'
+thumbnail: 'https://cdn.eroun.net/news/thumbnail/202308/35826_64573_3536_v150.jpg'
 ---
 
 ## Summary

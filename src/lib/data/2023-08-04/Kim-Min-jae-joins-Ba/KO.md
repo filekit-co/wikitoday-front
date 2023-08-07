@@ -6,6 +6,7 @@ keywords: '김민재'
 date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'KO'
+thumbnail: 'https://thumb.mt.co.kr/21/2023/08/2023080323275287102_1.jpg'
 ---
 
 ## Summary

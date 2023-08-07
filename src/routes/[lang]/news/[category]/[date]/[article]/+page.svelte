@@ -1,5 +1,4 @@
 <script lang="ts">
-  import TrendNews from "@components/molecules/TrendNews.svelte";
   import Header from "@components/organisms/Header.svelte";
   export let data;
 
@@ -25,6 +24,7 @@
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 20px;
+    text-transform: capitalize;
   }
   :global(.container blockquote) {
     padding: 20px;
@@ -61,31 +61,28 @@
 
   :global(.container .image-container) {
     position: relative;
-    display: flex; /* 이미지를 중앙에 정렬하기 위해 */
-    justify-content: center; /* 가로 중앙 정렬 */
-    align-items: center; /* 세로 중앙 정렬 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%; /* 컨테이너의 최대 너비 설정 */
   }
 
   :global(.container .image-container img) {
-    max-width: 100%; /* 이미지 너비가 컨테이너 너비를 초과하지 않도록 */
-    height: auto; /* 이미지 비율 유지 */
-    display: block; /* 블록 레벨 요소로 설정 */
+    display: block;
+    width: 100%; /* 이미지가 컨테이너의 너비를 채우도록 */
+    height: auto; /* 원래 비율 유지 */
   }
 
   :global(.container .image-container figcaption) {
     position: absolute;
-    bottom: 0; /* 이미지 하단에 정렬 */
-    right: 0; /* 이미지 우측에 정렬 */
-    width: auto; /* 텍스트의 너비에 맞추기 */
-    text-align: right; /* 텍스트를 오른쪽으로 정렬 */
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 5px;
   }
 
   :global(.container .image-container h4) {
     color: gray; /* 회색 텍스트 */
-    margin: 0; /* 여백 제거 */
-    padding: 5px; /* 적절한 패딩 추가 */
-    background-color: rgba(255, 255, 255, 0.6); /* 배경색 추가, 선택 사항 */
   }
 
   :global(.container .faq) {
@@ -93,7 +90,6 @@
     background-color: white;
     border-radius: 1rem;
     display: block;
-    divide-y: solid;
   }
 
   :global(.container .faq details) {
@@ -174,7 +170,7 @@
     opacity: 1;
   }
 
-  :global(.container .body p) {
+  :global(.container .article-body p) {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;

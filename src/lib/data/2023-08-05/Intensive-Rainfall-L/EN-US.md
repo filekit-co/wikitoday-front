@@ -6,6 +6,7 @@ keywords: '뉴스'
 date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'EN-US'
+thumbnail: 'http://news.kbs.co.kr/data/news/title_image/newsmp4/daegu/news9/2023/08/04/50_7741234.jpg'
 ---
 
 ## Summary

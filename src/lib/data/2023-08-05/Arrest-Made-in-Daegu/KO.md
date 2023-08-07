@@ -6,6 +6,7 @@ keywords: '칼부림예고'
 date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'KO'
+thumbnail: 'https://newsimg.sedaily.com/2023/08/04/29TA0FROJB_1.jpg'
 ---
 
 ## Summary

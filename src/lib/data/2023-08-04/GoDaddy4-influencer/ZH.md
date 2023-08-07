@@ -6,6 +6,7 @@ keywords: '고딩엄빠 인플루언서'
 date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'ZH'
+thumbnail: 'https://thumb.mt.co.kr/21/2023/08/2023080315281096391_1.jpg'
 ---
 
 ## Summary

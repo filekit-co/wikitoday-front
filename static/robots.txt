@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /404
-Sitemap: https://youtubetomp3.pages.dev/sitemap.xml
+Sitemap: https://wikitoday.io/sitemap.xml

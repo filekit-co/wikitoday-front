@@ -6,6 +6,7 @@ keywords: '미국 신용등급 강등'
 date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'KO'
+thumbnail: 'https://cdn.mindlenews.com/news/thumbnail/202308/4446_11292_2019_v150.jpg'
 ---
 
 ## Summary
