@@ -17,3 +17,10 @@
   </header>
   <hr class="h-px mb-4 bg-gray-200 border-0 dark:bg-gray-700" />
 </div>
+
+<style>
+  header a {
+    font-family: "Noto Serif KR", serif;
+    font-weight: bold;
+  }
+</style>
