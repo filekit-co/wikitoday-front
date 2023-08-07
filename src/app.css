@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* https://joyofcode.xyz/sveltekit-for-beginners */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-serif: "Noto Sans", sans-serif;
+  --font-16: 1.6rem;
+  --font-24: 2.4rem;
+  --font-32: 3.2rem;
+  --font-48: 4.8rem;
+  --font-96: 9.6rem;
+
+  /* Spacing */
+  --spacing-4: 0.4rem;
+  --spacing-8: 0.8rem;
+  --spacing-16: 1.6rem;
+  --spacing-24: 2.4rem;
+  --spacing-32: 3.2rem;
+  --spacing-64: 6.4rem;
+  --spacing-128: 12.8rem;
+
+  /* Article */
+  --article-txt-size: 18px;
+  --article-txt-length: 70ch;
+  --article-txt-height: 40px;
+
+  --color-brand: hsl(204 88% 53%);
+  --color-text-primary: hsl(210 34% 13%);
+  --color-text-muted: hsl(209, 35%, 15%);
+  --color-bg-primary: hsl(0 0% 98%);
+  --color-bg-secondary: hsl(210 34% 80%);
+  --color-btn-primary-active: var(--color-brand);
+  --color-btn-primary-active-hover: hsl(204 88% 60%);
+  --color-btn-primary-inactive: hsl(205 70% 33%);
+  --color-btn-secondary: hsl(192 19% 95%);
+  --color-border-primary: hsl(0, 0%, 34%);
+  --color-link-hover: hsl(209 22% 19%);
+  --color-placeholder: hsl(210 34% 80%);
+}

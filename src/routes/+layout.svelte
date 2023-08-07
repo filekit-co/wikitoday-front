@@ -15,14 +15,13 @@
 </div>
 
 <style>
-  @media (max-width: 640px) {
+  /* @media (max-width: 640px) {
     .container {
       padding-left: 16px;
       padding-right: 16px;
     }
-  }
+  } */
   .font {
-    font-family: "Noto Serif KR", serif;
-    font-family: "Playfair Display", serif;
+    font-family: "Noto Sans", sans-serif;
   }
 </style>
