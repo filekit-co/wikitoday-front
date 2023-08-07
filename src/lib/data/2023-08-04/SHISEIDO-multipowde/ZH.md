@@ -6,6 +6,7 @@ keywords: '일본'
 date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'ZH'
+thumbnail: 'https://www.beautynury.com//data/editor/1691021952_멀티파우더.jpg'
 ---
 
 ## Summary

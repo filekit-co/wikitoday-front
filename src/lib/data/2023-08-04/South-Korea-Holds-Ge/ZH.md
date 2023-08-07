@@ -6,6 +6,7 @@ keywords: '월드컵,여자월드컵,축구,여자 월드컵,한국 독일'
 date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'ZH'
+thumbnail: 'https://img.olympicchannel.com/images/image/private/t_social_share_thumb/f_auto/primary/an8hsyg0rlbuy0cvbi32'
 ---
 
 ## Summary

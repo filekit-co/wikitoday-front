@@ -6,6 +6,7 @@ keywords: '안보현,지수 안보현,안보현 지수'
 date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'EN-US'
+thumbnail: 'https://ichef.bbci.co.uk/news/1024/branded_korean/083d/live/213f4c70-326b-11ee-9edf-f5e2f1f9bf2a.jpg'
 ---
 
 ## Summary

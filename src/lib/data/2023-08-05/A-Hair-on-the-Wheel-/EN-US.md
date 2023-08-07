@@ -6,6 +6,7 @@ keywords: '롤스로이스 사고'
 date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'EN-US'
+thumbnail: 'http://res.heraldm.com/content/image/2023/08/03/20230803000139_p.jpg'
 ---
 
 ## Summary

@@ -6,6 +6,7 @@ keywords: '중국'
 date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'ZH'
+thumbnail: 'https://cdn.mindlenews.com/news/thumbnail/202308/4460_11338_1511_v150.jpg'
 ---
 
 ## Summary

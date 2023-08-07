@@ -6,6 +6,7 @@ keywords: '류현진'
 date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'KO'
+thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/652/imgdb/original/2023/0802/20230802501164.jpg'
 ---
 
 ## Summary

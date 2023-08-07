@@ -6,6 +6,7 @@ keywords: 'Wyndham Championship'
 date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'EN-US'
+thumbnail: 'https://res.cloudinary.com/pgatour-prod/w_1200,h_628,c_fill,f_auto/pgatour/news/editorial/2023/08/06/wyndham-weather.jpg'
 ---
 
 # Lucas Glover Wins Wyndham Championship and Secures Spot in PGA Tour Postseason

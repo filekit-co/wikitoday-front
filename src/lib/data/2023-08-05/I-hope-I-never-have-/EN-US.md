@@ -6,6 +6,7 @@ keywords: '호신용품'
 date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'EN-US'
+thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/640/307/imgdb/original/2023/0804/20230804502176.jpg'
 ---
 
 ## Summary

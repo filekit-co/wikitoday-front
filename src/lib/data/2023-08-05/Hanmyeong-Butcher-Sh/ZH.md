@@ -6,6 +6,7 @@ keywords: '소방서 옆 경찰서'
 date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'ZH'
+thumbnail: 'https://cdn.mhns.co.kr/news/thumbnail/202308/558808_683527_413_v150.jpg'
 ---
 
 ## Summary

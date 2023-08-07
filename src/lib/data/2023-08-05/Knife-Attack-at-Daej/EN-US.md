@@ -6,6 +6,7 @@ keywords: '대전 칼부림,대전 고등학교 칼부림,대전,대전 대덕�
 date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'EN-US'
+thumbnail: 'https://image.imnews.imbc.com/replay/2023/nwtoday/article/__icsFiles/afieldfile/2023/08/05/today_20230805_071028_1_6_Large.jpg'
 ---
 
 ## Summary

@@ -6,6 +6,7 @@ keywords: '고속터미널,고속터미널 흉기'
 date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'ZH'
+thumbnail: 'http://news.kbs.co.kr/data/news/2023/08/04/20230804_vxxJFM.jpg'
 ---
 
 ## Summary

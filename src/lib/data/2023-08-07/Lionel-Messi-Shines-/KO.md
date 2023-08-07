@@ -6,6 +6,7 @@ keywords: 'Inter Miami, fc dallas vs inter miami, inter miami vs fc dallas, Mess
 date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'KO'
+thumbnail: 'https://st1.uvnimg.com/cb/60/01f488234c07ac958db34edadf05/marcador-inter-dallas-leagues-cup.jpeg'
 ---
 
 # 인터 마이애미의 리그컵 진출로 빛나는 리오넬 메시
