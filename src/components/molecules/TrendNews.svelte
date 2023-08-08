@@ -24,7 +24,9 @@
           >
         </div>
 
-        <div class=" w-24 h-24 lg:w-48 lg:h-60 flex-shrink-0 flex justify-end">
+        <div
+          class=" w-24 h-24 lg:w-full lg:h-60 flex-shrink-0 flex justify-end"
+        >
           <!-- Set fixed image dimensions and right alignment -->
           <img
             class="w-full h-full object-cover"

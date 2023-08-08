@@ -16,12 +16,13 @@
     // console.log(window.location.href);
     const currentPath = window.location.pathname;
     $language = lang;
-    language.set(lang);
 
+    // localhost5173/ -> main page
     if (currentPath.length === 1) {
       await goto(`/${lang}`);
       window.location.reload();
     } else {
+      // localhost:5173/KO/news/Sports || localhost:5173/KO/news/Entertainment/2023-08-08/Actress-Aracy-Balaba
       const newPath = currentPath.replace(/\/[^/]+/, `/${lang}`);
       await goto(`${newPath}`);
       window.location.reload();

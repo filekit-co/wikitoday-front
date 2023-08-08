@@ -2,11 +2,17 @@
   import { CategoryPages } from "$lib/types";
   import { language, category } from "$lib/datas";
   import { goto } from "$app/navigation";
+  import { page } from "$app/stores";
 
-  function handleClick(category: string) {
-    // console.log(category);
-    // console.log($language);
-    goto(`/${$language}/news/${category}`);
+  async function handleClick(category: string) {
+    const currentPath = window.location.pathname;
+
+    if (currentPath.length === 1) {
+      goto(`/${$language}/news/${category}`);
+    } else {
+      const lang = window.location.pathname;
+      goto(`${lang}/news/${category}`);
+    }
   }
 </script>
 

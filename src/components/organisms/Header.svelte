@@ -37,21 +37,9 @@
   <meta name="author" content="https://wikitoday.io" />
 
   <!-- hreflang -->
-  <link
-    rel="alternate"
-    hreflang="en"
-    href="http://wikitoday.io/news/universal/EN-US"
-  />
-  <link
-    rel="alternate"
-    hreflang="ko"
-    href="http://wikitoday.io/news/universal/KO"
-  />
-  <link
-    rel="alternate"
-    hreflang="zh"
-    href="http://wikitoday.io/news/universal/ZH"
-  />
+  <link rel="alternate" hreflang="en" href="http://wikitoday.io/EN-US" />
+  <link rel="alternate" hreflang="ko" href="http://wikitoday.io/KO" />
+  <link rel="alternate" hreflang="zh" href="http://wikitoday.io/ZH" />
 
   <!-- 데스크탑 페이지 -->
   <link rel="canonical" href={p.url} />
