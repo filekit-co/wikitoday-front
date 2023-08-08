@@ -29,7 +29,7 @@
           >
             <img
               class="w-full h-full rounded-tl-lg rounded-br-lg"
-              src={article.image}
+              src={article.thumbnail}
               alt={`${article.description}`}
             />
           </div>

@@ -12,7 +12,7 @@
   <div class="md:w-full lg:w-1/2 h-72 lg:mr-8">
     <img
       class="w-full h-full object-cover rounded-tl-2xl rounded-br-2xl"
-      src={subArticle.image}
+      src={subArticle.thumbnail}
       alt={subArticle.title}
     />
   </div>

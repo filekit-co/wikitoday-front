@@ -9,7 +9,7 @@
 
   onMount(() => {
     images = data.articles.map((article) => ({
-      src: article.image,
+      src: article.thumbnail,
       title: article.title,
       keywords: article.keywords,
     }));
@@ -43,7 +43,7 @@
           <!-- Set fixed image dimensions and right alignment -->
           <img
             class="small-image w-full h-full object-cover"
-            src={article.image}
+            src={article.thumbnail}
             alt={article.title}
           />
         </div>

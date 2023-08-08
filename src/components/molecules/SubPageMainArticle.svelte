@@ -9,9 +9,11 @@
 <div class="bg-gray-200 mb-6 shadow-md">
   <div class="flex py-4 px-4">
     <div class="w-1/2 image-container mr-8">
+      <!-- svelte-ignore a11y-img-redundant-alt -->
       <img
         class="w-full h-full object-cover rounded-tl-2xl rounded-br-2xl"
         src={mainArticle.image}
+        alt="Main article image"
       />
     </div>
 
@@ -26,6 +28,7 @@
   <div class="flex">
     <div class="flex p-4 w-1/2">
       <div class="w-1/2 mr-8">
+        <!-- svelte-ignore a11y-missing-attribute -->
         <img
           class="w-full h-full object-cover rounded-tl-2xl rounded-br-2xl"
           src={leftArticle.image}
@@ -40,6 +43,7 @@
 
     <div class="flex p-4 w-1/2">
       <div class="w-1/2 mr-8">
+        <!-- svelte-ignore a11y-missing-attribute -->
         <img
           class="w-full h-full object-cover rounded-tl-2xl rounded-br-2xl"
           src={rightArticle.image}

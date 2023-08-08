@@ -8,14 +8,14 @@
 <div>
   <h2 class="text-3xl font-semibold">Recommended Articles</h2>
 
-  <div class="grid grid-cols-4 w-full gap-8">
+  <div class="grid grid-cols-4 w-full gap-4">
     {#each data.articles.slice(0, 4) as article}
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div on:click={() => handleClick(article)} class=" py-4 cursor-pointer">
-        <div class="w-30 h-28 mb-4">
+        <div class="w-full h-28 mb-4">
           <img
             class="w-full h-full object-cover rounded-lg"
-            src={article.image}
+            src={article.thumbnail}
             alt={article.title}
           />
         </div>
