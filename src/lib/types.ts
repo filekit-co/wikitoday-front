@@ -32,7 +32,7 @@ export interface DataType {
     category: string;
     description: string;
     date: string;
-    image: string;
+    thumbnail: string;
     keywords: string;
   }[];
 }
@@ -46,7 +46,7 @@ export interface ArticleType {
   author: string;
   language: string;
   html: HTMLAllCollection;
-  image: string;
+  thumbnail: string;
   keywords: string;
 }
 

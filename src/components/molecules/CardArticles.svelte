@@ -15,7 +15,7 @@
         <div class="w-full h-28 mb-4">
           <img
             class="w-full h-full object-cover rounded-lg"
-            src={article.image}
+            src={article.thumbnail}
             alt={article.title}
           />
         </div>

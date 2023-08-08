@@ -30,7 +30,7 @@
           <!-- Set fixed image dimensions and right alignment -->
           <img
             class="w-full h-full object-cover"
-            src={article.image}
+            src={article.thumbnail}
             alt={article.title}
           />
         </div>

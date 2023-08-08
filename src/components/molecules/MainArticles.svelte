@@ -41,7 +41,7 @@
               <div class="w-1/2 h-[160px] md:h-[300px] relative block mx-auto">
                 <img
                   class="w-full h-full object-cover block"
-                  src={article.image}
+                  src={article.thumbnail}
                   alt={`${article.description}`}
                 />
               </div>
