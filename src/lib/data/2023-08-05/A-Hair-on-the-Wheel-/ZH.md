@@ -115,7 +115,7 @@ thumbnail: "http://res.heraldm.com/content/image/2023/08/03/20230803000139_p.jpg
 
 </div>
 
-<figure>
+<figure class="image-container">
     <img src="https://news.imaeil.com/photos/2023/08/05/2023080507281692897_l.jpg" alt="매일신문" />
     <figcaption>
         <h4> from 매일신문</h4>
