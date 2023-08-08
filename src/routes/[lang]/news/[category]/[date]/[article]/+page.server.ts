@@ -1,11 +1,9 @@
 import {error} from '@sveltejs/kit'
-import type { ArticleType, UpdateHeaderProps } from '$lib/types';
+import type { UpdateHeaderProps } from '$lib/types';
+import { convertHtmlToFaQJsonLD } from '$lib/utils';
 
 
-// 마크다운 파일에서 모든 컨텐츠 가져오기
-// frontmatter, html
 // https://github.com/pngwn/MDsveX/issues/294
-
 export async function load({params}) {
 	try {
 		const date = params.date;
@@ -16,6 +14,8 @@ export async function load({params}) {
 
 		const { metadata } = module;
 		const { html } = module.default.render();
+		const jsonLd = convertHtmlToFaQJsonLD(html)
+		
 
 		const headerProps: UpdateHeaderProps = {
 			title: `${metadata.title}`,
@@ -33,6 +33,7 @@ export async function load({params}) {
 
 		return {
 			headerProps,
+			jsonLd,
 			article,
 		}
 	}

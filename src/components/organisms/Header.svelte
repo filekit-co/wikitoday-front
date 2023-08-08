@@ -1,7 +1,7 @@
 <script lang="ts">
   import { page } from "$app/stores";
   import type { HeaderProps, UpdateHeaderProps } from "$lib/types";
-  import { canonicalUrl } from "$lib/utils";
+  import { canonicalUrl, serializeSchema } from "$lib/utils";
   import wikitoday from "$lib/assets/wikitoday.png";
 
   const defaultHeaderProps: HeaderProps = {
@@ -19,6 +19,7 @@
   };
 
   const pageHeaderProps: UpdateHeaderProps = $page.data?.headerProps || {};
+  const jsonLd = $page.data?.jsonLd;
 
   const p = { ...defaultHeaderProps, ...pageHeaderProps };
 </script>
@@ -101,8 +102,8 @@
 
   <meta name="apple-mobile-web-app-title" content="wikitoday.io" />
   <meta name="application-name" content="wikitoday.io" />
-  <link
-    href="https://fonts.googleapis.com/css?family=Poppins:700"
-    rel="stylesheet"
-  />
+
+  {#if jsonLd}
+    {@html serializeSchema(jsonLd)}
+  {/if}
 </svelte:head>
