@@ -12,11 +12,15 @@
     isCategoryDrawerOpen = false;
   }
 
-  function handleClick(category: string) {
-    // console.log(category);
-    // console.log($language);
-    $category = category;
-    goto(`/${$language}/news/${category}`);
+  async function handleClick(category: string) {
+    const currentPath = window.location.pathname;
+
+    if (currentPath.length === 1) {
+      goto(`/${$language}/news/${category}`);
+    } else {
+      const lang = window.location.pathname;
+      goto(`/${lang}/news/${category}`);
+    }
   }
 </script>
 
