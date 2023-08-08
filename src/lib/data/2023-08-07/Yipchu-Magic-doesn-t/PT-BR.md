@@ -139,7 +139,7 @@ Espera-se que o aviso de calor seja suspenso nos dias 9 e 10, já que o tufão K
 
  Chuveiros devido à instabilidade atmosférica são esperados em áreas do interior onde a onda de calor persiste. A Administração Meteorológica da Coreia prevê pancadas de chuva no sul de Gyeonggi e no sul de Gangwon, no interior de Chungcheong e nas regiões do sul (excluindo a costa leste de Gyeongsang do Norte) de hoje à tarde até a noite. Em particular, espera-se que as chuvas atinjam de 5 a 60 milímetros nas regiões de Jeolla e Gyeongsang, com até 80 milímetros em Chungcheongnam-do e mais de 100 milímetros no interior de Jeolla, Gwangju e Jeonnam-do.
 
- Na área metropolitana de Seul e nas partes orientais de Gangwon-do, Busan, Ulsan e Gyeongnam, a precipitação esperada é de 5 a 40 milímetros. Repórter Soyoon Shin yoon@hani.co.kr
+ Na área metropolitana de Seul e nas partes orientais de Gangwon-do, Busan, Ulsan e Gyeongnam, a precipitação esperada é de 5 a 40 milímetros.
 
 
 </div>

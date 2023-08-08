@@ -137,7 +137,6 @@ Quanto ao motivo, Choi Won-jong afirma que cometeu o crime porque achava que hav
 
  [Choi Moon-ho/Memorialist] &#39;Meu coração está muito pesado. Porque isso poderia ter acontecido comigo.
 
- Eu sou Seung-woo Baek, da MBC News. A MBC News está aguardando suas reportagens 24 horas por dia.
 
 
 </div>

@@ -137,7 +137,4 @@ thumbnail: 'https://image.imnews.imbc.com/replay/2023/nwtoday/article/__icsFiles
 
  [崔文浩/悼念者]&#39;我的心情非常沉重。因为这件事也可能发生在我身上。
 
- 我是MBC新闻的白承宇MBC新闻24小时等待您的报道
-
-
 </div>

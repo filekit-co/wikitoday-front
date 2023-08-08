@@ -139,7 +139,7 @@ The heat advisory is expected to be lifted on the 9th and 10th as Typhoon Kanun,
 
  Showers due to atmospheric instability are expected in inland areas where the heat wave persists. The Korea Meteorological Administration forecast showers in southern Gyeonggi and southern Gangwon, inland Chungcheong, and southern regions (excluding the east coast of North Gyeongsang) from this afternoon to evening. In particular, rainfall is expected to reach 5 to 60 millimeters in the Jeolla and Gyeongsang regions, with up to 80 millimeters in Chungcheongnam-do and more than 100 millimeters in inland Jeolla, Gwangju, and Jeonnam-do.
 
- In the Seoul metropolitan area and the eastern parts of Gangwon-do, Busan, Ulsan, and Gyeongnam, the expected rainfall is 5 to 40 millimeters. Reporter Soyoon Shin yoon@hani.co.kr
+ In the Seoul metropolitan area and the eastern parts of Gangwon-do, Busan, Ulsan, and Gyeongnam, the expected rainfall is 5 to 40 millimeters.
 
 
 </div>

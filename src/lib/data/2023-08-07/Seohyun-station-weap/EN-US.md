@@ -136,8 +136,4 @@ The identity and mugshot of 22-year-old Choi Won-jong, the suspect in the Seohye
 As for his motive, Choi Won-jong maintains that he committed the crime because he thought there were many groups stalking him at Seohyeon Station. In response, the police conducted a psychopath diagnostic test, the results of which will be available in about a week. At the scene of the incident, citizens paid tribute to the woman in her 60s who died.
 
  [Choi Moon-ho/Memorialist] &#39;My heart is very heavy. Because this could have happened to me.
-
- I&#39;m Seung-woo Baek, MBC News. MBC News is waiting for your reports 24 hours a day.
-
-
 </div>

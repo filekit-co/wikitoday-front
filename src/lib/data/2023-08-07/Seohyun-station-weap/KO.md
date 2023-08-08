@@ -137,7 +137,4 @@ thumbnail: 'https://image.imnews.imbc.com/replay/2023/nwtoday/article/__icsFiles
 
  [최문호 / 추모객] &#39;마음이 너무 무겁습니다. 저한테도 일어날 수 있는 일이니까요.
 
- MBC 뉴스 백승우입니다. MBC 뉴스는 24시간 여러분의 제보를 기다리고 있습니다.
-
-
 </div>
