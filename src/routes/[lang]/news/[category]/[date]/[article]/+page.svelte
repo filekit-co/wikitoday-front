@@ -1,11 +1,7 @@
 <script lang="ts">
-  import Header from "@components/organisms/Header.svelte";
   export let data;
-
   const { article } = data;
 </script>
-
-<Header />
 
 <div class="max-w-3xl mx-auto">
   <article class="container relative pt-10">
