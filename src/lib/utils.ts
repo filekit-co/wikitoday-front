@@ -1,5 +1,4 @@
 import { goto } from "$app/navigation";
-import type { ArticleType } from "./types";
 import {PUBLIC_BASE_URL} from '$env/static/public';
 import * as cheerio from 'cheerio';
 import type { FAQPage, Question, WithContext, Thing } from "schema-dts";
@@ -12,23 +11,8 @@ export function formatDate(date: string, dateStyle: DateStyle = 'medium', locale
 	return formatter.format(new Date(date))
 }
 
-export type Post = {
-	slug: string;
-	title: string;
-	excerpt: string;
-	isPublished: boolean;
-	publishedOn: string;
-	updatedOn: string;
-};
-
-// 기사 click 했을 때,
-// 해당 기사 detail로 이동하기 위한 함수
-export function handleClick(article: ArticleType) {
-    const date = article.date;
-    const lang = article.language;
-    const category = article.category;
-    const fileName = article.slug;
-    goto(`/${lang}/news/${category}/${date}/${fileName}`);
+export function handleClick(slug: string) {
+    goto(slug);
 }
 
 export const canonicalUrl = (pathname: string) => pathname ? `${PUBLIC_BASE_URL}${pathname}`: `${PUBLIC_BASE_URL}`;
@@ -55,7 +39,6 @@ export function convertHtmlToFaQJsonLD(html: string): WithContext<FAQPage> {
     "@type": "FAQPage",
     mainEntity: questionsAndAnswers,
   };
-
   return jsonLD;
 }
 

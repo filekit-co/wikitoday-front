@@ -3,10 +3,6 @@
   import Header from "@components/organisms/Header.svelte";
   import Navbar from "../components/organisms/Navbar.svelte";
   import CategoryBar from "@components/organisms/CategoryBar.svelte";
-  import { category, language } from "$lib/datas";
-
-  $: $category;
-  $: $language;
 </script>
 
 <div

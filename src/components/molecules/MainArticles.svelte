@@ -1,20 +1,20 @@
 <script lang="ts">
   import { formatDate } from "$lib/utils.js";
   import { handleClick } from "$lib/utils";
-  import type { DataType } from "$lib/types";
+  import type { Article } from "$lib/types";
 
-  export let data: DataType;
+  export let articles: Article[];
 </script>
 
 <div class="lg:w-3/4">
   <section class="w-full items-center lg:pr-4 lg:border-r-2 lg:border-r-black">
     <ul class="justify-center">
-      {#each data.articles as article}
+      {#each articles as article}
         <li class="mb-8 bg-white">
           <!-- svelte-ignore a11y-click-events-have-key-events -->
           <div
             class="col-auto items-center cursor-pointer"
-            on:click={() => handleClick(article)}
+            on:click={() => handleClick(article.slug)}
           >
             <h1 class="sm:text-base md:text-3xl xl:text-4xl font-bold mb-6">
               {article.title}

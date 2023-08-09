@@ -1,6 +1,6 @@
 <script lang="ts">
   import HamburgerButton from "@components/atoms/HamburgerButton.svelte";
-  import { category, language } from "$lib/datas";
+  import { language } from "$lib/datas";
   import { CategoryPages } from "$lib/types";
   import { goto } from "$app/navigation";
 
@@ -12,11 +12,15 @@
     isCategoryDrawerOpen = false;
   }
 
-  function handleClick(category: string) {
-    // console.log(category);
-    // console.log($language);
-    $category = category;
-    goto(`/${$language}/news/${category}`);
+  async function handleClick(category: string) {
+    const currentPath = window.location.pathname;
+
+    if (currentPath.length === 1) {
+      goto(`/${$language}/news/${category}`);
+    } else {
+      const lang = window.location.pathname;
+      goto(`/${lang}/news/${category}`);
+    }
   }
 </script>
 
@@ -46,12 +50,12 @@
     </button>
     <div class="px-6 py-4 flex-col">
       <h2 class="text-4xl font-bold mb-4">Category</h2>
-      {#each CategoryPages as { key, value }}
+      {#each CategoryPages as category}
         <button
-          on:click={() => handleClick(value)}
+          on:click={() => handleClick(category)}
           class="block my-6 font-semibold font-3xl"
         >
-          {key}
+          {category}
         </button>
       {/each}
     </div>

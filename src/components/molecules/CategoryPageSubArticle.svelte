@@ -1,7 +1,7 @@
 <script lang="ts">
   import { handleClick } from "$lib/utils";
-  import type { ArticleType } from "$lib/types";
-  export let subArticle: ArticleType;
+  import type { Article } from "$lib/types";
+  export let subArticle: Article;
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->

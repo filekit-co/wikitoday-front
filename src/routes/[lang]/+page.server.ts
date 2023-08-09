@@ -1,10 +1,10 @@
-import type { ArticleType } from "$lib/types";
+import type { Article } from "$lib/types";
 
 export async function load({fetch, params}) {
     const lang = params.lang;
 
     const response = await fetch(`/api/articles?lang=${lang}`);
-    const articles: ArticleType[] = await response.json();
+    const articles: Article[] = await response.json();
     const imgRegex = /<img\s+[^>]*src="([^"]+)"[^>]*>/;
 
     articles.forEach((article) => {

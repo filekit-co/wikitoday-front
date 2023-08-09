@@ -4,25 +4,25 @@
   import BreakingNews from "@components/molecules/BreakingNews.svelte";
   import TrendNews from "@components/molecules/TrendNews.svelte";
   import CardArticles from "@components/molecules/CardArticles.svelte";
-  import type { DataType } from "$lib/types";
+  import type { Article } from "$lib/types";
 
-  export let data: DataType;
+  export let articles: Article[];
 </script>
 
 <div class="lg:flex">
-  <MainArticles {data} />
-  <Opinions {data} />
+  <MainArticles {articles} />
+  <Opinions {articles} />
 </div>
 
 <hr class="h-1 my-6 bg-blck border-0 dark:bg-black" />
 
 <div class="lg:flex">
-  <BreakingNews {data} />
-  <TrendNews {data} />
+  <BreakingNews {articles} />
+  <TrendNews {articles} />
 </div>
 
 <hr class="h-1 my-6 bg-blck border-0 dark:bg-black" />
 
-<CardArticles {data} />
+<CardArticles {articles} />
 
 <hr class="h-1 my-6 bg-blck border-0 dark:bg-black" />

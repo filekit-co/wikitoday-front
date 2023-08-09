@@ -1,34 +1,27 @@
 import {error} from '@sveltejs/kit'
 import type { UpdateHeaderProps } from '$lib/types';
 import { convertHtmlToFaQJsonLD } from '$lib/utils';
+import { getArticle, getArticleFileSlug } from '$lib/site/articles';
 
 
 // https://github.com/pngwn/MDsveX/issues/294
 export async function load({params}) {
 	try {
 		const date = params.date;
-		const articleTitle = params.article;
+		const title = params.article;
 		const lang = params.lang;
 
-		const module = await import(`../../../../../../lib/data/${date}/${articleTitle}/${lang}.md`);
 
-		const { metadata } = module;
-		const { html } = module.default.render();
-		const jsonLd = convertHtmlToFaQJsonLD(html)
-		
-
+		const fileSlug = getArticleFileSlug(date, title, lang)
+		const article = await getArticle(fileSlug)
+		const jsonLd = convertHtmlToFaQJsonLD(article.html)
 		const headerProps: UpdateHeaderProps = {
-			title: `${metadata.title}`,
-			description: `${metadata.description}`,
-			image: `${metadata.thumbnail}`,
-			keywords: `${metadata.keywords}`,
+			title: article.title,
+			description: article.description,
+			image: article.thumbnail,
+			keywords: article.keywords,
 			date: date,
-			language: `${metadata.language}`,
-		}
-
-		const article = {
-			html,
-			...metadata,
+			language: article.language,
 		}
 
 		return {

@@ -1,8 +1,7 @@
 <script lang="ts">
   import { CategoryPages } from "$lib/types";
-  import { language, category } from "$lib/datas";
+  import { language } from "$lib/datas";
   import { goto } from "$app/navigation";
-  import { page } from "$app/stores";
 
   async function handleClick(category: string) {
     const currentPath = window.location.pathname;
@@ -20,9 +19,9 @@
   <div
     class="grid md:grid-rows-2 md:grid-cols-6 xl:grid-rows-1 xl:grid-cols-12"
   >
-    {#each CategoryPages as { key, value }}
-      <button on:click={() => handleClick(value)}>
-        {key}
+    {#each CategoryPages as category}
+      <button on:click={() => handleClick(category)}>
+        {category}
       </button>
     {/each}
   </div>
