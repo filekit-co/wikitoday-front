@@ -57,11 +57,11 @@ export const CategoryPages = [
   },
   {
     key: 'World',
-    value: 'World/International',
+    value: 'World&International',
   },
   {
     key: 'Economy',
-    value: 'Business/Economy',
+    value: 'Business&Economy',
   },
   {
     key: 'Technology',
@@ -85,7 +85,7 @@ export const CategoryPages = [
   },
   {
     key: 'Nature',
-    value: 'Environment/Nature',
+    value: 'Environment&Nature',
   },
   {
     key: 'Education',
@@ -97,7 +97,7 @@ export const CategoryPages = [
   },
   {
     key: 'Opinion',
-    value: 'Opinion/Editorial',
+    value: 'Opinion&Editorial',
   },
 ];
 
