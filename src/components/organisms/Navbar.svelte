@@ -1,6 +1,9 @@
 <script lang="ts">
+  import { page } from "$app/stores";
   import CategoryDrawer from "@components/molecules/CategoryDrawer.svelte";
   import LanguageMenu from "@components/molecules/LanguageMenu.svelte";
+
+  const lang = $page.params.lang;
 </script>
 
 <div>
@@ -8,7 +11,10 @@
     <section class="flex justify-evenly py-6">
       <CategoryDrawer />
 
-      <a href="/" class="text-4xl sm:font-bold md:text-5xl md:font-extrabold">
+      <a
+        href={`/${lang}`}
+        class="text-4xl sm:font-bold md:text-5xl md:font-extrabold"
+      >
         Wikitoday
       </a>
 

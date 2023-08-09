@@ -50,6 +50,13 @@ export interface ArticleType {
   keywords: string;
 }
 
+export interface ImageType {
+  title: string;
+  src: string;
+  description?: string;
+  keywords?: string;
+}
+
 export const CategoryPages = [
   {
     key: 'Politics',
@@ -57,11 +64,11 @@ export const CategoryPages = [
   },
   {
     key: 'World',
-    value: 'World&International',
+    value: 'World/International',
   },
   {
     key: 'Economy',
-    value: 'Business&Economy',
+    value: 'Business/Economy',
   },
   {
     key: 'Technology',
@@ -85,7 +92,7 @@ export const CategoryPages = [
   },
   {
     key: 'Nature',
-    value: 'Environment&Nature',
+    value: 'Environment/Nature',
   },
   {
     key: 'Education',
@@ -97,9 +104,14 @@ export const CategoryPages = [
   },
   {
     key: 'Opinion',
-    value: 'Opinion&Editorial',
+    value: 'Opinion/Editorial',
   },
 ];
+
+export function getExactCategory(key: string) {
+  const category = CategoryPages.find(item => item.key === key);
+  return category ? category.value : 'key';
+}
 
 // BG - Bulgarian
 // CS - Czech
@@ -147,10 +159,3 @@ export const LanguagePages = [
   {key: 'Korean', value: 'KO'},
   
 ]
-
-export interface ImageType {
-  title: string;
-  src: string;
-  description?: string;
-  keywords?: string;
-}

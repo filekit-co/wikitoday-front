@@ -1,8 +1,8 @@
 <script lang="ts">
   import HamburgerButton from "@components/atoms/HamburgerButton.svelte";
-  import { category, language } from "$lib/datas";
   import { CategoryPages } from "$lib/types";
   import { goto } from "$app/navigation";
+  import { page } from "$app/stores";
 
   // 드로어 열림 여부를 상태로 관리합니다.
   let isCategoryDrawerOpen = false;
@@ -13,14 +13,9 @@
   }
 
   async function handleClick(category: string) {
-    const currentPath = window.location.pathname;
-
-    if (currentPath.length === 1) {
-      goto(`/${$language}/news/${category}`);
-    } else {
-      const lang = window.location.pathname;
-      goto(`/${lang}/news/${category}`);
-    }
+    const lang = $page.params.lang;
+    await goto(`/${lang}/section/${category}`);
+    window.location.reload();
   }
 </script>
 
@@ -50,9 +45,9 @@
     </button>
     <div class="px-6 py-4 flex-col">
       <h2 class="text-4xl font-bold mb-4">Category</h2>
-      {#each CategoryPages as { key, value }}
+      {#each CategoryPages as { key }}
         <button
-          on:click={() => handleClick(value)}
+          on:click={() => handleClick(key)}
           class="block my-6 font-semibold font-3xl"
         >
           {key}

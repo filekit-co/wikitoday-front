@@ -1,7 +1,7 @@
 ---
 title: "由于准备不足，Saemangeum Jamboree 面临严重问题"
 description: "由于准备不足，在韩国新万金举行的 '2023 年世界野营大会 '正面临重大挑战。目前已有 1000 多人患病，活动因安全措施不足而受到批评。内政和安全部部长李相珉（Lee Sang-min）对灾难性的局面负有责任。了解更多有关露营大会面临的困难和参与者提出的问题。"
-category: "World&International"
+category: "World/International"
 keywords: "잼버리,잼버리 대회,새만금,새만금 잼버리,잼버리 여가부"
 date: "2023-08-04"
 author: "wikitoday.io"
@@ -46,7 +46,6 @@ thumbnail: "https://cdn.mindlenews.com/news/thumbnail/202308/4464_11351_1846_v15
         <summary><b>4. 采取了哪些措施来解决 Jamboree 上的问题？</b></summary>
         韩国保健福祉部长官赵奎雄访问了仁波切医院，检查医疗响应情况。韩德洙总理已下令部署军事人员，以提供额外支持和采取安全措施。
     </details>
-
 
 ## 由于准备不足，Saemangeum Jamboree 面临严重问题
 

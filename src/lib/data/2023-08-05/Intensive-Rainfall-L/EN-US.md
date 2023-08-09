@@ -1,7 +1,7 @@
 ---
 title: "Intensive Rainfall Leaves Gyeongsangbuk-do Region in Urgent Need of Precautions and Port Restoration"
 description: "Almost three weeks after heavy rains caused significant damage to the northern Gyeongsangbuk-do region, authorities are emphasizing the importance of taking preventive measures and restoring ports to address the increasing frequency of such disasters."
-category: "World&International"
+category: "World/International"
 keywords: "뉴스"
 date: "2023-08-05"
 author: "wikitoday.io"

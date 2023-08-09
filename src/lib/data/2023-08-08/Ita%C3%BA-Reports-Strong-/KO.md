@@ -1,7 +1,7 @@
 ---
 title: "Itaú, 앱 불안정성에도 불구하고 2분기에 견조한 수익 보고"
 description: "Itaú Unibanco(ITUB4)는 2023년 2분기에 87억 4,200만 헤알의 순이익을 기록하는 등 인상적인 재무 실적을 발표했습니다. 하지만 이 은행은 앱과 웹사이트가 불안정해져 사용자들이 불편을 겪으면서 어려움에 직면했습니다."
-category: "Business&Economy"
+category: "Business/Economy"
 keywords: "Itau, itau fora do ar, app itau fora do ar, banco itau fora do ar, Itaú, aplicativo itau fora do ar, iti, instabilidade itau, aplicativo itau, itaú fora do ar hoje 2023, Itaú fora do ar hoje, app do itau fora do ar, itau esta fora do ar, aplicativo banco itaú, aplicativo do itau fora do ar, itau fora do ar agora"
 date: "2023-08-08"
 author: "wikitoday.io"

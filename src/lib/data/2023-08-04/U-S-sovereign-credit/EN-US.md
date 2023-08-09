@@ -1,7 +1,7 @@
 ---
 title: "U.S. sovereign credit rating downgraded for first time in 12 years...Asian stocks slammed"
 description: "The US sovereign credit rating has been downgraded. It's been 12 years since 2011, and the world's financial markets are nervous. As Korea cannot be safe if there is a turbulence in the U.S. financial market, the changes in the financial market caused by the U.S. sovereign credit rating downgrade will be closely watched."
-category: "Business&Economy"
+category: "Business/Economy"
 keywords: "미국 신용등급 강등"
 date: "2023-08-04"
 author: "wikitoday.io"
@@ -41,7 +41,6 @@ The US sovereign credit rating has been downgraded. It's been 12 years since 201
         <summary><b>3. What is the main focus in the aftermath of the U.S. sovereign credit rating downgrade?</b></summary>
         The main focus is on the exchange rate, as the stronger dollar is making a comeback after a recent lull. A stronger dollar can help export domestic inflation abroad, and greater demand for U.S. Treasuries will lead to lower Treasury yields, reducing the government's interest burden.
     </details>
-
 
 ## U.S. sovereign credit rating downgraded for first time in 12 years...Asian stocks slammed
 

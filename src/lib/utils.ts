@@ -4,7 +4,6 @@ import {PUBLIC_BASE_URL} from '$env/static/public';
 import * as cheerio from 'cheerio';
 import type { FAQPage, Question, WithContext, Thing } from "schema-dts";
 
-
 type DateStyle = Intl.DateTimeFormatOptions['dateStyle']
 
 export function formatDate(date: string, dateStyle: DateStyle = 'medium', locales = 'en') {
@@ -26,11 +25,13 @@ export type Post = {
 export function handleClick(article: ArticleType) {
     const date = article.date;
     const lang = article.language;
-    const category = article.category;
+    let originCategory = article.category;
+
+    const renderCategory = originCategory.split('/')[0]
     const fileName = article.slug;
 
     // console.log(category)
-    goto(`/${lang}/news/${category}/${date}/${fileName}`);
+    goto(`/${lang}/news/${renderCategory}/${date}/${fileName}`);
 }
 
 export const canonicalUrl = (pathname: string) => pathname ? `${PUBLIC_BASE_URL}${pathname}`: `${PUBLIC_BASE_URL}`;

@@ -1,7 +1,7 @@
 ---
 title: "伊塔乌报告第二季度利润强劲，尽管应用程序不稳定"
 description: "伊塔乌银行（ITUB4）公布了 2023 年第二季度令人印象深刻的财务业绩，经常性利润达 87.42 亿巴西雷亚尔。然而，该银行面临的挑战是其应用程序和网站出现不稳定，给用户带来不便。"
-category: "Business&Economy"
+category: "Business/Economy"
 keywords: "Itau, itau fora do ar, app itau fora do ar, banco itau fora do ar, Itaú, aplicativo itau fora do ar, iti, instabilidade itau, aplicativo itau, itaú fora do ar hoje 2023, Itaú fora do ar hoje, app do itau fora do ar, itau esta fora do ar, aplicativo banco itaú, aplicativo do itau fora do ar, itau fora do ar agora"
 date: "2023-08-08"
 author: "wikitoday.io"
