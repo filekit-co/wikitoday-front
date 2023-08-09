@@ -1,12 +1,12 @@
 ---
-title: 'Itaú Reports Strong Profits in Q2, Despite App Instability'
-description: 'Itaú Unibanco (ITUB4) has announced impressive financial results for the second quarter of 2023, with a recurring profit of BRL 8.742 billion. However, the bank faced challenges as its app and website experienced instabilities, causing inconvenience for users.'
-category: 'Business/Economy'
-keywords: 'Itau, itau fora do ar, app itau fora do ar, banco itau fora do ar, Itaú, aplicativo itau fora do ar, iti, instabilidade itau, aplicativo itau, itaú fora do ar hoje 2023, Itaú fora do ar hoje, app do itau fora do ar, itau esta fora do ar, aplicativo banco itaú, aplicativo do itau fora do ar, itau fora do ar agora'
-date: '2023-08-08'
-author: 'wikitoday.io'
-language: 'EN-US'
-thumbnail: 'https://www.infomoney.com.br/wp-content/uploads/2019/06/itau-unibanco-1.jpg?quality=70'
+title: "Itaú Reports Strong Profits in Q2, Despite App Instability"
+description: "Itaú Unibanco (ITUB4) has announced impressive financial results for the second quarter of 2023, with a recurring profit of BRL 8.742 billion. However, the bank faced challenges as its app and website experienced instabilities, causing inconvenience for users."
+category: "Business&Economy"
+keywords: "Itau, itau fora do ar, app itau fora do ar, banco itau fora do ar, Itaú, aplicativo itau fora do ar, iti, instabilidade itau, aplicativo itau, itaú fora do ar hoje 2023, Itaú fora do ar hoje, app do itau fora do ar, itau esta fora do ar, aplicativo banco itaú, aplicativo do itau fora do ar, itau fora do ar agora"
+date: "2023-08-08"
+author: "wikitoday.io"
+language: "EN-US"
+thumbnail: "https://www.infomoney.com.br/wp-content/uploads/2019/06/itau-unibanco-1.jpg?quality=70"
 ---
 
 # Itaú Reports Strong Profits in Q2, Despite App Instability
@@ -19,7 +19,6 @@ thumbnail: 'https://www.infomoney.com.br/wp-content/uploads/2019/06/itau-unibanc
   </p>
 </blockquote>
 
-
 <figure class=image-container>
     <img src="https://www.infomoney.com.br/wp-content/uploads/2019/06/itau-unibanco-1.jpg?quality=70" alt="InfoMoney" />
     <figcaption>
@@ -27,9 +26,7 @@ thumbnail: 'https://www.infomoney.com.br/wp-content/uploads/2019/06/itau-unibanc
     </figcaption>
 </figure>
 
-
 <hr class="article-hr" />
-
 
 <div class="faq">
 
@@ -110,19 +107,16 @@ thumbnail: 'https://www.infomoney.com.br/wp-content/uploads/2019/06/itau-unibanc
 
 </div>
 
-
 <hr class="article-hr" />
 
 <div class="article-body">
 Itaú Unibanco (ITUB4) reported a recurring profit of BRL 8.742 billion for the second quarter of 2023, representing a 13.84% increase compared to the same period last year. Despite this positive performance, the bank faced issues with its app and website, which led to user complaints on social media. The bank&#39;s consolidated net profit reached R$8.9 billion, while the return on equity (ROE) remained stable at 20.9%.
 
- Itaú&#39;s managerial financial margin also saw an annual increase of 14.8%. However, the app and internet banking faced instabilities on Monday (7). Users took to social media to express their frustrations, as they were unable to pay bills or access their financial information.
+Itaú&#39;s managerial financial margin also saw an annual increase of 14.8%. However, the app and internet banking faced instabilities on Monday (7). Users took to social media to express their frustrations, as they were unable to pay bills or access their financial information.
 
- Itaú confirmed the internal origin of the instability and apologized to customers and partners for the inconvenience. The bank worked urgently to restore the systems, and by 7 p.m., the application for individual account holders was restored, with the promise of full availability of other apps and channels. Despite the app instabilities, Itaú remains optimistic about the future, citing the consolidation of monetary and fiscal agendas that are expected to promote economic activity in the country.
-
+Itaú confirmed the internal origin of the instability and apologized to customers and partners for the inconvenience. The bank worked urgently to restore the systems, and by 7 p.m., the application for individual account holders was restored, with the promise of full availability of other apps and channels. Despite the app instabilities, Itaú remains optimistic about the future, citing the consolidation of monetary and fiscal agendas that are expected to promote economic activity in the country.
 
 </div>
-
 
 <figure class=image-container>
     <img src="https://www.infomoney.com.br/wp-content/uploads/2019/09/itau-1.jpg?quality=70" alt="InfoMoney" />
@@ -131,13 +125,11 @@ Itaú Unibanco (ITUB4) reported a recurring profit of BRL 8.742 billion for the 
     </figcaption>
 </figure>
 
-
 <div class="article-body">
 The bank&#39;s President, Milton Maluhy Filho, stated that they are hopeful for a more robust resumption of economic activity in the second half of the year. Itaú&#39;s guidance for 2023 remains largely unchanged, except for the growth projection of revenues from services and insurance results. Previously projected to accelerate between 7.5% and 10.75%, the growth is now expected to be between 5% and 7%.
 
- Throughout the app and website instabilities, users expressed their frustrations on social media platforms. Many complained about the inability to access their accounts and pay bills. The Downdetector website recorded over 3,000 complaints during the peak of the issue, with app login being the biggest point of dissatisfaction.
+Throughout the app and website instabilities, users expressed their frustrations on social media platforms. Many complained about the inability to access their accounts and pay bills. The Downdetector website recorded over 3,000 complaints during the peak of the issue, with app login being the biggest point of dissatisfaction.
 
- Itaú&#39;s app and website instabilities highlight the importance of maintaining reliable digital banking services, as more customers rely on these platforms for their day-to-day financial activities. The bank&#39;s commitment to resolving the issue promptly and addressing customer concerns is crucial to maintaining trust and satisfaction among its user base.
-
+Itaú&#39;s app and website instabilities highlight the importance of maintaining reliable digital banking services, as more customers rely on these platforms for their day-to-day financial activities. The bank&#39;s commitment to resolving the issue promptly and addressing customer concerns is crucial to maintaining trust and satisfaction among its user base.
 
 </div>

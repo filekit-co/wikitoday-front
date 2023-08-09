@@ -1,12 +1,12 @@
 ---
-title: '일본, 후쿠시마 제1 원전 오염수 방출 계획'
-description: '일본 정부는 이달 말 후쿠시마 제1원전의 오염수를 바다로 방류할 계획입니다.'
-category: 'World/International'
-keywords: '일본'
-date: '2023-08-07'
-author: 'wikitoday.io'
-language: 'KO'
-thumbnail: 'https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763.jpg'
+title: "일본, 후쿠시마 제1 원전 오염수 방출 계획"
+description: "일본 정부는 이달 말 후쿠시마 제1원전의 오염수를 바다로 방류할 계획입니다."
+category: "World&International"
+keywords: "일본"
+date: "2023-08-07"
+author: "wikitoday.io"
+language: "KO"
+thumbnail: "https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763.jpg"
 ---
 
 # 일본, 후쿠시마 제1 원전 오염수 방출 계획
@@ -19,7 +19,6 @@ thumbnail: 'https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763
   </p>
 </blockquote>
 
-
 <figure class=image-container>
     <img src="https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763.jpg" alt="tbs뉴스" />
     <figcaption>
@@ -27,9 +26,7 @@ thumbnail: 'https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763
     </figcaption>
 </figure>
 
-
 <hr class="article-hr" />
-
 
 <div class="faq">
 
@@ -80,15 +77,12 @@ thumbnail: 'https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763
 
 </div>
 
-
 <hr class="article-hr" />
 
 <div class="article-body">
 일본 정부는 후쿠시마 제1 원자력 발전소에서 오염수를 뜻하는 처리수를 해양으로 방류하기 위한 노력을 조율하고 있습니다. 요미우리 신문과 아사히 신문에 따르면 방류는 이달 말부터 시작될 것으로 예상됩니다. 정확한 방류 시기는 한일 정상회담과 기시다 총리와 어민들의 면담이 끝난 후 발표될 예정입니다.
 
-
 </div>
-
 
 <figure class=image-container>
     <img src="https://res.cloudinary.com/jnto/image/upload/w_600,fl_lossy,f_auto,q_auto,c_scale/v1/media/filer_public/4f/4f/4f4fb413-5e7e-4437-8f17-85dd64556c8c/jalxjntoxgmarket_oebubaeneo_960x720_myhplw" alt="Japan" />
@@ -97,9 +91,7 @@ thumbnail: 'https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763
     </figcaption>
 </figure>
 
-
 <div class="article-body">
 앞서 정부는 올 여름 오염수를 방류하겠다고 발표한 바 있으며, 이 같은 결정은 변함이 없다고 거듭 밝혔습니다.
-
 
 </div>

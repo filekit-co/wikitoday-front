@@ -1,12 +1,12 @@
 ---
-title: 'Nissan anuncia o novo modelo ''Skyline NISMO'' e a edição limitada ''Skyline Limited'
-description: 'A Nissan Motor Co. revelou o ''''Skyline NISMO'''', um novo modelo baseado no carro esportivo ''''Skyline'''' com melhor desempenho de direção. Além disso, foi introduzido um modelo de edição especial chamado ''''Skyline Limited''''.'
-category: 'Business/Economy'
-keywords: 'スカイライン'
-date: '2023-08-09'
-author: 'wikitoday.io'
-language: 'PT-BR'
-thumbnail: 'https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000-1-view.jpg?exp=10800'
+title: "Nissan anuncia o novo modelo 'Skyline NISMO' e a edição limitada 'Skyline Limited"
+description: "A Nissan Motor Co. revelou o ''Skyline NISMO'', um novo modelo baseado no carro esportivo ''Skyline'' com melhor desempenho de direção. Além disso, foi introduzido um modelo de edição especial chamado ''Skyline Limited''."
+category: "Business&Economy"
+keywords: "スカイライン"
+date: "2023-08-09"
+author: "wikitoday.io"
+language: "PT-BR"
+thumbnail: "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000-1-view.jpg?exp=10800"
 ---
 
 # Nissan anuncia o novo modelo ''Skyline NISMO'' e a edição limitada ''Skyline Limited
@@ -19,7 +19,6 @@ thumbnail: 'https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000
   </p>
 </blockquote>
 
-
 <figure class=image-container>
     <img src="https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000-1-view.jpg?exp=10800" alt="Yahoo!ニュース" />
     <figcaption>
@@ -27,9 +26,7 @@ thumbnail: 'https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000
     </figcaption>
 </figure>
 
-
 <hr class="article-hr" />
-
 
 <div class="faq">
 
@@ -80,15 +77,12 @@ thumbnail: 'https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000
 
 </div>
 
-
 <hr class="article-hr" />
 
 <div class="article-body">
 Em 8 de setembro, a Nissan Motor Co. anunciou o lançamento do &#39;Skyline NISMO&#39;, um novo modelo que oferece melhor desempenho e capacidade de direção em comparação com o carro esportivo &#39;Skyline&#39; padrão. O &#39;Skyline NISMO&#39; foi projetado para entusiastas de carros que preferem uma experiência de direção mais estimulante. Além do &#39;Skyline NISMO&#39;, a Nissan também apresentou uma versão de edição limitada chamada &#39;Skyline Limited&#39;.
 
-
 </div>
-
 
 <figure class=image-container>
     <img src="https://newsimg.oricon.co.jp/feed/images/size640wh/20230808_162847_size640wh_55570684.jpg" alt="岩手日報" />
@@ -97,9 +91,7 @@ Em 8 de setembro, a Nissan Motor Co. anunciou o lançamento do &#39;Skyline NISM
     </figcaption>
 </figure>
 
-
 <div class="article-body">
 Esse modelo de edição especial incorpora elementos de design únicos e recursos exclusivos que o diferenciam do &#39;Skyline NISMO&#39; normal. Espera-se que ambos os modelos estejam à venda nas próximas semanas.
-
 
 </div>

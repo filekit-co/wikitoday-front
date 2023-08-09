@@ -28,6 +28,8 @@ export function handleClick(article: ArticleType) {
     const lang = article.language;
     const category = article.category;
     const fileName = article.slug;
+
+    // console.log(category)
     goto(`/${lang}/news/${category}/${date}/${fileName}`);
 }
 

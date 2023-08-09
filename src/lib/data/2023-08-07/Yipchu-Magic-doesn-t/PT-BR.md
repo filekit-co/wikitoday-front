@@ -1,12 +1,12 @@
 ---
-title: 'O ''Yipchu Magic'' não funciona... O tufão ''Kanun'' chega entre Gyeongnam e Jeollanam-do'
-description: 'Hoje, em Ipchu, a maior parte da região sofrerá calor extremo, e a trajetória do tufão Kanun se voltará para o oeste.'
-category: 'Environment/Nature'
-keywords: '입추'
-date: '2023-08-07'
-author: 'wikitoday.io'
-language: 'PT-BR'
-thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/494/imgdb/child/2023/0808/16914569375954_20230808500551.jpg'
+title: "O 'Yipchu Magic' não funciona... O tufão 'Kanun' chega entre Gyeongnam e Jeollanam-do"
+description: "Hoje, em Ipchu, a maior parte da região sofrerá calor extremo, e a trajetória do tufão Kanun se voltará para o oeste."
+category: "Environment&Nature"
+keywords: "입추"
+date: "2023-08-07"
+author: "wikitoday.io"
+language: "PT-BR"
+thumbnail: "https://flexible.img.hani.co.kr/flexible/normal/970/494/imgdb/child/2023/0808/16914569375954_20230808500551.jpg"
 ---
 
 # O ''Yipchu Magic'' não funciona... O tufão ''Kanun'' chega entre Gyeongnam e Jeollanam-do
@@ -19,7 +19,6 @@ thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/494/imgdb/child/
   </p>
 </blockquote>
 
-
 <figure class=image-container>
     <img src="https://flexible.img.hani.co.kr/flexible/normal/970/494/imgdb/child/2023/0808/16914569375954_20230808500551.jpg" alt="한겨레" />
     <figcaption>
@@ -27,9 +26,7 @@ thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/494/imgdb/child/
     </figcaption>
 </figure>
 
-
 <hr class="article-hr" />
-
 
 <div class="faq">
 
@@ -110,19 +107,16 @@ thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/494/imgdb/child/
 
 </div>
 
-
 <hr class="article-hr" />
 
 <div class="article-body">
 A maior parte da região estará sob alerta de calor severo hoje, Ano Novo Lunar A trajetória do tufão Kanun se desvia mais para o oeste Pessoas lavam o rosto na montanha Namsan, em Seul, na manhã de setembro.
 
- 7 de setembro, um dia antes do Ano Novo Lunar, mas ainda sob uma onda de calor. Yonhap Espera-se que o calor escaldante persista em todo o país, exceto em Gangwon-do e na costa leste da província de Gyeongsang do Norte, durante o Ano Novo Lunar, que marca o início da estação do outono.
+7 de setembro, um dia antes do Ano Novo Lunar, mas ainda sob uma onda de calor. Yonhap Espera-se que o calor escaldante persista em todo o país, exceto em Gangwon-do e na costa leste da província de Gyeongsang do Norte, durante o Ano Novo Lunar, que marca o início da estação do outono.
 
- Espera-se que o tufão nº 6, Kanun, siga um curso um pouco mais a oeste do que o esperado e atinja a costa sul entre Gyeongnam e Jeonnam. No entanto, o raio de vento do Kanun (a área com ventos de 15㎧ ou mais) é de mais de 300 quilômetros, de modo que o país inteiro ainda está sob sua influência. A Administração Meteorológica da Coreia (KMA) prevê que a temperatura máxima será de cerca de 30 graus no dia 8, à medida que os ventos de leste entrarem na costa leste de Gangwon-do e Gyeongbuk-do, enquanto os avisos de calor continuarão na maioria das outras áreas.
-
+Espera-se que o tufão nº 6, Kanun, siga um curso um pouco mais a oeste do que o esperado e atinja a costa sul entre Gyeongnam e Jeonnam. No entanto, o raio de vento do Kanun (a área com ventos de 15㎧ ou mais) é de mais de 300 quilômetros, de modo que o país inteiro ainda está sob sua influência. A Administração Meteorológica da Coreia (KMA) prevê que a temperatura máxima será de cerca de 30 graus no dia 8, à medida que os ventos de leste entrarem na costa leste de Gangwon-do e Gyeongbuk-do, enquanto os avisos de calor continuarão na maioria das outras áreas.
 
 </div>
-
 
 <figure class=image-container>
     <img src="https://images.chosun.com/resizer/gNphVKPPUhnGfcXHi-o1brE-qOo=/1200x630/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/BXL7SV646VLHFEL4SAIAQRSBWI.jpg" alt="조선일보" />
@@ -131,15 +125,13 @@ A maior parte da região estará sob alerta de calor severo hoje, Ano Novo Lunar
     </figcaption>
 </figure>
 
-
 <div class="article-body">
 Espera-se que o aviso de calor seja suspenso nos dias 9 e 10, já que o tufão Kanun, o sexto tufão do país, traz chuvas para todo o país. A partir das 9 horas do dia 9, Kanun estava se movendo para o norte no mar ao sul de Kagoshima, no Japão, e espera-se que se mova para o mar a cerca de 150 quilômetros a oeste de Kagoshima às 15 horas e passe por Kyushu. Às 3h do dia 10, Kanun deve se deslocar para o mar a cerca de 170 quilômetros a leste de Seogwipo antes de atingir a costa a 30 quilômetros a sudoeste de Tongyeong na mesma manhã como uma tempestade &#39;forte&#39;.
 
- Devido à influência de Kanun, um aviso de tufão foi emitido para as águas externas do leste do Mar do Sul. Avisos de ventos fortes estão em vigor para Geomundo e Chodo, Jeollanam-do, e avisos de ventos estão em vigor para a maior parte dos mares do leste e do sul. Espera-se que o aviso de vento se estenda gradualmente a todo o mar e que mude para aviso de tufão à medida que o Kanun avança para o norte.
+Devido à influência de Kanun, um aviso de tufão foi emitido para as águas externas do leste do Mar do Sul. Avisos de ventos fortes estão em vigor para Geomundo e Chodo, Jeollanam-do, e avisos de ventos estão em vigor para a maior parte dos mares do leste e do sul. Espera-se que o aviso de vento se estenda gradualmente a todo o mar e que mude para aviso de tufão à medida que o Kanun avança para o norte.
 
- Chuveiros devido à instabilidade atmosférica são esperados em áreas do interior onde a onda de calor persiste. A Administração Meteorológica da Coreia prevê pancadas de chuva no sul de Gyeonggi e no sul de Gangwon, no interior de Chungcheong e nas regiões do sul (excluindo a costa leste de Gyeongsang do Norte) de hoje à tarde até a noite. Em particular, espera-se que as chuvas atinjam de 5 a 60 milímetros nas regiões de Jeolla e Gyeongsang, com até 80 milímetros em Chungcheongnam-do e mais de 100 milímetros no interior de Jeolla, Gwangju e Jeonnam-do.
+Chuveiros devido à instabilidade atmosférica são esperados em áreas do interior onde a onda de calor persiste. A Administração Meteorológica da Coreia prevê pancadas de chuva no sul de Gyeonggi e no sul de Gangwon, no interior de Chungcheong e nas regiões do sul (excluindo a costa leste de Gyeongsang do Norte) de hoje à tarde até a noite. Em particular, espera-se que as chuvas atinjam de 5 a 60 milímetros nas regiões de Jeolla e Gyeongsang, com até 80 milímetros em Chungcheongnam-do e mais de 100 milímetros no interior de Jeolla, Gwangju e Jeonnam-do.
 
- Na área metropolitana de Seul e nas partes orientais de Gangwon-do, Busan, Ulsan e Gyeongnam, a precipitação esperada é de 5 a 40 milímetros.
-
+Na área metropolitana de Seul e nas partes orientais de Gangwon-do, Busan, Ulsan e Gyeongnam, a precipitação esperada é de 5 a 40 milímetros.
 
 </div>

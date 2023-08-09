@@ -1,12 +1,12 @@
 ---
-title: 'Nissan Announces New ''Skyline NISMO'' Model and Limited Edition ''Skyline Limited'''
-description: 'Nissan Motor Co. has revealed the ''Skyline NISMO'', a new model based on the sports car ''Skyline'' with improved driving performance. Additionally, they have introduced a special edition model called ''Skyline Limited''.'
-category: 'Business/Economy'
-keywords: 'スカイライン'
-date: '2023-08-09'
-author: 'wikitoday.io'
-language: 'EN-US'
-thumbnail: 'https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000-1-view.jpg?exp=10800'
+title: "Nissan Announces New 'Skyline NISMO' Model and Limited Edition 'Skyline Limited'"
+description: "Nissan Motor Co. has revealed the 'Skyline NISMO', a new model based on the sports car 'Skyline' with improved driving performance. Additionally, they have introduced a special edition model called 'Skyline Limited'."
+category: "Business&Economy"
+keywords: "スカイライン"
+date: "2023-08-09"
+author: "wikitoday.io"
+language: "EN-US"
+thumbnail: "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000-1-view.jpg?exp=10800"
 ---
 
 # Nissan Announces New ''Skyline NISMO'' Model and Limited Edition ''Skyline Limited''
@@ -19,7 +19,6 @@ thumbnail: 'https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000
   </p>
 </blockquote>
 
-
 <figure class=image-container>
     <img src="https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000-1-view.jpg?exp=10800" alt="Yahoo!ニュース" />
     <figcaption>
@@ -27,9 +26,7 @@ thumbnail: 'https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000
     </figcaption>
 </figure>
 
-
 <hr class="article-hr" />
-
 
 <div class="faq">
 
@@ -80,15 +77,12 @@ thumbnail: 'https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000
 
 </div>
 
-
 <hr class="article-hr" />
 
 <div class="article-body">
 On September 8th, Nissan Motor Co. announced the launch of the &#39;Skyline NISMO&#39;, a new model that offers enhanced driving performance and capabilities compared to the standard &#39;Skyline&#39; sports car. The &#39;Skyline NISMO&#39; is designed for car enthusiasts who prefer a more exhilarating driving experience. In addition to the &#39;Skyline NISMO&#39;, Nissan also introduced a limited edition version called the &#39;Skyline Limited&#39;.
 
-
 </div>
-
 
 <figure class=image-container>
     <img src="https://newsimg.oricon.co.jp/feed/images/size640wh/20230808_162847_size640wh_55570684.jpg" alt="岩手日報" />
@@ -97,9 +91,7 @@ On September 8th, Nissan Motor Co. announced the launch of the &#39;Skyline NISM
     </figcaption>
 </figure>
 
-
 <div class="article-body">
 This special edition model incorporates unique design elements and exclusive features that set it apart from the regular &#39;Skyline NISMO&#39;. Both models are expected to go on sale in the coming weeks.
-
 
 </div>
