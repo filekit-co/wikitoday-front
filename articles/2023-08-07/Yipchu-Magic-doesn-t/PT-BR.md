@@ -1,7 +1,7 @@
 ---
 title: "O 'Yipchu Magic' não funciona... O tufão 'Kanun' chega entre Gyeongnam e Jeollanam-do"
 description: "Hoje, em Ipchu, a maior parte da região sofrerá calor extremo, e a trajetória do tufão Kanun se voltará para o oeste."
-category: "Environment&Nature"
+category: "Nature"
 keywords: "입추"
 date: "2023-08-07"
 author: "wikitoday.io"

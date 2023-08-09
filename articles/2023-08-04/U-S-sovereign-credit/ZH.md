@@ -1,7 +1,7 @@
 ---
 title: "美国主权信用评级 12 年来首次下调......亚洲股市大跌"
 description: "美国主权信用评级被下调。2011 年至今已过去 12 年，世界金融市场紧张不安。如果美国金融市场出现动荡，韩国就不可能安全，因此美国主权信用评级下调所引发的金融市场变化将受到密切关注。"
-category: "Business&Economy"
+category: "Economy"
 keywords: "미국 신용등급 강등"
 date: "2023-08-04"
 author: "wikitoday.io"

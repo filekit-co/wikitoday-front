@@ -1,7 +1,7 @@
 ---
 title: "'Yipchu Magic' doesn't work...Typhoon 'Kanun' comes between Gyeongnam and Jeollanam-do"
 description: "Today, Ipchu, most of the region will experience extreme heat, and Typhoon Kanun's path will turn westward."
-category: "Environment&Nature"
+category: "Nature"
 keywords: "입추"
 date: "2023-08-07"
 author: "wikitoday.io"

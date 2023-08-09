@@ -1,7 +1,7 @@
 ---
 title: "Saemangeum Jamboree Faces Serious Issues Due to Lack of Preparation"
 description: "The 'World Jamboree 2023' event in Saemangeum, South Korea is facing significant challenges due to a lack of preparation. More than 1,000 people have already fallen ill, and the event has been criticized for inadequate safety measures. Minister of the Interior and Safety Lee Sang-min is being held accountable for the disastrous situation. Find out more about the difficulties faced by the Jamboree and the concerns raised by participants."
-category: "World&International"
+category: "International"
 keywords: "잼버리,잼버리 대회,새만금,새만금 잼버리,잼버리 여가부"
 date: "2023-08-04"
 author: "wikitoday.io"

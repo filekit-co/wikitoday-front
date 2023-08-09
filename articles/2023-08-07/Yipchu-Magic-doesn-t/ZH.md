@@ -1,7 +1,7 @@
 ---
 title: "叶楚魔法 '不起作用......台风 '卡努 '在庆尚南道和全罗南道之间来袭"
 description: "今天，Ipchu 地区大部分地区将出现极端高温，台风 '卡农 '的路径将转向西方。"
-category: "Environment&Nature"
+category: "Nature"
 keywords: "입추"
 date: "2023-08-07"
 author: "wikitoday.io"

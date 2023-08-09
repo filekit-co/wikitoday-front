@@ -1,7 +1,7 @@
 ---
 title: "닛산, 신형 ''스카이라인 니즈모'' 모델 및 한정판 ''스카이라인 리미티드'' 출시"
 description: "닛산 자동차가 스포츠카 '스카이라인'을 기반으로 주행 성능을 개선한 신형 모델 '스카이라인 닛스모(Skyline NISMO)'를 공개했습니다. 또한 스페셜 에디션 모델인 '스카이라인 리미티드'를 선보였습니다."
-category: "Business&Economy"
+category: "Economy"
 keywords: "スカイライン"
 date: "2023-08-09"
 author: "wikitoday.io"

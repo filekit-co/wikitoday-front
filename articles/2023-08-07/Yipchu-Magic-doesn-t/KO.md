@@ -1,7 +1,7 @@
 ---
 title: "'입추 매직' 안 먹힌다...태풍 '카눈', 경남과 전남 사이로 온다"
 description: "입추인 오늘, 대부분의 지역이 폭염을 경험하고 태풍 카눈의 경로가 서쪽으로 향할 것입니다."
-category: "Environment&Nature"
+category: "Nature"
 keywords: "입추"
 date: "2023-08-07"
 author: "wikitoday.io"

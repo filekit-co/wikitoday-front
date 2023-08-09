@@ -1,7 +1,7 @@
 ---
 title: "International Cat Day: 5 Weird Things Your Cat Is Doing and Why"
 description: "While cats are amazing, at times their behavior is a mystery. Here are five things your feline friend might be doing and what they mean."
-category: "World&International"
+category: "International"
 keywords: "International Cat Day"
 date: "2023-08-09"
 author: "wikitoday.io"
