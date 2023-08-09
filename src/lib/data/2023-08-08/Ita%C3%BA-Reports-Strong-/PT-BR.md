@@ -1,11 +1,7 @@
 ---
 title: "Itaú registra fortes lucros no segundo trimestre, apesar da instabilidade dos aplicativos"
 description: "O Itaú Unibanco (ITUB4) anunciou resultados financeiros impressionantes para o segundo trimestre de 2023, com um lucro recorrente de R$ 8,742 bilhões. No entanto, o banco enfrentou desafios, pois seu aplicativo e site sofreram instabilidades, causando transtornos aos usuários."
-<<<<<<< HEAD
-category: "Business/Economy"
-=======
 category: "Economy"
->>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "Itau, itau fora do ar, app itau fora do ar, banco itau fora do ar, Itaú, aplicativo itau fora do ar, iti, instabilidade itau, aplicativo itau, itaú fora do ar hoje 2023, Itaú fora do ar hoje, app do itau fora do ar, itau esta fora do ar, aplicativo banco itaú, aplicativo do itau fora do ar, itau fora do ar agora"
 date: "2023-08-08"
 author: "wikitoday.io"

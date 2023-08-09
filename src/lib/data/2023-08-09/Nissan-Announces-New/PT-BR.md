@@ -1,11 +1,7 @@
 ---
 title: "Nissan anuncia o novo modelo 'Skyline NISMO' e a edição limitada 'Skyline Limited"
 description: "A Nissan Motor Co. revelou o ''Skyline NISMO'', um novo modelo baseado no carro esportivo ''Skyline'' com melhor desempenho de direção. Além disso, foi introduzido um modelo de edição especial chamado ''Skyline Limited''."
-<<<<<<< HEAD
-category: "Business/Economy"
-=======
 category: "Economy"
->>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "スカイライン"
 date: "2023-08-09"
 author: "wikitoday.io"

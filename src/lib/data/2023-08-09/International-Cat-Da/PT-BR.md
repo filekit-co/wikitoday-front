@@ -1,11 +1,7 @@
 ---
 title: "Dia Internacional do Gato: 5 coisas estranhas que seu gato está fazendo e por quê"
 description: "Embora os gatos sejam incríveis, às vezes seu comportamento é um mistério. Aqui estão cinco coisas que seu amigo felino pode estar fazendo e o que elas significam."
-<<<<<<< HEAD
-category: "World/International"
-=======
 category: "International"
->>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "International Cat Day"
 date: "2023-08-09"
 author: "wikitoday.io"

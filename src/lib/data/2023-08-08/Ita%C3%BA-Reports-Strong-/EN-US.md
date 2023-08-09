@@ -1,11 +1,7 @@
 ---
 title: "Itaú Reports Strong Profits in Q2, Despite App Instability"
 description: "Itaú Unibanco (ITUB4) has announced impressive financial results for the second quarter of 2023, with a recurring profit of BRL 8.742 billion. However, the bank faced challenges as its app and website experienced instabilities, causing inconvenience for users."
-<<<<<<< HEAD
-category: "Business/Economy"
-=======
 category: "Economy"
->>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "Itau, itau fora do ar, app itau fora do ar, banco itau fora do ar, Itaú, aplicativo itau fora do ar, iti, instabilidade itau, aplicativo itau, itaú fora do ar hoje 2023, Itaú fora do ar hoje, app do itau fora do ar, itau esta fora do ar, aplicativo banco itaú, aplicativo do itau fora do ar, itau fora do ar agora"
 date: "2023-08-08"
 author: "wikitoday.io"

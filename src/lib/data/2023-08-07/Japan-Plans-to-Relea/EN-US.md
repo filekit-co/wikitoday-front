@@ -1,11 +1,7 @@
 ---
 title: "Japan Plans to Release Contaminated Water from Fukushima Daiichi Nuclear Power Plant"
 description: "The Japanese government is planning to discharge contaminated water from the Fukushima Daiichi nuclear power plant into the ocean later this month."
-<<<<<<< HEAD
-category: "World/International"
-=======
 category: "International"
->>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "일본"
 date: "2023-08-07"
 author: "wikitoday.io"

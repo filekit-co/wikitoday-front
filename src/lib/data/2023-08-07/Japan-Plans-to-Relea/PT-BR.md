@@ -1,11 +1,7 @@
 ---
 title: "Japão planeja liberar água contaminada da usina nuclear de Fukushima Daiichi"
 description: "O governo japonês está planejando despejar a água contaminada da usina nuclear de Fukushima Daiichi no oceano no final deste mês."
-<<<<<<< HEAD
-category: "World/International"
-=======
 category: "International"
->>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "일본"
 date: "2023-08-07"
 author: "wikitoday.io"

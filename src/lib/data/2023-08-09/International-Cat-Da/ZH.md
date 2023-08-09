@@ -1,11 +1,7 @@
 ---
 title: "国际猫日：您的猫正在做的 5 件怪事及其原因"
 description: "虽然猫很神奇，但有时它们的行为也很神秘。以下是您的猫咪朋友可能会做的五件事以及它们的含义。"
-<<<<<<< HEAD
-category: "World/International"
-=======
 category: "International"
->>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "International Cat Day"
 date: "2023-08-09"
 author: "wikitoday.io"

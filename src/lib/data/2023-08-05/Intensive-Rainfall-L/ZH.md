@@ -1,11 +1,7 @@
 ---
 title: "强降雨导致庆尚北道地区急需采取预防措施和恢复港口"
 description: "在暴雨给庆尚北道北部地区造成重大损失近三周后，当局强调了采取预防措施和恢复港口的重要性，以应对日益频繁的此类灾害。"
-<<<<<<< HEAD
-category: "World/International"
-=======
 category: "International"
->>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "뉴스"
 date: "2023-08-05"
 author: "wikitoday.io"

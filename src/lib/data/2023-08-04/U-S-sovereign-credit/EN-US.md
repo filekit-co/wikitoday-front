@@ -1,11 +1,7 @@
 ---
 title: "U.S. sovereign credit rating downgraded for first time in 12 years...Asian stocks slammed"
 description: "The US sovereign credit rating has been downgraded. It's been 12 years since 2011, and the world's financial markets are nervous. As Korea cannot be safe if there is a turbulence in the U.S. financial market, the changes in the financial market caused by the U.S. sovereign credit rating downgrade will be closely watched."
-<<<<<<< HEAD
-category: "Business/Economy"
-=======
 category: "Economy"
->>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "미국 신용등급 강등"
 date: "2023-08-04"
 author: "wikitoday.io"
