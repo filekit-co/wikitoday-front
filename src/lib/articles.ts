@@ -49,6 +49,6 @@ export async function getArticlesByLang(language: string): Promise<Article[]> {
 }
 
 export async function getArticlesByCategory(category: string) {
-  
+
 }
 
