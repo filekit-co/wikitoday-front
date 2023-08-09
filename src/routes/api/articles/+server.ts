@@ -1,4 +1,4 @@
-import { getArticlesByLang } from "$lib/site/articles";
+import { getArticlesByLang } from "$lib/articles";
 import { json } from "@sveltejs/kit";
 
 const FALLBACK_LANG = 'EN-US'
