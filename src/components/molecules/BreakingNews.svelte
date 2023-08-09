@@ -1,8 +1,8 @@
 <script lang="ts">
-  import type { DataType } from "$lib/types";
+  import type { Article } from "$lib/types";
   import { handleClick } from "$lib/utils";
 
-  export let data: DataType;
+  export let articles: Article[];
 </script>
 
 <div class="lg:w-3/4 lg:pr-4 lg:border-r-2 lg:border-r-black">
@@ -11,10 +11,10 @@
   <hr class="h-px bg-gray-500 border-4" />
 
   <div class="grid grid-rows-5 grid-cols-2">
-    {#each data.articles as article}
+    {#each articles as article}
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div
-        on:click={() => handleClick(article)}
+        on:click={() => handleClick(article.slug)}
         class="lg:flex border-b-2 border-x-2 border-gray-200 px-4 py-4 cursor-pointer items-center"
       >
         <div class="lg:w-1/2 lg:col-auto">

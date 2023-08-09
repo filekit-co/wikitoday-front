@@ -45,12 +45,12 @@
     </button>
     <div class="px-6 py-4 flex-col">
       <h2 class="text-4xl font-bold mb-4">Category</h2>
-      {#each CategoryPages as { key }}
+      {#each CategoryPages as { key, value }}
         <button
-          on:click={() => handleClick(key)}
+          on:click={() => handleClick(value)}
           class="block my-6 font-semibold font-3xl"
         >
-          {key}
+          {category}
         </button>
       {/each}
     </div>

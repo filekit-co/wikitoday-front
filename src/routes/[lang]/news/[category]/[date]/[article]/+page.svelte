@@ -1,11 +1,11 @@
 <script lang="ts">
   export let data;
-  const { article } = data;
+  const { articleHtml } = data;
 </script>
 
 <div class="max-w-3xl mx-auto">
   <article class="container relative pt-10">
-    {@html article.html}
+    {@html articleHtml}
   </article>
 </div>
 

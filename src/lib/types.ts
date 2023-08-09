@@ -12,24 +12,43 @@ export interface HeaderProps {
 
 export type UpdateHeaderProps = Partial<HeaderProps>
 
+
+
 export type CategoryType =
   | 'Politics'
-  | 'World/International'
-  | 'Business/Economy'
+  | 'International'
+  | 'Economy'
   | 'Technology'
   | 'Science'
   | 'Health'
   | 'Entertainment'
   | 'Sports'
-  | 'Environment/Nature'
+  | 'Nature'
   | 'Education'
   | 'Lifestyle'
-  | 'Opinion/Editorial';
+  | 'Opinion'
+  | 'Crime';
 
-export interface DataType {
+  export const CategoryPages: CategoryType[] = [
+    'Politics'
+    ,'International'
+    ,'Economy'
+    ,'Technology'
+    ,'Science'
+    ,'Health'
+    ,'Entertainment'
+    ,'Sports'
+    ,'Nature'
+    ,'Education'
+    ,'Lifestyle'
+    ,'Opinion'
+    ,'Crime'
+  ];  
+
+export interface ArticleMetadata {
   articles: {
     title: string;
-    category: string;
+    category: CategoryType;
     description: string;
     date: string;
     thumbnail: string;
@@ -37,76 +56,19 @@ export interface DataType {
   }[];
 }
 
-export interface ArticleType {
+export interface Article {
   slug: string;
+  html: string;
   title: string;
   description: string;
   category: CategoryType;
+  keywords: string;
   date: string;
   author: string;
   language: string;
-  html: HTMLAllCollection;
   thumbnail: string;
-  keywords: string;
 }
 
-export interface ImageType {
-  title: string;
-  src: string;
-  description?: string;
-  keywords?: string;
-}
-
-export const CategoryPages = [
-  {
-    key: 'Politics',
-    value: 'Politics',
-  },
-  {
-    key: 'World',
-    value: 'World/International',
-  },
-  {
-    key: 'Economy',
-    value: 'Business/Economy',
-  },
-  {
-    key: 'Technology',
-    value: 'Technology',
-  },
-  {
-    key: 'Science',
-    value: 'Science',
-  },
-  {
-    key: 'Health',
-    value: 'Health',
-  },
-  {
-    key: 'Entertainment',
-    value: 'Entertainment',
-  },
-  {
-    key: 'Sports',
-    value: 'Sports',
-  },
-  {
-    key: 'Nature',
-    value: 'Environment/Nature',
-  },
-  {
-    key: 'Education',
-    value: 'Education',
-  },
-  {
-    key: 'Lifestyle',
-    value: 'Lifestyle',
-  },
-  {
-    key: 'Opinion',
-    value: 'Opinion/Editorial',
-  },
-];
 
 export function getExactCategory(key: string) {
   const category = CategoryPages.find(item => item.key === key);

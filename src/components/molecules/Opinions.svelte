@@ -1,14 +1,14 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import type { DataType, ImageType } from "$lib/types";
+  import type { Article, ImageType } from "$lib/types";
   import Carosel from "../atoms/Carosel.svelte";
   import { handleClick } from "$lib/utils";
 
-  export let data: DataType;
+  export let articles: Article[];
   let images: ImageType[] = [];
 
   onMount(() => {
-    images = data.articles.map((article) => ({
+    images = articles.map((article) => ({
       src: article.thumbnail,
       title: article.title,
       keywords: article.keywords,
@@ -25,10 +25,10 @@
   <!-- Small opinion articles -->
   <div class="h-full mt-48">
     <hr class="h-px bg-gray-500 border-1" />
-    {#each data.articles as article}
+    {#each articles as article}
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div
-        on:click={() => handleClick(article)}
+        on:click={() => handleClick(article.slug)}
         class="flex my-4 items-center cursor-pointer"
       >
         <div class="flex-grow">

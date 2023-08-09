@@ -5,7 +5,7 @@ import { mdsvex } from 'mdsvex'
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
-	extensions: ['.md', '.svx'],
+	extensions: ['.md',],
 	layout: {},
 }
 
@@ -13,7 +13,7 @@ const mdsvexOptions = {
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	extensions: ['.svelte', '.md', '.svx'],
+	extensions: ['.svelte', '.md'],
 
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 

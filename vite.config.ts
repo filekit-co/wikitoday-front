@@ -15,6 +15,7 @@ export default defineConfig({
 			'@templates': path.resolve('src/templates'),
 			'@store': path.resolve('src/lib/store'),
 			'@lib': path.resolve('src/lib'),
+			'@data': path.resolve('src/lib/data'),
 		}
 	}	
 });

@@ -14,9 +14,9 @@
   <div
     class="grid md:grid-rows-2 md:grid-cols-6 xl:grid-rows-1 xl:grid-cols-12"
   >
-    {#each CategoryPages as { key }}
-      <button on:click={() => handleClick(key)}>
-        {key}
+    {#each CategoryPages as category}
+      <button on:click={() => handleClick(category)}>
+        {category}
       </button>
     {/each}
   </div>

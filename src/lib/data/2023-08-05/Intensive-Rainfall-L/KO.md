@@ -1,7 +1,11 @@
 ---
 title: "집중호우로 경상북도 지역, 예방 조치와 항구 복구가 시급하다"
 description: "폭우로 경북 북부 지역에 큰 피해가 발생한 지 약 3주가 지난 지금, 당국은 이러한 재해의 빈도가 높아짐에 따라 예방 조치와 항구 복구의 중요성을 강조하고 있습니다."
+<<<<<<< HEAD
 category: "World/International"
+=======
+category: "International"
+>>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "뉴스"
 date: "2023-08-05"
 author: "wikitoday.io"

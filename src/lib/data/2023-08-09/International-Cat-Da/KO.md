@@ -1,7 +1,11 @@
 ---
 title: "국제 고양이의 날: 고양이가 하는 이상한 행동 5가지와 그 이유"
 description: "고양이는 놀랍지만 때때로 고양이의 행동은 미스터리입니다. 고양이가 할 수 있는 다섯 가지 행동과 그 의미를 알아보세요."
+<<<<<<< HEAD
 category: "World/International"
+=======
+category: "International"
+>>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "International Cat Day"
 date: "2023-08-09"
 author: "wikitoday.io"

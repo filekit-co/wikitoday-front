@@ -1,7 +1,11 @@
 ---
 title: "일본, 후쿠시마 제1 원전 오염수 방출 계획"
 description: "일본 정부는 이달 말 후쿠시마 제1원전의 오염수를 바다로 방류할 계획입니다."
+<<<<<<< HEAD
 category: "World/International"
+=======
+category: "International"
+>>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "일본"
 date: "2023-08-07"
 author: "wikitoday.io"

@@ -1,7 +1,11 @@
 ---
 title: "日本计划从福岛第一核电站释放受污染的水"
 description: "日本政府计划在本月晚些时候将福岛第一核电站受污染的水排放到海洋中。"
+<<<<<<< HEAD
 category: "World/International"
+=======
+category: "International"
+>>>>>>> b49d85e86eea5f2394236c4e7b9b18994e172b01
 keywords: "일본"
 date: "2023-08-07"
 author: "wikitoday.io"
