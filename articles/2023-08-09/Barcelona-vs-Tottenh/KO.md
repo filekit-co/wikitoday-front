@@ -1,38 +1,41 @@
 ---
-title: "陨石制成的古代工具：铁器时代以前的奇迹"
-description: "甚至在铁器时代之前，人们就可以用从陨石中获取的铁制造工具。科学家们正在研究由地外材料制成的古代工具。"
-category: "Science"
-keywords: "운석"
-date: "2023-08-04"
-author: "wikitoday.io"
-language: "ZH"
-thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.jpg"
+title: '바르셀로나 대 토트넘: 트로페오 호안 감퍼 트로피 결승전 미리보기'
+description: '실시간 스트림, TV 채널, 킥오프 시간 등 바르셀로나와 토트넘의 트로페오 호안 감퍼 경기를 온라인으로 시청할 수 있는 곳을 확인하세요.'
+category: 'Sports'
+keywords: 'Barcelona vs Tottenham, Barcelona, barcelona - tottenham, Tottenham'
+date: '2023-08-09'
+author: 'wikitoday.io'
+language: 'KO'
+thumbnail: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt6cc00fc3a31e550e/64ce1f9713aaedc7a0ba3bce/Robert_Lewandowski_Harry_Kane_Barcelona_Tottenham_2023_2024.jpg'
 ---
 
-# 陨石制成的古代工具：铁器时代以前的奇迹
+# 바르셀로나 대 토트넘: 트로페오 호안 감퍼 트로피 결승전 미리보기
 
-<p class="datetime"><em>2023-08-04 - wikitoday<em></p>
+<p class="datetime"><em>2023-08-09 - wikitoday<em></p>
 
 <blockquote class="quote-container dark">
   <p class="quote-text dark">
-    甚至在铁器时代之前，人们就可以用从陨石中获取的铁制造工具。科学家们正在研究由地外材料制成的古代工具。
+    실시간 스트림, TV 채널, 킥오프 시간 등 바르셀로나와 토트넘의 트로페오 호안 감퍼 경기를 온라인으로 시청할 수 있는 곳을 확인하세요.
   </p>
 </blockquote>
 
+
 <figure class=image-container>
-    <img src="https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.jpg" alt="파퓰러사이언스" />
+    <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt6cc00fc3a31e550e/64ce1f9713aaedc7a0ba3bce/Robert_Lewandowski_Harry_Kane_Barcelona_Tottenham_2023_2024.jpg" alt="Goal.com" />
     <figcaption>
-        <h4> from 파퓰러사이언스</h4>
+        <h4> from Goal.com</h4>
     </figcaption>
 </figure>
 
+
 <hr class="article-hr" />
+
 
 <div class="faq">
 
 <details class="group" open>
   <summary class="summary">
-    <h2><b>Q. 铁箭头从何而来？</b></h2>
+    <h2><b>Q. 바르셀로나와 토트넘의 트로페오 호안 감퍼 경기는 어디에서 열리나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -42,12 +45,12 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p>这枚铁箭头是在莫里根（Mörigen）发掘出来的，莫里根是青铜时代晚期的一个湖边定居点，那里的人们非常活跃。</p>
+  <p>바르셀로나와 토트넘의 트로페오 호안 감퍼 경기는 에스타디 올림피코 루이스 컴퍼니에서 열리고 있습니다.</p>
 </details>
 
 <details class="group" >
   <summary class="summary">
-    <h2><b>Q. 箭头的成分是什么？</b></h2>
+    <h2><b>Q. 바르셀로나 대 토트넘 경기 킥오프는 몇 시인가요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -57,12 +60,12 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p> 箭头的镍含量为 8.3%，是陨石的两倍，铝-26 浓度较低，天竺葵含量较高。</p>
+  <p>바르셀로나 대 토트넘 경기의 킥오프는 오후 2시(동부 표준시)입니다.</p>
 </details>
 
 <details class="group" >
   <summary class="summary">
-    <h2><b>Q.  据伯尔尼历史博物馆称，世界上仅有 55 件考古文物是由陨石制成的。</b></h2>
+    <h2><b>Q. 바르셀로나 대 토트넘 경기는 어느 TV 채널에서 중계하나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -72,12 +75,12 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p>据伯尔尼历史博物馆称，世界上仅有 55 件考古文物是由陨石制成的。</p>
+  <p>바르셀로나 대 토트넘 경기는 FOX Deportes와 fuboTV에서 생중계됩니다.</p>
 </details>
 
 <details class="group" >
   <summary class="summary">
-    <h2><b>Q. 据说箭头是用哪种陨石制成的？</b></h2>
+    <h2><b>Q. 바르셀로나 대 토트넘 경기에서 주목해야 할 주요 선수는 누구인가요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -87,12 +90,12 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p>箭头据信是由 IAB 型陨石制成的，这种陨石由金属组成。</p>
+  <p>바르셀로나 대 토트넘 경기에서 주목해야 할 주요 선수는 바르셀로나의 일카이 귄도간과 토트넘의 제임스 매디슨입니다.</p>
 </details>
 
 <details class="group" >
   <summary class="summary">
-    <h2><b>Q. 箭头的材料从何而来？</b></h2>
+    <h2><b>Q. 바르셀로나와 토트넘의 트로페오 호안 감퍼 경기에는 무엇이 걸려 있나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -102,17 +105,31 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p>论文作者称，箭镞的材料来自 Kaaliyarv 陨石，该陨石于公元前 1500 年左右在爱沙尼亚萨雷马岛上形成了一个巨大的陨石坑。</p>
+  <p>트로페오 호안 감퍼 매치에서는 바르셀로나와 토트넘이 호안 감퍼 트로피를 놓고 경쟁합니다.</p>
 </details>
 
 </div>
+
 
 <hr class="article-hr" />
 
 <div class="article-body">
-甚至在铁器时代之前，人们就可以用铁制造工具。当时的冶炼技术还不成熟，但可以从陨石中获得铁。来自太空的岩石中含有镍和硅酸盐等金属，科学家们正在研究由地外材料制成的古代工具。青铜时代晚期开始出现用铁加工的艺术。不过，瑞士伯尔尼历史博物馆收藏的一枚铁箭头的历史比铁器时代还要久远。学者们认为它是用陨石制成的武器。据伯尔尼历史博物馆称，世界上仅有 55 件考古文物是由陨石制成的。最近发表在《考古科学杂志》上的一篇论文详细介绍了这个箭头。该物品长 1.5 英寸，重 2.9 克，出土于 19 世纪。它来自莫里根（Mörigen），这里是青铜时代晚期人们活跃的湖边定居点。它距离 15 万年前特旺贝格陨石撞击地球的地点 5 英里。人们曾一度猜测这块陨石是箭头的来源，但研究表明，古人不可能使用这种矿物。
+바르셀로나는 화요일 에스타디 올림피코 루이스 컴퍼니에서 조안 감퍼 트로피를 차지하기 위해 토트넘과 맞붙습니다. 바르셀로나는 지난 시즌 레알 마드리드를 꺾고 라 리가에서 우승했고 토트넘은 프리미어 리그에서 8위를 차지했습니다. 바르셀로나는 일카이 귄도간을 영입하고 토트넘은 제임스 매디슨을 영입하는 등 두 팀 모두 여름 이적 시장에서 중요한 영입을 단행했습니다.
+
+
 </div>
 
+
+<figure class=image-container>
+    <img src="https://gumlet.assettype.com/bloombergquint%2F2023-08%2F72f0dffc-4259-463f-b03d-ba493578879c%2Fbarca.JPG?w=1200&amp;auto=format%2Ccompress&amp;ogImage=true" alt="BQ Prime" />
+    <figcaption>
+        <h4> from BQ Prime</h4>
+    </figcaption>
+</figure>
+
+
 <div class="article-body">
-我们尚未在箭头或其他人工制品中发现任何特旺贝格陨石成分。箭头含有 8.3% 的镍，是陨石的两倍。据研究人员称，箭头的铝-26 浓度较低，天竺葵的比例较高。这些数值提高了母体材料是 IAB 型陨石的可能性。IAB 型陨石是由金属组成的陨石。据估计，它的质量至少有两吨。迄今为止，只有三块陨石坠落在欧洲并具有这些特征。论文作者称，卡利亚里耶夫陨石为箭头提供了材料。这块陨石于公元前 1500 年左右在爱沙尼亚的萨雷马岛上形成了一个巨大的陨石坑。撞击点造成了一个贯穿现代波兰、立陶宛和拉脱维亚的洞。结果，无数铁陨石碎片散落一地。学者们得出结论，当时可能存在铁的贸易和运输系统。他们期待着在未来找到其他由太空岩石制成的古代工具。
+이번 경기는 박빙의 승부가 예상되며, 새 시즌 개막을 앞두고 두 팀이 서로를 시험해 볼 수 있는 좋은 기회가 될 것입니다.
+
+
 </div>

@@ -1,12 +1,12 @@
 ---
-title: 'Japan Plans to Release Contaminated Water from Fukushima Daiichi Nuclear Power Plant'
-description: 'The Japanese government is planning to discharge contaminated water from the Fukushima Daiichi nuclear power plant into the ocean later this month.'
-category: 'World/International'
-keywords: '일본'
-date: '2023-08-07'
-author: 'wikitoday.io'
-language: 'EN-US'
-thumbnail: 'https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763.jpg'
+title: "Japan Plans to Release Contaminated Water from Fukushima Daiichi Nuclear Power Plant"
+description: "The Japanese government is planning to discharge contaminated water from the Fukushima Daiichi nuclear power plant into the ocean later this month."
+category: "World&International"
+keywords: "일본"
+date: "2023-08-07"
+author: "wikitoday.io"
+language: "EN-US"
+thumbnail: "https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763.jpg"
 ---
 
 # Japan Plans to Release Contaminated Water from Fukushima Daiichi Nuclear Power Plant
@@ -19,7 +19,6 @@ thumbnail: 'https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763
   </p>
 </blockquote>
 
-
 <figure class=image-container>
     <img src="https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763.jpg" alt="tbs뉴스" />
     <figcaption>
@@ -27,9 +26,7 @@ thumbnail: 'https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763
     </figcaption>
 </figure>
 
-
 <hr class="article-hr" />
-
 
 <div class="faq">
 
@@ -80,15 +77,12 @@ thumbnail: 'https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763
 
 </div>
 
-
 <hr class="article-hr" />
 
 <div class="article-body">
 The Japanese government is coordinating efforts to begin discharging treated water, which is the government&#39;s term for contaminated water, from the Fukushima Daiichi nuclear power plant into the ocean. The discharge is expected to start later this month, according to the Yomiuri Shimbun and Asahi Shimbun. The exact timing of the discharge will be announced after the South Korea-Japan summit and a meeting between Prime Minister Kishida and fishermen.
 
-
 </div>
-
 
 <figure class=image-container>
     <img src="https://res.cloudinary.com/jnto/image/upload/w_600,fl_lossy,f_auto,q_auto,c_scale/v1/media/filer_public/4f/4f/4f4fb413-5e7e-4437-8f17-85dd64556c8c/jalxjntoxgmarket_oebubaeneo_960x720_myhplw" alt="Japan" />
@@ -97,9 +91,7 @@ The Japanese government is coordinating efforts to begin discharging treated wat
     </figcaption>
 </figure>
 
-
 <div class="article-body">
 The government had previously announced its intention to release the contaminated water this summer and has reiterated that its decision has not changed.
-
 
 </div>

@@ -1,38 +1,41 @@
 ---
-title: "陨石制成的古代工具：铁器时代以前的奇迹"
-description: "甚至在铁器时代之前，人们就可以用从陨石中获取的铁制造工具。科学家们正在研究由地外材料制成的古代工具。"
-category: "Science"
-keywords: "운석"
-date: "2023-08-04"
-author: "wikitoday.io"
-language: "ZH"
-thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.jpg"
+title: '류현진, 노히트노런 경기 중 무릎 부상'
+description: '토론토 블루제이스 투수 류현진이 클리블랜드와의 노히트노런 경기 도중 무릎을 다쳤습니다.'
+category: 'Sports'
+keywords: '류현진'
+date: '2023-08-09'
+author: 'wikitoday.io'
+language: 'KO'
+thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/646/imgdb/original/2023/0808/20230808500590.jpg'
 ---
 
-# 陨石制成的古代工具：铁器时代以前的奇迹
+# 류현진, 노히트노런 경기 중 무릎 부상
 
-<p class="datetime"><em>2023-08-04 - wikitoday<em></p>
+<p class="datetime"><em>2023-08-09 - wikitoday<em></p>
 
 <blockquote class="quote-container dark">
   <p class="quote-text dark">
-    甚至在铁器时代之前，人们就可以用从陨石中获取的铁制造工具。科学家们正在研究由地外材料制成的古代工具。
+    토론토 블루제이스 투수 류현진이 클리블랜드와의 노히트노런 경기 도중 무릎을 다쳤습니다.
   </p>
 </blockquote>
 
+
 <figure class=image-container>
-    <img src="https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.jpg" alt="파퓰러사이언스" />
+    <img src="https://flexible.img.hani.co.kr/flexible/normal/970/646/imgdb/original/2023/0808/20230808500590.jpg" alt="한겨레" />
     <figcaption>
-        <h4> from 파퓰러사이언스</h4>
+        <h4> from 한겨레</h4>
     </figcaption>
 </figure>
 
+
 <hr class="article-hr" />
+
 
 <div class="faq">
 
 <details class="group" open>
   <summary class="summary">
-    <h2><b>Q. 铁箭头从何而来？</b></h2>
+    <h2><b>Q. 누가 류현진 선수의 무릎을 쳤나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -42,12 +45,12 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p>这枚铁箭头是在莫里根（Mörigen）发掘出来的，莫里根是青铜时代晚期的一个湖边定居点，那里的人们非常活跃。</p>
+  <p>오스카 곤잘레스가 류현진의 무릎을 쳤습니다.</p>
 </details>
 
 <details class="group" >
   <summary class="summary">
-    <h2><b>Q. 箭头的成分是什么？</b></h2>
+    <h2><b>Q. 류현진은 안타를 맞기 전까지 몇 이닝이나 무실점 투구를 했나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -57,12 +60,12 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p> 箭头的镍含量为 8.3%，是陨石的两倍，铝-26 浓度较低，天竺葵含量较高。</p>
+  <p>류현진은 안타를 맞기 전까지 4이닝 무실점 투구를 펼쳤습니다.</p>
 </details>
 
 <details class="group" >
   <summary class="summary">
-    <h2><b>Q.  据伯尔尼历史博物馆称，世界上仅有 55 件考古文物是由陨石制成的。</b></h2>
+    <h2><b>Q. 류현진은 피격 후에도 경기를 계속할 수 있었나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -72,12 +75,12 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p>据伯尔尼历史博物馆称，世界上仅有 55 件考古文物是由陨石制成的。</p>
+  <p>아니요, 류현진은 5회 초까지 마운드에 복귀하지 않았습니다.</p>
 </details>
 
 <details class="group" >
   <summary class="summary">
-    <h2><b>Q. 据说箭头是用哪种陨石制成的？</b></h2>
+    <h2><b>Q. 류 선수는 피격당하기 전 경기력은 어땠나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -87,12 +90,12 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p>箭头据信是由 IAB 型陨石制成的，这种陨石由金属组成。</p>
+  <p>류현진은 안타 1개, 볼넷 1개, 삼진 2개를 기록하며 호투를 펼쳤습니다.</p>
 </details>
 
 <details class="group" >
   <summary class="summary">
-    <h2><b>Q. 箭头的材料从何而来？</b></h2>
+    <h2><b>Q. 류제국은 다음 선발로 나설 수 있을까요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -102,17 +105,33 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p>论文作者称，箭镞的材料来自 Kaaliyarv 陨石，该陨石于公元前 1500 年左右在爱沙尼亚萨雷马岛上形成了一个巨大的陨石坑。</p>
+  <p>다행히 류제국의 부상은 단순 타박상으로 보이며, 다음 등판은 가능할 것으로 보입니다.</p>
 </details>
 
 </div>
+
 
 <hr class="article-hr" />
 
 <div class="article-body">
-甚至在铁器时代之前，人们就可以用铁制造工具。当时的冶炼技术还不成熟，但可以从陨石中获得铁。来自太空的岩石中含有镍和硅酸盐等金属，科学家们正在研究由地外材料制成的古代工具。青铜时代晚期开始出现用铁加工的艺术。不过，瑞士伯尔尼历史博物馆收藏的一枚铁箭头的历史比铁器时代还要久远。学者们认为它是用陨石制成的武器。据伯尔尼历史博物馆称，世界上仅有 55 件考古文物是由陨石制成的。最近发表在《考古科学杂志》上的一篇论文详细介绍了这个箭头。该物品长 1.5 英寸，重 2.9 克，出土于 19 世纪。它来自莫里根（Mörigen），这里是青铜时代晚期人们活跃的湖边定居点。它距离 15 万年前特旺贝格陨石撞击地球的地点 5 英里。人们曾一度猜测这块陨石是箭头的来源，但研究表明，古人不可能使用这种矿物。
+토론토 블루제이스의 류현진이 8일(현지시간) 미국 오하이오주 클리블랜드 프로그레시브 필드에서 열린 2023 메이저리그(MLB) 월드시리즈 클리블랜드 인디언스와의 원정경기에서 4회말 2사 후 강습 타구에 오른쪽 무릎을 맞고 고통을 호소하고 있다. 류현진은 8일(한국시간) 미국 오하이오주 클리블랜드 프로그레시브 필드에서 열린 2023 메이저리그(MLB) 클리블랜드 가디언즈와의 방문 경기에 선발 등판했다.
+
+
 </div>
 
+
+<figure class=image-container>
+    <img src="https://dimg.donga.com/a/800/0/95/5/wps/NEWS/IMAGE/2023/08/09/120624709.2.jpg" alt="동아일보" />
+    <figcaption>
+        <h4> from 동아일보</h4>
+    </figcaption>
+</figure>
+
+
 <div class="article-body">
-我们尚未在箭头或其他人工制品中发现任何特旺贝格陨石成分。箭头含有 8.3% 的镍，是陨石的两倍。据研究人员称，箭头的铝-26 浓度较低，天竺葵的比例较高。这些数值提高了母体材料是 IAB 型陨石的可能性。IAB 型陨石是由金属组成的陨石。据估计，它的质量至少有两吨。迄今为止，只有三块陨石坠落在欧洲并具有这些特征。论文作者称，卡利亚里耶夫陨石为箭头提供了材料。这块陨石于公元前 1500 年左右在爱沙尼亚的萨雷马岛上形成了一个巨大的陨石坑。撞击点造成了一个贯穿现代波兰、立陶宛和拉脱维亚的洞。结果，无数铁陨石碎片散落一地。学者们得出结论，当时可能存在铁的贸易和运输系统。他们期待着在未来找到其他由太空岩石制成的古代工具。
+8(한국 시간)에 등판했지만 4회 말 강습 타구를 맞고 5회 말까지 마운드에 오르지 못했습니다. 류현진은 강판되기 전까지 4이닝 동안 안타 1개, 볼넷 1개, 삼진 2개를 기록하며 무실점 투구를 펼쳤습니다. 지난 4월 2일 볼티모어 오리올스와의 14개월 만의 선발 등판 때보다 구속이 올랐고 체인지업도 안정적이어서 시즌 첫 승을 기대할 수 있었습니다.
+
+ 다행히도 단순한 타박상으로 보이며 다음 선발 등판은 가능할 것으로 보입니다.
+
+
 </div>

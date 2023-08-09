@@ -1,38 +1,41 @@
 ---
-title: "陨石制成的古代工具：铁器时代以前的奇迹"
-description: "甚至在铁器时代之前，人们就可以用从陨石中获取的铁制造工具。科学家们正在研究由地外材料制成的古代工具。"
-category: "Science"
-keywords: "운석"
-date: "2023-08-04"
-author: "wikitoday.io"
-language: "ZH"
-thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.jpg"
+title: '세계 고양이의 날 기념'
+description: '8월 8일은 전 세계 고양이에 대한 인식을 높이고 축하하는 특별한 날인 세계 고양이의 날입니다.'
+category: 'Lifestyle'
+keywords: '세계 고양이의 날, 고양이의 날, 세계고양이의날'
+date: '2023-08-09'
+author: 'wikitoday.io'
+language: 'KO'
+thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/646/imgdb/original/2023/0808/20230808503411.jpg'
 ---
 
-# 陨石制成的古代工具：铁器时代以前的奇迹
+# 세계 고양이의 날 기념
 
-<p class="datetime"><em>2023-08-04 - wikitoday<em></p>
+<p class="datetime"><em>2023-08-09 - wikitoday<em></p>
 
 <blockquote class="quote-container dark">
   <p class="quote-text dark">
-    甚至在铁器时代之前，人们就可以用从陨石中获取的铁制造工具。科学家们正在研究由地外材料制成的古代工具。
+    8월 8일은 전 세계 고양이에 대한 인식을 높이고 축하하는 특별한 날인 세계 고양이의 날입니다.
   </p>
 </blockquote>
 
+
 <figure class=image-container>
-    <img src="https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.jpg" alt="파퓰러사이언스" />
+    <img src="https://flexible.img.hani.co.kr/flexible/normal/970/646/imgdb/original/2023/0808/20230808503411.jpg" alt="한겨레" />
     <figcaption>
-        <h4> from 파퓰러사이언스</h4>
+        <h4> from 한겨레</h4>
     </figcaption>
 </figure>
 
+
 <hr class="article-hr" />
+
 
 <div class="faq">
 
 <details class="group" open>
   <summary class="summary">
-    <h2><b>Q. 铁箭头从何而来？</b></h2>
+    <h2><b>Q. 세계 고양이의 날은 언제 만들어졌나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -42,12 +45,12 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p>这枚铁箭头是在莫里根（Mörigen）发掘出来的，莫里根是青铜时代晚期的一个湖边定居点，那里的人们非常活跃。</p>
+  <p>세계 고양이의 날은 2002년 국제동물복지기금(IFAW)에 의해 제정되었습니다.</p>
 </details>
 
 <details class="group" >
   <summary class="summary">
-    <h2><b>Q. 箭头的成分是什么？</b></h2>
+    <h2><b>Q. 세계 고양이의 날의 목적은 무엇인가요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -57,12 +60,12 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p> 箭头的镍含量为 8.3%，是陨石的两倍，铝-26 浓度较低，天竺葵含量较高。</p>
+  <p>세계 고양이의 날의 목적은 고양이에 대한 인식을 높이고 고양이의 복지를 증진하는 것입니다.</p>
 </details>
 
 <details class="group" >
   <summary class="summary">
-    <h2><b>Q.  据伯尔尼历史博物馆称，世界上仅有 55 件考古文物是由陨石制成的。</b></h2>
+    <h2><b>Q. 고양이는 언제부터 길들여졌나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -72,12 +75,12 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p>据伯尔尼历史博物馆称，世界上仅有 55 件考古文物是由陨石制成的。</p>
+  <p>고양이는 수천 년 동안 길들여져 인간과 함께 살아왔습니다.</p>
 </details>
 
 <details class="group" >
   <summary class="summary">
-    <h2><b>Q. 据说箭头是用哪种陨石制成的？</b></h2>
+    <h2><b>Q. 고대 이집트에서 고양이의 의미는 무엇이었나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -87,12 +90,12 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p>箭头据信是由 IAB 型陨石制成的，这种陨石由金属组成。</p>
+  <p>고대 이집트에서는 고양이를 신으로 숭배했으며 심지어 미라로 만들어 주인과 함께 묻기도 했습니다.</p>
 </details>
 
 <details class="group" >
   <summary class="summary">
-    <h2><b>Q. 箭头的材料从何而来？</b></h2>
+    <h2><b>Q. 사람들은 세계 고양이의 날을 어떻게 기념하나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -102,17 +105,35 @@ thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.
       </svg>
     </span>    
   </summary>
-  <p>论文作者称，箭镞的材料来自 Kaaliyarv 陨石，该陨石于公元前 1500 年左右在爱沙尼亚萨雷马岛上形成了一个巨大的陨石坑。</p>
+  <p>사람들은 고양이 사진을 공유하고, 고양이 복지에 대한 인식을 높이기 위한 이벤트를 개최하고, 길고양이 입양을 지지하는 등 세계 고양이의 날을 축하합니다.</p>
 </details>
 
 </div>
+
 
 <hr class="article-hr" />
 
 <div class="article-body">
-甚至在铁器时代之前，人们就可以用铁制造工具。当时的冶炼技术还不成熟，但可以从陨石中获得铁。来自太空的岩石中含有镍和硅酸盐等金属，科学家们正在研究由地外材料制成的古代工具。青铜时代晚期开始出现用铁加工的艺术。不过，瑞士伯尔尼历史博物馆收藏的一枚铁箭头的历史比铁器时代还要久远。学者们认为它是用陨石制成的武器。据伯尔尼历史博物馆称，世界上仅有 55 件考古文物是由陨石制成的。最近发表在《考古科学杂志》上的一篇论文详细介绍了这个箭头。该物品长 1.5 英寸，重 2.9 克，出土于 19 世纪。它来自莫里根（Mörigen），这里是青铜时代晚期人们活跃的湖边定居点。它距离 15 万年前特旺贝格陨石撞击地球的地点 5 英里。人们曾一度猜测这块陨石是箭头的来源，但研究表明，古人不可能使用这种矿物。
+8월 8일은 세계 고양이의 날입니다. 세계 고양이의 날은 전 세계 고양이에 대한 인식을 높이기 위해 2002년 국제동물복지기금(IFAW)이 처음 제정했습니다. 이 날은 우리 삶에서 고양이의 중요성을 강조하고 고양이의 복지를 증진하는 것을 목표로 합니다.
+
+ 고양이는 수천 년 동안 길들여져 인간과 함께 살아왔으며, 많은 문화와 신화에서 특별한 위치를 차지하고 있습니다. 고대 이집트에서는 고양이를 신으로 숭배했으며 심지어 미라로 만들어 주인과 함께 묻기도 했습니다. 그리스와 로마에서는 해충을 퇴치하는 고양이의 능력을 높이 평가했습니다.
+
+
 </div>
 
+
+<figure class=image-container>
+    <img src="https://cdn.gjdream.com/news/thumbnail/202308/631816_233764_323_v150.jpg" alt="광주드림" />
+    <figcaption>
+        <h4> from 광주드림</h4>
+    </figcaption>
+</figure>
+
+
 <div class="article-body">
-我们尚未在箭头或其他人工制品中发现任何特旺贝格陨石成分。箭头含有 8.3% 的镍，是陨石的两倍。据研究人员称，箭头的铝-26 浓度较低，天竺葵的比例较高。这些数值提高了母体材料是 IAB 型陨石的可能性。IAB 型陨石是由金属组成的陨石。据估计，它的质量至少有两吨。迄今为止，只有三块陨石坠落在欧洲并具有这些特征。论文作者称，卡利亚里耶夫陨石为箭头提供了材料。这块陨石于公元前 1500 年左右在爱沙尼亚的萨雷马岛上形成了一个巨大的陨石坑。撞击点造成了一个贯穿现代波兰、立陶宛和拉脱维亚的洞。结果，无数铁陨石碎片散落一地。学者们得出结论，当时可能存在铁的贸易和运输系统。他们期待着在未来找到其他由太空岩石制成的古代工具。
+오늘날 고양이는 여전히 사랑받는 반려동물이며 우리 사회에서 중요한 역할을 담당하고 있습니다. 8월 8일을 세계 고양이의 날로 정한 정확한 이유는 잘 알려져 있지 않지만, 고양이와 함께 야외에서 시간을 보낼 가능성이 높은 여름철이라는 상징성과 연관성 때문에 이 날짜가 선택된 것으로 추정됩니다. 이날 전 세계 고양이 애호가들은 고양이 사진을 공유하고, 고양이 복지에 대한 인식을 높이기 위한 이벤트를 개최하며, 길고양이 입양을 지지하는 등 기념행사를 진행합니다.
+
+ 각 나라에서 세계 고양이의 날을 어떻게 기념하는지 살펴보세요.
+
+
 </div>
