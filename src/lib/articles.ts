@@ -2,8 +2,8 @@
 import type { Article, CategoryType } from "$lib/types"
 import { PUBLIC_BASE_URL } from "$env/static/public";
 
-const getArticleRouteSlug = (language: string, category: CategoryType, date: string, fileName: string) => `${language}/news/${category}/${date}/${fileName}`
-
+const getArticleRouteSlug = (language: string, date: string, fileName: string) => `${language}/news/${date}/${fileName}`
+const getCategoryArticleRoute = (language: string, category: string, fileName:string) => `/${language}/section/${category}`;
 
 
 function getModules(language: string) {
@@ -36,7 +36,7 @@ export async function getArticlesByLang(language: string): Promise<Article[]> {
       const { metadata } = module;
       const { html } = module.default.render();
       const articleFileName = getArticleFileName(filepath)
-      const slug = getArticleRouteSlug(language, metadata.category, metadata.date, articleFileName)
+      const slug = getArticleRouteSlug(language, metadata.date, articleFileName)
       return {
         slug,
         html,
@@ -50,8 +50,28 @@ export async function getArticlesByLang(language: string): Promise<Article[]> {
   }
 }
 
-export async function getArticlesByCategory(category: string) {
+export async function getArticlesByCategory(language: string, category: string) {
+  try {
+    const modules = getModules(language);
+    const initArticles: Article[] = Object.entries(modules).map(([filepath, module]) => {
+      const { metadata } = module;
+      const { html } = module.default.render();
+      const articleFileName = getArticleFileName(filepath)
+      const slug = getCategoryArticleRoute(language, category, articleFileName)
+      return {
+        slug,
+        html,
+        ...metadata,
+      };
+    });
 
+    const articles = initArticles.filter(article => article.category === category);
+    return articles;
+
+  } catch(error) {
+    console.error(error);
+    throw new Error('This category section articles do not exist');
+  }
 }
 
 

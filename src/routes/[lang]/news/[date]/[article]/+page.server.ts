@@ -10,7 +10,7 @@ export async function load({params}) {
 		const title = params.article;
 		const language = params.lang;
 		
-		const module = await import(`../../../../../../lib/data/${date}/${title}/${language}.md`);
+		const module = await import(`../../../../../lib/data/${date}/${title}/${language}.md`)
 		const {metadata} = module
 		const { html } = module.default.render()
 		

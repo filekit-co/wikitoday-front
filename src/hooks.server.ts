@@ -17,6 +17,8 @@ export const handle: Handle = (async ({ event, resolve }) => {
 	event.locals.locale = locale;
 
 	const language = 'EN-US'
+	//const language =  locale ? locale : 'EN-US' 
+
 	if (!tlr) {
 		return new Response('Redirect', {status: 302, headers: { Location: `/${language}` }});
 	}
