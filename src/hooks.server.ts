@@ -30,4 +30,8 @@ export const handle: Handle = (async ({ event, resolve }) => {
 	return response
 })
 
-
+export const handleError = async({error}) => {
+	return {
+		message: 'NO NEWS articles exist'
+	}
+}

@@ -1,12 +1,13 @@
 <script lang="ts">
   import { handleClick } from "$lib/utils";
   import type { Article } from "$lib/types";
+
   export let mainArticle: Article;
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <div
-  on:click={() => handleClick(mainArticle)}
+  on:click={() => handleClick(mainArticle.slug)}
   class="lg:flex py-4 px-4 items-center cursor-pointer"
 >
   <div class="md:w-full lg:w-1/2 h-72 lg:mr-8">

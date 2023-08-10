@@ -12,10 +12,13 @@ export async function GET(req) {
     lang = FALLBACK_LANG
   }
 
-  // category 별로 기사 보여주기 위한 조건
   if (category !== null) {
-    const articles = await getArticlesByCategory(lang, category);
-    return json(articles);
+    try {
+      const articles = await getArticlesByCategory(lang, category);
+      return json(articles);
+    } catch(e) {
+      console.error(e)
+    }
   }
 
   const articles = await getArticlesByLang(lang)

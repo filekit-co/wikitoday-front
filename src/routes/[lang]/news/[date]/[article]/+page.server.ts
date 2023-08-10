@@ -1,7 +1,6 @@
 import {error} from '@sveltejs/kit'
 import type { UpdateHeaderProps } from '$lib/types';
 import { convertHtmlToFaQJsonLD } from '$lib/utils';
-import CategoryArticlePage from '@components/pages/CategoryArticlePage.svelte';
 
 // https://github.com/pngwn/MDsveX/issues/294
 export async function load({params}) {

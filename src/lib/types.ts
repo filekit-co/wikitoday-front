@@ -70,11 +70,6 @@ export interface Article {
 }
 
 
-export function getExactCategory(key: string) {
-  const category = CategoryPages.find(item => item.key === key);
-  return category ? category.value : 'key';
-}
-
 // BG - Bulgarian
 // CS - Czech
 // DA - Danish
