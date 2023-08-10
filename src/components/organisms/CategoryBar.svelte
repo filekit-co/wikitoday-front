@@ -5,9 +5,8 @@
 
   async function handleClick(category: string) {
     const lang = $page.params.lang;
-
     await goto(`/${lang}/section/${category}`);
-    // window.location.reload();
+    window.location.reload();
   }
 </script>
 

@@ -3,8 +3,6 @@ import type { Article, CategoryType } from "$lib/types"
 import { PUBLIC_BASE_URL } from "$env/static/public";
 
 const getArticleRouteSlug = (language: string, date: string, fileName: string) => `${language}/news/${date}/${fileName}`
-const getCategoryArticleRoute = (language: string, category: string, fileName:string) => `/${language}/section/${category}`;
-
 
 function getModules(language: string) {
   switch(language) {
@@ -57,15 +55,15 @@ export async function getArticlesByCategory(language: string, category: string) 
       const { metadata } = module;
       const { html } = module.default.render();
       const articleFileName = getArticleFileName(filepath)
-      const slug = getCategoryArticleRoute(language, category, articleFileName)
+      
       return {
-        slug,
+       
         html,
         ...metadata,
       };
     });
 
-    const articles = initArticles.filter(article => article.category === category);
+    const articles = initArticles.filter(article => article.category === category && article.language === language);
     return articles;
 
   } catch(error) {
@@ -81,7 +79,7 @@ export async function generateSitemapRoutes(language: string): Promise<string[]>
     const routes: string[] = Object.entries(modules).map(([filepath, module]) => {
       const { metadata } = module;
       const articleFileName = getArticleFileName(filepath);
-      const slug = getArticleRouteSlug(language, metadata.category, metadata.date, articleFileName);
+      const slug = getArticleRouteSlug(language, metadata.date, articleFileName);
       return `${PUBLIC_BASE_URL}/${slug}`
     });
     return routes;

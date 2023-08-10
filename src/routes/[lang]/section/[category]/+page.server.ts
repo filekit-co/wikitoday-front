@@ -1,15 +1,19 @@
 import { getArticlesByCategory } from "$lib/articles.js";
-import type { ArticleType } from "$lib/types";
-import {getExactCategory} from '$lib/types';
+import type { Article } from "schema-dts";
 
 export async function load({fetch, params}) {
-    const lang = params.lang;
-    const category = params.category;
+    try {
+        const lang = params.lang;
+        const category = params.category;
+        const response = await fetch(`/api/articles?lang=${lang}&category=${category}`);
 
-    // console.log(lang)
-    // console.log(category)
-
-    const response = await getArticlesByCategory(lang, category)
+        const articles: Article[] = await response.json();
+        articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+        return {articles}
+    } catch(e) {
+        console.error(e);
+        throw new Error('해당 카테고리 파일 찾을 수 없음')
+    }
 
     // const response = getArticlesByCategory()
     // const categoryParams = params.category;
