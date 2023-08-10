@@ -1,6 +1,14 @@
 import type { Handle } from '@sveltejs/kit'
 
+const excludeI18nRoute = ['rss.xml', 'sitemap.xml']
+
 export const handle: Handle = (async ({ event, resolve }) => {
+	const tlr = event?.url?.pathname.split('/').at(1)
+	if (tlr && excludeI18nRoute.includes(tlr)) {
+		const response = await resolve(event);
+		return response;		
+	}
+
 	const acceptLanguageHeader = event.request.headers.get('accept-language');
 	const locale = acceptLanguageHeader
 	  ? acceptLanguageHeader.split(',')[0]?.split(';')[0]?.toLowerCase()
@@ -8,10 +16,8 @@ export const handle: Handle = (async ({ event, resolve }) => {
 
 	event.locals.locale = locale;
 
-	const initialRoute = event?.url?.pathname.split('/').at(1)
 	const language = 'EN-US'
-
-	if (!initialRoute) {
+	if (!tlr) {
 		return new Response('Redirect', {status: 302, headers: { Location: `/${language}` }});
 	}
 
