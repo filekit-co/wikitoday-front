@@ -6,7 +6,7 @@ keywords: 'Dianne Feinstein'
 date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'KO'
-thumbnail: 'https://media.cnn.com/api/v1/images/stellar/prod/230809102526-02-dianne-feinstein-051823.jpg?c=16x9&amp;q=w_800,c_fill'
+thumbnail: 'https://media.cnn.com/api/v1/images/stellar/prod/230809102526-02-dianne-feinstein-051823.jpg'
 ---
 
 # 낙상 후 입원 중인 다이앤 파인스타인
@@ -21,7 +21,7 @@ thumbnail: 'https://media.cnn.com/api/v1/images/stellar/prod/230809102526-02-dia
 
 
 <figure class=image-container>
-    <img src="https://media.cnn.com/api/v1/images/stellar/prod/230809102526-02-dianne-feinstein-051823.jpg?c=16x9&amp;q=w_800,c_fill" alt="CNN" />
+    <img src="https://media.cnn.com/api/v1/images/stellar/prod/230809102526-02-dianne-feinstein-051823.jpg" alt="CNN" />
     <figcaption>
         <h4> from CNN</h4>
     </figcaption>
