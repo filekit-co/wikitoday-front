@@ -1,6 +1,6 @@
 // https://github.com/mattcroat/joy-of-code/blob/main/src/lib/site/posts.ts
 import type { Article, CategoryType } from "$lib/types"
-
+import { PUBLIC_BASE_URL } from "$env/static/public";
 
 const getArticleRouteSlug = (language: string, category: CategoryType, date: string, fileName: string) => `${language}/news/${category}/${date}/${fileName}`
 
@@ -12,6 +12,8 @@ function getModules(language: string) {
       return import.meta.glob('@data/*/*/KO.md', {eager: true})
     case 'ZH':
       return import.meta.glob('@data/*/*/ZH.md', {eager: true})
+    case 'JA':
+        return import.meta.glob('@data/*/*/JA.md', {eager: true})      
     case 'PT-BR':
       return import.meta.glob('@data/*/*/PT-BR.md', {eager: true})
     default:
@@ -52,3 +54,19 @@ export async function getArticlesByCategory(category: string) {
 
 }
 
+
+export async function generateSitemapRoutes(language: string): Promise<string[]> {
+  try {
+    const modules = getModules(language);
+    const routes: string[] = Object.entries(modules).map(([filepath, module]) => {
+      const { metadata } = module;
+      const articleFileName = getArticleFileName(filepath);
+      const slug = getArticleRouteSlug(language, metadata.category, metadata.date, articleFileName);
+      return `${PUBLIC_BASE_URL}/${slug}`
+    });
+    return routes;
+  } catch (e) {
+    console.error(e);
+    throw new Error('Could not generate sitemap routes');
+  }
+}
