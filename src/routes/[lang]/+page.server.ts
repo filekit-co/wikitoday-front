@@ -1,7 +1,8 @@
 import type { Article } from "$lib/types";
 
-export async function load({fetch}) {
-    const response = await fetch('api/articles')
+export async function load({fetch, params}) {
+    const lang = params.lang;
+    const response = await fetch(`api/articles?lang=${lang}`);
     const articles: Article[] = await response.json();
 
     // 최신 기사를 우선적으로 보여주기 위해 sort
