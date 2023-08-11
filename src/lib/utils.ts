@@ -10,8 +10,9 @@ export function formatDate(date: string, dateStyle: DateStyle = 'medium', locale
 	return formatter.format(new Date(date))
 }
 
-export function handleClick(slug: string) {
-    goto(slug);
+export async function handleClick(slug: string) {
+    await goto(slug);
+    window.location.reload();
 }
 
 export const canonicalUrl = (pathname: string) => pathname ? `${PUBLIC_BASE_URL}${pathname}`: `${PUBLIC_BASE_URL}`;
