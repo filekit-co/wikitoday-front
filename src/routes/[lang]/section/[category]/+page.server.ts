@@ -1,5 +1,5 @@
 import { error } from "@sveltejs/kit";
-import type { Article } from "schema-dts";
+import type { Article } from "$lib/types";
 
 export async function load({fetch, params}) {
     const lang = params.lang;
