@@ -11,8 +11,7 @@
       "trending, today, news, articles, wiki, google trends, world, economy, entertainment",
     url: canonicalUrl($page.url?.pathname ?? ""),
     image: wikitoday,
-    description:
-      "Explore trending topics in news, economy, entertainment with wikitoday.",
+    description: "Explore today trending topics with wikitoday.",
     siteName: "wikitoday - Global Trends, News, Economy, Entertainment",
     date: "2023-08-07",
     language: "EN-US",
@@ -36,9 +35,40 @@
   <meta name="author" content="https://wikitoday.io" />
 
   <!-- hreflang -->
-  <link rel="alternate" hreflang="en" href="http://wikitoday.io/EN-US" />
-  <link rel="alternate" hreflang="ko" href="http://wikitoday.io/KO" />
-  <link rel="alternate" hreflang="zh" href="http://wikitoday.io/ZH" />
+  <link rel="alternate" hreflang="en" href="https://wikitoday.io/EN-US" />
+  <link rel="alternate" hreflang="ko" href="https://wikitoday.io/KO" />
+  <link rel="alternate" hreflang="zh" href="https://wikitoday.io/ZH" />
+  <link rel="alternate" hreflang="bg" href="https://wikitoday.io/BG" />
+  <link rel="alternate" hreflang="cs" href="https://wikitoday.io/CS" />
+  <link rel="alternate" hreflang="da" href="https://wikitoday.io/DA" />
+  <link rel="alternate" hreflang="de" href="https://wikitoday.io/DE" />
+  <link rel="alternate" hreflang="el" href="https://wikitoday.io/EL" />
+  <link rel="alternate" hreflang="en-gb" href="https://wikitoday.io/EN-GB" />
+  <link rel="alternate" hreflang="en-us" href="https://wikitoday.io/EN-US" />
+  <link rel="alternate" hreflang="es" href="https://wikitoday.io/ES" />
+  <link rel="alternate" hreflang="et" href="https://wikitoday.io/ET" />
+  <link rel="alternate" hreflang="fi" href="https://wikitoday.io/FI" />
+  <link rel="alternate" hreflang="fr" href="https://wikitoday.io/FR" />
+  <link rel="alternate" hreflang="hu" href="https://wikitoday.io/HU" />
+  <link rel="alternate" hreflang="id" href="https://wikitoday.io/ID" />
+  <link rel="alternate" hreflang="it" href="https://wikitoday.io/IT" />
+  <link rel="alternate" hreflang="ja" href="https://wikitoday.io/JA" />
+  <link rel="alternate" hreflang="ko" href="https://wikitoday.io/KO" />
+  <link rel="alternate" hreflang="lt" href="https://wikitoday.io/LT" />
+  <link rel="alternate" hreflang="lv" href="https://wikitoday.io/LV" />
+  <link rel="alternate" hreflang="nb" href="https://wikitoday.io/NB" />
+  <link rel="alternate" hreflang="nl" href="https://wikitoday.io/NL" />
+  <link rel="alternate" hreflang="pl" href="https://wikitoday.io/PL" />
+  <link rel="alternate" hreflang="pt-br" href="https://wikitoday.io/PT-BR" />
+  <link rel="alternate" hreflang="pt-pt" href="https://wikitoday.io/PT-PT" />
+  <link rel="alternate" hreflang="ro" href="https://wikitoday.io/RO" />
+  <link rel="alternate" hreflang="ru" href="https://wikitoday.io/RU" />
+  <link rel="alternate" hreflang="sk" href="https://wikitoday.io/SK" />
+  <link rel="alternate" hreflang="sl" href="https://wikitoday.io/SL" />
+  <link rel="alternate" hreflang="sv" href="https://wikitoday.io/SV" />
+  <link rel="alternate" hreflang="tr" href="https://wikitoday.io/TR" />
+  <link rel="alternate" hreflang="uk" href="https://wikitoday.io/UK" />
+  <link rel="alternate" hreflang="zh" href="https://wikitoday.io/ZH" />
 
   <!-- 데스크탑 페이지 -->
   <link rel="canonical" href={p.url} />
