@@ -51,7 +51,7 @@
     </label>
   {/if}
   <div
-    class="fixed z-10 top-0 right-0 w-64 h-full transition-all duration-500 transform translate-x-full bg-white shadow-lg peer-checked:translate-x-0"
+    class="fixed z-10 top-0 right-0 w-64 h-full transition-all duration-500 transform translate-x-full bg-white shadow-lg peer-checked:translate-x-0 overflow-y-auto"
   >
     <button
       class="absolute top-3 right-3 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4"
