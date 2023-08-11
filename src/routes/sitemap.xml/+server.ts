@@ -1,5 +1,5 @@
 
-import { generateSitemapRoutes } from "$lib/articles";
+import { generateSitemapData } from "$lib/articles";
 import { LanguagePages } from "$lib/datas";
 
 export const prerender = true
@@ -8,7 +8,7 @@ export const prerender = true
 const languages = LanguagePages.map(page => page.value);
 
 async function getAllUrls() {
-  const routesPromises = languages.map(generateSitemapRoutes);
+  const routesPromises = languages.map(generateSitemapData);
   const allRoutes = await Promise.all(routesPromises);
   const urls: { url: string; date: string }[] = allRoutes.flat();
   return urls;
