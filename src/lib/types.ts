@@ -139,3 +139,8 @@ export const LanguagePages = [
   {key: 'українська', value: 'UK'},
   
 ];
+
+export type ImageType = {
+  title: string;
+  src: string;
+};

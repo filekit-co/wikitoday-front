@@ -6,12 +6,12 @@
   export let articles: Article[];
 </script>
 
-<div class="lg:w-3/4 py-4">
-  <section class="w-full items-center lg:pr-4 lg:border-r-2 lg:border-r-black">
+<div class="lg:w-8/12 py-4">
+  <section class="w-full items-center lg:pr-8 lg:border-r-2 lg:border-r-black">
     <ul class="justify-center select-none">
       {#each articles as article}
         <li
-          class="mb-5 md:mb-8 bg-white shadow-xl rounded-3xl p-8 transition duration-300 transform hover:scale-105 hover:shadow-2xl"
+          class="mb-5 md:mb-8 bg-white shadow-lg rounded-3xl p-6 lg:p-8 transition duration-300 transform hover:scale-105 hover:shadow-2xl"
         >
           <!-- svelte-ignore a11y-click-events-have-key-events -->
           <div
@@ -34,7 +34,7 @@
                   {formatDate(article.date)}
                 </p>
                 <p
-                  class="text-black md:text-lg xl:text-2xl font-medium description"
+                  class="text-black md:text-lg lg:text-xl font-medium description"
                 >
                   {article.description}
                 </p>

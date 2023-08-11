@@ -16,14 +16,15 @@
   });
 </script>
 
-<div class="lg:w-1/4 lg:pl-4">
-  <h2 class="text-3xl font-semibold text-gray-400 mb-4">Opinion</h2>
+<div class="lg:w-1/4 md: pl-4 lg:pl-8">
+  <h2 class="text-xl font-semibold mb-4 flex items-center">
+    <span class="text-red-600 text-3xl leading-none pr-1">•</span>Live Updates
+  </h2>
 
-  <!-- carousel -->
   <Carosel {images} />
 
   <!-- Small opinion articles -->
-  <div class="h-full mt-48">
+  <div class="h-full mt-8">
     <hr class="h-px bg-gray-500 border-1" />
     {#each articles as article}
       <!-- svelte-ignore a11y-click-events-have-key-events -->
