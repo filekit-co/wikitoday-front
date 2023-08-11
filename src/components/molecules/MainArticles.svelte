@@ -6,11 +6,13 @@
   export let articles: Article[];
 </script>
 
-<div class="lg:w-3/4">
+<div class="lg:w-3/4 py-4">
   <section class="w-full items-center lg:pr-4 lg:border-r-2 lg:border-r-black">
     <ul class="justify-center select-none">
       {#each articles as article}
-        <li class="mb-8 bg-white">
+        <li
+          class="mb-5 md:mb-8 bg-white shadow-xl rounded-3xl p-8 transition duration-300 transform hover:scale-105 hover:shadow-2xl"
+        >
           <!-- svelte-ignore a11y-click-events-have-key-events -->
           <div
             class="col-auto items-center cursor-pointer"
@@ -40,7 +42,7 @@
 
               <div class="w-1/2 h-[160px] md:h-[300px] relative block mx-auto">
                 <img
-                  class="w-full h-full object-cover block"
+                  class="w-full h-full object-cover block rounded-xl"
                   src={article.thumbnail}
                   alt={`${article.description}`}
                 />
@@ -48,7 +50,6 @@
             </article>
           </div>
         </li>
-        <hr class="h-px mb-6 bg-gray-200 border-0 dark:bg-gray-700" />
       {/each}
     </ul>
   </section>
