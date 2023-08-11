@@ -1,8 +1,6 @@
 <script lang="ts">
   import LanguageButton from "@components/atoms/LanguageButton.svelte";
-  import { LanguagePages } from "$lib/types";
-  import { goto } from "$app/navigation";
-  import { language, category } from "$lib/datas";
+  import LanguageDrawer from "./LanguageDrawer.svelte";
 
   // 드로어 열림 여부를 상태로 관리합니다.
   let isLangDrawerOpen = false;
@@ -10,27 +8,6 @@
   // "X" 버튼을 클릭했을 때 드로어를 닫는 함수를 정의합니다.
   function closeLangDrawer() {
     isLangDrawerOpen = false;
-  }
-
-  async function selectLanguage(lang: string) {
-    // console.log(window.location.href);
-    const currentPath = window.location.pathname;
-    $language = lang;
-
-    // localhost5173/ -> main page
-    if (currentPath.length === 1) {
-      await goto(`/${lang}`);
-      window.location.reload();
-    } else {
-      // localhost:5173/KO/news/Sports || localhost:5173/KO/news/Entertainment/2023-08-08/Actress-Aracy-Balaba
-      const newPath = currentPath.replace(/\/[^/]+/, `/${lang}`);
-      await goto(`${newPath}`);
-      window.location.reload();
-    }
-
-    // console.log("바꿀 언어", lang);
-    // console.log("기존언어", $language);
-    // console.log($category);
   }
 </script>
 
@@ -50,24 +27,6 @@
       <LanguageButton />
     </label>
   {/if}
-  <div
-    class="fixed z-10 top-0 right-0 w-64 h-full transition-all duration-500 transform translate-x-full bg-white shadow-lg peer-checked:translate-x-0 overflow-y-auto"
-  >
-    <button
-      class="absolute top-3 right-3 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4"
-      on:click={closeLangDrawer}
-    >
-      X
-    </button>
-    <div class="px-6 py-4 flex-col">
-      {#each LanguagePages as language}
-        <button
-          class="block my-6 font-3xl"
-          on:click={() => selectLanguage(language.value)}
-        >
-          {language.key}
-        </button>
-      {/each}
-    </div>
-  </div>
+
+  <LanguageDrawer on:close={closeLangDrawer} />
 </div>
