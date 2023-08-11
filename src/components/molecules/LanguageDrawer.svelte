@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { LanguagePages } from "$lib/types";
+  import { LanguagePages } from "$lib/datas";
   import { goto } from "$app/navigation";
   import { createEventDispatcher } from "svelte";
   const dispatch = createEventDispatcher();

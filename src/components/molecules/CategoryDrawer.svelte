@@ -1,6 +1,6 @@
 <script lang="ts">
   import HamburgerButton from "@components/atoms/HamburgerButton.svelte";
-  import { CategoryPages } from "$lib/types";
+  import { CategoryPages } from "$lib/datas";
   import { goto } from "$app/navigation";
   import { page } from "$app/stores";
 
