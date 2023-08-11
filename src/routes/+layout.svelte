@@ -9,9 +9,7 @@
 {#if $page.error}
   <slot />
 {:else}
-  <div
-    class="px-4 sm:px-6 md:px-8 font container items-center justify-center mx-auto"
-  >
+  <div class="px-4 sm:px-6 md:px-8 font items-center justify-center mx-auto">
     <Header />
     <Navbar />
     <CategoryBar />
