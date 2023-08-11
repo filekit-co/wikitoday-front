@@ -48,6 +48,7 @@ export interface Article {
   date: string;
   author: string;
   language: string;
+  candidLanguages: string[];
   thumbnail: string;
 }
 

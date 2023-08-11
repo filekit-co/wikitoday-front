@@ -2,7 +2,10 @@
   import { LanguagePages } from "$lib/datas";
   import { goto } from "$app/navigation";
   import { createEventDispatcher } from "svelte";
+  import { page } from "$app/stores";
+
   const dispatch = createEventDispatcher();
+  const candidLanguages = $page.data?.candidLanguages || [];
 
   async function selectLanguage(lang: string) {
     const currentPath = window.location.pathname;
@@ -23,13 +26,17 @@
     X
   </button>
   <div class="px-6 py-4 flex-col">
-    {#each LanguagePages as language}
-      <button
-        class="block my-6 font-3xl"
-        on:click={() => selectLanguage(language.value)}
-      >
-        {language.key}
-      </button>
+    {#each candidLanguages as language}
+      {#each LanguagePages as langPage}
+        {#if langPage.value === language}
+          <button
+            class="block my-6 font-3xl"
+            on:click={() => selectLanguage(langPage.value)}
+          >
+            {langPage.key}
+          </button>
+        {/if}
+      {/each}
     {/each}
   </div>
 </div>
