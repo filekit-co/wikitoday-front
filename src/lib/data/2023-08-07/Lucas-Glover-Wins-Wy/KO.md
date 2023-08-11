@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://res.cloudinary.com/pgatour-prod/w_1200,h_628,c_fill,f_auto/pgatour/news/editorial/2023/08/06/wyndham-weather.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 루카스 글로버, 윈덤 챔피언십 우승으로 PGA 투어 포스트시즌 출전권 확보

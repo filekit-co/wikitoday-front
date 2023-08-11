@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://image.cnbcfm.com/api/v1/image/107284462-1691669243686-gettyimages-1603828834-dsc05449_ubrrozav.jpeg?v=1691670711&amp;w=1920&amp;h=1080'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 七月 CPI 报告：通胀年率上升 3.2

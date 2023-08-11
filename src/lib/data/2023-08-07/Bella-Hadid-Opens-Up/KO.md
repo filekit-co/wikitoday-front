@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2023-08/bella-hadid-lp-today-main-230806-c6b20c.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 벨라 하디드가 라임병과의 싸움에 대해 털어놓다

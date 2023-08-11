@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://image.imnews.imbc.com/replay/2023/nwtoday/article/__icsFiles/afieldfile/2023/08/08/today_20230808_064432_2_12_Large.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # ''서현역 흉기 난동'' 범인은 ''22살 최원종''으로 밝혀졌습니다.

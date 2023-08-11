@@ -7,6 +7,7 @@ date: "2023-08-05"
 author: "wikitoday.io"
 language: "ZH"
 thumbnail: "http://res.heraldm.com/content/image/2023/08/03/20230803000139_p.jpg"
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 车轮上的一根头发''--劳斯莱斯在狎鸥亭站发生事故

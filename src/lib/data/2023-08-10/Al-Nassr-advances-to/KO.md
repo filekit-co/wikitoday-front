@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://ss-i.thgim.com/public/incoming/7zkl4x/article67177817.ece/alternates/LANDSCAPE_1200/AFP_33QV6WY.jpg'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # 알 나스르가 알 쇼타에 짜릿한 승리를 거두고 아랍 클럽 챔피언스 컵 결승에 진출했습니다.

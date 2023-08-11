@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'PT-BR'
 thumbnail: 'https://images.chosun.com/resizer/X2xbKGVtuDEJCOktFRLOmgydaq8=/647x339/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/XZG3LYV3VWDH5VYHQTEEAMA3LM.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # ''Kane poderia ficar no Tottenham se eles se tornarem campeões'', disse o... 1437억 제안 뮌헨도 포기하지 않는다

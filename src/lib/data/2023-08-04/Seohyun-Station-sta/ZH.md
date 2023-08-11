@@ -7,6 +7,7 @@ date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'http://www.kukinews.com/data/kuk/image/2023/08/04/kuk202308040284.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 ## Summary

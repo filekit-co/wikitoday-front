@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0806%2Fr1207123_1296x729_16%2D9.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 阿森纳社区盾夺冠为争冠带来希望

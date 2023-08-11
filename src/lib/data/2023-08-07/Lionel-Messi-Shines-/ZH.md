@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://st1.uvnimg.com/cb/60/01f488234c07ac958db34edadf05/marcador-inter-dallas-leagues-cup.jpeg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 梅西闪耀国际米兰联赛杯晋级赛

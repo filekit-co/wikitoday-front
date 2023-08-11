@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://static01.nyt.com/images/2023/08/08/obituaries/00friedkin1-print1/00friedkin1-facebookJumbo.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # ''프렌치 커넥션'', ''엑소시스트'' 감독 윌리엄 프리드킨, 87세 나이로 사망

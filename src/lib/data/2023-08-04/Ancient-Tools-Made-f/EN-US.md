@@ -7,6 +7,7 @@ date: "2023-08-04"
 author: "wikitoday.io"
 language: "EN-US"
 thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.jpg"
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # Ancient Tools Made from Meteorites: Pre-Iron Age Wonders

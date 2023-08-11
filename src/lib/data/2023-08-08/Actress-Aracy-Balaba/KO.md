@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://s2-g1.glbimg.com/u141iBnwhrfuORATs1tb6rnODYc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/X/s/fbcrSXRpe0WvBEdCCAgA/assets-fotos-483-185166.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 배우 아라시 발라바니안, 83세 나이로 사망: 유명 인사들의 추모

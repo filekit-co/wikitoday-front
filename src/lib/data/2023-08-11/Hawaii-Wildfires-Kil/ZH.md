@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/703/imgdb/original/2023/0810/20230810502972.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 夏威夷野火造成至少 36 人死亡......4000 多名游客受困

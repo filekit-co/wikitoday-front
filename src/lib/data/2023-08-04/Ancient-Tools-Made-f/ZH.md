@@ -7,6 +7,7 @@ date: "2023-08-04"
 author: "wikitoday.io"
 language: "ZH"
 thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.jpg"
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 陨石制成的古代工具：铁器时代以前的奇迹

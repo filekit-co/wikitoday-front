@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'JA'
 thumbnail: 'https://variety.com/wp-content/uploads/2023/08/Lil-Tay-Obit-Dead.jpg?w=1000&amp;h=518&amp;crop=1'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # 10代のネットラッパー、リル・テイが死去

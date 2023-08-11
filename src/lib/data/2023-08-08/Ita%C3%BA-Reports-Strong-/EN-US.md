@@ -7,6 +7,7 @@ date: "2023-08-08"
 author: "wikitoday.io"
 language: "EN-US"
 thumbnail: "https://www.infomoney.com.br/wp-content/uploads/2019/06/itau-unibanco-1.jpg?quality=70"
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # Itaú Reports Strong Profits in Q2, Despite App Instability

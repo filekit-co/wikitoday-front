@@ -7,6 +7,7 @@ date: "2023-08-07"
 author: "wikitoday.io"
 language: "PT-BR"
 thumbnail: "https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763.jpg"
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # Japão planeja liberar água contaminada da usina nuclear de Fukushima Daiichi

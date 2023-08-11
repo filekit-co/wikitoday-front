@@ -7,6 +7,7 @@ date: "2023-08-09"
 author: "wikitoday.io"
 language: "KO"
 thumbnail: "https://www.gannett-cdn.com/presto/2020/11/19/PIND/3e324151-d635-472a-a4d3-e9c5786899e4-Charlie_Kristen_Phillips.jpg?auto=webp&amp;crop=1535,863,x1,y37&amp;format=pjpg&amp;width=1200"
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 국제 고양이의 날: 고양이가 하는 이상한 행동 5가지와 그 이유

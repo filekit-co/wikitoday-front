@@ -7,6 +7,7 @@ date: "2023-08-04"
 author: "wikitoday.io"
 language: "KO"
 thumbnail: "https://cdn.popsci.co.kr/news/thumbnail/202308/21075_11258_547_v150.jpg"
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 운석으로 만든 고대 도구: 철기 시대 이전의 불가사의

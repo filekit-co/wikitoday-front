@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://www.gannett-cdn.com/authoring/authoring-images/2023/08/10/USAT/70570510007-king-of-the-hill.jpg?auto=webp&amp;crop=2136,1201,x325,y778&amp;format=pjpg&amp;width=1200'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # Voice of Dale Gribble on ''''King of the Hill'''', Johnny Hardwick, Dies at 64

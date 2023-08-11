@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/437/imgdb/original/2023/0810/20230810500174.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 태풍 ''카눈'', 부산과 한반도를 위협하다

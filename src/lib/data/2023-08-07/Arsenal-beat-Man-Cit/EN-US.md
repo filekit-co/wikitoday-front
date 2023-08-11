@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://biz.chosun.com/resizer/-J-0rdTLqdk-3O1wCakCFPzCuf4=/650x341/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/EOPOP7UP7OH4PZQHXVKDOIRLGE.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # Arsenal beat Man City on penalties to win Community Shield

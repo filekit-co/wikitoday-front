@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://newsimg.oricon.co.jp/feed/images/size640wh/20230810_203420_size640wh_31989083.jpg'
+candidLanguages: ['EN-US', 'JA']
 ---
 
 # eSports Caster Nanai Dies: ''Passed away suddenly due to heart failure,'' according to announcement by her office, active in ''Street Fighter'' game play.

@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'JA'
 thumbnail: 'https://media.rakuten-sec.net/mwimgs/1/9/-/img_19395677e1469b6a010635c8bca6367b138309.jpg'
+candidLanguages: ['EN-US', 'JA']
 ---
 
 # 2016年8月11日：「山の日」が国民の祝日になる

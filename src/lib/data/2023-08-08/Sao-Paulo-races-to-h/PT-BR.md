@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'PT-BR'
 thumbnail: 'https://s2-ge.glbimg.com/4CQlKpTjOaXvJeUR9S01OETiyf4=/1200x/smart/filters:cover():strip_icc()/s03.video.glbimg.com/x720/11842834.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # São Paulo corre para ter James na Copa do Brasil após emissão de CPF para o meio-campista

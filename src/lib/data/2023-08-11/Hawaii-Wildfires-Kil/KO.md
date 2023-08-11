@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/703/imgdb/original/2023/0810/20230810502972.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 하와이 산불로 최소 36명 사망...4,000명 이상의 관광객 발이 묶였다

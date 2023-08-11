@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://www.gannett-cdn.com/authoring/authoring-images/2023/08/10/USAT/70570510007-king-of-the-hill.jpg?auto=webp&amp;crop=2136,1201,x325,y778&amp;format=pjpg&amp;width=1200'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 山丘之王》戴尔-格里布尔的配音约翰尼-哈德威克逝世，享年64岁

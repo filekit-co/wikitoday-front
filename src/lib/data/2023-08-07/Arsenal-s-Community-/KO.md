@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0806%2Fr1207123_1296x729_16%2D9.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 아스널의 커뮤니티 실드 우승으로 우승에 대한 희망을 품다

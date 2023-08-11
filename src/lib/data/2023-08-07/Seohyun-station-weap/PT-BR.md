@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'PT-BR'
 thumbnail: 'https://image.imnews.imbc.com/replay/2023/nwtoday/article/__icsFiles/afieldfile/2023/08/08/today_20230808_064432_2_12_Large.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # O atirador do ''tumulto com armas na estação Seohyun'' é ''Choi Won-jong, de 22 anos

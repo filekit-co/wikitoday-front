@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://biz.chosun.com/resizer/-J-0rdTLqdk-3O1wCakCFPzCuf4=/650x341/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/EOPOP7UP7OH4PZQHXVKDOIRLGE.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 아스널이 승부차기에서 맨시티를 꺾고 커뮤니티 실드 우승

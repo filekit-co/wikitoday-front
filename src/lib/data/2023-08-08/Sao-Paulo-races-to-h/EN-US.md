@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://s2-ge.glbimg.com/4CQlKpTjOaXvJeUR9S01OETiyf4=/1200x/smart/filters:cover():strip_icc()/s03.video.glbimg.com/x720/11842834.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # Sao Paulo races to have James in Brazil Cup after CPF issued for midfielder

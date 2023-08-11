@@ -7,6 +7,7 @@ date: '2023-08-09'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/646/imgdb/original/2023/0808/20230808500590.jpg'
+candidLanguages: ['EN-US', 'KO']
 ---
 
 # 류현진, 노히트노런 경기 중 무릎 부상

@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://www3.nhk.or.jp/news/html/20230809/K10014158521_2308091844_0809185014_01_02.jpg'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # 7 号台风逼近日本，会对盂兰盆节造成什么影响？

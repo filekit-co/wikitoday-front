@@ -7,6 +7,7 @@ date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://img.olympicchannel.com/images/image/private/t_social_share_thumb/f_auto/primary/an8hsyg0rlbuy0cvbi32'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 ## Summary

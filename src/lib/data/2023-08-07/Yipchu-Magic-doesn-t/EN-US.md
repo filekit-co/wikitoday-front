@@ -7,6 +7,7 @@ date: "2023-08-07"
 author: "wikitoday.io"
 language: "EN-US"
 thumbnail: "https://flexible.img.hani.co.kr/flexible/normal/970/494/imgdb/child/2023/0808/16914569375954_20230808500551.jpg"
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # ''Yipchu Magic'' doesn''t work...Typhoon ''Kanun'' comes between Gyeongnam and Jeollanam-do

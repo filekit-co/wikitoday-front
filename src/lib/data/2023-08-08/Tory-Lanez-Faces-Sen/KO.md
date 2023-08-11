@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://d3i6fh83elv35t.cloudfront.net/static/2022/12/GettyImages-1245590985-1024x683.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 토리 라네즈, 메건 테 종마 총격 사건으로 선고에 직면하다

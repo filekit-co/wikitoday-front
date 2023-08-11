@@ -7,6 +7,7 @@ date: "2023-08-07"
 author: "wikitoday.io"
 language: "KO"
 thumbnail: "https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763.jpg"
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 일본, 후쿠시마 제1 원전 오염수 방출 계획

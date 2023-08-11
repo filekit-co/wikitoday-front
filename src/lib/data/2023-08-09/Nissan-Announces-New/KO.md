@@ -7,6 +7,7 @@ date: "2023-08-09"
 author: "wikitoday.io"
 language: "KO"
 thumbnail: "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000-1-view.jpg?exp=10800"
+candidLanguages: ['PT-BR', 'EN-US', 'KO']
 ---
 
 # 닛산, 신형 ''''스카이라인 니즈모'''' 모델 및 한정판 ''''스카이라인 리미티드'''' 출시

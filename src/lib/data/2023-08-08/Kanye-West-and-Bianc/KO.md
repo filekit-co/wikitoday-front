@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://pagesix.com/wp-content/uploads/sites/3/2023/08/NYPICHPDPICT000020212353.jpg?quality=75&amp;strip=all&amp;w=1024'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 카니예 웨스트와 비앙카 센소리의 PDA로 가득 찬 이탈리아 휴가

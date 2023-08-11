@@ -7,6 +7,7 @@ date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://cdn.eroun.net/news/thumbnail/202308/35826_64573_3536_v150.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 ## Summary

@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://d3i6fh83elv35t.cloudfront.net/static/2022/12/GettyImages-1245590985-1024x683.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 托里-兰兹因枪击 Megan Thee Stallion 面临判决

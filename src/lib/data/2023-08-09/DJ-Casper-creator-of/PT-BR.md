@@ -7,6 +7,7 @@ date: '2023-08-09'
 author: 'wikitoday.io'
 language: 'PT-BR'
 thumbnail: 'https://media.npr.org/assets/img/2023/08/08/gettyimages-1485265342-1-_wide-9d2afa454b31f2ec093a62d7de5f2ed86adc4eaa-s1400-c100.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # DJ Casper, criador do icônico e onipresente ''''Cha Cha Slide'''', morreu aos 58 anos

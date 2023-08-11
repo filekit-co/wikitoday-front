@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://www3.nhk.or.jp/news/html/20230811/K10014160071_2308102301_0811053156_01_02.jpg'
+candidLanguages: ['EN-US', 'JA']
 ---
 
 # Wildfires in Hawaii: President Biden declares major disaster

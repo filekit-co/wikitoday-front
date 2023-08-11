@@ -7,6 +7,7 @@ date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://biz.chosun.com/resizer/T7PaBYXeO7JRRekZISLb1oOCsSE=/650x341/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/2THYHQXKAZ4LLS2VCZLTKF47UA.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 ## Summary

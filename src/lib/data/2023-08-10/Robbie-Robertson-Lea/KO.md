@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://variety.com/wp-content/uploads/2023/08/GettyImages-1268665989-e1691605179935.jpg?w=1000&amp;h=563&amp;crop=1'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # 더 밴드의 리더 로비 로버트슨, 80세 나이로 사망

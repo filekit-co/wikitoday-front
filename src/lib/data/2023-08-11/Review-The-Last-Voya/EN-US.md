@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://static01.nyt.com/images/2023/08/09/multimedia/last-voyage1-cjpw/last-voyage1-cjpw-facebookJumbo.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # Review: ''''The Last Voyage of the Demeter'''' Fails to Deliver the Scares

@@ -7,6 +7,7 @@ date: "2023-08-04"
 author: "wikitoday.io"
 language: "EN-US"
 thumbnail: "https://cdn.mindlenews.com/news/thumbnail/202308/4446_11292_2019_v150.jpg"
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 ## Summary

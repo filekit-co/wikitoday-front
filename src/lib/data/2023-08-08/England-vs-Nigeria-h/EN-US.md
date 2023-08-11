@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2023/08/1408/814/08.07.23_Womens-World-Cup-Top-Moments_England-vs-Nigeria_16x9.jpg?ve=1&amp;tl=1'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # England vs. Nigeria highlights: England wins after penalty shootout

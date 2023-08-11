@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://biz.chosun.com/resizer/-J-0rdTLqdk-3O1wCakCFPzCuf4=/650x341/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/EOPOP7UP7OH4PZQHXVKDOIRLGE.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 阿森纳点球大战击败曼城，赢得社区盾杯冠军

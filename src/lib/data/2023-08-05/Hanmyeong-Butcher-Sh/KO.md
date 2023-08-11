@@ -7,6 +7,7 @@ date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://cdn.mhns.co.kr/news/thumbnail/202308/558808_683527_413_v150.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 ## Summary

@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://www3.nhk.or.jp/news/html/20230809/K10014158521_2308091844_0809185014_01_02.jpg'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # 제7호 태풍 ''쁘라삐룬'' 일본 접근, 추석 연휴에 어떤 영향을 미칠까?

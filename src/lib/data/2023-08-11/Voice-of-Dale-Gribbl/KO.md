@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://www.gannett-cdn.com/authoring/authoring-images/2023/08/10/USAT/70570510007-king-of-the-hill.jpg?auto=webp&amp;crop=2136,1201,x325,y778&amp;format=pjpg&amp;width=1200'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # ''킹 오브 더 힐''의 데일 그리블 목소리 조니 하드윅, 64세 나이로 사망

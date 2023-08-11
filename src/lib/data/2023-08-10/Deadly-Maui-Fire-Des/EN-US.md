@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://assets3.cbsnewsstatic.com/hub/i/r/2023/08/09/acd7f16c-7c94-483e-acbe-6b24481b1dac/thumbnail/1200x630/a1790ea5e59a3351dba048437ed36ed3/2023-08-09t205115z-518774722-rc2gk2apznpl-rtrmadp-3-hawaii-wildfires.jpg?v=08aa43fa812a9e12e93282c47f58b17f'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # Deadly Maui Fire Destroys Town and Forces Evacuations

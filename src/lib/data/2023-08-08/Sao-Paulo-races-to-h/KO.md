@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://s2-ge.glbimg.com/4CQlKpTjOaXvJeUR9S01OETiyf4=/1200x/smart/filters:cover():strip_icc()/s03.video.glbimg.com/x720/11842834.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 상파울루, 미드필더에 대한 CPF 발동 후 브라질 월드컵에서 제임스 영입 경쟁 돌입

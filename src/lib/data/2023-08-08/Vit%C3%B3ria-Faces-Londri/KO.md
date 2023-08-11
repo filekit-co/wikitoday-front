@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://s2-ge.glbimg.com/DM7tz8Jxsv-F7iCwqKQP6laM6bk=/600x0/filters:quality(70)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/N/0/vOCceIR8SPFZNZaPIOdA/vic-2822.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 비토리아, 시리즈 B에서 전례 없는 긍정적 시퀀스로 론드리나에 맞서다

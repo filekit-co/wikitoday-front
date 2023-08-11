@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://variety.com/wp-content/uploads/2023/08/Lil-Tay-Obit-Dead.jpg?w=1000&amp;h=518&amp;crop=1'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # 青少年网络说唱歌手 Lil Tay 已死亡

@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://static01.nyt.com/images/2023/08/08/obituaries/00friedkin1-print1/00friedkin1-facebookJumbo.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # William Friedkin, Director of ‘French Connection’ and ‘Exorcist,’ Dies at 87
