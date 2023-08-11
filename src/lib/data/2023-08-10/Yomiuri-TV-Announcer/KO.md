@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230809-00000092-dal-000-9-view.jpg?exp=10800'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # 요미우리 TV 아나운서 아다치 나츠야스가 유카타를 입고 팬들은 그녀와 데이트하고 싶어합니다.

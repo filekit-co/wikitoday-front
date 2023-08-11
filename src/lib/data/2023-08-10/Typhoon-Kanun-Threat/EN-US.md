@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/437/imgdb/original/2023/0810/20230810500174.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # Typhoon ''Kanun'' Threatens Busan and the Korean Peninsula

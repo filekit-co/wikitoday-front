@@ -7,6 +7,7 @@ date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/647/imgdb/original/2023/0804/20230804501508.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 ## Summary

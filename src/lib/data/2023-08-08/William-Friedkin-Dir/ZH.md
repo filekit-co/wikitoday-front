@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://static01.nyt.com/images/2023/08/08/obituaries/00friedkin1-print1/00friedkin1-facebookJumbo.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 法国贩毒案》和《驱魔人》导演威廉-弗莱德金逝世，享年87岁

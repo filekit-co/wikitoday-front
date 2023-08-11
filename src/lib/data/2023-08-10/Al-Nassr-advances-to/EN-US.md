@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://ss-i.thgim.com/public/incoming/7zkl4x/article67177817.ece/alternates/LANDSCAPE_1200/AFP_33QV6WY.jpg'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # Al Nassr advances to the Arab Club Champions Cup final with a thrilling victory over Al Shorta

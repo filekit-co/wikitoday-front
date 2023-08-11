@@ -7,6 +7,7 @@ date: '2023-08-09'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2023/08/1408/814/08.07.23_Womens-World-Cup-Top-Moments_Colombia-vs-Jamaica_16x9_1.jpg?ve=1&amp;tl=1'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 콜롬비아, FIFA 여자월드컵에서 자메이카를 1-0으로 꺾다

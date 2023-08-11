@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'PT-BR'
 thumbnail: 'https://www.rbsdirect.com.br/filestore/7/8/6/3/9/7/4_4e241382a2e0713/4793687_cae4af607ea64fe.jpg?w=1200&amp;h=630&amp;a=c&amp;version=1575255600'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # Juventude perde para o Vila Nova em jogo da Série B

@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://static01.nyt.com/images/2023/08/09/multimedia/last-voyage1-cjpw/last-voyage1-cjpw-facebookJumbo.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 리뷰: 리뷰: ''데메테르호의 마지막 항해'', 공포를 전달하지 못하다

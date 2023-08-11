@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://image.cnbcfm.com/api/v1/image/107284462-1691669243686-gettyimages-1603828834-dsc05449_ubrrozav.jpeg?v=1691670711&amp;w=1920&amp;h=1080'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 7월 CPI 보고서: 인플레이션 연간 3.2% 상승

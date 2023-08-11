@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://st1.uvnimg.com/cb/60/01f488234c07ac958db34edadf05/marcador-inter-dallas-leagues-cup.jpeg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 达拉斯 FC 对阵迈阿密国际米兰：梅西的英雄事迹和激烈的比赛集锦

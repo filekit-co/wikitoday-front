@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://d3i6fh83elv35t.cloudfront.net/static/2022/12/GettyImages-1245590985-1024x683.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # Tory Lanez Faces Sentencing for Shooting Megan Thee Stallion

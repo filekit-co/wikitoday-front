@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://www3.nhk.or.jp/news/html/20230809/K10014158521_2308091844_0809185014_01_02.jpg'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # Typhoon No. 7 Approaching Japan, How Will It Affect the Bon Festival?

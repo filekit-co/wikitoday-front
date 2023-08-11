@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230809-00000092-dal-000-9-view.jpg?exp=10800'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # 读卖电视台播音员足立夏安穿浴衣，粉丝想与她约会

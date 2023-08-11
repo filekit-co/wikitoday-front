@@ -7,6 +7,7 @@ date: "2023-08-08"
 author: "wikitoday.io"
 language: "KO"
 thumbnail: "https://www.infomoney.com.br/wp-content/uploads/2019/06/itau-unibanco-1.jpg?quality=70"
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # Itaú, 앱 불안정성에도 불구하고 2분기에 견조한 수익 보고

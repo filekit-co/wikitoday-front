@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://gdb.voanews.com/68F3C6D6-BC12-4E53-95BE-58C520A601F6_cx0_cy5_cw0_w1200_r1.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 前联合国报告员欢迎安理会就朝鲜权利问题举行公开会议

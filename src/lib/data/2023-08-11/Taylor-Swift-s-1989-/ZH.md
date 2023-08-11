@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://www.billboard.com/wp-content/uploads/2022/06/taylor-swift-2015-billboard-b-1548.jpg?w=1024'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 泰勒-斯威夫特的《1989（泰勒版本）》：9 个关键数字

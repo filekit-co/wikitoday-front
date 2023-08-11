@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://www.rollingstone.com/wp-content/uploads/2023/08/GettyImages-143836900.jpg?w=1600&amp;h=900&amp;crop=1'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # Former Lostprophets Singer Ian Watkins Stabbed in Prison

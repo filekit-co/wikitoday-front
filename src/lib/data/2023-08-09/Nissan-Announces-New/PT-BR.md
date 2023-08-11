@@ -7,6 +7,7 @@ date: "2023-08-09"
 author: "wikitoday.io"
 language: "PT-BR"
 thumbnail: "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230808-01010881-kana-000-1-view.jpg?exp=10800"
+candidLanguages: ['PT-BR', 'EN-US', 'KO']
 ---
 
 # Nissan anuncia o novo modelo ''Skyline NISMO'' e a edição limitada ''Skyline Limited

@@ -7,6 +7,7 @@ date: "2023-08-07"
 author: "wikitoday.io"
 language: "ZH"
 thumbnail: "https://flexible.img.hani.co.kr/flexible/normal/970/494/imgdb/child/2023/0808/16914569375954_20230808500551.jpg"
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 叶楚魔法 ''不起作用......台风 ''卡努 ''在庆尚南道和全罗南道之间来袭

@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://pagesix.com/wp-content/uploads/sites/3/2023/08/NYPICHPDPICT000020212353.jpg?quality=75&amp;strip=all&amp;w=1024'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 坎耶-维斯特和比安卡-森索里充满 PDA 的意大利假期

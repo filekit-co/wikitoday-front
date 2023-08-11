@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://www.billboard.com/wp-content/uploads/2022/06/taylor-swift-2015-billboard-b-1548.jpg?w=1024'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 테일러 스위프트의 ''1989 (테일러 버전)'': 9가지 핵심 숫자

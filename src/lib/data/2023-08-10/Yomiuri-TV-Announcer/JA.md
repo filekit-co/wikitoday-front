@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'JA'
 thumbnail: 'https://newsatcl-pctr.c.yimg.jp/t/amd-img/20230809-00000092-dal-000-9-view.jpg?exp=10800'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # 読売テレビ・足立夏康アナ、浴衣姿でファンからデート希望の声

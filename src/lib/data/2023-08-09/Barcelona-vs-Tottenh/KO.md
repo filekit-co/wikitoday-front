@@ -7,6 +7,7 @@ date: '2023-08-09'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt6cc00fc3a31e550e/64ce1f9713aaedc7a0ba3bce/Robert_Lewandowski_Harry_Kane_Barcelona_Tottenham_2023_2024.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 바르셀로나 대 토트넘: 트로페오 호안 감퍼 트로피 결승전 미리보기

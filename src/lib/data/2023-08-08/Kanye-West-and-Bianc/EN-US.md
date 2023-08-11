@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://pagesix.com/wp-content/uploads/sites/3/2023/08/NYPICHPDPICT000020212353.jpg?quality=75&amp;strip=all&amp;w=1024'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # Kanye West and Bianca Censori''s PDA-filled Italian Vacation

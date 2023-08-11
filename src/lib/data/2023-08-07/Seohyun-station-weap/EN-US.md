@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://image.imnews.imbc.com/replay/2023/nwtoday/article/__icsFiles/afieldfile/2023/08/08/today_20230808_064432_2_12_Large.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # ''Seohyun station weapon rampage'' shooter is ''22-year-old Choi Won-jong''

@@ -7,6 +7,7 @@ date: "2023-08-09"
 author: "wikitoday.io"
 language: "EN-US"
 thumbnail: "https://www.gannett-cdn.com/presto/2020/11/19/PIND/3e324151-d635-472a-a4d3-e9c5786899e4-Charlie_Kristen_Phillips.jpg?auto=webp&amp;crop=1535,863,x1,y37&amp;format=pjpg&amp;width=1200"
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # International Cat Day: 5 Weird Things Your Cat Is Doing and Why

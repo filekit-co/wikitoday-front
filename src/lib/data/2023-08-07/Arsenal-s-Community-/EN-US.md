@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0806%2Fr1207123_1296x729_16%2D9.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # Arsenal''s Community Shield Win Gives Hope for Title Run

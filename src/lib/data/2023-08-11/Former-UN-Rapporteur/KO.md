@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://gdb.voanews.com/68F3C6D6-BC12-4E53-95BE-58C520A601F6_cx0_cy5_cw0_w1200_r1.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 전 유엔 북한인권 보고관, 북한 인권에 관한 안보리 회의 공개 환영

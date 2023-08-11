@@ -7,6 +7,7 @@ date: '2023-08-09'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2023/08/1408/814/08.07.23_Womens-World-Cup-Top-Moments_Colombia-vs-Jamaica_16x9_1.jpg?ve=1&amp;tl=1'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 哥伦比亚在国际足联女子世界杯上以 1-0 击败牙买加

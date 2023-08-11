@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/640/401/imgdb/original/2023/0810/20230810504083.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # ''내 아이 왕의 DNA, 주문하지 마세요''...교육부 관계자는 교사에게 ''''

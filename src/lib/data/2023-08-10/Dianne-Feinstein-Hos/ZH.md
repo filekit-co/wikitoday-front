@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://media.cnn.com/api/v1/images/stellar/prod/230809102526-02-dianne-feinstein-051823.jpg'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # 黛安-范斯坦摔倒后住院

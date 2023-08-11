@@ -7,6 +7,7 @@ date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://cdn.fourfourtwo.co.kr/news/thumbnail/202308/38661_88065_2048_v150.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 ## Summary

@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://variety.com/wp-content/uploads/2023/08/Lil-Tay-Obit-Dead.jpg?w=1000&amp;h=518&amp;crop=1'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # 10대 인터넷 래퍼 릴 테이가 사망했습니다.

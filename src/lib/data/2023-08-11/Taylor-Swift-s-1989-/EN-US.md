@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://www.billboard.com/wp-content/uploads/2022/06/taylor-swift-2015-billboard-b-1548.jpg?w=1024'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # Taylor Swift’s ‘1989 (Taylor’s Version)’: 9 Key Numbers

@@ -7,6 +7,7 @@ date: '2023-08-09'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://nbcsports.brightspotcdn.com/dims4/default/6bbd21a/2147483647/strip/true/crop/3894x2190+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.amazonaws.com%2Fbrightspot%2Fa5%2F81%2F00755db14ffbb52de5fffc1451a7%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F1586682124'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 댄 캠벨입니다 테디 브리지워터가 여전히 건재한지 확인해야 합니다.

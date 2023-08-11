@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/640/401/imgdb/original/2023/0810/20230810504083.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 我的孩子是国王的 DNA，不要命令''......一位教育部官员告诉一位教师，''

@@ -7,6 +7,7 @@ date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/970/647/imgdb/original/2023/0804/20230804501508.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # ''500억 클럽'' 박영수 구속...한 달 전 해임 당시와 달라진 점은?

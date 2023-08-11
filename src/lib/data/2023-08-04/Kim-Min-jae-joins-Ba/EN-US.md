@@ -7,6 +7,7 @@ date: "2023-08-04"
 author: "wikitoday.io"
 language: "EN-US"
 thumbnail: "https://thumb.mt.co.kr/21/2023/08/2023080323275287102_1.jpg"
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # Kim Min-jae joins Bayern Munich and impresses in preseason friendly

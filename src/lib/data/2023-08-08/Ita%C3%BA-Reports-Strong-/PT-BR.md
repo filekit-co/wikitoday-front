@@ -7,6 +7,7 @@ date: "2023-08-08"
 author: "wikitoday.io"
 language: "PT-BR"
 thumbnail: "https://www.infomoney.com.br/wp-content/uploads/2019/06/itau-unibanco-1.jpg?quality=70"
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # Itaú registra fortes lucros no segundo trimestre, apesar da instabilidade dos aplicativos

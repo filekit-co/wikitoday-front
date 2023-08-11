@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2023-08/bella-hadid-lp-today-main-230806-c6b20c.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # Bella Hadid Opens Up About Her Battle with Lyme Disease

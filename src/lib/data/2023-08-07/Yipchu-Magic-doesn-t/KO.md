@@ -7,6 +7,7 @@ date: "2023-08-07"
 author: "wikitoday.io"
 language: "KO"
 thumbnail: "https://flexible.img.hani.co.kr/flexible/normal/970/494/imgdb/child/2023/0808/16914569375954_20230808500551.jpg"
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # ''입추 매직'' 안 먹힌다...태풍 ''카눈'', 경남과 전남 사이로 온다

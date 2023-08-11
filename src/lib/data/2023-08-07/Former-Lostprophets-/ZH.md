@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://www.rollingstone.com/wp-content/uploads/2023/08/GettyImages-143836900.jpg?w=1600&amp;h=900&amp;crop=1'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 前 Lostprophets 歌手伊恩-沃特金斯在狱中被刺伤

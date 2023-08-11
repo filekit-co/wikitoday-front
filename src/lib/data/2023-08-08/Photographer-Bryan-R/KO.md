@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://people.com/thmb/84_HZQzKHqgW-w_8EDi9SdZwuNQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(737x128:739x130)/bryan-randall-sandra-bullock-4-080723-a7bf069028dc438eb318ea16e1038c15.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 사진작가 브라이언 랜달, 루게릭병으로 사투 끝에 사망

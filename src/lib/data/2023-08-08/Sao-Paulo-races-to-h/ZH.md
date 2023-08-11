@@ -7,6 +7,7 @@ date: '2023-08-08'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://s2-ge.glbimg.com/4CQlKpTjOaXvJeUR9S01OETiyf4=/1200x/smart/filters:cover():strip_icc()/s03.video.glbimg.com/x720/11842834.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 为中场球员发放公积金后，圣保罗力争让詹姆斯参加巴西世界杯

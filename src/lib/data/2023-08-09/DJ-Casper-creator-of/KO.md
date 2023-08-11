@@ -7,6 +7,7 @@ date: '2023-08-09'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://media.npr.org/assets/img/2023/08/08/gettyimages-1485265342-1-_wide-9d2afa454b31f2ec093a62d7de5f2ed86adc4eaa-s1400-c100.jpg'
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 상징적이고 유비쿼터스적인 ''차차 슬라이드''를 만든 DJ 캐스퍼가 향년 58세로 사망했습니다.

@@ -7,6 +7,7 @@ date: '2023-08-05'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'http://news.kbs.co.kr/data/news/2023/08/04/20230804_vxxJFM.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 ## Summary

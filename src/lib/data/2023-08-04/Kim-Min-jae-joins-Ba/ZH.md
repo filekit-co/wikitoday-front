@@ -7,6 +7,7 @@ date: "2023-08-04"
 author: "wikitoday.io"
 language: "ZH"
 thumbnail: "https://thumb.mt.co.kr/21/2023/08/2023080323275287102_1.jpg"
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 金敏在加盟拜仁慕尼黑并在季前友谊赛中给人留下深刻印象

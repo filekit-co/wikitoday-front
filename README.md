@@ -35,3 +35,10 @@ news/:category/:article title/:date/:lang
 
 
 ```
+
+## add `candidLanguages`
+
+```
+cd src/lib
+python format.py
+```

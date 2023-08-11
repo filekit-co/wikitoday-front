@@ -7,6 +7,7 @@ date: '2023-08-10'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://ss-i.thgim.com/public/incoming/7zkl4x/article67177817.ece/alternates/LANDSCAPE_1200/AFP_33QV6WY.jpg'
+candidLanguages: ['ZH', 'EN-US', 'JA', 'KO']
 ---
 
 # 纳赛尔惊险战胜阿尔肖塔，晋级阿拉伯俱乐部冠军杯决赛

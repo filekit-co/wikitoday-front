@@ -7,6 +7,7 @@ date: "2023-08-07"
 author: "wikitoday.io"
 language: "EN-US"
 thumbnail: "https://news.tbs.seoul.kr/Upload/Image/20230807/00000000000001333763.jpg"
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # Japan Plans to Release Contaminated Water from Fukushima Daiichi Nuclear Power Plant

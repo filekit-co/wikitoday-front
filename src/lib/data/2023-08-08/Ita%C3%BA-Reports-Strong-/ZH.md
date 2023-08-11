@@ -7,6 +7,7 @@ date: "2023-08-08"
 author: "wikitoday.io"
 language: "ZH"
 thumbnail: "https://www.infomoney.com.br/wp-content/uploads/2019/06/itau-unibanco-1.jpg?quality=70"
+candidLanguages: ['ZH', 'PT-BR', 'EN-US', 'KO']
 ---
 
 # 伊塔乌报告第二季度利润强劲，尽管应用程序不稳定

@@ -7,6 +7,7 @@ date: '2023-08-07'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://www.rollingstone.com/wp-content/uploads/2023/08/GettyImages-143836900.jpg?w=1600&amp;h=900&amp;crop=1'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 전 로스트프로펩츠 가수 이안 왓킨스, 감옥에서 칼에 찔려 사망

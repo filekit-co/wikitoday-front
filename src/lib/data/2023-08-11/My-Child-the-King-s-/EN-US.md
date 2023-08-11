@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'EN-US'
 thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/640/401/imgdb/original/2023/0810/20230810504083.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # "My Child the King''s DNA, Don''t Order''...An education ministry official tells a teacher that the"

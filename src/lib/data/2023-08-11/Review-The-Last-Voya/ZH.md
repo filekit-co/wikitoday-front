@@ -7,6 +7,7 @@ date: '2023-08-11'
 author: 'wikitoday.io'
 language: 'ZH'
 thumbnail: 'https://static01.nyt.com/images/2023/08/09/multimedia/last-voyage1-cjpw/last-voyage1-cjpw-facebookJumbo.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 # 影评德米特号最后的航行》未能带来惊吓

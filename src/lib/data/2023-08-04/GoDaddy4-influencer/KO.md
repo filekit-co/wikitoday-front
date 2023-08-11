@@ -7,6 +7,7 @@ date: '2023-08-04'
 author: 'wikitoday.io'
 language: 'KO'
 thumbnail: 'https://thumb.mt.co.kr/21/2023/08/2023080315281096391_1.jpg'
+candidLanguages: ['ZH', 'EN-US', 'KO']
 ---
 
 ## Summary
