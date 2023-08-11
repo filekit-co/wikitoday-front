@@ -26,17 +26,28 @@
     X
   </button>
   <div class="px-6 py-4 flex-col">
-    {#each candidLanguages as language}
-      {#each LanguagePages as langPage}
-        {#if langPage.value === language}
-          <button
-            class="block my-6 font-3xl"
-            on:click={() => selectLanguage(langPage.value)}
-          >
-            {langPage.key}
-          </button>
-        {/if}
+    {#if candidLanguages.length > 0}
+      {#each candidLanguages as language}
+        {#each LanguagePages as langPage}
+          {#if langPage.value === language}
+            <button
+              class="block my-6 font-3xl"
+              on:click={() => selectLanguage(langPage.value)}
+            >
+              {langPage.key}
+            </button>
+          {/if}
+        {/each}
       {/each}
-    {/each}
+    {:else}
+      {#each LanguagePages as langPage}
+        <button
+          class="block my-6 font-3xl"
+          on:click={() => selectLanguage(langPage.value)}
+        >
+          {langPage.key}
+        </button>
+      {/each}
+    {/if}
   </div>
 </div>
