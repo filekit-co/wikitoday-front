@@ -26,28 +26,29 @@
     bind:checked={isCategoryDrawerOpen}
   />
 
-  <label
-    for="drawer-category-toggle"
-    class="absolute top-3 left-0 inline-block p-4 transition-all duration-500 rounded-lg peer-checked:left-64 cursor-pointer"
-  >
-    <HamburgerButton />
-  </label>
-
+  {#if !isCategoryDrawerOpen}
+    <label
+      for="drawer-category-toggle"
+      class="absolute top-3 left-0 inline-block p-4 transition-all duration-500 rounded-lg peer-checked:left-64 cursor-pointer"
+    >
+      <HamburgerButton />
+    </label>
+  {/if}
   <div
     class="fixed top-0 left-0 z-20 w-64 h-full transition-all duration-500 transform -translate-x-full bg-white shadow-lg peer-checked:translate-x-0"
   >
     <button
-      class="absolute top-3 right-3 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+      class="absolute top-3 right-3 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4"
       on:click={closeDrawer}
     >
       X
     </button>
     <div class="px-6 py-4 flex-col">
-      <h2 class="text-4xl font-bold mb-4">Category</h2>
+      <h2 class="text-2xl font-bold mb-6">Category</h2>
       {#each CategoryPages as category}
         <button
           on:click={() => handleClick(category)}
-          class="block my-6 font-semibold font-3xl"
+          class="block my-6 font-xl"
         >
           {category}
         </button>
