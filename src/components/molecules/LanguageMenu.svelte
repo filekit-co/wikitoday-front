@@ -62,7 +62,7 @@
     <div class="px-6 py-4 flex-col">
       {#each LanguagePages as language}
         <button
-          class="block my-6 font-semibold font-3xl"
+          class="block my-6 font-3xl"
           on:click={() => selectLanguage(language.value)}
         >
           {language.key}
