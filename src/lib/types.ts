@@ -140,7 +140,8 @@ export const LanguagePages = [
   
 ];
 
-export type ImageType = {
+export type CaroselType = {
   title: string;
   src: string;
+  slug: string;
 };
