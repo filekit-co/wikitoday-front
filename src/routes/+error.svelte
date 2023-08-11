@@ -18,7 +18,7 @@
         {$page.status}
       </h1>
       <div class="bg-accent px-2 text-4xl rounded-full mb-8">
-        {$page.error?.message || "Filekit.co"}
+        {$page.error?.message || "wikitoday.io"}
       </div>
 
       <div class="pt-5 join join-vertical md:join-horizontal">

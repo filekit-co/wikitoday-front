@@ -5,9 +5,35 @@
   import TrendNews from "@components/molecules/TrendNews.svelte";
   import CardArticles from "@components/molecules/CardArticles.svelte";
   import type { Article } from "$lib/types";
+  import { page } from "$app/stores";
+  import { handleClick } from "$lib/utils";
 
   export let articles: Article[];
+  let pageSize = 10;
+  $: totalItems = articles.length;
+  $: totalPages = Math.ceil(totalItems / pageSize);
+  $: currentPage =
+    (Number($page.url.searchParams.get("pageNum")) || 0) / pageSize;
+
+  async function handle(pageSize: number, pageNum: number) {
+    await fetch(`api/articles?limit=${pageSize}&skip=${pageNum}`);
+  }
 </script>
+
+<nav>
+  {#each Array(totalPages) as _, index}
+    <!-- <a
+      href="?limit={pageSize}&skip={pageSize * index}"
+      class={currentPage === index ? "text-blue-600" : "text-gray-800"}
+    >
+      {index + 1}
+    </a> -->
+
+    <button on:click={() => handleClick(pageSize, pageSize * index)}>
+      {index + 1}
+    </button>
+  {/each}
+</nav>
 
 <div class="lg:flex">
   <MainArticles {articles} />
