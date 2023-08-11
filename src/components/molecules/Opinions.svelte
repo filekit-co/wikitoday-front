@@ -1,19 +1,16 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import type { Article, ImageType } from "$lib/types";
+  import type { Article, CaroselType as CaroselData } from "$lib/types";
   import Carosel from "../atoms/Carosel.svelte";
   import { handleClick } from "$lib/utils";
 
   export let articles: Article[];
-  let images: ImageType[] = [];
-
-  onMount(() => {
-    images = articles.map((article) => ({
-      src: article.thumbnail,
-      title: article.title,
-      keywords: article.keywords,
-    }));
-  });
+  let caroselData: CaroselData[] = articles.map((article) => ({
+    src: article.thumbnail,
+    title: article.title,
+    keywords: article.keywords,
+    slug: article.slug,
+  }));
 </script>
 
 <div class="lg:w-1/4 md: pl-4 lg:pl-8">
@@ -21,7 +18,7 @@
     <span class="text-red-600 text-3xl leading-none pr-1">•</span>Live Updates
   </h2>
 
-  <Carosel {images} />
+  <Carosel {caroselData} />
 
   <!-- Small opinion articles -->
   <div class="h-full mt-8">
