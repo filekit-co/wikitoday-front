@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { CategoryPages } from "$lib/types";
+  import { CategoryPages } from "$lib/datas";
   import { goto } from "$app/navigation";
   import { page } from "$app/stores";
 
