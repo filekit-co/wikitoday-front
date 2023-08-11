@@ -1,6 +1,7 @@
 // https://github.com/mattcroat/joy-of-code/blob/main/src/lib/site/posts.ts
-import type { Article, CategoryType } from "$lib/types"
+import type { Article } from "$lib/types"
 import { PUBLIC_BASE_URL } from "$env/static/public";
+
 
 const getArticleRouteSlug = (language: string, date: string, fileName: string) => `${language}/news/${date}/${fileName}`
 
@@ -126,15 +127,21 @@ export async function getArticlesByCategory(language: string, category: string) 
   }
 }
 
+function extractInfoFromPath(filepath: string): { language: string; date: string; fileName: string } {
+  const parts = filepath.split('/');
+  const language = parts[parts.length - 1].split('.')[0];
+  const date = parts[parts.length - 3];
+  const fileName = parts[parts.length - 2];
+  return { language, date, fileName };
+}
 
-export async function generateSitemapRoutes(language: string): Promise<string[]> {
+export async function generateSitemapRoutes(language: string): Promise<{ url: string; date: string }[]> {
   try {
     const modules = getModules(language);
-    const routes: string[] = Object.entries(modules).map(([filepath, module]) => {
-      const { metadata } = module;
-      const articleFileName = getArticleFileName(filepath);
-      const slug = getArticleRouteSlug(language, metadata.date, articleFileName);
-      return `${PUBLIC_BASE_URL}/${slug}`
+    const routes: { url: string; date: string }[] = Object.keys(modules).map((filepath) => {
+      const { date, fileName } = extractInfoFromPath(filepath);
+      const slug = getArticleRouteSlug(language, date, fileName);
+      return { url: `${PUBLIC_BASE_URL}/${slug}`, date };
     });
     return routes;
   } catch (e) {
