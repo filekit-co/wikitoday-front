@@ -11,12 +11,17 @@
     <section class="flex justify-evenly py-6">
       <CategoryDrawer />
 
-      <a
-        href={`/${lang}`}
-        class="text-4xl sm:font-bold md:text-5xl md:font-extrabold"
-      >
-        Wikitoday
-      </a>
+      <div class="text-center">
+        <a
+          href={`/${lang}`}
+          class="text-4xl sm:font-bold md:text-5xl md:font-extrabold"
+        >
+          Wikitoday
+        </a>
+        <p class="text-sm sm:text-md md:text-lg text-gray-600 pt-4">
+          <em>Explore trending topics with wikitoday</em>
+        </p>
+      </div>
 
       <LanguageMenu />
     </section>
