@@ -1,5 +1,5 @@
 // https://github.com/mattcroat/joy-of-code/blob/main/src/lib/site/posts.ts
-import type { Article } from "$lib/types"
+import type { Article, RssData } from "$lib/types"
 import { PUBLIC_BASE_URL } from "$env/static/public";
 
 
@@ -135,7 +135,7 @@ function extractInfoFromPath(filepath: string): { language: string; date: string
   return { language, date, fileName };
 }
 
-export async function generateSitemapRoutes(language: string): Promise<{ url: string; date: string }[]> {
+export async function generateSitemapData(language: string): Promise<{ url: string; date: string }[]> {
   try {
     const modules = getModules(language);
     const routes: { url: string; date: string }[] = Object.keys(modules).map((filepath) => {
@@ -147,5 +147,24 @@ export async function generateSitemapRoutes(language: string): Promise<{ url: st
   } catch (e) {
     console.error(e);
     throw new Error('Could not generate sitemap routes');
+  }
+}
+
+export async function generateRssData(language: string): Promise<RssData[]> {
+  try {
+    const articles = await getArticlesByLang(language);
+    const rssDatas: RssData[] = articles.map((article) => {
+      return {
+        title: article.title,
+        url: `${PUBLIC_BASE_URL}/${article.slug}`,
+        date: article.date,
+        description: article.description,
+        thumbnail: article.thumbnail,
+      };
+    });
+    return rssDatas;
+  } catch (e) {
+    console.error(e);
+    throw new Error('Could not generate RSS data');
   }
 }

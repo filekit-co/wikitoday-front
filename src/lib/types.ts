@@ -59,3 +59,12 @@ export type CaroselType = {
 };
 
 export type LanguageKey = 'EN-US' | 'JA' | 'KO' | 'ZH' | 'PT-BR' | 'PT-PT' | 'BG' | 'CS' | 'DA' | 'DE' | 'EL' | 'EN-GB' | 'ES' | 'ET' | 'FI' | 'FR' | 'HU' | 'ID' | 'IT' | 'LT' | 'LV' | 'NB' | 'NL' | 'PL' | 'RO' | 'RU' | 'SK' | 'SL' | 'SV' | 'TR' | 'UK';
+
+
+export interface RssData {
+  title: string;
+  description: string;
+  url: string;
+  date: string;
+  thumbnail?: string;
+};

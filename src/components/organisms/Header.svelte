@@ -5,13 +5,13 @@
   import wikitoday from "$lib/assets/wikitoday.png";
 
   const defaultHeaderProps: HeaderProps = {
-    title: "wikitoday - Get Trending News & Wiki Articles Worldwide",
+    title: "wikitoday.io - Get trending news & wiki",
     author: "wikitoday.io",
     keywords:
       "trending, today, news, articles, wiki, google trends, world, economy, entertainment",
     url: canonicalUrl($page.url?.pathname ?? ""),
     image: wikitoday,
-    description: "Explore today trending topics with wikitoday.",
+    description: "Explore trending topics with wikitoday",
     siteName: "wikitoday - Global Trends, News, Economy, Entertainment",
     date: "2023-08-07",
     language: "EN-US",
