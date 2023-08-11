@@ -119,7 +119,7 @@ The wildfires were fueled by high winds from Hurricane Dora as it approached Haw
 
  The exact cause of the fire is unclear. Hawaii state officials said hot, dry weather, high winds and dry vegetation may have played a role in starting or exacerbating the fires. The large wildfires are believed to be the result of fires that were thought to be out, but were reignited by high winds from the hurricane on Aug.
 
- 8. Hawaii is known for its tropical downpours, but some say climate change has increased the risk of wildfires. Correspondent Bon-Young Lee in Washington ebon@hani.co.kr
+ 1. Hawaii is known for its tropical downpours, but some say climate change has increased the risk of wildfires.
 
 
 </div>
