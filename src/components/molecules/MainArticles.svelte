@@ -8,7 +8,7 @@
 
 <div class="lg:w-3/4">
   <section class="w-full items-center lg:pr-4 lg:border-r-2 lg:border-r-black">
-    <ul class="justify-center">
+    <ul class="justify-center select-none">
       {#each articles as article}
         <li class="mb-8 bg-white">
           <!-- svelte-ignore a11y-click-events-have-key-events -->
