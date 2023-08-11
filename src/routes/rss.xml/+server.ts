@@ -24,7 +24,7 @@ export async function GET() {
     <?xml version="1.0" encoding="UTF-8" ?>
     <rss version="2.0">
       <channel>
-        <title>wikitoday.io - Get trending news & wiki</title>
+        <title>wikitoday.io - Get trending news &amp; wiki</title>
         <link>${PUBLIC_BASE_URL}</link>
         <description>Explore trending topics with wikitoday</description>
         ${rssItems

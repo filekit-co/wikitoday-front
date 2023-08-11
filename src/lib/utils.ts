@@ -51,3 +51,17 @@ export function serializeSchema(thing: Schema) {
     2
   )}</script>`
 }
+
+
+export function escapeXml(unsafe: string): string {
+  return unsafe.replace(/[<>&'"]/g, (c) => {
+    switch (c) {
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '&': return '&amp;';
+      case '\'': return '&apos;';
+      case '"': return '&quot;';
+    }
+    return c; // never reached, but TypeScript needs it
+  });
+}

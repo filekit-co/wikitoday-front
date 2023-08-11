@@ -1,6 +1,7 @@
 // https://github.com/mattcroat/joy-of-code/blob/main/src/lib/site/posts.ts
 import type { Article, RssData } from "$lib/types"
 import { PUBLIC_BASE_URL } from "$env/static/public";
+import { escapeXml } from "$lib/utils";
 
 
 const getArticleRouteSlug = (language: string, date: string, fileName: string) => `${language}/news/${date}/${fileName}`
@@ -155,11 +156,11 @@ export async function generateRssData(language: string): Promise<RssData[]> {
     const articles = await getArticlesByLang(language);
     const rssDatas: RssData[] = articles.map((article) => {
       return {
-        title: article.title,
-        url: `${PUBLIC_BASE_URL}/${article.slug}`,
-        date: article.date,
-        description: article.description,
-        thumbnail: article.thumbnail,
+        title: escapeXml(article.title),
+        url: escapeXml(`${PUBLIC_BASE_URL}/${article.slug}`),
+        date: escapeXml(article.date),
+        description: escapeXml(article.description),
+        thumbnail: escapeXml(article.thumbnail),
       };
     });
     return rssDatas;
