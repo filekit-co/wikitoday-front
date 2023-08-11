@@ -1,4 +1,8 @@
+import { getMaxArticles } from "$lib/consts";
 import type { Article } from "$lib/types";
+
+
+const numArticles = getMaxArticles()
 
 export async function load({fetch, params}) {
     const lang = params.lang;
@@ -7,5 +11,6 @@ export async function load({fetch, params}) {
 
     // 최신 기사를 우선적으로 보여주기 위해 sort
     articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-    return {articles}
+    
+    return { articles: articles.slice(0, numArticles) };
 }
