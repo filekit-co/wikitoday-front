@@ -2,11 +2,10 @@ import {error} from '@sveltejs/kit'
 import type { UpdateHeaderProps } from '$lib/types';
 import { convertHtmlToFaQJsonLD } from '$lib/utils';
 
-// https://github.com/pngwn/MDsveX/issues/294
 export async function load({params}) {
 	try {
 		const date = params.date;
-		const title = params.article;
+		const title = encodeURIComponent(params.article);
 		const language = params.lang;
 		
 		const module = await import(`../../../../../lib/data/${date}/${title}/${language}.md`)
@@ -26,7 +25,8 @@ export async function load({params}) {
 		return {
 			headerProps,
 			jsonLd,
-			articleHtml: html
+			articleHtml: html,
+			candidLanguages: metadata.candidLanguages,
 		}
 	}
 	catch(e) {
