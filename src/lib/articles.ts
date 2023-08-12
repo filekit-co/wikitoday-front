@@ -75,7 +75,7 @@ function getModules(language: LanguageKey) {
 
 const articleFileName = (filepath: string): string => _(filepath).split('/').nth(-2) || ''
 
-const articleRouteSlug = (language: LanguageKey, date: string, fileName: string) => `/${language}/news/${date}/${fileName}`
+export const articleRouteSlug = (language: LanguageKey, date: string, fileName: string) => `/${language}/news/${date}/${fileName}`
 
 const getArticleFromModule = (language: LanguageKey, [filepath, module]: [string, any]): Article | undefined => {
   const { metadata } = module;

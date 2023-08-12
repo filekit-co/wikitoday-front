@@ -1,8 +1,9 @@
 import {error} from '@sveltejs/kit'
 import type { Article, GetApiType, LanguageKey, UpdateHeaderProps } from '$lib/types';
-import { convertHtmlToFaQJsonLD } from '$lib/utils';
+import { createFaQJsonLD, createNewsArticleJsonLd, type Schema } from '$lib/utils';
 import { NUM_TRENDING_ARTICLES } from '$lib/consts';
 import type { PageServerLoad } from './$types';
+import { articleRouteSlug } from '$lib/articles';
 
 
 
@@ -12,6 +13,7 @@ export const load: PageServerLoad = async ({ fetch, params }) => {
 		const date = params.date;
 		const title = encodeURIComponent(params.article);
 		const language = params.lang as LanguageKey;
+		const slug = articleRouteSlug(language, date, title)
 		
 		// 2. prepare an article
 		const module = await import(`../../../../../lib/data/${date}/${title}/${language}.md`)
@@ -19,7 +21,10 @@ export const load: PageServerLoad = async ({ fetch, params }) => {
 		const { html } = module.default.render()
 		
 		// 3. prepare ld+json
-		const jsonLd = convertHtmlToFaQJsonLD(html)
+		let jsonLds: Schema[] = [
+			createFaQJsonLD(html),
+			createNewsArticleJsonLd(slug, metadata)
+		]
 
 		// 4. prepare random articles for trending news 
 		const type: GetApiType = "getRandomArticles"
@@ -38,7 +43,7 @@ export const load: PageServerLoad = async ({ fetch, params }) => {
 		
 		return {
 			headerProps,
-			jsonLd,
+			jsonLds,
 			articleHtml: html,
 			randomArticles,
 			candidLanguages: metadata.candidLanguages as LanguageKey[],

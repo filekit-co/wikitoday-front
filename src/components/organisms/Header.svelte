@@ -1,7 +1,7 @@
 <script lang="ts">
   import { page } from "$app/stores";
   import type { HeaderProps, LanguageKey, UpdateHeaderProps } from "$lib/types";
-  import { serializeSchema } from "$lib/utils";
+  import { serializeSchema, type Schema } from "$lib/utils";
   import wikitoday from "$lib/assets/wikitoday.png";
   import { PUBLIC_BASE_URL } from "$env/static/public";
   import { languageKeys, languageToHreflang } from "$lib/datas";
@@ -21,8 +21,9 @@
   let candidLanguages: LanguageKey[];
   let canonicalUrl: string;
   let p: UpdateHeaderProps;
+  let jsonLds: Schema[];
+  $: jsonLds = $page.data?.jsonLds || [];
 
-  $: jsonLd = $page.data?.jsonLd;
   $: candidLanguages = $page.data?.candidLanguages || languageKeys;
   $: canonicalUrl = $page.url?.pathname
     ? `${PUBLIC_BASE_URL}${$page.url?.pathname}`
@@ -80,6 +81,7 @@
   <!-- Open Graph Meta Tags (optional) -->
   <meta property="og:title" content={p.title} />
   <meta property="og:type" content="article" />
+  <meta property="og:locale" content={p.language} />
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:image" content={p.image} />
   <meta property="og:description" content={p.description} />
@@ -97,7 +99,7 @@
   <meta name="apple-mobile-web-app-title" content="wikitoday.io" />
   <meta name="application-name" content="wikitoday.io" />
 
-  {#if jsonLd}
+  {#each jsonLds as jsonLd}
     {@html serializeSchema(jsonLd)}
-  {/if}
+  {/each}
 </svelte:head>
