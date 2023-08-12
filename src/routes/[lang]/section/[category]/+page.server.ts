@@ -9,6 +9,7 @@ export async function load({fetch, params}) {
 
         const articles: Article[] = await response.json();
         articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
         return {articles}
     } catch(e) {
         console.error(e);
