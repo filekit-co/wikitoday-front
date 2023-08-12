@@ -1,12 +1,18 @@
 <script lang="ts">
-  export let data;
-  const { articleHtml } = data;
+  import TrendingNews from "@components/molecules/TrendingNews.svelte";
+  import type { PageData } from "./$types";
+
+  export let data: PageData;
 </script>
 
 <div class="max-w-3xl mx-auto">
   <article class="container relative pt-10">
-    {@html articleHtml}
+    {@html data.articleHtml}
   </article>
+  <hr
+    class="mt-6 mb-3 md:mt-10 md:mb-5 lg:mt-16 lg:mb-5 bg-black border-3 dark:bg-black"
+  />
+  <TrendingNews articles={data.randomArticles} />
 </div>
 
 <!-- @html stylying guide -->
