@@ -79,7 +79,7 @@
 
   <!-- Open Graph Meta Tags (optional) -->
   <meta property="og:title" content={p.title} />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="article" />
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:image" content={p.image} />
   <meta property="og:description" content={p.description} />
