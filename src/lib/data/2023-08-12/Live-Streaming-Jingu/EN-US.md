@@ -1,0 +1,57 @@
+---
+title: '[Live Streaming] Jingu Gaien Fireworks Festival 2023! 10,000 fireworks will light up the night sky!'
+description: '''2023 Jingu Gaien Fireworks Festival'' (sponsored by Nikkan Sports Shimbun and others) was held at Meiji Jingu Gaien in Tokyo on August 12 (with a backup date of August 13), and 10,000 fireworks were launched. Nikkan Sports Newspaper''s news site, nikkansports.com.'
+category: 'Entertainment'
+keywords: '神宮外苑花火大会'
+date: '2023-08-12'
+author: 'wikitoday.io'
+language: 'EN-US'
+candidLanguages: ['EN-US', 'ZH', 'KO']
+thumbnail: 'https://www.nikkansports.com/general/nikkan/news/img/202308110001759-w500_0.jpg'
+---
+
+# [Live Streaming] Jingu Gaien Fireworks Festival 2023! 10,000 fireworks will light up the night sky!
+
+<p class="datetime"><em>2023-08-12 - wikitoday<em></p>
+
+<blockquote class="quote-container dark">
+  <p class="quote-text dark">
+    &#39;&#39;2023 Jingu Gaien Fireworks Festival&#39;&#39; (sponsored by Nikkan Sports Shimbun and others) was held at Meiji Jingu Gaien in Tokyo on August 12 (with a backup date of August 13), and 10,000 fireworks were launched. Nikkan Sports Newspaper&#39;&#39;s news site, nikkansports.com.
+  </p>
+</blockquote>
+
+
+<figure class=image-container>
+    <img src="https://www.nikkansports.com/general/nikkan/news/img/202308110001759-w500_0.jpg" alt="ニッカンスポーツ" />
+    <figcaption>
+        <h4> from ニッカンスポーツ</h4>
+    </figcaption>
+</figure>
+
+
+<hr class="article-hr" />
+
+
+<div class="faq">
+
+</div>
+
+
+<hr class="article-hr" />
+
+<div class="article-body">
+None
+</div>
+
+
+<figure class=image-container>
+    <img src="https://yakei-fan.com/images/magazine/fireworks/pic_jingu-hanabi2023081201.jpg" alt="夜景FAN" />
+    <figcaption>
+        <h4> from 夜景FAN</h4>
+    </figcaption>
+</figure>
+
+
+<div class="article-body">
+
+</div>
