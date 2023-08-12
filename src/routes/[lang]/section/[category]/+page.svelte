@@ -1,13 +1,13 @@
 <script lang="ts">
   import CategoryArticlePage from "@components/pages/CategoryArticlePage.svelte";
   import MainArticles from "@components/molecules/MainArticles.svelte";
+  import type { PageData } from "./$types";
 
-  export let data;
-  const articles = data.articles;
+  export let data: PageData;
 </script>
 
 <CategoryArticlePage {data} />
 
 <div class="lg:flex">
-  <MainArticles {articles} />
+  <MainArticles articles={data.articles} />
 </div>

@@ -1,10 +1,7 @@
-import { getMaxArticles } from "$lib/consts";
-import type { Article } from "$lib/types";
+import type { PageServerLoad } from './$types';
 
 
-const numArticles = getMaxArticles()
-
-export async function load({fetch, params}) {
+export const load: PageServerLoad = async ({ fetch, params}) => {
     const lang = params.lang;
     const response = await fetch(`api/articles?lang=${lang}`);
     const articles: Article[] = await response.json();
