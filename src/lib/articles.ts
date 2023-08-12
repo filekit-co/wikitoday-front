@@ -75,7 +75,7 @@ function getModules(language: string) {
 
 const articleFileName = (filepath: string): string => _(filepath).split('/').nth(-2) || ''
 
-const articleRouteSlug = (language: string, date: string, fileName: string) => `${language}/news/${date}/${fileName}`
+const articleRouteSlug = (language: string, date: string, fileName: string) => `/${language}/news/${date}/${fileName}`
 
 const getArticleFromModule = (language: string, [filepath, module]: [string, any]): Article | undefined => {
   const { metadata } = module;
@@ -117,8 +117,7 @@ const generateSitemapData = (language: string) => _(getModules(language))
       .value();
 
 function generateRssData(language: string) {
-  const articles = getArticlesByLang(language);
-  return _(articles)
+  return _(getArticlesByLang(language))
     .map(article => ({
       title: escapeXml(article.title),
       url: escapeXml(`${PUBLIC_BASE_URL}/${article.slug}`),
@@ -129,11 +128,9 @@ function generateRssData(language: string) {
     .value();
 }
 
-
 export function getArticlesByLang(language: string): Article[] {
   try {
-    const articles = getArticles(language)
-    return _.chain(articles)
+    return _( getArticles(language))
       .orderBy(article => new Date(article.date), 'desc')
       .value();
   } catch (e) {
@@ -162,7 +159,6 @@ export function getArticlesByCategory(language: string, category: string): Artic
     throw new Error('This category section articles do not exist');
   }
 };
-
 
 export function getSitemapUrls(languages: string[]) {
   try {

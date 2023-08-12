@@ -64,3 +64,11 @@ export function escapeXml(unsafe: string): string {
     return c; // never reached, but TypeScript needs it
   });
 }
+
+
+export const returnErrorResponse = (msg: string, code: number) => new Response(JSON.stringify({ content: msg }), {
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  status: code
+});

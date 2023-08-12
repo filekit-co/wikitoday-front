@@ -3,25 +3,13 @@
   import Opinions from "@components/molecules/Opinions.svelte";
   import CardArticles from "@components/molecules/CardArticles.svelte";
   import type { Article } from "$lib/types";
-  import {
-    NUM_MAIN_ARTICLES,
-    NUM_OPINIONS_ARTICLES,
-    NUM_CARD_ARTICLES,
-  } from "$lib/consts";
 
-  export let articles: Article[];
-
-  const mainArticles = articles.slice(0, NUM_MAIN_ARTICLES);
-  const opinionArticles = articles.slice(0, NUM_OPINIONS_ARTICLES);
-  const cardArticles = articles
-    .slice(NUM_MAIN_ARTICLES, articles.length)
-    .map((article) => ({ article, random: Math.random() })) // 각 기사에 무작위 숫자를 할당
-    .sort((a, b) => a.random - b.random) // 무작위 숫자를 기준으로 정렬
-    .slice(0, NUM_CARD_ARTICLES) // 상위 4개의 기사 선택
-    .map((item) => item.article); // 기사만 추출
+  export let mainArticles: Article[];
+  export let opinionArticles: Article[];
+  export let cardArticles: Article[];
 </script>
 
-{#if articles.length > 0}
+{#if mainArticles.length > 0}
   <div class="md:flex">
     <MainArticles articles={mainArticles} />
     <Opinions articles={opinionArticles} />

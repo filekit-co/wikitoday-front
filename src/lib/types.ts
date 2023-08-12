@@ -68,3 +68,15 @@ export interface RssData {
   date: string;
   thumbnail?: string;
 };
+
+export type GetApiType = "getArticlesByLang" 
+| "getArticlesByCategory" 
+| "getRandomArticles";
+
+
+export type GetQueryParams = {
+  type: GetApiType;
+  lang: string;
+  category?: string;
+  randomNumber?: number;
+};
