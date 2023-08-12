@@ -1,10 +1,10 @@
 // https://github.com/mattcroat/joy-of-code/blob/main/src/lib/site/posts.ts
-import type { Article, RssData } from "$lib/types"
+import type { Article, LanguageKey, RssData } from "$lib/types"
 import { PUBLIC_BASE_URL } from "$env/static/public";
 import { escapeXml } from "$lib/utils";
 import _ from 'lodash';
 
-function getModules(language: string) {
+function getModules(language: LanguageKey) {
   switch (language) {
     case 'EN-US':
       return import.meta.glob('@data/*/*/EN-US.md', {eager: true});
@@ -75,9 +75,9 @@ function getModules(language: string) {
 
 const articleFileName = (filepath: string): string => _(filepath).split('/').nth(-2) || ''
 
-const articleRouteSlug = (language: string, date: string, fileName: string) => `/${language}/news/${date}/${fileName}`
+const articleRouteSlug = (language: LanguageKey, date: string, fileName: string) => `/${language}/news/${date}/${fileName}`
 
-const getArticleFromModule = (language: string, [filepath, module]: [string, any]): Article | undefined => {
+const getArticleFromModule = (language: LanguageKey, [filepath, module]: [string, any]): Article | undefined => {
   const { metadata } = module;
   const { html } = module.default.render();
   const filename = articleFileName(filepath);
@@ -90,24 +90,24 @@ const getArticleFromModule = (language: string, [filepath, module]: [string, any
   };
 };
 
-const mapArticleFromModule = (language: string) =>  (entries: [string, any][]) => entries.map(_.partial(getArticleFromModule, language));
+const mapArticleFromModule = (language: LanguageKey) =>  (entries: [string, any][]) => entries.map(_.partial(getArticleFromModule, language));
 
 const filterUndefinedArticles = (articles: (Article | undefined)[]): Article[] => articles.filter((article): article is Article => article !== undefined);
 
-const getArticles = (language: string) => _(Object.entries(getModules(language)))
+const getArticles = (language: LanguageKey) => _(Object.entries(getModules(language)))
     .thru(mapArticleFromModule(language))
     .thru(filterUndefinedArticles)
     .value() as Article[];
 
-function extractInfoFromPath(filepath: string): { language: string; date: string; fileName: string } {
+function extractInfoFromPath(filepath: string): { language: LanguageKey; date: string; fileName: string } {
   const parts = filepath.split('/');
-  const language = parts[parts.length - 1].split('.')[0];
+  const language = parts[parts.length - 1].split('.')[0] as LanguageKey;
   const date = parts[parts.length - 3];
   const fileName = parts[parts.length - 2];
   return { language, date, fileName };
 }
 
-const generateSitemapData = (language: string) => _(getModules(language))
+const generateSitemapData = (language: LanguageKey) => _(getModules(language))
       .keys()
       .map(filepath => {
         const { date, fileName } = extractInfoFromPath(filepath);
@@ -116,7 +116,7 @@ const generateSitemapData = (language: string) => _(getModules(language))
       })
       .value();
 
-function generateRssData(language: string) {
+function generateRssData(language: LanguageKey) {
   return _(getArticlesByLang(language))
     .map(article => ({
       title: escapeXml(article.title),
@@ -128,7 +128,7 @@ function generateRssData(language: string) {
     .value();
 }
 
-export function getArticlesByLang(language: string): Article[] {
+export function getArticlesByLang(language: LanguageKey): Article[] {
   try {
     return _( getArticles(language))
       .orderBy(article => new Date(article.date), 'desc')
@@ -139,7 +139,7 @@ export function getArticlesByLang(language: string): Article[] {
   }
 }
 
-export function getRandomArticles(language: string, n: number): Article[] {
+export function getRandomArticles(language: LanguageKey, n: number): Article[] {
   try {
     return _(getArticlesByLang(language))
       .sampleSize(n)
@@ -150,7 +150,7 @@ export function getRandomArticles(language: string, n: number): Article[] {
   }
 };
 
-export function getArticlesByCategory(language: string, category: string): Article[] {
+export function getArticlesByCategory(language: LanguageKey, category: string): Article[] {
   try {
     return getArticlesByLang(language)
       .filter(article => article.category === category);
@@ -160,7 +160,7 @@ export function getArticlesByCategory(language: string, category: string): Artic
   }
 };
 
-export function getSitemapUrls(languages: string[]) {
+export function getSitemapUrls(languages: LanguageKey[]) {
   try {
     return _.chain(languages)
     .map(generateSitemapData)
@@ -173,7 +173,7 @@ export function getSitemapUrls(languages: string[]) {
   }
 }
 
-export function getRssItems(languages: string[]): RssData[] {
+export function getRssItems(languages: LanguageKey[]): RssData[] {
   try {
     return _(languages)
       .map(generateRssData)

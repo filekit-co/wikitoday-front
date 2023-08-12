@@ -1,15 +1,11 @@
 import { PUBLIC_BASE_URL } from "$env/static/public";
 import { getRssItems } from "$lib/articles";
-import { LanguagePages } from "$lib/datas";
+import { languageKeys } from "$lib/datas";
 
 export const prerender = true;
 
-const languages = LanguagePages.map(page => page.value);
-
-
-
 export async function GET() {
-  const rssItems = getRssItems(languages);
+  const rssItems = getRssItems(languageKeys);
   const headers = { 'Content-Type': 'application/rss+xml' };
   let rss = `
     <?xml version="1.0" encoding="UTF-8" ?>

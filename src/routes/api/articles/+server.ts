@@ -1,9 +1,9 @@
 import { getArticlesByLang, getArticlesByCategory, getRandomArticles } from "$lib/articles";
-import type { GetApiType } from "$lib/types";
+import type { GetApiType, LanguageKey } from "$lib/types";
 import { returnErrorResponse } from "$lib/utils";
 import { json } from "@sveltejs/kit";
 
-const FALLBACK_LANG = 'EN-US'
+const FALLBACK_LANG: LanguageKey = 'EN-US'
 const FALLBACK_RANDOM_NUMBER = '0'
 
 
@@ -11,7 +11,7 @@ const FALLBACK_RANDOM_NUMBER = '0'
 export async function GET({ url }) {
   const params = url.searchParams;
   const type = params.get("type") as GetApiType;
-  const lang = params.get("lang") || FALLBACK_LANG;
+  const lang = params.get("lang") as LanguageKey || FALLBACK_LANG;
   const category = params.get("category");
   const randomNumber = parseInt(params.get("randomNumber") || FALLBACK_RANDOM_NUMBER, 10);
 

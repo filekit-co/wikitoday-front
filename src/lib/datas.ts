@@ -1,4 +1,4 @@
-import type { CategoryType } from "$lib/types";
+import type { CategoryType, LanguageKey } from "$lib/types";
 
 export const CategoryPages: CategoryType[] = [
   'Politics'
@@ -16,7 +16,7 @@ export const CategoryPages: CategoryType[] = [
   ,'Crime'
 ];
 
-export const LanguagePages = [
+export const LanguagePages: { key: string, value: LanguageKey}[] = [
   {key: 'English (US)', value: 'EN-US'},
   {key: '日本語', value: 'JA'},
   {key: '한국어', value: 'KO'},
@@ -49,3 +49,38 @@ export const LanguagePages = [
   {key: 'Türkçe', value: 'TR'},
   {key: 'українська', value: 'UK'},
 ];
+
+export const languageToHreflang: Record<LanguageKey, string> = {
+  'EN-US': 'en-us',
+  'JA': 'ja',
+  'KO': 'ko',
+  'ZH': 'zh',
+  'PT-BR': 'pt-br',
+  'PT-PT': 'pt-pt',
+  'BG': 'bg',
+  'CS': 'cs',
+  'DA': 'da',
+  'DE': 'de',
+  'EL': 'el',
+  'EN-GB': 'en-gb',
+  'ES': 'es',
+  'ET': 'et',
+  'FI': 'fi',
+  'FR': 'fr',
+  'HU': 'hu',
+  'ID': 'id',
+  'IT': 'it',
+  'LT': 'lt',
+  'LV': 'lv',
+  'NB': 'nb',
+  'NL': 'nl',
+  'PL': 'pl',
+  'RO': 'ro',
+  'RU': 'ru',
+  'SK': 'sk',
+  'SL': 'sl',
+  'SV': 'sv',
+  'TR': 'tr',
+  'UK': 'uk',
+};
+export const languageKeys: LanguageKey[] = Object.keys(languageToHreflang) as LanguageKey[];

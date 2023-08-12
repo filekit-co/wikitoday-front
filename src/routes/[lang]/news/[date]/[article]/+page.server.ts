@@ -1,5 +1,5 @@
 import {error} from '@sveltejs/kit'
-import type { Article, GetApiType, UpdateHeaderProps } from '$lib/types';
+import type { Article, GetApiType, LanguageKey, UpdateHeaderProps } from '$lib/types';
 import { convertHtmlToFaQJsonLD } from '$lib/utils';
 import { NUM_TRENDING_ARTICLES } from '$lib/consts';
 import type { PageServerLoad } from './$types';
@@ -11,7 +11,7 @@ export const load: PageServerLoad = async ({ fetch, params }) => {
 		// 1. prepare params
 		const date = params.date;
 		const title = encodeURIComponent(params.article);
-		const language = params.lang;
+		const language = params.lang as LanguageKey;
 		
 		// 2. prepare an article
 		const module = await import(`../../../../../lib/data/${date}/${title}/${language}.md`)
@@ -33,7 +33,7 @@ export const load: PageServerLoad = async ({ fetch, params }) => {
 			image: metadata.thumbnail,
 			keywords: metadata.keywords,
 			date: date,
-			language: metadata.language,
+			language: metadata.language as LanguageKey,
 		}
 		
 		return {
@@ -41,7 +41,7 @@ export const load: PageServerLoad = async ({ fetch, params }) => {
 			jsonLd,
 			articleHtml: html,
 			randomArticles,
-			candidLanguages: metadata.candidLanguages,
+			candidLanguages: metadata.candidLanguages as LanguageKey[],
 		}
 	}
 	catch(e) {

@@ -3,11 +3,12 @@
   import { goto } from "$app/navigation";
   import { createEventDispatcher } from "svelte";
   import { page } from "$app/stores";
+  import type { LanguageKey } from "$lib/types";
 
   const dispatch = createEventDispatcher();
   $: candidLanguages = $page.data?.candidLanguages || [];
 
-  async function selectLanguage(lang: string) {
+  async function selectLanguage(lang: LanguageKey) {
     const currentPath = window.location.pathname;
     const newPath = currentPath.replace(/^\/[^/]+/, `/${lang}`);
     await goto(newPath);

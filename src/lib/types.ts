@@ -7,7 +7,7 @@ export interface HeaderProps {
   image: string;
   description: string;
   date: string;
-  language: string;
+  language: LanguageKey;
 }
 
 export type UpdateHeaderProps = Partial<HeaderProps>
@@ -47,8 +47,8 @@ export interface Article {
   keywords: string;
   date: string;
   author: string;
-  language: string;
-  candidLanguages: string[];
+  language: LanguageKey;
+  candidLanguages: LanguageKey[];
   thumbnail: string;
 }
 
@@ -76,7 +76,7 @@ export type GetApiType = "getArticlesByLang"
 
 export type GetQueryParams = {
   type: GetApiType;
-  lang: string;
+  lang: LanguageKey;
   category?: string;
   randomNumber?: number;
 };
