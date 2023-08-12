@@ -142,6 +142,17 @@ export function getArticlesByLang(language: string): Article[] {
   }
 }
 
+export function getRandomArticles(language: string, n: number): Article[] {
+  try {
+    return _(getArticlesByLang(language))
+      .sampleSize(n)
+      .value();
+  } catch (e) {
+    console.error(e);
+    throw new Error('This category section articles do not exist');
+  }
+};
+
 export function getArticlesByCategory(language: string, category: string): Article[] {
   try {
     return getArticlesByLang(language)
