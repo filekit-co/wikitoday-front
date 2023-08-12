@@ -22,7 +22,7 @@
 </script>
 
 {#if articles.length > 0}
-  <div class="lg:flex">
+  <div class="md:flex">
     <MainArticles articles={mainArticles} />
     <Opinions articles={opinionArticles} />
   </div>

@@ -6,7 +6,7 @@
   export let articles: Article[];
 </script>
 
-<div class="lg:w-8/12 py-4">
+<div class="md:w-3/4 lg:w-8/12 md:py-4">
   <section class="w-full items-center lg:pr-8 lg:border-r-2 lg:border-r-black">
     <ul class="justify-center select-none">
       {#each articles as article}
