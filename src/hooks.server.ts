@@ -1,6 +1,7 @@
+import type { LanguageKey } from '$lib/types';
 import type { Handle } from '@sveltejs/kit'
 
-const excludeI18nRoute = ['rss.xml', 'sitemap.xml']
+const excludeI18nRoute = ['rss.xml', 'sitemap.xml', 'naver9fc27b14c9186dcef836475d4eee1e17.html']
 
 export const handle: Handle = (async ({ event, resolve }) => {
 	const tlr = event?.url?.pathname.split('/').at(1)
@@ -16,7 +17,7 @@ export const handle: Handle = (async ({ event, resolve }) => {
 
 	event.locals.locale = locale;
 
-	const language = 'EN-US'
+	const language: LanguageKey = 'EN-US'
 	//const language =  locale ? locale : 'EN-US' 
 
 	if (!tlr) {

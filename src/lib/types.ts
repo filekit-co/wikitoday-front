@@ -3,11 +3,10 @@ export interface HeaderProps {
   author: string;
   keywords: string;
   siteName: string;
-  url: string;
   image: string;
   description: string;
   date: string;
-  language: string;
+  language: LanguageKey;
 }
 
 export type UpdateHeaderProps = Partial<HeaderProps>
@@ -47,8 +46,8 @@ export interface Article {
   keywords: string;
   date: string;
   author: string;
-  language: string;
-  candidLanguages: string[];
+  language: LanguageKey;
+  candidLanguages: LanguageKey[];
   thumbnail: string;
 }
 
@@ -67,4 +66,16 @@ export interface RssData {
   url: string;
   date: string;
   thumbnail?: string;
+};
+
+export type GetApiType = "getArticlesByLang" 
+| "getArticlesByCategory" 
+| "getRandomArticles";
+
+
+export type GetQueryParams = {
+  type: GetApiType;
+  lang: LanguageKey;
+  category?: string;
+  randomNumber?: number;
 };

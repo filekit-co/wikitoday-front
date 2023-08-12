@@ -1,7 +1,8 @@
 import { goto } from "$app/navigation";
+import logo from "$lib/assets/wikitoday.png";
 import {PUBLIC_BASE_URL} from '$env/static/public';
 import * as cheerio from 'cheerio';
-import type { FAQPage, Question, WithContext, Thing } from "schema-dts";
+import type { NewsArticle, FAQPage, Question, WithContext, Thing, Article } from "schema-dts";
 
 type DateStyle = Intl.DateTimeFormatOptions['dateStyle']
 
@@ -11,8 +12,7 @@ export function formatDate(date: string, dateStyle: DateStyle = 'medium', locale
 }
 
 export async function handleClick(slug: string) {
-    await goto(slug);
-    window.location.reload();
+  await goto(slug);
 }
 
 export function handleClickInCategory(slug: string) {
@@ -22,7 +22,7 @@ export function handleClickInCategory(slug: string) {
 
 export const canonicalUrl = (pathname: string) => pathname ? `${PUBLIC_BASE_URL}${pathname}`: `${PUBLIC_BASE_URL}`;
 
-export function convertHtmlToFaQJsonLD(html: string): WithContext<FAQPage> {
+export function createFaQJsonLD(html: string): WithContext<FAQPage> {
   const $ = cheerio.load(html);
   const questionsAndAnswers: Question[] = [];
 
@@ -47,7 +47,40 @@ export function convertHtmlToFaQJsonLD(html: string): WithContext<FAQPage> {
   return jsonLD;
 }
 
-export type Schema = Thing | WithContext<Thing>
+// https://developers.google.com/search/docs/appearance/structured-data/article?hl=ko
+export function createNewsArticleJsonLd(slug: string, metadata: any): WithContext<NewsArticle> {  
+  const newsArticle: WithContext<NewsArticle> = {
+    "@context": "https://schema.org",
+    '@type': 'NewsArticle',
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `${PUBLIC_BASE_URL}/${slug}`
+    },
+    "headline": metadata.title,
+    "description": metadata.description,
+    "image": [metadata.thumbnail],
+    "author": {
+      "@type": "Person",
+      "name": metadata.author
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "wikitoday.io",
+      "logo": {
+        "@type": "ImageObject",
+        "url": logo
+      }
+    },
+    "datePublished": metadata.date,
+    "dateModified": metadata.date,
+    "articleSection": metadata.category,
+    "keywords": metadata.keywords.split(', '),
+    "inLanguage": metadata.language
+  }
+  return newsArticle
+}
+
+export type Schema = WithContext<Thing> | WithContext<Article>
 
 export function serializeSchema(thing: Schema) {
   return `<script type="application/ld+json">${JSON.stringify(
@@ -70,3 +103,11 @@ export function escapeXml(unsafe: string): string {
     return c; // never reached, but TypeScript needs it
   });
 }
+
+
+export const returnErrorResponse = (msg: string, code: number) => new Response(JSON.stringify({ content: msg }), {
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  status: code
+});

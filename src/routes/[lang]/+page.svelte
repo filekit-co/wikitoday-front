@@ -1,7 +1,12 @@
 <script lang="ts">
   import MainPage from "@components/pages/MainPage.svelte";
-  export let data;
-  const articles = data.articles;
+  import type { PageData } from "./$types";
+
+  export let data: PageData;
 </script>
 
-<MainPage {articles} />
+<MainPage
+  mainArticles={data.mainArticles}
+  opinionArticles={data.opinionArticles}
+  cardArticles={data.cardArticles}
+/>

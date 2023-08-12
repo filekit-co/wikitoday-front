@@ -1,13 +1,11 @@
 
 import { getSitemapUrls } from "$lib/articles";
-import { LanguagePages } from "$lib/datas";
+import { languageKeys } from "$lib/datas";
 
 export const prerender = true
-const languages = LanguagePages.map(page => page.value);
-
 
 export async function GET() {
-  const urls: { url: string; date: string }[] = getSitemapUrls(languages);
+  const urls: { url: string; date: string }[] = getSitemapUrls(languageKeys);
   const headers = { 'Content-Type': 'application/xml' };
   let sitemap = `
     <?xml version="1.0" encoding="UTF-8" ?>

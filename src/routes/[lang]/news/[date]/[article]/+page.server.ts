@@ -1,32 +1,52 @@
 import {error} from '@sveltejs/kit'
-import type { UpdateHeaderProps } from '$lib/types';
-import { convertHtmlToFaQJsonLD } from '$lib/utils';
+import type { Article, GetApiType, LanguageKey, UpdateHeaderProps } from '$lib/types';
+import { createFaQJsonLD, createNewsArticleJsonLd, type Schema } from '$lib/utils';
+import { NUM_TRENDING_ARTICLES } from '$lib/consts';
+import type { PageServerLoad } from './$types';
+import { articleRouteSlug } from '$lib/articles';
 
-export async function load({params}) {
+
+
+export const load: PageServerLoad = async ({ fetch, params }) => {
 	try {
+		// 1. prepare params
 		const date = params.date;
 		const title = encodeURIComponent(params.article);
-		const language = params.lang;
+		const language = params.lang as LanguageKey;
+		const slug = articleRouteSlug(language, date, title)
 		
+		// 2. prepare an article
 		const module = await import(`../../../../../lib/data/${date}/${title}/${language}.md`)
 		const {metadata} = module
 		const { html } = module.default.render()
 		
-		const jsonLd = convertHtmlToFaQJsonLD(html)
+		// 3. prepare ld+json
+		let jsonLds: Schema[] = [
+			createFaQJsonLD(html),
+			createNewsArticleJsonLd(slug, metadata)
+		]
+
+		// 4. prepare random articles for trending news 
+		const type: GetApiType = "getRandomArticles"
+		const response = await fetch(`/api/articles?type=${type}&lang=${language}&randomNumber=${NUM_TRENDING_ARTICLES}`);
+		const randomArticles: Article[] = await response.json();
+
+		// 5. prepare seo headers
 		const headerProps: UpdateHeaderProps = {
 			title: metadata.title,
 			description: metadata.description,
 			image: metadata.thumbnail,
 			keywords: metadata.keywords,
 			date: date,
-			language: metadata.language,
+			language: metadata.language as LanguageKey,
 		}
-
+		
 		return {
 			headerProps,
-			jsonLd,
+			jsonLds,
 			articleHtml: html,
-			candidLanguages: metadata.candidLanguages,
+			randomArticles,
+			candidLanguages: metadata.candidLanguages as LanguageKey[],
 		}
 	}
 	catch(e) {

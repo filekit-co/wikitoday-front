@@ -3,15 +3,15 @@
   import { goto } from "$app/navigation";
   import { createEventDispatcher } from "svelte";
   import { page } from "$app/stores";
+  import type { LanguageKey } from "$lib/types";
 
   const dispatch = createEventDispatcher();
-  const candidLanguages = $page.data?.candidLanguages || [];
+  $: candidLanguages = $page.data?.candidLanguages || [];
 
-  async function selectLanguage(lang: string) {
+  async function selectLanguage(lang: LanguageKey) {
     const currentPath = window.location.pathname;
     const newPath = currentPath.replace(/^\/[^/]+/, `/${lang}`);
     await goto(newPath);
-    window.location.reload();
     dispatch("close"); // Drawer를 닫습니다.
   }
 </script>
