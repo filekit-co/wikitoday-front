@@ -3,7 +3,6 @@ export interface HeaderProps {
   author: string;
   keywords: string;
   siteName: string;
-  url: string;
   image: string;
   description: string;
   date: string;
