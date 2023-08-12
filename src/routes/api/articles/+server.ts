@@ -19,13 +19,13 @@ export async function GET(req) {
 
   if (category !== null) {
     try {
-      const articles = await getArticlesByCategory(lang, category);
+      const articles = getArticlesByCategory(lang, category);
       return json(articles);
     } catch(e) {
       console.error(e)
     }
   }
 
-  const articles = await getArticlesByLang(lang)
+  const articles = getArticlesByLang(lang)
   return json(articles);
 }

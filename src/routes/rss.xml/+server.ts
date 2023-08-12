@@ -1,24 +1,15 @@
 import { PUBLIC_BASE_URL } from "$env/static/public";
-import { generateRssData } from "$lib/articles";
+import { getRssItems } from "$lib/articles";
 import { LanguagePages } from "$lib/datas";
 
 export const prerender = true;
 
 const languages = LanguagePages.map(page => page.value);
 
-async function getAllRssData() {
-  const rssPromises = languages.map(generateRssData);
-  const allRssData = await Promise.all(rssPromises);
-  const rssItems: { title: string; description: string; url: string; date: string; thumbnail?: string }[] = allRssData.flat();
-  return rssItems;
-}
+
 
 export async function GET() {
-  const rssItems = await getAllRssData();
-
-  // 최신 날짜 순으로 정렬
-  rssItems.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-
+  const rssItems = getRssItems(languages);
   const headers = { 'Content-Type': 'application/rss+xml' };
   let rss = `
     <?xml version="1.0" encoding="UTF-8" ?>

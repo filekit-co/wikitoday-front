@@ -2,9 +2,7 @@
 import type { Article, RssData } from "$lib/types"
 import { PUBLIC_BASE_URL } from "$env/static/public";
 import { escapeXml } from "$lib/utils";
-
-
-const getArticleRouteSlug = (language: string, date: string, fileName: string) => `${language}/news/${date}/${fileName}`
+import _ from 'lodash';
 
 function getModules(language: string) {
   switch (language) {
@@ -75,58 +73,31 @@ function getModules(language: string) {
   }
 }
 
-function getArticleFileName(filepath: string): string {
-  // ['', 'src', 'lib', 'markdowns', '2023-08-09', 'Nissan-Announces-New', 'EN-US.md']
-  const parts = filepath.split('/');
-  return parts[parts.length - 2];
-}
+const articleFileName = (filepath: string): string => _(filepath).split('/').nth(-2) || ''
 
+const articleRouteSlug = (language: string, date: string, fileName: string) => `${language}/news/${date}/${fileName}`
 
-export async function getArticlesByLang(language: string): Promise<Article[]> {
-  
-  try {
-    const modules = getModules(language);
-    const articles: Article[] = Object.entries(modules).map(([filepath, module]) => {
-      const { metadata } = module;
-      const { html } = module.default.render();
-      const articleFileName = getArticleFileName(filepath)
-      const slug = getArticleRouteSlug(language, metadata.date, articleFileName)
-      return {
-        slug,
-        html,
-        ...metadata,
-      };
-    });
-    return articles
-  } catch (e) {
-    console.error(e);
-    throw new Error('Could not parse Markdown files');
-  }
-}
+const getArticleFromModule = (language: string, [filepath, module]: [string, any]): Article | undefined => {
+  const { metadata } = module;
+  const { html } = module.default.render();
+  const filename = articleFileName(filepath);
+  if (!filename) return undefined;
+  const slug = articleRouteSlug(language, metadata.date, filename);
+  return {
+    slug,
+    html,
+    ...metadata,
+  };
+};
 
-export async function getArticlesByCategory(language: string, category: string) {
-  try {
-    const modules = getModules(language);
-    const initArticles: Article[] = Object.entries(modules).map(([filepath, module]) => {
-      const { metadata } = module;
-      const { html } = module.default.render();
-      const articleFileName = getArticleFileName(filepath)
-      
-      return {
-       
-        html,
-        ...metadata,
-      };
-    });
+const mapArticleFromModule = (language: string) =>  (entries: [string, any][]) => entries.map(_.partial(getArticleFromModule, language));
 
-    const articles = initArticles.filter(article => article.category === category && article.language === language);
-    return articles;
+const filterUndefinedArticles = (articles: (Article | undefined)[]): Article[] => articles.filter((article): article is Article => article !== undefined);
 
-  } catch(error) {
-    console.error(error);
-    throw new Error('This category section articles do not exist');
-  }
-}
+const getArticles = (language: string) => _(Object.entries(getModules(language)))
+    .thru(mapArticleFromModule(language))
+    .thru(filterUndefinedArticles)
+    .value() as Article[];
 
 function extractInfoFromPath(filepath: string): { language: string; date: string; fileName: string } {
   const parts = filepath.split('/');
@@ -136,34 +107,72 @@ function extractInfoFromPath(filepath: string): { language: string; date: string
   return { language, date, fileName };
 }
 
-export async function generateSitemapData(language: string): Promise<{ url: string; date: string }[]> {
+const generateSitemapData = (language: string) => _(getModules(language))
+      .keys()
+      .map(filepath => {
+        const { date, fileName } = extractInfoFromPath(filepath);
+        const slug = articleRouteSlug(language, date, fileName);
+        return { url: `${PUBLIC_BASE_URL}/${slug}`, date };
+      })
+      .value();
+
+function generateRssData(language: string) {
+  const articles = getArticlesByLang(language);
+  return _(articles)
+    .map(article => ({
+      title: escapeXml(article.title),
+      url: escapeXml(`${PUBLIC_BASE_URL}/${article.slug}`),
+      date: escapeXml(article.date),
+      description: escapeXml(article.description),
+      thumbnail: escapeXml(article.thumbnail),
+    }))
+    .value();
+}
+
+
+export function getArticlesByLang(language: string): Article[] {
   try {
-    const modules = getModules(language);
-    const routes: { url: string; date: string }[] = Object.keys(modules).map((filepath) => {
-      const { date, fileName } = extractInfoFromPath(filepath);
-      const slug = getArticleRouteSlug(language, date, fileName);
-      return { url: `${PUBLIC_BASE_URL}/${slug}`, date };
-    });
-    return routes;
+    const articles = getArticles(language)
+    return _.chain(articles)
+      .orderBy(article => new Date(article.date), 'desc')
+      .value();
+  } catch (e) {
+    console.error(e);
+    throw new Error('Could not parse Markdown files');
+  }
+}
+
+export function getArticlesByCategory(language: string, category: string): Article[] {
+  try {
+    return getArticlesByLang(language)
+      .filter(article => article.category === category);
+  } catch (e) {
+    console.error(e);
+    throw new Error('This category section articles do not exist');
+  }
+};
+
+
+export function getSitemapUrls(languages: string[]) {
+  try {
+    return _.chain(languages)
+    .map(generateSitemapData)
+    .flatMap()
+    .orderBy(article => new Date(article.date), 'desc')
+    .value();
   } catch (e) {
     console.error(e);
     throw new Error('Could not generate sitemap routes');
   }
 }
 
-export async function generateRssData(language: string): Promise<RssData[]> {
+export function getRssItems(languages: string[]): RssData[] {
   try {
-    const articles = await getArticlesByLang(language);
-    const rssDatas: RssData[] = articles.map((article) => {
-      return {
-        title: escapeXml(article.title),
-        url: escapeXml(`${PUBLIC_BASE_URL}/${article.slug}`),
-        date: escapeXml(article.date),
-        description: escapeXml(article.description),
-        thumbnail: escapeXml(article.thumbnail),
-      };
-    });
-    return rssDatas;
+    return _(languages)
+      .map(generateRssData)
+      .flatMap()
+      .orderBy(rssData => new Date(rssData.date), 'desc')
+      .value();
   } catch (e) {
     console.error(e);
     throw new Error('Could not generate RSS data');
