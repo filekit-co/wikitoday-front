@@ -6,16 +6,6 @@
   import { PUBLIC_BASE_URL } from "$env/static/public";
   import { languageKeys, languageToHreflang } from "$lib/datas";
 
-  let pageHeaderProps: UpdateHeaderProps;
-  let candidLanguages: LanguageKey[];
-  let canonicalUrl: string;
-  $: pageHeaderProps = $page.data?.headerProps || {};
-  $: jsonLd = $page.data?.jsonLd;
-  $: candidLanguages = $page.data?.candidLanguages || languageKeys;
-  $: canonicalUrl = $page.url?.pathname
-    ? `${PUBLIC_BASE_URL}${$page.url?.pathname}`
-    : `${PUBLIC_BASE_URL}`;
-
   const defaultHeaderProps: HeaderProps = {
     title: "wikitoday.io - Get trending news & wiki",
     author: "wikitoday.io",
@@ -28,10 +18,23 @@
     language: "EN-US",
   };
 
+  let candidLanguages: LanguageKey[];
+  let canonicalUrl: string;
   let p: UpdateHeaderProps;
-  $: p = { ...defaultHeaderProps, ...pageHeaderProps };
+
+  $: jsonLd = $page.data?.jsonLd;
+  $: candidLanguages = $page.data?.candidLanguages || languageKeys;
+  $: canonicalUrl = $page.url?.pathname
+    ? `${PUBLIC_BASE_URL}${$page.url?.pathname}`
+    : `${PUBLIC_BASE_URL}`;
+  $: p = { ...defaultHeaderProps, ...$page.data?.headerProps };
 
   const getAlternateUrl = (languageKey: LanguageKey) => {
+    const pathSlug = $page.url?.pathname;
+    if (pathSlug) {
+      const newPathSlug = pathSlug.replace(/^\/[A-Z-]+/, `/${languageKey}`);
+      return `${PUBLIC_BASE_URL}${newPathSlug}`;
+    }
     return `${PUBLIC_BASE_URL}/${languageKey}`;
   };
 </script>
