@@ -9,8 +9,8 @@ export async function GET(req) {
   const pageSize = req.url.searchParams.get('limit')
   const pageNum = req.url.searchParams.get('skip')
 
-  console.log(pageSize)
-  console.log(pageNum)
+  // console.log(pageSize)
+  // console.log(pageNum)
 
 
   if (lang === null) {

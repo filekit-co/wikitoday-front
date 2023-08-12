@@ -55,9 +55,9 @@ export async function getArticlesByCategory(language: string, category: string) 
       const { metadata } = module;
       const { html } = module.default.render();
       const articleFileName = getArticleFileName(filepath)
-      
+      const slug = getArticleRouteSlug(language, metadata.date, articleFileName)
       return {
-       
+       slug,
         html,
         ...metadata,
       };

@@ -69,6 +69,18 @@ export interface Article {
   thumbnail: string;
 }
 
+export interface CategoryArticle {
+  html: string;
+  title: string;
+  description: string;
+  category: CategoryType;
+  keywords: string;
+  date: string;
+  author: string;
+  language: string;
+  thumbnail: string;
+}
+
 
 // BG - Bulgarian
 // CS - Czech
