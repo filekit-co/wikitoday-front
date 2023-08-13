@@ -15,6 +15,11 @@ export async function handleClick(slug: string) {
   await goto(slug);
 }
 
+export function handleClickInCategory(slug: string) {
+  const url = window.location.origin;
+  goto(`${url}/${slug}`);
+}
+
 export const canonicalUrl = (pathname: string) => pathname ? `${PUBLIC_BASE_URL}${pathname}`: `${PUBLIC_BASE_URL}`;
 
 export function createFaQJsonLD(html: string): WithContext<FAQPage> {
