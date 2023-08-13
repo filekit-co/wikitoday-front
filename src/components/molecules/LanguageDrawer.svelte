@@ -13,6 +13,7 @@
     const newPath = currentPath.replace(/^\/[^/]+/, `/${lang}`);
     await goto(newPath);
     dispatch("close"); // Drawer를 닫습니다.
+    window.location.reload();
   }
 </script>
 
