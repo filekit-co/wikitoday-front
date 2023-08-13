@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Article } from "$lib/types";
-  import { formatDate, handleClickInCategory } from "$lib/utils";
+  import { formatDate, handleClick } from "$lib/utils";
   export let articles: Article[];
 </script>
 
@@ -13,7 +13,7 @@
         >
           <!-- svelte-ignore a11y-click-events-have-key-events -->
           <div
-            on:click={() => handleClickInCategory(article.slug)}
+            on:click={() => handleClick(article.slug)}
             class="col-auto items-center cursor-pointer"
           >
             <h1 class="sm:text-base md:text-3xl xl:text-4xl font-bold mb-6">

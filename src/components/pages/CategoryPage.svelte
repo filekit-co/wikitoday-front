@@ -14,10 +14,10 @@
   $: limit = Number($page.url.searchParams.get("limit")) || 10;
 </script>
 
-<div>
+<!-- <div>
   {skip}
   {limit}
-</div>
+</div> -->
 
 <Pagination {articles} />
 

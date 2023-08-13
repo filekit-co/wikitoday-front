@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Article } from "$lib/types";
-  import { handleClickInCategory } from "$lib/utils";
+  import { handleClick } from "$lib/utils";
   import { CATEGORY_HOT_ARTICLES } from "$lib/consts";
 
   export let articles: Article[];
@@ -18,7 +18,7 @@
   {#each cardArticles as article}
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <div
-      on:click={() => handleClickInCategory(article.slug)}
+      on:click={() => handleClick(article.slug)}
       class="flex my-4 rounded-xl items-center cursor-pointer transition duration-300 transform hover:scale-105 hover:shadow-2xl"
     >
       <div class="flex-grow">
