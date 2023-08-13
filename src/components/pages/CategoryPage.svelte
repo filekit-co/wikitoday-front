@@ -19,7 +19,8 @@
   {limit}
 </div> -->
 
-<Pagination {articles} />
+<!-- todo: pagination with server -->
+<!-- <Pagination {articles} /> -->
 
 <!-- 최상단의 3개의 기사 -->
 <CategoryTopArticle {articles} />
@@ -48,3 +49,5 @@
     <CategorySubArticle {articles} />
   </div>
 </div>
+
+<Pagination {articles} />
