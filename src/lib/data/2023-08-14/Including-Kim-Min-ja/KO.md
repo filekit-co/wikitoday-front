@@ -1,5 +1,5 @@
 ---
-title: '''''김민재-케인 포함'''' 뮌헨 올 시즌 베스트11...분데스리가서도 손흥민 포함'
+title: '''김민재-케인 포함'' 뮌헨 올 시즌 베스트11...분데스리가서도 손흥민 포함'
 description: '분데스리가 사무국이 김민재가 바이에른 뮌헨의 주전 선발로 나설 것으로 내다봤다. 분데스리가는 12일(한국시간) 공식 홈페이지를 통해 올 시즌 뮌헨의 예상 선발 11인 명단을 발표했다. 포메이션은 4-2-3-1로, 최전방에는 케인이, 2선에는 킹슬리 코가 배치될 예정이다.'
 category: 'Sports'
 keywords: '뮌헨'
@@ -10,7 +10,7 @@ candidLanguages: ['EN-US', 'ZH', 'KO']
 thumbnail: 'https://cdn.fourfourtwo.co.kr/news/thumbnail/202308/39162_92249_619_v150.jpg'
 ---
 
-# ''''김민재-케인 포함'''' 뮌헨 올 시즌 베스트11...분데스리가서도 손흥민 포함
+# '''김민재-케인 포함''' 뮌헨 올 시즌 베스트11...분데스리가서도 손흥민 포함
 
 <p class="datetime"><em>2023-08-14 - wikitoday<em></p>
 
@@ -39,10 +39,10 @@ thumbnail: 'https://cdn.fourfourtwo.co.kr/news/thumbnail/202308/39162_92249_619_
     <h2><b>Q. 이번 시즌 뮌헨의 선발 11명의 핵심 선수는 누구인가요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-open" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     </span>    
   </summary>
@@ -54,10 +54,10 @@ thumbnail: 'https://cdn.fourfourtwo.co.kr/news/thumbnail/202308/39162_92249_619_
     <h2><b>Q. 지난해 뮌헨이 실망스러운 시즌을 보낸 이유는 무엇이었나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-open" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     </span>    
   </summary>
@@ -69,10 +69,10 @@ thumbnail: 'https://cdn.fourfourtwo.co.kr/news/thumbnail/202308/39162_92249_619_
     <h2><b>Q. 뮌헨은 공격과 수비 강화를 위해 어떤 선수를 영입했나요?</b></h2>
     <span class="icon-container">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-closed" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-open" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     </span>    
   </summary>
