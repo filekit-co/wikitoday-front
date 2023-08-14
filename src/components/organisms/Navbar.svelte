@@ -35,7 +35,7 @@
 </div>
 
 <style>
-  header a {
+  header button {
     font-family: "Noto Serif KR", serif;
     font-weight: bold;
   }
