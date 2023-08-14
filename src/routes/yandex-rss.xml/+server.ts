@@ -9,22 +9,24 @@ export async function GET() {
   const headers = { 'Content-Type': 'application/rss+xml' };
   let rss = `
     <?xml version="1.0" encoding="UTF-8" ?>
-    <rss version="2.0">
+    <rss version="2.0" xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru">
       <channel>
         <title>wikitoday.io - Get trending news &amp; wiki</title>
         <link>${PUBLIC_BASE_URL}</link>
         <description>Explore trending topics with wikitoday</description>
+        
         ${rssItems
           .map((item) => {
             return `
-              <item>
+              <item turbo="true">
+                <turbo:extendedHtml>true</turbo:extendedHtml>
                 <title>${item.title}</title>
                 <author>wikitoday.io</author>
                 <link>${item.url}</link>
                 <description>${item.description}</description>
                 <pubDate>${item.date}</pubDate>
                 <category>${item.category}</category>
-                ${item.thumbnail ? `<image>${item.thumbnail}</image>` : ''}
+                ${item.thumbnail ? `<enclosure url="${item.thumbnail}" type="image/jpeg"/>` : ''}
               </item>
             `;
           })

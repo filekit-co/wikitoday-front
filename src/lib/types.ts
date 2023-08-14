@@ -66,6 +66,7 @@ export interface RssData {
   url: string;
   date: string;
   thumbnail?: string;
+  category: string;
 };
 
 export type GetApiType = "getArticlesByLang" 

@@ -50,6 +50,8 @@ export const LanguagePages: { key: string, value: LanguageKey}[] = [
   {key: 'українська', value: 'UK'},
 ];
 
+
+// to ISO 639-1
 export const languageToHreflang: Record<LanguageKey, string> = {
   'EN-US': 'en-us',
   'JA': 'ja',
