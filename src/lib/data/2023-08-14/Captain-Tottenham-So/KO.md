@@ -146,7 +146,4 @@ thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/900/600/imgdb/origin
 
  선제골을 넣은 후 분위기를 띄워야 할 때 페널티킥을 내줬고, 후반전 교체되기 전까지 단 한 번의 슈팅에 그쳤습니다. 축구 통계 사이트 풋볼스코어닷컴에 따르면 손흥민은 이날 경기에 출전한 토트넘 선수 중 두 번째로 낮은 평점인 을 기록했습니다.
 
- 박강수 turner@hani.co.kr
-
-
 </div>

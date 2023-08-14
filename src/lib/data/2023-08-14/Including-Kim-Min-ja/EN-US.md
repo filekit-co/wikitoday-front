@@ -1,6 +1,6 @@
 ---
 title: '''Including Kim Min-jae and Kane'' Munich''s best 11 this season...KIM in the Bundesliga too'
-description: '[포포투=가동민]The Bundesliga secretariat believes that Kim Min-jae will be a regular starter for Bayern Munich. The Bundesliga released its predicted starting eleven for Munich this season on its official website on Wednesday. The formation is 4-2-3-1, with Kane up front and Kingsley Coe in the second line.'
+description: 'The Bundesliga secretariat believes that Kim Min-jae will be a regular starter for Bayern Munich. The Bundesliga released its predicted starting eleven for Munich this season on its official website on Wednesday. The formation is 4-2-3-1, with Kane up front and Kingsley Coe in the second line.'
 category: 'Sports'
 keywords: '뮌헨'
 date: '2023-08-14'
@@ -16,7 +16,7 @@ thumbnail: 'https://cdn.fourfourtwo.co.kr/news/thumbnail/202308/39162_92249_619_
 
 <blockquote class="quote-container dark">
   <p class="quote-text dark">
-    [포포투=가동민]The Bundesliga secretariat believes that Kim Min-jae will be a regular starter for Bayern Munich. The Bundesliga released its predicted starting eleven for Munich this season on its official website on Wednesday. The formation is 4-2-3-1, with Kane up front and Kingsley Coe in the second line.
+    The Bundesliga secretariat believes that Kim Min-jae will be a regular starter for Bayern Munich. The Bundesliga released its predicted starting eleven for Munich this season on its official website on Wednesday. The formation is 4-2-3-1, with Kane up front and Kingsley Coe in the second line.
   </p>
 </blockquote>
 
@@ -134,7 +134,7 @@ He was chosen to replace Kalidou Koulibaly when he left Napoli. There were doubt
 
  He quickly completed his medical and registered. This was to ensure that Kane would be available for the German Super Cup. Munich lost 0-3 to RB Leipzig in the 2023-24 German Super Cup at the Allianz Arena in Munich, Germany, at 3:45 a.m. ET on Sept.
 
- 13. Kim Min-jae came on at the start of the second half and Kane took the field in the 18th minute. It was an eventful game, but a 0-3 defeat doesn&#39;t feel good.
+ 1.  Kim Min-jae came on at the start of the second half and Kane took the field in the 18th minute. It was an eventful game, but a 0-3 defeat doesn&#39;t feel good.
 
  Locals in Germany are predicting Kane&#39;s place in the starting lineup. Kim is not 100% fit as he is undergoing basic military training. After a poor start, Munich will open the league against Werder Bremen at 3:30 a.m. on Sept.
 

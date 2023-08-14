@@ -146,7 +146,4 @@ thumbnail: 'https://flexible.img.hani.co.kr/flexible/normal/900/600/imgdb/origin
 
  在打入首球后，他在需要为球队注入活力时罚丢了点球，而且在下半场被替换下场前，他只有一次射门机会。根据足球统计网站 FutbolScore.com 的数据，香敏的评分为.，在当天出场的热刺球员中排名倒数第二。
 
- 作者：Kangsoo Park turner@hani.co.kr
-
-
 </div>

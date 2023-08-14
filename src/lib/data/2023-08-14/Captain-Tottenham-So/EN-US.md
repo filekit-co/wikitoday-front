@@ -146,7 +146,4 @@ The lead didn&#39;t last long. In the 23rd minute, Son Heung-min fouled opposing
 
  He conceded a penalty just when he needed to spark things up after scoring the opening goal, and was limited to just one shot on target before being substituted in the second half. According to soccer stats site FutbolScore.com, Heung-min earned a rating of . It was the second lowest among Tottenham players who played on the day.
 
- By Kangsoo Park turner@hani.co.kr
-
-
 </div>
