@@ -5,47 +5,45 @@
 </script>
 
 <div>
-  <section class="items-center">
-    <ul class="justify-center select-none">
+  <section class="container">
+    <ul>
       {#each articles as article}
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
         <li
-          class="mb-5 md:mb-8 bg-white shadow-lg rounded-3xl p-6 lg:p-8 transition duration-300 transform hover:scale-105 hover:shadow-2xl"
+          class="bg-white py-2 transition duration-300 transform hover:scale-105 hover:shadow-2xl cursor-pointer border-b border-gray-300"
+          on:click={() => handleClick(article.slug)}
         >
-          <!-- svelte-ignore a11y-click-events-have-key-events -->
-          <div
-            on:click={() => handleClick(article.slug)}
-            class="col-auto items-center cursor-pointer"
-          >
-            <h1 class="sm:text-base md:text-3xl xl:text-4xl font-bold mb-6">
-              {article.title}
-            </h1>
+          <div class="flex gap-4 items-start">
+            <div class="w-1/3 h-[113px] md:h-[180px] relative block mx-auto">
+              <img
+                class="w-full h-full object-cover block"
+                src={article.thumbnail}
+                alt={`${article.description}`}
+              />
+            </div>
 
-            <article class="flex">
-              <div
-                class="w-1/2 h-[160px] md:h-[300px] text-ellipsis overflow-hidden mr-4"
-              >
-                <p class="text-gray-300 sm:text-sm md:text-lg font mb-2">
-                  {article.category}
-                </p>
+            <div class="w-2/3 flex-col">
+              <h1 class="text-lg md:text-xl font-bold mb-2">
+                {article.title}
+              </h1>
 
-                <p class="text-gray-200 sm:text-xs md:text-base font mb-4">
-                  {formatDate(article.date)}
-                </p>
-                <p
-                  class="text-black md:text-lg lg:text-xl font-medium description"
+              <article>
+                <div
+                  class="text-sm h-[113px] md:h-[108px] overflow-hidden mr-4 hidden sm:block"
                 >
-                  {article.description}
-                </p>
-              </div>
+                  <p class="text-gray-500 mb-2">
+                    {article.category}
+                  </p>
 
-              <div class="w-1/2 h-[160px] md:h-[300px] relative block mx-auto">
-                <img
-                  class="w-full h-full object-cover block rounded-xl"
-                  src={article.thumbnail}
-                  alt={`${article.description}`}
-                />
-              </div>
-            </article>
+                  <p class="text-gray-400 mb-4">
+                    {formatDate(article.date)}
+                  </p>
+                  <p class="text-gray-700 font-medium description">
+                    {article.description}
+                  </p>
+                </div>
+              </article>
+            </div>
           </div>
         </li>
       {/each}

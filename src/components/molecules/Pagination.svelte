@@ -25,9 +25,7 @@
   }
 </script>
 
-<div
-  class="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3"
->
+<div class="flex items-center justify-between bg-white pb-10">
   <div class="flex flex-1 justify-between sm:hidden">
     <button
       on:click={handlePrevClick}

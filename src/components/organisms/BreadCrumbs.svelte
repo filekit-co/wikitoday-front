@@ -51,11 +51,6 @@
       {/if}
     </ol>
   </nav>
-  <div>
-    <p class="font-medium text-sm md:text-lg text-black">
-      {formattedDate}
-    </p>
-  </div>
 </div>
 
 <hr class="h-px mb-4 bg-gray-200 border-0 dark:bg-gray-700" />
