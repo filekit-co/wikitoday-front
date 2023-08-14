@@ -1,6 +1,6 @@
 ---
 title: 'Arsenal vence o Man City nos pênaltis e ganha o Community Shield'
-description: 'Arsenal vence o Man City nos pênaltis e ganha o Community Shield... futebol... difícil''' KDB falha crucial'
+description: 'Arsenal vence o Man City nos pênaltis e ganha o Community Shield... futebol... difícil KDB falha crucial'
 category: 'Sports'
 keywords: '맨시티 아스날'
 date: '2023-08-07'

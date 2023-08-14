@@ -1,5 +1,5 @@
 ---
-title: '"My Child the King''s DNA, Don''t Order''...An education ministry official tells a teacher that the"'
+title: '''My Child the King''s DNA, Don''t Order''...An education ministry official tells a teacher that the'
 description: 'Education Ministry investigates employee who reported child''s teacher for child abuse'
 category: 'Education'
 keywords: '왕의 DNA'

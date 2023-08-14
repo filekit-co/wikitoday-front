@@ -1,5 +1,5 @@
 ---
-title: '标志性、无处不在的'''恰恰滑步'''的创作者 DJ Casper 去世，享年 58 岁'
+title: '标志性、无处不在的''恰恰滑步''的创作者 DJ Casper 去世，享年 58 岁'
 description: '出生于芝加哥的小威利-佩里（Willie Perry Jr.）在上世纪 90 年代末为自己的侄子写了这首歌作为练习曲，之后这首歌大受欢迎，红遍全球。'
 category: 'Entertainment'
 keywords: 'DJ Casper'

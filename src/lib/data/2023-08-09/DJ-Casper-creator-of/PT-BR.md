@@ -1,5 +1,5 @@
 ---
-title: 'DJ Casper, criador do icônico e onipresente '''Cha Cha Slide''', morreu aos 58 anos'
+title: 'DJ Casper, criador do icônico e onipresente ''Cha Cha Slide'', morreu aos 58 anos'
 description: 'O nativo de Chicago, nascido Willie Perry Jr., escreveu a música como uma faixa de exercícios para seu sobrinho no final dos anos 90, antes de explodir em popularidade e se tornar um sucesso mundial.'
 category: 'Entertainment'
 keywords: 'DJ Casper'

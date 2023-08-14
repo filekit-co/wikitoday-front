@@ -1,5 +1,5 @@
 ---
-title: '我的孩子是国王的 DNA，不要命令''......一位教育部官员告诉一位教师，''
+title: '''我的孩子是国王的 DNA，不要命令''......一位教育部官员告诉一位教师，'
 description: '教育部调查举报教师虐待儿童的员工'
 category: 'Education'
 keywords: '왕의 DNA'
