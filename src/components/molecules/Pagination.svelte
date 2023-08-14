@@ -80,10 +80,9 @@
         {#each Array(totalPages).fill(null) as _, i}
           <button
             on:click={() => handleClick(pageSize, pageSize * i)}
-            class="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 {currentPage ===
-            i
-              ? 'text-blue-600'
-              : 'text-gray-800'}">{i + 1}</button
+            class="relative inline-flex items-center px-4 py-2 text-sm font-semibold ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
+            class:text-blue-600={currentPage === i}
+            class:text-gray-800={currentPage !== i}>{i + 1}</button
           >
         {/each}
 
