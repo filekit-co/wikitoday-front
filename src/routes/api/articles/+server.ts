@@ -14,6 +14,8 @@ export async function GET({ url }) {
   const lang = params.get("lang") as LanguageKey || FALLBACK_LANG;
   const category = params.get("category");
   const randomNumber = parseInt(params.get("randomNumber") || FALLBACK_RANDOM_NUMBER, 10);
+  const skip = Number(params.get('skip'));
+  const limit = Number(params.get('limit'));
 
   switch (type) {
     case "getArticlesByLang":
@@ -24,8 +26,9 @@ export async function GET({ url }) {
       if (!category) {
         return returnErrorResponse("Category is required for getArticlesByCategory", 400)
       }
-      const articlesByCategory = getArticlesByCategory(lang, category);
-      return json(articlesByCategory);
+      const { articles, totalArticleSize } = getArticlesByCategory(lang, category, skip, limit);
+      return json({ articles, totalArticleSize });
+      
 
     case "getRandomArticles":
       if (randomNumber == 0) {

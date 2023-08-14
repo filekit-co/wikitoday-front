@@ -1,28 +1,43 @@
 <script lang="ts">
+  import { goto } from "$app/navigation";
   import { page } from "$app/stores";
   import type { Article } from "$lib/types";
 
   export let articles: Article[];
+  export let totalArticleSize: number;
+
   let pageSize = 10;
   $: totalItems = articles.length;
-  $: totalPages = Math.ceil(totalItems / pageSize);
-  $: currentPage =
-    (Number($page.url.searchParams.get("pageNum")) || 0) / pageSize;
+  $: totalPages = Math.ceil(totalArticleSize / pageSize);
+  $: currentPage = (Number($page.url.searchParams.get("skip")) || 0) / pageSize;
+
+  async function handleClick(limit: number, skip: number) {
+    await goto(`?limit=${limit}&skip=${skip}`);
+    window.location.reload();
+  }
+  function handlePrevClick() {
+    const targetPage = (currentPage - 1 + totalPages) % totalPages;
+    handleClick(pageSize, pageSize * targetPage);
+  }
+
+  function handleNextClick() {
+    handleClick(pageSize, pageSize * ((currentPage + 1) % totalPages));
+  }
 </script>
 
 <div
   class="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3"
 >
   <div class="flex flex-1 justify-between sm:hidden">
-    <a
-      href="#"
+    <button
+      on:click={handlePrevClick}
       class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
-      >Previous</a
+      >Previous</button
     >
-    <a
-      href="#"
+    <button
+      on:click={handleNextClick}
       class="relative ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
-      >Next</a
+      >Next</button
     >
   </div>
   <div class="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
@@ -33,7 +48,7 @@
         to
         <span class="font-medium">10</span>
         of
-        <span class="font-medium">{`${totalItems}`}</span>
+        <span class="font-medium">{`${totalArticleSize}`}</span>
         results
       </p>
     </div>
@@ -42,8 +57,8 @@
         class="isolate inline-flex -space-x-px rounded-md shadow-sm"
         aria-label="Pagination"
       >
-        <a
-          href="#"
+        <button
+          on:click={handlePrevClick}
           class="relative inline-flex items-center rounded-l-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
         >
           <span class="sr-only">Previous</span>
@@ -59,19 +74,21 @@
               clip-rule="evenodd"
             />
           </svg>
-        </a>
+        </button>
         <!-- Current: "z-10 bg-indigo-600 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600", Default: "text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:outline-offset-0" -->
 
         {#each Array(totalPages).fill(null) as _, i}
-          <a
-            href={`?limit=${pageSize}&skip=${pageSize * i}`}
-            class="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
-            >{i + 1}</a
+          <button
+            on:click={() => handleClick(pageSize, pageSize * i)}
+            class="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 {currentPage ===
+            i
+              ? 'text-blue-600'
+              : 'text-gray-800'}">{i + 1}</button
           >
         {/each}
 
-        <a
-          href="#"
+        <button
+          on:click={handleNextClick}
           class="relative inline-flex items-center rounded-r-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
         >
           <span class="sr-only">Next</span>
@@ -87,7 +104,7 @@
               clip-rule="evenodd"
             />
           </svg>
-        </a>
+        </button>
       </nav>
     </div>
   </div>

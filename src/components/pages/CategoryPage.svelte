@@ -4,23 +4,16 @@
   import CategoryMidArticle from "@components/molecules/CategoryMidArticle.svelte";
   import CategoryBottomArticle from "@components/molecules/CategoryBottomArticle.svelte";
   import CategorySubArticle from "@components/molecules/CategorySubArticle.svelte";
-  import type { Article } from "$lib/types";
   import Pagination from "@components/molecules/Pagination.svelte";
-  export let articles: Article[];
+  export let data;
 
-  let pageArticles: Article[];
+  const { articles, totalArticleSize } = data;
 
-  $: skip = Number($page.url.searchParams.get("skip")) || 0;
-  $: limit = Number($page.url.searchParams.get("limit")) || 10;
+  $: skip = Number($page.url.searchParams.get("skip"));
+  $: limit = Number($page.url.searchParams.get("limit"));
 </script>
 
-<!-- <div>
-  {skip}
-  {limit}
-</div> -->
-
 <!-- todo: pagination with server -->
-<!-- <Pagination {articles} /> -->
 
 <!-- 최상단의 3개의 기사 -->
 <CategoryTopArticle {articles} />
@@ -50,4 +43,4 @@
   </div>
 </div>
 
-<Pagination {articles} />
+<Pagination {articles} {totalArticleSize} />

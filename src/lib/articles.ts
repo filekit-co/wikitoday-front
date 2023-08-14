@@ -3,6 +3,7 @@ import type { Article, LanguageKey, RssData } from "$lib/types"
 import { PUBLIC_BASE_URL } from "$env/static/public";
 import { escapeXml } from "$lib/utils";
 import _ from 'lodash';
+import { writable } from "svelte/store";
 
 function getModules(language: LanguageKey) {
   switch (language) {
@@ -150,15 +151,25 @@ export function getRandomArticles(language: LanguageKey, n: number): Article[] {
   }
 };
 
-export function getArticlesByCategory(language: LanguageKey, category: string): Article[] {
+export function getArticlesByCategory(language: LanguageKey, category: string, skip: number, limit: number): { articles: Article[], totalArticleSize: number } {
   try {
-    return getArticlesByLang(language)
+    let articles = getArticlesByLang(language)
       .filter(article => article.category === category);
+
+    const totalArticleSize = articles.length;
+
+    articles = articles.slice(skip, skip + limit);
+
+    return {
+      articles,
+      totalArticleSize: totalArticleSize,
+    };
   } catch (e) {
     console.error(e);
     throw new Error('This category section articles do not exist');
   }
 };
+
 
 export function getSitemapUrls(languages: LanguageKey[]) {
   try {
@@ -185,3 +196,5 @@ export function getRssItems(languages: LanguageKey[]): RssData[] {
     throw new Error('Could not generate RSS data');
   }
 }
+
+export const ArticleStore = writable<Article[]>([]);
