@@ -6,7 +6,7 @@ keywords: 'Independence Day images, 77th Independence Day, 76th independence day
 date: '2023-08-14'
 author: 'wikitoday.io'
 language: 'EN-US'
-candidLanguages: ['EN-US', 'EN-US']
+candidLanguages: ['EN-US']
 thumbnail: 'https://im.indiatimes.in/content/2023/Aug/independence-day-posters2_64d93240e9f06.jpg'
 ---
 
