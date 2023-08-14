@@ -112,7 +112,7 @@ const generateSitemapData = (language: LanguageKey) => _(getModules(language))
       .map(filepath => {
         const { date, fileName } = extractInfoFromPath(filepath);
         const slug = articleRouteSlug(language, date, fileName);
-        return { url: `${PUBLIC_BASE_URL}/${slug}`, date };
+        return { url: `${PUBLIC_BASE_URL}${slug}`, date };
       })
       .value();
 
@@ -120,7 +120,7 @@ function generateRssData(language: LanguageKey) {
   return _(getArticlesByLang(language))
     .map(article => ({
       title: escapeXml(article.title),
-      url: escapeXml(`${PUBLIC_BASE_URL}/${article.slug}`),
+      url: escapeXml(`${PUBLIC_BASE_URL}${article.slug}`),
       date: escapeXml(article.date),
       description: escapeXml(article.description),
       thumbnail: escapeXml(article.thumbnail),
