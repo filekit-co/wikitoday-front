@@ -27,6 +27,15 @@ export async function GET() {
                 <pubDate>${item.date}</pubDate>
                 <category>${item.category}</category>
                 ${item.thumbnail ? `<enclosure url="${item.thumbnail}" type="image/jpeg"/>` : ''}
+                <turbo:content>
+                  <![CDATA[
+                    <div class="max-w-3xl mx-auto">
+                      <article class="container relative pt-10">
+                        ${item.html}
+                      </article>
+                    </div>
+                  ]]>
+              </turbo:content>
               </item>
             `;
           })

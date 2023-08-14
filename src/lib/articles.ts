@@ -126,6 +126,7 @@ function generateRssData(language: LanguageKey) {
       description: escapeXml(article.description),
       thumbnail: escapeXml(article.thumbnail),
       category: escapeXml(article.category),
+      html: article.html, 
     }))
     .value();
 }
