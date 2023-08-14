@@ -4,6 +4,7 @@
   import Navbar from "../components/organisms/Navbar.svelte";
   import CategoryBar from "@components/organisms/CategoryBar.svelte";
   import { page } from "$app/stores";
+  import BreadCrumbs from "@components/organisms/BreadCrumbs.svelte";
 </script>
 
 {#if $page.error}
@@ -14,6 +15,7 @@
   >
     <Header />
     <Navbar />
+    <BreadCrumbs />
     <CategoryBar />
     <slot />
   </div>

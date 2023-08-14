@@ -1,9 +1,15 @@
 <script lang="ts">
+  import { goto } from "$app/navigation";
   import { page } from "$app/stores";
   import CategoryDrawer from "@components/molecules/CategoryDrawer.svelte";
   import LanguageMenu from "@components/molecules/LanguageMenu.svelte";
 
   const lang = $page.params.lang;
+
+  async function handleClick() {
+    await goto(`/${lang}`);
+    window.location.reload();
+  }
 </script>
 
 <div>
@@ -12,12 +18,12 @@
       <CategoryDrawer />
 
       <div class="text-center">
-        <a
-          href={`/${lang}`}
+        <button
+          on:click={() => handleClick()}
           class="text-4xl sm:font-bold md:text-5xl md:font-extrabold"
         >
           Wikitoday
-        </a>
+        </button>
         <p class="text-sm sm:text-md md:text-lg text-gray-600 pt-4">
           <em>Explore trending topics with wikitoday</em>
         </p>
@@ -26,7 +32,6 @@
       <LanguageMenu />
     </section>
   </header>
-  <hr class="h-px mb-4 bg-gray-200 border-0 dark:bg-gray-700" />
 </div>
 
 <style>
