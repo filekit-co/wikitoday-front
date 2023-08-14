@@ -1,7 +1,7 @@
 import type { LanguageKey } from '$lib/types';
 import type { Handle } from '@sveltejs/kit'
 
-const excludeI18nRoute = ['rss.xml', 'sitemap.xml', 'naver9fc27b14c9186dcef836475d4eee1e17']
+const excludeI18nRoute = ['rss.xml', 'sitemap.xml', 'naver9fc27b14c9186dcef836475d4eee1e17.html']
 
 export const handle: Handle = (async ({ event, resolve }) => {
 	const tlr = event?.url?.pathname.split('/').at(1)
