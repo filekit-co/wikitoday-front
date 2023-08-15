@@ -11,7 +11,7 @@
     <div
       on:click={() => handleClick(article.slug)}
       on:keydown={(e) => e.key === "Enter" && handleClick(article.slug)}
-      class="flex items-center border-b-2 border-gray-200 cursor-pointer p-2 opacity-75 hover:opacity-100"
+      class="flex items-center border-b-2 border-gray-200 cursor-pointer p-2"
     >
       <span class="font-bold mr-4">{index + 1}</span>
       <div
