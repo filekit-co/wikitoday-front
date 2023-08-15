@@ -8,8 +8,8 @@
 <div>
   <h2 class="text-3xl font-semibold">Recommended Articles</h2>
 
-  <div class="grid grid-cols-4 w-full gap-4">
-    {#each articles.slice(0, 4) as article}
+  <div class="grid grid-cols-4 w-full gap-4 select-none">
+    {#each articles as article}
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div
         on:click={() => handleClick(article.slug)}

@@ -27,7 +27,7 @@
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div
         on:click={() => handleClick(article.slug)}
-        class="flex my-4 items-center cursor-pointer"
+        class="flex my-4 items-center cursor-pointer select-none"
       >
         <div class="flex-grow">
           <h2 class="font md:text-sm lg:text-lg font-bold mb-4 mr-4">
