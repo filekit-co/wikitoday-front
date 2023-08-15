@@ -67,18 +67,21 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 100%; /* 컨테이너의 최대 너비 설정 */
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   :global(.container .image-container img) {
     display: block;
     width: 100%; /* 이미지가 컨테이너의 너비를 채우도록 */
     height: auto; /* 원래 비율 유지 */
+    border-radius: 1rem;
   }
 
   :global(.container .image-container figcaption) {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 15px;
     background: rgba(255, 255, 255, 0.6);
     padding: 5px;
   }
