@@ -4,6 +4,7 @@
   import { createEventDispatcher } from "svelte";
   import { page } from "$app/stores";
   import type { LanguageKey } from "$lib/types";
+  import { language } from "$lib/store";
 
   const dispatch = createEventDispatcher();
   $: candidLanguages = $page.data?.candidLanguages || [];

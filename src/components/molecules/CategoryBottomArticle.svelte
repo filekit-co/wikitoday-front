@@ -5,7 +5,7 @@
 </script>
 
 <div>
-  <section class="container">
+  <section>
     <ul>
       {#each articles as article}
         <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -14,7 +14,7 @@
           on:click={() => handleClick(article.slug)}
         >
           <div class="flex gap-4 items-start">
-            <div class="w-1/3 h-[113px] md:h-[180px] relative block mx-auto">
+            <div class="w-1/3 h-[80px] md:h-[180px] relative block mx-auto">
               <img
                 class="w-full h-full object-cover block"
                 src={article.thumbnail}
@@ -23,7 +23,7 @@
             </div>
 
             <div class="w-2/3 flex-col">
-              <h1 class="text-lg md:text-xl font-bold mb-2">
+              <h1 class="text-[13px] md:text-xl font-bold mb-2">
                 {article.title}
               </h1>
 

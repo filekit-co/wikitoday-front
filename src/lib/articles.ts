@@ -158,6 +158,18 @@ export function getArticlesByCategory(language: LanguageKey, category: string, s
     let articles = getArticlesByLang(language)
       .filter(article => article.category === category);
 
+    // category에 속하는 기사가 없을 경우, 모든 카테고리의 기사 return
+    if (articles.length === 0) {
+      articles = getArticlesByLang(language)
+      const totalArticleSize = articles.length;
+      articles = articles.slice(skip, skip+limit)
+
+      return {
+        articles,
+        totalArticleSize,
+      }
+    }
+
     const totalArticleSize = articles.length;
 
     articles = articles.slice(skip, skip + limit);

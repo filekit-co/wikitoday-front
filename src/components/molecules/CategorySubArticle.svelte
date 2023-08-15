@@ -22,7 +22,7 @@
       class="flex my-4 rounded-xl items-center cursor-pointer transition duration-300 transform hover:scale-105 hover:shadow-2xl"
     >
       <div class="flex-grow">
-        <h2 class="font md:text-2xl lg:text-base font-bold mb-4 mr-4">
+        <h2 class=" text-xs md:text-2xl lg:text-base font-bold mb-4 mr-4">
           {article.title}
         </h2>
       </div>

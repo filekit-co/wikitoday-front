@@ -9,17 +9,10 @@ export const load: PageServerLoad = async ({ fetch, params, url}) => {
     const category = params.category;
     let skip = Number(url.searchParams.get('skip')) || 0;
     let limit = Number(url.searchParams.get('limit')) || 10;
-
-    // if (skip === null && limit === null) {
-    //     skip = 0
-    //     limit = 10
-    // }
     
     try {
         const response = await fetch(`/api/articles?type=${type}&lang=${lang}&category=${category}&skip=${skip}&limit=${limit}`);
-        const { articles, totalArticleSize } = await response.json(); // 여기를 수정
-        // console.log(articles);
-        // console.log(totalArticleSize)
+        const { articles, totalArticleSize } = await response.json(); 
 
         return {
             articles,

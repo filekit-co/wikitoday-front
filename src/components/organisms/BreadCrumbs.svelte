@@ -4,8 +4,11 @@
   import { page } from "$app/stores";
   import ArrowImage from "@components/atoms/ArrowImage.svelte";
   import HomeButton from "@components/atoms/HomeButton.svelte";
+  import Error from "../../routes/+error.svelte";
 
   const lang = $page.params.lang;
+  let title: string;
+  $: title = $page.params.article;
   let category = $page.params.category;
 
   function goHome() {
@@ -13,10 +16,13 @@
     category = "";
   }
 
-  // 오늘의 날짜를 미국식으로 가져오는 코드
-  const today = new Date().toString();
+  async function handleClick(category: string) {
+    const lang = $page.params.lang;
+    await goto(`/${lang}/section/${category}`);
+    window.location.reload();
+  }
 
-  const formattedDate = formatDate(today);
+  let clicked = false;
 </script>
 
 <div class="flex justify-between items-center">
@@ -25,7 +31,7 @@
       <li class="inline-flex items-center">
         <button
           on:click={() => goHome()}
-          class="text-sm md:text-lg inline-flex items-center font-medium text-black dark:hover:text-gray-400"
+          class="text-sm md:text-lg inline-flex items-center font-medium hover:text-black"
         >
           <HomeButton />
           Home
@@ -35,16 +41,30 @@
         <li>
           <div class="flex items-center">
             <ArrowImage />
-            <p class="text-sm md:text-lg ml-1 font-medium text-black">
-              Category
-            </p>
+            <button
+              on:click={() => handleClick(category)}
+              class="text-sm md:text-lg ml-1 font-medium text-black"
+            >
+              {`${category}`}
+            </button>
           </div>
         </li>
+        {#if title}
+          <li>
+            <div class="flex items-center">
+              <ArrowImage />
+              <p class="text-sm md:text-lg ml-1 font-medium text-black">
+                {title}
+              </p>
+            </div>
+          </li>
+        {/if}
+      {:else if title}
         <li>
           <div class="flex items-center">
             <ArrowImage />
             <p class="text-sm md:text-lg ml-1 font-medium text-black">
-              {`${category}`}
+              {title}
             </p>
           </div>
         </li>
