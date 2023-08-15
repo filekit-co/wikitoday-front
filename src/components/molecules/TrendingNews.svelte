@@ -11,14 +11,14 @@
     <div
       on:click={() => handleClick(article.slug)}
       on:keydown={(e) => e.key === "Enter" && handleClick(article.slug)}
-      class="flex items-center border-b-2 border-gray-200 cursor-pointer p-2"
+      class="flex items-center border-b-2 border-gray-200 cursor-pointer p-3"
     >
       <span class="font-bold mr-4">{index + 1}</span>
-      <div
-        class="flex-grow text-md text-clip md:text-lg font-medium sm:text-base title pr-2"
+      <p
+        class="flex-grow line-clamp-3 text-md md:text-lg font-medium sm:text-base title pr-2"
       >
         {article.title}
-      </div>
+      </p>
       <div class="w-24 h-24 flex-shrink-0 flex justify-end">
         <img
           class="w-full h-full object-cover rounded-lg"
