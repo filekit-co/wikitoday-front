@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /404
 Sitemap: https://wikitoday.io/sitemap.xml
-DaumWebMasterTool: 967558bc7505544a2c40692f414826a04e71627ed6d815c7259b076025a6a15f: 7TJ802RIUqvZqpO4amq3eQ==
+#DaumWebMasterTool: 967558bc7505544a2c40692f414826a04e71627ed6d815c7259b076025a6a15f: 7TJ802RIUqvZqpO4amq3eQ==
