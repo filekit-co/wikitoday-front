@@ -134,7 +134,7 @@ thumbnail: 'https://static.news.ru/photo/0d310822-3b6c-11ee-ba00-02420a0000c9_76
 
 
 <div class="article-body">
-&lt;...&gt; At the same time, these are songs for all times, companies still gather and sing Tsoi&#39;s songs just the same way. This is a story about a cult personality without a statute of limitations,&#39; he said.
+"..." At the same time, these are songs for all times, companies still gather and sing Tsoi&#39;s songs just the same way. This is a story about a cult personality without a statute of limitations,&#39; he said.
 
  The music critic noted that at the same time Tsoi has hits that are popular now, but will be forgotten the next day. Among them, he mentioned &#39;Cuckoo,&#39; which became popular again thanks to other performers.
 

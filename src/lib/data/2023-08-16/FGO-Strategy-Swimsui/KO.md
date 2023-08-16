@@ -207,7 +207,7 @@ thumbnail: 'https://www.famitsu.com/images/000/313/354/z_64db493e85de9.jpg'
 
  B : B 민첩 : EX 마법력 : B B 행운 : A+
 
- A+ 보물 : B &lt;스포일러&gt; 재림 그래픽
+ A+ 보물 : B "스포일러" 재림 그래픽
 
  1단계 2단계
 

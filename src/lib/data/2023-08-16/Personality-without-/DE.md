@@ -134,7 +134,7 @@ Persönlichkeit ohne Verjährung&#39;: der Kritiker erklärt, warum Tsoi immer n
 
 
 <div class="article-body">
-&lt;...&gt; Gleichzeitig sind dies Lieder für alle Zeiten, die Unternehmen versammeln sich immer noch und singen Tsois Lieder auf die gleiche Weise. Dies ist eine Geschichte über eine Kultpersönlichkeit ohne Verjährungsfrist&#39;, sagte er.
+"..." Gleichzeitig sind dies Lieder für alle Zeiten, die Unternehmen versammeln sich immer noch und singen Tsois Lieder auf die gleiche Weise. Dies ist eine Geschichte über eine Kultpersönlichkeit ohne Verjährungsfrist&#39;, sagte er.
 
  Der Musikkritiker merkte an, dass Tsoi auch Hits hat, die heute populär sind, aber am nächsten Tag schon wieder vergessen sein werden. Dazu zählte er &#39;Cuckoo&#39;, das dank anderer Interpreten wieder populär wurde.
 

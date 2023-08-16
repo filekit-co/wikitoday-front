@@ -207,7 +207,7 @@ First Second Coming: Archer Piece x5, Lancer Piece x5, Rider Piece x5 Second Sec
 
  B : B Agility ：EX Magic Power ：B B Luck : A+
 
- A+ Treasure: B &lt;Spoiler&gt; Second Coming Graphics
+ A+ Treasure: B "Spoiler" Second Coming Graphics
 
  Stage 1 2nd stage
 

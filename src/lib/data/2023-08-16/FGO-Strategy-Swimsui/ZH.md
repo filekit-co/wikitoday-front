@@ -207,7 +207,7 @@ thumbnail: 'https://www.famitsu.com/images/000/313/354/z_64db493e85de9.jpg'
 
  B : B 敏捷：EX 魔力：B B 运气：A+
 
- A+ 宝物：B &lt;剧透&gt; 第二次降临图鉴
+ A+ 宝物：B "剧透" 第二次降临图鉴
 
  第一阶段 第二阶段
 
