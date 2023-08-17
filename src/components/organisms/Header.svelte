@@ -12,8 +12,8 @@
     keywords:
       "trending, today, news, articles, wiki, google trends, world, economy, entertainment",
     image: wikitoday,
-    description: "Explore trending topics with wikitoday",
-    siteName: "wikitoday - Global Trends, News, Economy, Entertainment",
+    description: "Explore trending topics with Wikitoday",
+    siteName: "Wikitoday - Global Trends, News, Economy, Entertainment",
     date: "2023-08-07",
     language: "EN-US",
   };
@@ -89,7 +89,10 @@
 
   <!-- Twitter Card Meta Tags (optional) -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="" />
+  <meta
+    name="twitter:site"
+    content="Explore trending topics with Wikitoday | https://wikitoday.io"
+  />
   <meta name="twitter:creator" content={p.author} />
   <meta name="twitter:title" content={p.title} />
   <meta name="twitter:description" content={p.description} />
