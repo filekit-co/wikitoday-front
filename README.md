@@ -1,4 +1,15 @@
-# Atomic pattern
+# Wikitoday
+
+## sns
+- [yandex dzen](https://dzen.ru/wikitoday)
+- [google news](https://news.google.com/publications/CAAqBwgKMJCrngwwsquvBA?ceid=US:en&oc=3)
+- [bing news]()
+- [youtube](https://www.youtube.com/channel/UClvb9sNECUA0rQg2R9LcPeg)
+- [twitter](https://twitter.com/wikitoday_io)
+- [instagram](https://www.instagram.com/wikitoday_io/)
+- [facebook](https://www.facebook.com/profile.php?id=61550082504479)
+
+## Atomic pattern
 
 ```
     hot-topic-news/
