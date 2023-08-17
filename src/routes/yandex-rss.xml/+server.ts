@@ -21,7 +21,7 @@ export async function GET() {
               <item turbo="true">
                 <turbo:extendedHtml>true</turbo:extendedHtml>
                 <title>${item.title}</title>
-                <author>wikitoday.io</author>
+                <author>filekitco@gmail.com</author>
                 <link>${item.url}</link>
                 <description>${item.description}</description>
                 <pubDate>${item.date}</pubDate>
@@ -29,11 +29,7 @@ export async function GET() {
                 ${item.thumbnail ? `<enclosure url="${item.thumbnail}" type="image/jpeg"/>` : ''}
                 <turbo:content>
                   <![CDATA[
-                    <div class="max-w-3xl mx-auto">
-                      <article class="container relative pt-10">
                         ${item.html}
-                      </article>
-                    </div>
                   ]]>
               </turbo:content>
               </item>

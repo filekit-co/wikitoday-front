@@ -3,7 +3,7 @@ import { detectLanguageOrFallback } from '$lib/detectors';
 import type { LanguageKey } from '$lib/types';
 import type { Handle } from '@sveltejs/kit'
 
-const excludeI18nRoute = ['rss.xml', 'sitemap.xml', 'yandex-rss.xml']
+const excludeI18nRoute = ['rss.xml', 'sitemap.xml', 'yandex-rss.xml', 'dzen-rss.xml']
 
 export const handle: Handle = (async ({ event, resolve }) => {
 	const tlr = event?.url?.pathname.split('/').at(1)

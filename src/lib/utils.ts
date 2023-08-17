@@ -106,3 +106,20 @@ export const returnErrorResponse = (msg: string, code: number) => new Response(J
   },
   status: code
 });
+
+export function yyyyMMddToRFC822(inputDate: string): string {
+  // Create a new Date object from the inputDate
+  const date = new Date(inputDate);
+
+  if (isNaN(date.getTime())) {
+      throw new Error('Invalid date format provided');
+  }
+
+  const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+  // Construct the RFC-822 date format
+  const rfc822 = `${days[date.getUTCDay()]}, ${String(date.getUTCDate()).padStart(2, '0')} ${months[date.getUTCMonth()]} ${date.getUTCFullYear()} ${String(date.getUTCHours()).padStart(2, '0')}:${String(date.getUTCMinutes()).padStart(2, '0')}:${String(date.getUTCSeconds()).padStart(2, '0')} +0000`;
+
+  return rfc822;
+}
