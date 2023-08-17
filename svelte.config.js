@@ -7,6 +7,7 @@ import { mdsvex } from 'mdsvex'
 const mdsvexOptions = {
 	extensions: ['.md',],
 	layout: {},
+	smartypants: true,
 }
 
 /** @type {import('@sveltejs/kit').Config} */
