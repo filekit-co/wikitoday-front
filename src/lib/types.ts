@@ -81,3 +81,5 @@ export type GetQueryParams = {
   category?: string;
   randomNumber?: number;
 };
+
+export type DetectorParametersURL = { pathname: string };

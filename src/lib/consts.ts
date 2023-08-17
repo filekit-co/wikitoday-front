@@ -5,5 +5,6 @@ export const CATEGORY_TREND_ARTICLES=3
 export const CATEGORY_HOT_ARTICLES=5
 export const NUM_TRENDING_ARTICLES=5
 
+export const REGEX_ACCEPT_LANGUAGE_SPLIT = /;|,/;
 
 export const getMaxArticles = () => Math.max(NUM_MAIN_ARTICLES, NUM_OPINIONS_ARTICLES, NUM_CARD_ARTICLES);
