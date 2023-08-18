@@ -5,7 +5,7 @@
   import InstaLogo from "@components/atoms/InstaLogo.svelte";
   import TiktokLogo from "@components/atoms/TiktokLogo.svelte";
   import TwitterLogo from "@components/atoms/TwitterLogo.svelte";
-  import YouTubeLogo from "@components/atoms/YouTube.svelte";
+  import YouTubeLogo from "@components/atoms/YouTubeLogo.svelte";
   import { CategoryPages, SNS_MEDIA } from "$lib/datas";
   import { handleClick } from "$lib/utils";
   import { page } from "$app/stores";
@@ -36,7 +36,7 @@
   <div class="w-full space-y-4 lg:space-y-16 mx-auto px-4">
     <div class="lg:flex">
       <div class="lg:w-1/4">
-        <div class="w-[150px] h-[150px] mb-4">
+        <div class="w-[150px] h-[150px] mb-4 hidden lg:block">
           <!-- svelte-ignore a11y-img-redundant-alt -->
           <img
             class="w-full h-full object-cover"
