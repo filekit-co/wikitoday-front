@@ -6,6 +6,9 @@
   import TiktokLogo from "@components/atoms/TiktokLogo.svelte";
   import TwitterLogo from "@components/atoms/TwitterLogo.svelte";
   import YouTubeLogo from "@components/atoms/YouTubeLogo.svelte";
+  import GoogleLogo from "@components/atoms/GoogleLogo.svelte";
+  import YandexLogo from "@components/atoms/YandexLogo.svelte";
+  import BingLogo from "@components/atoms/BingLogo.svelte";
   import { CategoryPages, SNS_MEDIA } from "$lib/datas";
   import { handleClick } from "$lib/utils";
   import { page } from "$app/stores";
@@ -19,7 +22,10 @@
       | typeof TwitterLogo
       | typeof GithubLogo
       | typeof YouTubeLogo
-      | typeof TiktokLogo;
+      | typeof TiktokLogo
+      | typeof GoogleLogo
+      | typeof YandexLogo
+      | typeof BingLogo;
   }
 
   const logoComponents: LogoComponents = {
@@ -29,13 +35,16 @@
     Github: GithubLogo,
     YouTube: YouTubeLogo,
     Tiktok: TiktokLogo,
+    Google: GoogleLogo,
+    Yandex: YandexLogo,
+    Bing: BingLogo,
   };
 </script>
 
 <footer class="pb-8 lg:py-8">
-  <div class="w-full space-y-4 lg:space-y-16 mx-auto px-4">
+  <div class="w-full space-y-4 lg:space-y-16 mx-auto">
     <div class="lg:flex">
-      <div class="lg:w-1/4">
+      <div class="lg:w-1/3">
         <div class="w-[150px] h-[150px] mb-4 hidden lg:block">
           <!-- svelte-ignore a11y-img-redundant-alt -->
           <img
@@ -44,13 +53,13 @@
             alt="logo image"
           />
         </div>
-        <p class="text-gray-600 italic mb-6">
+        <p class="text-gray-600 italic mb-6 hidden lg:block">
           Explore trending topics with Wikitoday
         </p>
 
-        <ul class="flex gap-4">
+        <ul class="grid grid-rows-2 grid-cols-4 gap-4">
           {#each SNS_MEDIA as sns}
-            <li>
+            <li class="flex items-center justify-start">
               <a
                 href={sns.href}
                 rel="noreferrer"
@@ -65,7 +74,7 @@
         </ul>
       </div>
 
-      <div class="w-full">
+      <div class="w-full lg:pl-6">
         <div class=" lg:flex gap-8 mt-8 lg:mt-0">
           <div class="lg:w-4/6 flex-grow">
             <p class="font-semibold text-gray-800 mb-4">Category</p>

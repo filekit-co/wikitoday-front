@@ -112,4 +112,16 @@ export   const SNS_MEDIA = [
     key: "Tiktok",
     href: "https://www.tiktok.com/@wikitoday.io",
   },
+  {
+    key: 'Google',
+    href: 'https://news.google.com/publications/CAAqBwgKMJCrngwwsquvBA?ceid=US:en&oc=3&hl=en-US&gl=US'
+  },
+  {
+    key: 'Yandex',
+    href: 'https://dzen.ru/wikitoday'
+  },
+  {
+    key: 'Bing',
+    href: '/'
+  }
 ];
