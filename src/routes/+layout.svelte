@@ -1,10 +1,11 @@
 <script lang="ts">
   import "../app.css";
+  import { page } from "$app/stores";
   import Header from "@components/organisms/Header.svelte";
   import Navbar from "../components/organisms/Navbar.svelte";
   import CategoryBar from "@components/organisms/CategoryBar.svelte";
-  import { page } from "$app/stores";
   import BreadCrumbs from "@components/organisms/BreadCrumbs.svelte";
+  import Footer from "@components/organisms/Footer.svelte";
 </script>
 
 {#if $page.error}
@@ -18,6 +19,7 @@
     <BreadCrumbs />
     <CategoryBar />
     <slot />
+    <Footer />
   </div>
 {/if}
 

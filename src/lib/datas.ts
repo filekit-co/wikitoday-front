@@ -86,3 +86,30 @@ export const languageToHreflang: Record<LanguageKey, string> = {
   'UK': 'uk',
 };
 export const languageKeys: LanguageKey[] = Object.keys(languageToHreflang) as LanguageKey[];
+
+export   const SNS_MEDIA = [
+  {
+    key: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=61550082504479",
+  },
+  {
+    key: "Instagram",
+    href: "https://www.instagram.com/wikitoday_io",
+  },
+  {
+    key: "Twitter",
+    href: "https://twitter.com/wikitoday_io",
+  },
+  {
+    key: "Github",
+    href: "https://github.com/filekit-co",
+  },
+  {
+    key: "YouTube",
+    href: "https://www.youtube.com/channel/UClvb9sNECUA0rQg2R9LcPeg",
+  },
+  {
+    key: "Tiktok",
+    href: "https://www.tiktok.com/@wikitoday.io",
+  },
+];
