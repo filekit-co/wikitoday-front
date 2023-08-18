@@ -6,7 +6,6 @@
   import TiktokLogo from "@components/atoms/TiktokLogo.svelte";
   import TwitterLogo from "@components/atoms/TwitterLogo.svelte";
   import YouTubeLogo from "@components/atoms/YouTubeLogo.svelte";
-
   import { CategoryPages, SNS_MEDIA } from "$lib/datas";
   import { handleClick } from "$lib/utils";
   import { page } from "$app/stores";
