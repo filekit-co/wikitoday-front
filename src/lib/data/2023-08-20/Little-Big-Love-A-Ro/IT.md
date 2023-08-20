@@ -7,7 +7,7 @@ date: '2023-08-20'
 author: 'wikitoday.io'
 language: 'IT'
 candidLanguages: ['DE', 'IT', 'EN-US', 'FR']
-thumbnail: 'https://s3.eu-west-1.amazonaws.com/static.guidatv.quotidiano.net/img/favicon.ico'
+thumbnail: 'https://flixwatch.co/wp-content/uploads/81304753-960x540.jpg.webp'
 ---
 
 # Piccolo grande amore: Un viaggio romantico in Italia
@@ -22,7 +22,7 @@ thumbnail: 'https://s3.eu-west-1.amazonaws.com/static.guidatv.quotidiano.net/img
 
 
 <figure class=image-container>
-    <img src="https://s3.eu-west-1.amazonaws.com/static.guidatv.quotidiano.net/img/favicon.ico" alt="Quotidiano.net" />
+    <img src="https://flixwatch.co/wp-content/uploads/81304753-960x540.jpg.webp" alt="flixwatch" />
     <figcaption>
         <h4> from Quotidiano.net</h4>
     </figcaption>
