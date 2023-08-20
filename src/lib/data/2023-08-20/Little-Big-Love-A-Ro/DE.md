@@ -24,7 +24,6 @@ thumbnail: 'https://flixwatch.co/wp-content/uploads/81304753-960x540.jpg.webp'
 
 <figure class=image-container>
     <img src="https://flixwatch.co/wp-content/uploads/81304753-960x540.jpg.webp" alt="flixwatch" />
-    <img src="https://flixwatch.co/wp-content/uploads/81304753-960x540.jpg.webp" alt="flixwatch" />
     <figcaption>
         <h4> from Quotidiano.net</h4>
     </figcaption>
