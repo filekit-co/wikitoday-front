@@ -1,5 +1,5 @@
 ---
-title: 'カン、リー「粘り強いグラップリングで''''Road to UFC''''を制す'
+title: 'Kang Kyung-ho 、「ロード・トゥ・UFC」優勝のためにグラップリングで粘り強く使用する'
 description: 'UFCバンタム級ファイターのカン・ギョンホ''''ミスター・パーフェクト''''カン（35）がUFCに参戦する見込みだ。'
 category: 'Sports'
 keywords: 'UFC'
@@ -10,7 +10,7 @@ candidLanguages: ['JA', 'EN-US', 'KO']
 thumbnail: 'https://image.fnnews.com/resource/media/image/2023/08/20/202308200841101332_l.jpg'
 ---
 
-# カン、リー「粘り強いグラップリングで''''Road to UFC''''を制す
+# Kang Kyung-ho 、「ロード・トゥ・UFC」優勝のためにグラップリングで粘り強く使用する
 
 <p class="datetime"><em>2023-08-20 - wikitoday<em></p>
 

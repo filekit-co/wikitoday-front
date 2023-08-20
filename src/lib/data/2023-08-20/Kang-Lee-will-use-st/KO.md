@@ -1,5 +1,5 @@
 ---
-title: '강형욱, ''로드 투 UFC'' 우승 위해 끈끈한 그래플링 사용하겠다'
+title: '강경호, ''로드 투 UFC'' 우승 위해 그래플링 끈적하게 사용하겠다'
 description: 'UFC 밴텀급 파이터 강경호 ''미스터 퍼펙트'' 강경호(35)가 UFC에 입성할 것으로 예상되는 가운데...'
 category: 'Sports'
 keywords: 'UFC'
@@ -10,7 +10,7 @@ candidLanguages: ['JA', 'EN-US', 'KO']
 thumbnail: 'https://image.fnnews.com/resource/media/image/2023/08/20/202308200841101332_l.jpg'
 ---
 
-# 강형욱, ''로드 투 UFC'' 우승 위해 끈끈한 그래플링 사용하겠다
+# 강경호, ''로드 투 UFC'' 우승 위해 그래플링 끈적하게 사용하겠다
 
 <p class="datetime"><em>2023-08-20 - wikitoday<em></p>
 
@@ -61,7 +61,7 @@ thumbnail: 'https://image.fnnews.com/resource/media/image/2023/08/20/20230820084
       </svg>
     </span>    
   </summary>
-  <p>강경호는 이창호가 끈끈한 그래플링을 앞세워 &#39;로드 투 UFC&#39;에서 승리할 것이라고 예측했다.</p>
+  <p>강경호는 이창호가 끈적한 그래플링을 앞세워 &#39;로드 투 UFC&#39;에서 승리할 것이라고 예측했다.</p>
 </details>
 
 <details class="group" >
@@ -115,7 +115,7 @@ thumbnail: 'https://image.fnnews.com/resource/media/image/2023/08/20/20230820084
 <hr class="article-hr" />
 
 <div class="article-body">
-UFC 밴텀급 파이터 &#39;미스터 퍼펙트&#39; 강경호(35)가 이창호(29)의 UFC 진출을 예측했다. 그는 &#39;이창호가 끈끈한 그래플링으로 &#39;로드 투 UFC&#39;에서 승리할 것 같다&#39;고 내다봤다.
+UFC 밴텀급 파이터 &#39;미스터 퍼펙트&#39; 강경호(35)가 이창호(29)의 UFC 진출을 예측했다. 그는 &#39;이창호가 끈적한 그래플링으로 &#39;로드 투 UFC&#39;에서 승리할 것 같다&#39;고 내다봤다.
 
  이창호는 오는 11월 27일(한국 시간) 싱가포르 인도어 스타디움에서 열리는 &#39;로드FC 시즌2&#39; 밴텀급 준결승에서 델미스 자우파스(23, 중국)와 맞붙는다.
 

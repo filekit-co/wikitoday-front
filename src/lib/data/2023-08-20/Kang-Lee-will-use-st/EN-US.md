@@ -1,5 +1,5 @@
 ---
-title: 'Kang, Lee ''''will use sticky grappling to win ''''Road to UFC'''''
+title: 'Kang Kyung-ho ''''will use sticky grappling to win ''''Road to UFC'''''
 description: 'UFC bantamweight fighter Kang Kyung-ho ''''Mr. Perfect'''' Kang, 35, is expected to enter the UFC on...'
 category: 'Sports'
 keywords: 'UFC'
@@ -10,7 +10,7 @@ candidLanguages: ['JA', 'EN-US', 'KO']
 thumbnail: 'https://image.fnnews.com/resource/media/image/2023/08/20/202308200841101332_l.jpg'
 ---
 
-# Kang, Lee ''''will use sticky grappling to win ''''Road to UFC''''
+# Kang Kyung-ho ''''will use sticky grappling to win ''''Road to UFC''''
 
 <p class="datetime"><em>2023-08-20 - wikitoday<em></p>
 
