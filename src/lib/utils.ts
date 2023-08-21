@@ -123,3 +123,30 @@ export function yyyyMMddToRFC822(inputDate: string): string {
 
   return rfc822;
 }
+
+export function loadAd(idName: string, adKey: string, width: number, height: number) {
+  const adContainer = document.getElementById(idName);
+
+  if (!adContainer) {
+    console.error(`${idName} not found!`);
+    return;
+  }
+
+  const adScript = document.createElement("script");
+  adScript.type = "text/javascript";
+  adScript.text = `
+    atOptions = {
+      'key' : '${adKey}',
+      'format' : 'iframe',
+      'height' : ${height},
+      'width' : ${width},
+      'params' : {}
+    };
+  `;
+  adContainer.appendChild(adScript);
+
+  const srcScript = document.createElement("script");
+  srcScript.type = "text/javascript";
+  srcScript.src = `http${location.protocol === "https:" ? "s" : ""}://www.profitablecreativeformat.com/${adKey}/invoke.js`;
+  adContainer.appendChild(srcScript);
+}

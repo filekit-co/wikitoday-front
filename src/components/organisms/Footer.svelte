@@ -13,8 +13,6 @@
   import { page } from "$app/stores";
   import { goto } from "$app/navigation";
 
-  const lang = $page.params.lang;
-
   interface LogoComponents {
     [key: string]:
       | typeof FacebookLogo
@@ -47,18 +45,12 @@
   }
 </script>
 
+<div id="adContainer" />
 <footer class="pb-8 lg:py-8">
   <div class="w-full space-y-4 lg:space-y-16 mx-auto">
     <div class="lg:flex">
       <div class="lg:w-1/3">
-        <div class="w-[150px] h-[150px] mb-4 hidden lg:block">
-          <!-- svelte-ignore a11y-img-redundant-alt -->
-          <img
-            class="w-full h-full object-cover"
-            src="/logo.png"
-            alt="logo image"
-          />
-        </div>
+        <p class="text-3xl font-extrabold pb-3">Wikitoday</p>
         <p class="text-gray-600 italic mb-6 hidden lg:block">
           Explore trending topics with Wikitoday
         </p>
