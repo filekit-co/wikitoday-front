@@ -10,8 +10,8 @@
   import YandexLogo from "@components/atoms/YandexLogo.svelte";
   import BingLogo from "@components/atoms/BingLogo.svelte";
   import { CategoryPages, SNS_MEDIA } from "$lib/datas";
-  import { handleClick } from "$lib/utils";
   import { page } from "$app/stores";
+  import { goto } from "$app/navigation";
 
   const lang = $page.params.lang;
 
@@ -39,6 +39,12 @@
     Yandex: YandexLogo,
     Bing: BingLogo,
   };
+
+  async function handleClick(category: string) {
+    const lang = $page.params.lang;
+    await goto(`/${lang}/section/${category}`);
+    window.location.reload();
+  }
 </script>
 
 <footer class="pb-8 lg:py-8">
@@ -49,7 +55,7 @@
           <!-- svelte-ignore a11y-img-redundant-alt -->
           <img
             class="w-full h-full object-cover"
-            src="./logo.png"
+            src="/logo.png"
             alt="logo image"
           />
         </div>
