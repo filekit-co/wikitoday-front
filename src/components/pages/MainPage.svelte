@@ -31,6 +31,14 @@
         );
       </script>
     </div>
+
+    <div class="flex-shrink-0">
+      <script type="text/javascript">
+        var infolinks_pid = 3403395;
+        var infolinks_wsid = 0;
+      </script>
+    </div>
+
     <Opinions articles={opinionArticles} />
   </div>
 

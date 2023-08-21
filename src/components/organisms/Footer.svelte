@@ -78,7 +78,7 @@
         <div class=" lg:flex gap-8 mt-8 lg:mt-0">
           <div class="lg:w-4/6 flex-grow">
             <p class="font-semibold text-gray-800 mb-4">Category</p>
-            <ul class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+            <ul class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               {#each CategoryPages as category}
                 <li>
                   <button
