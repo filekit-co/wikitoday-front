@@ -11,10 +11,12 @@
 <svelte:head>
   <!-- @ads: popunder -->
   <!-- @ads: popunder -->
+  <!-- @ads: popunder -->
   <script
     type="text/javascript"
     src="//pl20385247.highcpmrevenuegate.com/d8/49/da/d849dab39acb34ad7ceef994d713fca7.js"
   ></script>
+  <!-- @ads: social bar -->
   <!-- @ads: social bar -->
   <!-- @ads: social bar -->
   <script
@@ -23,18 +25,12 @@
   ></script>
   <!-- @ads: native banner -->
   <!-- @ads: native banner -->
+  <!-- @ads: native banner -->
   <script
     async
     data-cfasync="false"
     src="//pl20385598.highcpmrevenuegate.com/a2ea6968735f78cd8e133fab7c7aa50b/invoke.js"
   ></script>
-  <!-- infolink -->
-  <!-- infolink -->
-  <script
-    type="text/javascript"
-    src="//resources.infolinks.com/js/infolinks_main.js"
-  ></script>
-  <div id="container-a2ea6968735f78cd8e133fab7c7aa50b" />
 </svelte:head>
 
 {#if $page.error}
