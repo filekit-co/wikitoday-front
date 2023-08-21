@@ -1,8 +1,36 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import TrendingNews from "@components/molecules/TrendingNews.svelte";
   import type { PageData } from "./$types";
 
   export let data: PageData;
+
+  onMount(() => {
+    const adContainer = document.getElementById('adContainer');
+    
+    if (!adContainer) {
+      console.error("adContainer not found!");
+      return;
+    }
+
+    const adScript = document.createElement('script');
+    adScript.type = 'text/javascript';
+    adScript.text = `
+      atOptions = {
+        'key' : '83d8b4aa7dfbdbef30f7c137079151d2',
+        'format' : 'iframe',
+        'height' : 250,
+        'width' : 300,
+        'params' : {}
+      };
+    `;
+    adContainer.appendChild(adScript);
+
+    const srcScript = document.createElement('script');
+    srcScript.type = 'text/javascript';
+    srcScript.src = `http${location.protocol === 'https:' ? 's' : ''}://www.profitablecreativeformat.com/83d8b4aa7dfbdbef30f7c137079151d2/invoke.js`;
+    adContainer.appendChild(srcScript);
+  });
 </script>
 
 <div class="max-w-3xl mx-auto">
@@ -12,6 +40,8 @@
   <hr
     class="mt-6 mb-3 md:mt-10 md:mb-5 lg:mt-16 lg:mb-5 bg-black border-3 dark:bg-black"
   />
+    <!-- 광고 표시 영역 -->
+    <div id="adContainer"></div>
   <TrendingNews articles={data.randomArticles} />
 </div>
 
