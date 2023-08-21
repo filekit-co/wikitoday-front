@@ -5,21 +5,6 @@
   export let data: PageData;
 </script>
 
-<svelte:head>
-  <script
-    async
-    data-cfasync="false"
-    src="//pl20385598.highcpmrevenuegate.com/a2ea6968735f78cd8e133fab7c7aa50b/invoke.js"
-  ></script>
-  <div id="container-a2ea6968735f78cd8e133fab7c7aa50b" />
-  <script
-    async
-    data-cfasync="false"
-    src="//pl20385598.highcpmrevenuegate.com/a2ea6968735f78cd8e133fab7c7aa50b/invoke.js"
-  ></script>
-  <div id="container-a2ea6968735f78cd8e133fab7c7aa50b" />
-</svelte:head>
-
 <div class="max-w-3xl mx-auto">
   <article class="container relative pt-10">
     {@html data.articleHtml}

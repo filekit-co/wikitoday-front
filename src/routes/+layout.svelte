@@ -8,6 +8,26 @@
   import Footer from "@components/organisms/Footer.svelte";
 </script>
 
+<svelte:head>
+  <!-- @ads: popunder -->
+  <script
+    type="text/javascript"
+    src="//pl20385247.highcpmrevenuegate.com/d8/49/da/d849dab39acb34ad7ceef994d713fca7.js"
+  ></script>
+  <!-- @ads: social bar -->
+  <script
+    type="text/javascript"
+    src="//pl20385564.highcpmrevenuegate.com/da/32/6c/da326c736ee63eda9bfb19290fc9e80a.js"
+  ></script>
+  <!-- @ads: native banner -->
+  <script
+    async
+    data-cfasync="false"
+    src="//pl20385598.highcpmrevenuegate.com/a2ea6968735f78cd8e133fab7c7aa50b/invoke.js"
+  ></script>
+  <div id="container-a2ea6968735f78cd8e133fab7c7aa50b" />
+</svelte:head>
+
 {#if $page.error}
   <slot />
 {:else}
