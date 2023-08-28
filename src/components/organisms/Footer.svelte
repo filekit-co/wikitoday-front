@@ -45,7 +45,6 @@
   }
 </script>
 
-<div id="adContainer" />
 <footer class="pb-8 lg:py-8">
   <div class="w-full space-y-4 lg:space-y-16 mx-auto">
     <div class="lg:flex">

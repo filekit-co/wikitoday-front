@@ -5,19 +5,10 @@
   export let data: PageData;
 </script>
 
-<svelte:head>
-  <script
-    async
-    data-cfasync="false"
-    src="//pl20385598.highcpmrevenuegate.com/a2ea6968735f78cd8e133fab7c7aa50b/invoke.js"
-  ></script>
-</svelte:head>
-
 <div class="max-w-3xl mx-auto">
   <article class="container relative pt-10">
     {@html data.articleHtml}
   </article>
-  <div id="container-a2ea6968735f78cd8e133fab7c7aa50b" />
   <hr
     class="mt-6 mb-3 md:mt-10 md:mb-5 lg:mt-16 lg:mb-5 bg-black border-3 dark:bg-black"
   />

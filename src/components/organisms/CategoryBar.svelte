@@ -12,7 +12,7 @@
 
 <div class="box-border container">
   <div
-    class="grid md:grid-rows-2 md:grid-cols-6 xl:grid-rows-1 xl:grid-cols-12"
+    class="grid md:grid-rows-2 md:grid-cols-6 xl:grid-rows-1 xl:grid-cols-13"
   >
     {#each CategoryPages as category}
       <button on:click={() => handleClick(category)}>

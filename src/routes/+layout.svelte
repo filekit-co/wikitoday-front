@@ -17,9 +17,8 @@
     <Header />
     <Navbar />
     <BreadCrumbs />
-    <CategoryBar />
+    <!-- <CategoryBar /> -->
     <slot />
-    <hr class="h-1 my-6 bg-blck border-0 dark:bg-black" />
     <Footer />
   </div>
 {/if}
