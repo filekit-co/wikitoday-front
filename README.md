@@ -5,8 +5,17 @@
 - Frontend: https://github.com/filekit-co/wikitoday-front
 - Back: https://github.com/filekit-co/wikitoday
 
-
 Wikitoday is a fully automated AI-based article generator. Built with Google Cloud Workflows, it orchestrates microservices that handle data crawling, preprocessing, translation, AI regeneration, markdown conversion, publishing SNS messages and CI/CD pipelines.
+
+## 🌐 SNS
+
+🌱 [Yandex Dzen](https://dzen.ru/wikitoday)  
+📰 [Google News](https://news.google.com/publications/CAAqBwgKMJCrngwwsquvBA?ceid=US:en&oc=3)  
+🎥 [YouTube](https://www.youtube.com/channel/UClvb9sNECUA0rQg2R9LcPeg)  
+🐦 [Twitter](https://twitter.com/wikitoday_io)  
+📸 [Instagram](https://www.instagram.com/wikitoday_io/)  
+📘 [Facebook](https://www.facebook.com/profile.php?id=61550082504479)  
+🎵 [TikTok](https://www.tiktok.com/@wikitoday.io)
 
 <center>
 <h3> Desktop </h3>
@@ -66,14 +75,6 @@ In total, we've had 3.58k unique visitors in the past month, with a single day's
 </table>
 
 </center>
-## sns
-- [yandex dzen](https://dzen.ru/wikitoday)
-- [google news](https://news.google.com/publications/CAAqBwgKMJCrngwwsquvBA?ceid=US:en&oc=3)
-- [bing news]()
-- [youtube](https://www.youtube.com/channel/UClvb9sNECUA0rQg2R9LcPeg)
-- [twitter](https://twitter.com/wikitoday_io)
-- [instagram](https://www.instagram.com/wikitoday_io/)
-- [facebook](https://www.facebook.com/profile.php?id=61550082504479)
 
 ## Scripts 
 
